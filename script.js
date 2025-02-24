@@ -1,80 +1,240 @@
-[
-  {
-    "id": "entry001",
-    "theaterstück": {
-      "titel": "Der Narr in der Königsstadt",
-      "zeit": "1777",
-      "druckort": "Wittenberg",
-      "auffuehrungshinweise": "Erste Aufführung 1570 in Wittenberg"
-    },
-    "autor": {
-      "name": "Johann Schmidt",
-      "herkunft": "Omdt.",
-      "orte": ["Leipzig", "Dresden"],
-      "lebensdaten": "1520-1580"
-    },
-    "figur": {
-      "name": "Trutz",
-      "rolle": "Narr",
-      "beschreibung": "Witzig und satirisch"
-    },
-    "dialekt": {
-      "adaption": "Autoadaption",
-      "dialekt_grossraum": "Obersächsisch"
-    },
-    "abschnitt": "Horch, wie die Zeiten sich wandeln! Hier in der Königsstadt sing' ich mein Lied, so wie man’s bei uns kennt.",
-    "original_link": "https://books.google.com/..."
-  },
-  {
-    "id": "entry002",
-    "theaterstück": {
-      "titel": "Das Geheimnis der alten Villa",
-      "zeit": "1722",
-      "druckort": "Berlin",
-      "auffuehrungshinweise": "Stichwort: Komödie in drei Akten"
-    },
-    "autor": {
-      "name": "Maria Becker",
-      "herkunft": "Belrinisch",
-      "orte": ["Berlin", "Potsdam"],
-      "lebensdaten": "1730-1790"
-    },
-    "figur": {
-      "name": "Frau Müller",
-      "rolle": "Bäuerin",
-      "beschreibung": "Charakterstark"
-    },
-    "dialekt": {
-      "adaption": "Heteroadaption",
-      "dialekt_grossraum": "Ondt."
-    },
-    "abschnitt": "Ach, wie die Zeiten sich wandeln – früher war alles anders!",
-    "original_link": "https://books.google.com/..."
-  },
-  {
-    "id": "entry003",
-    "theaterstück": {
-      "titel": "Davidis. Aerumnosum Exilium et gloriosum Effugium",
-      "zeit": "1620",
-      "druckort": "Erfurt",
-      "auffuehrungshinweise": ""
-    },
-    "autor": {
-      "name": "Tobias Kiel",
-      "herkunft": "Omdt.",
-      "orte": ["Ballstedt", "Gotha"],
-      "lebensdaten": "1584-1626"
-    },
-    "figur": {
-      "name": "Nabal",
-      "rolle": "Bauer",
-      "beschreibung": ""
-    },
-    "dialekt": {
-      "adaption": "Autoadaption",
-      "dialekt_grossraum": "Omdt."
-    },
-    "abschnitt": "Nabal\nWJe eß glichwuhl so ein wackr spehl / Weun man so hat der Güter vehl / Immr von eim zu dem andern geht / Und beschawt wie siehn Händel steht / Geht ehrn henn off den Bodn hennan / Und seht do dicke Kornhauffen an / Guckt in die Kistn / wenns ihm gefellt / Und seht so frey ein Hauffen Gelt / Seht off den Hoff / so eß da Vieh / Daß einr schier nicht möcht wündschen meh / Wehl man sich off daß Feld nauß mach / Und seinen Handl gehn weiter nach / Hoeß die Glengn und jene sihn / Im gantzen Feld gebn sie ein schien. \nSamma. \nSieh da mein Gesell/ ond hör baß / Was ist mir das für ein Fantaß. \nMiles 1. \nEs wird vielleicht sein der Reich Mann / Den wir umbs Brodt solln sprechen an\nNabal. \nSönderlich eß ein grawsam wacke spehl / Wenn man die Schaffe scheren wehl / Gebts do nicht Wolln und Gelt dofür / Davon wird auch der Büttel schwer / Geht In ein wenig Unkost drauff / So darff man doch dieselb nicht kauff / Moß mach so nerlich als man kan / Daß man hett ein gewenst davon / Wenn man schon noch so viel gibt hin / Es leufft nicht wedr in Büttl hennien / Sie fressn wuhl alles was man hätt / Wenn mans immer frey gehen lett / Und Wenn ich noch ein Wiel leb sell / Noch frey hennan ich setze wehl / Wehl Gelt und Gut zusammen breng / Daß man miens glichen nicht sall feng. \nSamma. \nEr eß gewiß / komm laß hinngahn / And ihn auffs freundtlichs sprechen an / Gott geb meim Herren Glück und Heil. \nNabal. \nGott danck och / Gott gluchn ohn / wedr suvehl. \nSamma. \nDavid der arm verfolgte Mann / Lest meinem Herren zeigen an / Daß er dort in der Wüsten ligt / Da er wedr Essn noch trincken kriegt / Steckt mit seim Volck in grosser Noth / Wil söndrlich mangln am lieben Brodt / Meins Herrn Herd ist lang bey uns gwest / Daß haben wir gethan das best / Zur hut allzeit etzlich erkorn / Daß nicht ein Schaff davon verlohrn / Weil denn mein Herr ist reich von Gut / Woll er ansehn das arme Blut / Mit trewen ihn im elendt mein / Und mit Zehrung behülfflich seyn. \nNabal. \nWo heh? David / wer eß heh denn / Eb ich den Gsellen auch wuhl kenn / Es eß ein luser Hömpeler / Drümb werdt heh billich zum Bettler / Ich kenn’sien Vatr und Brüder wuhl / Sie hann auch nicht so ubrleng viel / Kam heh nicht frey ans Bret hennan / Worumb eß heh nicht blieben dran / Die faulen Schelm die wonn nischt thue / Imme suff / fressn und spatziern darzu / Wanns nicht noch ihrem Sinne geht / Ihr Sinn nach frembden Herren steht / Hab ich Brot und Fleisch mehr genomn / So bin ich nicht drümb hieher komn / Daß ichs den Leuten geben wehl / Die mich nicht angehn Kiedevehl. \nSamma. \nDaß ist ein ziemlicher Bescheidt / er wird nicht geben grosse Frewd / Wenn wir zu David wieder komn / Hettn wir was anders vorgenommn.",
-    "original_link": "http://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN748905383"
+document.addEventListener('DOMContentLoaded', function() {
+  let globalData = [];
+  const fuseOptions = {
+    includeScore: true,
+    threshold: 0.4, // Angepasster Schwellenwert, um auch längere "abschnitt"-Texte zu erfassen
+    keys: [
+      'theaterstück.titel',
+      'theaterstück.druckort',
+      'theaterstück.auffuehrungshinweise',
+      'autor.name',
+      'autor.herkunft',
+      'autor.orte',
+      'autor.lebensdaten',
+      'figur.name',
+      'figur.rolle',
+      'figur.beschreibung',
+      'dialekt.adaption',
+      'dialekt.dialekt_grossraum',
+      'abschnitt'
+    ]
+  };
+
+  const searchInput = document.getElementById('search-input');
+  const resultsDiv = document.getElementById('results');
+
+  const filterAdaption = document.getElementById('filter-adaption');
+  const filterFigurtyp = document.getElementById('filter-figurtyp');
+  const filterZeit = document.getElementById('filter-zeit');
+  const filterDialektGrossraum = document.getElementById('filter-dialekt-grossraum');
+  const filterHerkunft = document.getElementById('filter-herkunft');
+  const exportCSVBtn = document.getElementById('export-csv-btn');
+
+  // Gruppiert konkrete Jahreszahlen in 50-Jahres-Intervalle
+  function getZeitGroup(zeit) {
+    const year = parseInt(zeit, 10);
+    if (!isNaN(year)) {
+      const lower = Math.floor(year / 50) * 50;
+      const upper = lower + 49;
+      return `${lower}-${upper}`;
+    }
+    return zeit;
   }
-]
+
+  // Laden der JSON-Daten
+  fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+      globalData = data;
+      populateFilters(data);
+      updateResults();
+    })
+    .catch(error => {
+      console.error('Fehler beim Laden der JSON-Daten:', error);
+      resultsDiv.innerHTML = "<p>Fehler beim Laden der Daten.</p>";
+    });
+
+  // Befüllt die Dropdown-Filter mit eindeutigen Werten
+  function populateFilters(data) {
+    populateSelect(filterFigurtyp, data.map(entry => entry.figur.rolle));
+    populateSelect(filterZeit, data.map(entry => getZeitGroup(entry.theaterstück.zeit)));
+    populateSelect(filterDialektGrossraum, data.map(entry => entry.dialekt.dialekt_grossraum));
+    populateSelect(filterHerkunft, data.map(entry => entry.autor.herkunft));
+  }
+
+  function populateSelect(selectElement, values) {
+    const uniqueValues = [...new Set(values)]
+      .filter(v => v && v.trim() !== "")
+      .sort();
+    uniqueValues.forEach(value => {
+      const option = document.createElement('option');
+      option.value = value;
+      option.textContent = value;
+      selectElement.appendChild(option);
+    });
+  }
+
+  // Aktualisiert die Ergebnisse anhand der Filter und der Freitextsuche
+  function updateResults() {
+    let filteredData = globalData.filter(entry => {
+      if (filterAdaption.value && entry.dialekt.adaption !== filterAdaption.value) return false;
+      if (filterFigurtyp.value && entry.figur.rolle !== filterFigurtyp.value) return false;
+      if (filterZeit.value && getZeitGroup(entry.theaterstück.zeit) !== filterZeit.value) return false;
+      if (filterDialektGrossraum.value && entry.dialekt.dialekt_grossraum !== filterDialektGrossraum.value) return false;
+      if (filterHerkunft.value && entry.autor.herkunft !== filterHerkunft.value) return false;
+      return true;
+    });
+
+    const query = searchInput.value.trim();
+    if (query !== "") {
+      const fuse = new Fuse(filteredData, fuseOptions);
+      const fuseResults = fuse.search(query);
+      filteredData = fuseResults.map(result => result.item);
+    }
+
+    displayResults(filteredData);
+  }
+
+  // Erzeugt ein Element für den "abschnitt"-Text, das bei zu langen Texten automatisch gekürzt wird.
+  // Mit einem Klick kann der volle Text bzw. die gekürzte Version umgeschaltet werden.
+  function createAbschnittElement(text) {
+    const threshold = 300; // Zeichenanzahl, ab der gekürzt wird
+    const container = document.createElement('div');
+    container.classList.add('abschnitt-container');
+
+    const textDiv = document.createElement('div');
+    textDiv.classList.add('abschnitt-text');
+
+    if (text.length <= threshold) {
+      textDiv.textContent = text;
+      container.appendChild(textDiv);
+    } else {
+      const shortText = text.substring(0, threshold) + '...';
+      textDiv.textContent = shortText;
+      container.appendChild(textDiv);
+
+      const toggleButton = document.createElement('button');
+      toggleButton.classList.add('toggle-button');
+      toggleButton.textContent = 'Mehr lesen';
+
+      toggleButton.addEventListener('click', function() {
+        if (textDiv.textContent === shortText) {
+          textDiv.textContent = text;
+          toggleButton.textContent = 'Weniger anzeigen';
+        } else {
+          textDiv.textContent = shortText;
+          toggleButton.textContent = 'Mehr lesen';
+        }
+      });
+      container.appendChild(toggleButton);
+    }
+    return container;
+  }
+
+  // Zeigt die Ergebnisse in der Ergebnis-Div an
+  function displayResults(results) {
+    resultsDiv.innerHTML = "";
+    if (results.length === 0) {
+      resultsDiv.innerHTML = "<p>Keine Ergebnisse gefunden.</p>";
+      return;
+    }
+    results.forEach(entry => {
+      const div = document.createElement('div');
+      div.classList.add('entry');
+
+      div.innerHTML = `
+        <h2>${entry.theaterstück.titel}</h2>
+        <p><strong>Entstehungszeit:</strong> ${entry.theaterstück.zeit} | <strong>Druckort:</strong> ${entry.theaterstück.druckort}</p>
+        <p><strong>Aufführungshinweise:</strong> ${entry.theaterstück.auffuehrungshinweise}</p>
+        <p><strong>Autor:</strong> ${entry.autor.name} (${entry.autor.lebensdaten}, Herkunft: ${entry.autor.herkunft})</p>
+        <p><strong>Figur:</strong> ${entry.figur.name} – ${entry.figur.rolle}</p>
+        <p><strong>Dialekt:</strong> ${entry.dialekt.adaption} (${entry.dialekt.dialekt_grossraum})</p>
+        <p><strong>Original:</strong> <a href="${entry.original_link}" target="_blank" rel="noopener noreferrer">${entry.original_link}</a></p>
+      `;
+
+      const abschnittElement = createAbschnittElement(entry.abschnitt);
+      div.appendChild(abschnittElement);
+
+      resultsDiv.appendChild(div);
+    });
+  }
+
+  // Exportiert die Daten als CSV
+  function exportDataAsCSV(data) {
+    const csvHeader = [
+      "id",
+      "titel",
+      "zeit",
+      "druckort",
+      "auffuehrungshinweise",
+      "autor",
+      "herkunft",
+      "orte",
+      "lebensdaten",
+      "figur",
+      "rolle",
+      "beschreibung",
+      "dialekt_adaption",
+      "dialekt_grossraum",
+      "abschnitt",
+      "original_link"
+    ];
+    
+    const csvRows = [];
+    csvRows.push(csvHeader.join(","));
+    
+    function escapeCSV(str) {
+      if (typeof str !== "string") str = String(str);
+      str = str.replace(/"/g, '""');
+      if (str.search(/("|,|\n)/g) >= 0) {
+        str = `"${str}"`;
+      }
+      return str;
+    }
+    
+    data.forEach(entry => {
+      const row = [
+        entry.id,
+        entry.theaterstück.titel,
+        entry.theaterstück.zeit,
+        entry.theaterstück.druckort,
+        entry.theaterstück.auffuehrungshinweise,
+        entry.autor.name,
+        entry.autor.herkunft,
+        entry.autor.orte.join("; "),
+        entry.autor.lebensdaten,
+        entry.figur.name,
+        entry.figur.rolle,
+        entry.figur.beschreibung,
+        entry.dialekt.adaption,
+        entry.dialekt.dialekt_grossraum,
+        entry.abschnitt,
+        entry.original_link
+      ].map(escapeCSV);
+      csvRows.push(row.join(","));
+    });
+    
+    const csvString = csvRows.join("\n");
+    const blob = new Blob([csvString], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const downloadAnchorNode = document.createElement("a");
+    downloadAnchorNode.setAttribute("href", url);
+    downloadAnchorNode.setAttribute("download", "export.csv");
+    document.body.appendChild(downloadAnchorNode);
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+  }
+
+  // Event-Listener für Sucheingabe und Dropdown-Filter
+  searchInput.addEventListener('input', updateResults);
+  filterAdaption.addEventListener('change', updateResults);
+  filterFigurtyp.addEventListener('change', updateResults);
+  filterZeit.addEventListener('change', updateResults);
+  filterDialektGrossraum.addEventListener('change', updateResults);
+  filterHerkunft.addEventListener('change', updateResults);
+
+  // Event-Listener für den CSV-Export-Button
+  exportCSVBtn.addEventListener('click', function() {
+    exportDataAsCSV(globalData);
+  });
+});
