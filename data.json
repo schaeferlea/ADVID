@@ -9,18 +9,18 @@
     },
     "autor": {
       "name": "Johann Schmidt",
-      "herkunft": "Sachsen",
+      "herkunft": "Obersächsisch",
       "orte": ["Leipzig", "Dresden"],
       "lebensdaten": "1520-1580"
     },
     "figur": {
       "name": "Trutz",
       "rolle": "Narr",
-      "beschreibung": "Witzig und satirisch, mit einem markanten regionalen Akzent"
+      "beschreibung": "Witzig und satirisch"
     },
     "dialekt": {
       "adaption": "Autoadaption",
-      "dialekt_grossraum": "Mitteldeutschland"
+      "dialekt_grossraum": "Obersächsisch"
     },
     "abschnitt": "Horch, wie die Zeiten sich wandeln! Hier in der Königsstadt sing' ich mein Lied, so wie man’s bei uns kennt."
   },
@@ -34,18 +34,18 @@
     },
     "autor": {
       "name": "Maria Becker",
-      "herkunft": "Preußen",
+      "herkunft": "Berlinisch",
       "orte": ["Berlin", "Potsdam"],
       "lebensdaten": "1730-1790"
     },
     "figur": {
       "name": "Frau Müller",
-      "rolle": "Bürgerin",
+      "rolle": "Bäuerin",
       "beschreibung": "Charakterstark mit typischem ostpreußischem Sprachklang"
     },
     "dialekt": {
       "adaption": "Heteroadaption",
-      "dialekt_grossraum": "Ostpreußen"
+      "dialekt_grossraum": "Schlesisch"
     },
     "abschnitt": "Ach, wie die Zeiten sich wandeln – früher war alles anders!"
   },
@@ -59,18 +59,18 @@
     },
     "autor": {
       "name": "Friedrich Lange",
-      "herkunft": "Preußen",
+      "herkunft": "Nordniederdeutsch",
       "orte": ["Hamburg", "Bremen"],
       "lebensdaten": "1790-1850"
     },
     "figur": {
       "name": "Herr Becker",
-      "rolle": "Gelehrter",
+      "rolle": "Student",
       "beschreibung": "Ernst und belesen, spricht in einem gebildeten Ton"
     },
     "dialekt": {
-      "adaption": "NN",
-      "dialekt_grossraum": "Norddeutschland"
+      "adaption": "Heteroadaption",
+      "dialekt_grossraum": "Ostfälisch"
     },
     "abschnitt": "Die Worte fließen wie das Wasser der Elbe, unaufhaltsam und tiefgründig."
   }
