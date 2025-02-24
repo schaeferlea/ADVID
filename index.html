@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdViD Datenbank</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>AdViD Datenbank</h1>
+  <p>DFG-Projekt »Adaptionen deutscher Varietäten in deutschsprachigen Dramen (16.–19. Jahrhundert)«</p>
+  
+  <!-- Suchfeld -->
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Suche in Abschnitten und Metadaten...">
+  </div>
+  
+  <!-- Ergebnisbereich -->
+  <div id="results">
+    <p>Bitte Suchbegriff eingeben.</p>
+  </div>
+  
+  <!-- Fuse.js über CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+  <!-- Eigene JavaScript-Datei -->
+  <script src="script.js"></script>
+</body>
+</html>
