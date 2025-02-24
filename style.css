@@ -13,15 +13,29 @@ body {
   margin: 30px auto;
   padding: 20px;
   background-color: #fff;
+  border: 1px solid #4A5A7D; /* Akzentfarbe als Rahmen */
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   border-radius: 8px;
+}
+
+/* Header mit Logo */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px; /* Passe die Größe an deine Bedürfnisse an */
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
 }
 
 /* Überschrift */
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #2c3e50;
+  color: #4A5A7D; /* Titel in der Logofarbe */
 }
 
 /* Suchfeld */
@@ -54,6 +68,7 @@ h1 {
 .filter-group label {
   margin-right: 5px;
   font-weight: bold;
+  color: #4A5A7D; /* Etwas Akzentfarbe für Labels */
 }
 
 .filter-group select {
@@ -77,7 +92,7 @@ h1 {
 
 .entry h2 {
   margin-top: 0;
-  color: #34495e;
+  color: #4A5A7D;
 }
 
 .entry p {
