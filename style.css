@@ -100,3 +100,9 @@ h1, h2 {
 .toggle-button:hover {
   background-color: #3a4668;
 }
+
+
+.fixed-logo {
+  width: 20px; /* oder eine andere gewünschte Breite */
+  height: auto;
+}
