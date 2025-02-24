@@ -18,24 +18,11 @@ body {
   border-radius: 8px;
 }
 
-/* Header mit Logo */
-.header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.logo {
-  width: 100px; /* Passe die Größe an deine Bedürfnisse an */
-  height: auto;
-  display: block;
-  margin: 0 auto 10px;
-}
-
 /* Überschrift */
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #4A5A7D; /* Titel in der Logofarbe */
+  color: #4A5A7D;
 }
 
 /* Suchfeld */
@@ -68,7 +55,7 @@ h1 {
 .filter-group label {
   margin-right: 5px;
   font-weight: bold;
-  color: #4A5A7D; /* Etwas Akzentfarbe für Labels */
+  color: #4A5A7D;
 }
 
 .filter-group select {
@@ -98,4 +85,13 @@ h1 {
 .entry p {
   line-height: 1.5;
   margin: 5px 0;
+}
+
+/* Logo am unteren linken Rand */
+.fixed-logo {
+  position: fixed;
+  bottom: 10px; /* Kleiner Abstand zum Rand */
+  left: 10px;   /* Kleiner Abstand zum Rand */
+  width: 100px; /* Logo-Größe anpassen */
+  z-index: 1000; /* Damit es über anderen Inhalten liegt */
 }
