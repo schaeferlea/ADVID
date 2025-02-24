@@ -16,11 +16,11 @@
     "figur": {
       "name": "Trutz",
       "rolle": "Narr",
-      "beschreibung": "Witzig und satirisch"
+      "beschreibung": "Witzig und satirisch, mit einem markanten regionalen Akzent"
     },
     "dialekt": {
       "adaption": "Autoadaption",
-      "dialekt_grossraum": "Obersächsisch"
+      "dialekt_grossraum": "Mitteldeutschland"
     },
     "abschnitt": "Horch, wie die Zeiten sich wandeln! Hier in der Königsstadt sing' ich mein Lied, so wie man’s bei uns kennt."
   },
@@ -28,15 +28,15 @@
     "id": "entry002",
     "theaterstück": {
       "titel": "Das Geheimnis der alten Villa",
-      "zeit": "1856",
+      "zeit": "1855",
       "druckort": "Berlin",
       "auffuehrungshinweise": "Stichwort: Komödie in drei Akten"
     },
     "autor": {
       "name": "Maria Becker",
-      "herkunft": "Preußen",
+      "herkunft": "Berlinisch",
       "orte": ["Berlin", "Potsdam"],
-      "lebensdaten": "1730-1790"
+      "lebensdaten": "1830-1890"
     },
     "figur": {
       "name": "Frau Müller",
@@ -45,7 +45,7 @@
     },
     "dialekt": {
       "adaption": "Heteroadaption",
-      "dialekt_grossraum": "Schlesisch"
+      "dialekt_grossraum": "Mittelbairisch"
     },
     "abschnitt": "Ach, wie die Zeiten sich wandeln – früher war alles anders!"
   }
