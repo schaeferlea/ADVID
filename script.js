@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let globalData = [];
   const fuseOptions = {
     includeScore: true,
-    threshold: 0.4, // Angepasster Schwellenwert, um auch längere "abschnitt"-Texte zu erfassen
+    threshold: 0.6, // Angepasster Schwellenwert, um auch längere "abschnitt"-Texte zu erfassen
     keys: [
       'theaterstück.titel',
       'theaterstück.druckort',
