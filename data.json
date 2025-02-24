@@ -9,69 +9,46 @@
     },
     "autor": {
       "name": "Johann Schmidt",
-      "herkunft": "Obersächsisch",
+      "herkunft": "Sachsen",
       "orte": ["Leipzig", "Dresden"],
       "lebensdaten": "1520-1580"
     },
     "figur": {
       "name": "Trutz",
       "rolle": "Narr",
-      "beschreibung": "Witzig und satirisch"
+      "beschreibung": "Witzig und satirisch, mit einem markanten regionalen Akzent"
     },
     "dialekt": {
       "adaption": "Autoadaption",
-      "dialekt_grossraum": "Obersächsisch"
+      "dialekt_grossraum": "Mitteldeutschland"
     },
-    "abschnitt": "Horch, wie die Zeiten sich wandeln! Hier in der Königsstadt sing' ich mein Lied, so wie man’s bei uns kennt."
+    "abschnitt": "Horch, wie die Zeiten sich wandeln! Hier in der Königsstadt sing' ich mein Lied, so wie man’s bei uns kennt.",
+    "original_link": "https://books.google.com/..."
   },
   {
     "id": "entry002",
     "theaterstück": {
       "titel": "Das Geheimnis der alten Villa",
-      "zeit": "17XX",
+      "zeit": "17. Jahrhundert",
       "druckort": "Berlin",
       "auffuehrungshinweise": "Stichwort: Komödie in drei Akten"
     },
     "autor": {
       "name": "Maria Becker",
-      "herkunft": "Berlinisch",
+      "herkunft": "Preußen",
       "orte": ["Berlin", "Potsdam"],
       "lebensdaten": "1730-1790"
     },
     "figur": {
       "name": "Frau Müller",
-      "rolle": "Bäuerin",
+      "rolle": "Bürgerin",
       "beschreibung": "Charakterstark mit typischem ostpreußischem Sprachklang"
     },
     "dialekt": {
       "adaption": "Heteroadaption",
-      "dialekt_grossraum": "Schlesisch"
+      "dialekt_grossraum": "Ostpreußen"
     },
-    "abschnitt": "Ach, wie die Zeiten sich wandeln – früher war alles anders!"
-  },
-  {
-    "id": "entry003",
-    "theaterstück": {
-      "titel": "Das Mysterium des verlorenen Wortes",
-      "zeit": "1820",
-      "druckort": "Hamburg",
-      "auffuehrungshinweise": "Premiere 1821 in Hamburg"
-    },
-    "autor": {
-      "name": "Friedrich Lange",
-      "herkunft": "Nordniederdeutsch",
-      "orte": ["Hamburg", "Bremen"],
-      "lebensdaten": "1790-1850"
-    },
-    "figur": {
-      "name": "Herr Becker",
-      "rolle": "Student",
-      "beschreibung": "Ernst und belesen, spricht in einem gebildeten Ton"
-    },
-    "dialekt": {
-      "adaption": "Heteroadaption",
-      "dialekt_grossraum": "Ostfälisch"
-    },
-    "abschnitt": "Die Worte fließen wie das Wasser der Elbe, unaufhaltsam und tiefgründig."
+    "abschnitt": "Ach, wie die Zeiten sich wandeln – früher war alles anders!",
+    "original_link": "https://books.google.com/..."
   }
 ]
