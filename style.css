@@ -102,7 +102,7 @@ h1, h2 {
 }
 
 .fixed-logo {
-  width: 50px; /* oder eine andere gewünschte Breite */
+  width: 100px; /* oder eine andere gewünschte Breite */
   height: auto;
 }
 
