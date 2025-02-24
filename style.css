@@ -101,4 +101,8 @@ h1, h2 {
   background-color: #3a4668;
 }
 
+.fixed-logo {
+  width: 50px; /* oder eine andere gewünschte Breite */
+  height: auto;
+}
 
