@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdViD Datenbank</title> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+<h1>Datenbank des DFG-Projekts »Adaptionen deutscher Varietäten in deutschsprachigen Dramen (16.–19. Jahrhundert)«</h1>
+     <p> <font color =red>Dies ist ein Dummy!</font></p>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Freitextsuche in Abschnitten und Metadaten...">
+    </div>
+    <!-- Dropdown-Filter -->
+    <div id="filters">
+      <div class="filter-group">
+        <label for="filter-adaption">Adaptionstyp:</label>
+        <select id="filter-adaption">
+          <option value="">Alle</option>
+          <option value="Autoadaption">Autoadaption</option>
+          <option value="Heteroadaption">Heteroadaption</option>
+          <option value="NN">NN</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-figurtyp">Figurtyp:</label>
+        <select id="filter-figurtyp">
+          <option value="">Alle</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-zeit">Entstehungszeit:</label>
+        <select id="filter-zeit">
+          <option value="">Alle</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-dialekt-grossraum">Adaptierte Varietät:</label>
+        <select id="filter-dialekt-grossraum">
+          <option value="">Alle</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-herkunft">Herkunft Autor:in:</label>
+        <select id="filter-herkunft">
+          <option value="">Alle</option>
+        </select>
+      </div>
+    </div>
+    <!-- Ergebnisbereich -->
+    <div id="results">
+      <p>Bitte Suchbegriff eingeben oder Filter auswählen.</p>
+    </div>
+  </div>
+  <!-- Fuse.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
