@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const fuseOptions = {
     includeScore: true,
     threshold: 0.6, // Angepasster Schwellenwert, um auch längere "abschnitt"-Texte zu erfassen
-     minMatchCharLength: 1,    // Sorgt dafür, dass auch kurze Begriffe (mindestens 1 Zeichen) berücksichtigt werden
     keys: [
       'theaterstück.titel',
       'theaterstück.druckort',
