@@ -28,24 +28,24 @@
     "id": "entry002",
     "theaterstück": {
       "titel": "Das Geheimnis der alten Villa",
-      "zeit": "1855",
+      "zeit": "18. Jahrhundert",
       "druckort": "Berlin",
       "auffuehrungshinweise": "Stichwort: Komödie in drei Akten"
     },
     "autor": {
       "name": "Maria Becker",
-      "herkunft": "Berlinisch",
+      "herkunft": "Preußen",
       "orte": ["Berlin", "Potsdam"],
-      "lebensdaten": "1830-1890"
+      "lebensdaten": "1730-1790"
     },
     "figur": {
       "name": "Frau Müller",
-      "rolle": "Bäuerin",
-      "beschreibung": "Charakterstark"
+      "rolle": "Bürgerin",
+      "beschreibung": "Charakterstark mit typischem ostpreußischem Sprachklang"
     },
     "dialekt": {
       "adaption": "Heteroadaption",
-      "dialekt_grossraum": "Mittelbairisch"
+      "dialekt_grossraum": "Ostpreußen"
     },
     "abschnitt": "Ach, wie die Zeiten sich wandeln – früher war alles anders!"
   }
