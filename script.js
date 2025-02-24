@@ -31,14 +31,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Funktion, die eine 50-Jahres-Gruppe berechnet, falls ein konkretes Jahr vorliegt.
   function getZeitGroup(zeit) {
-    // Versuche, eine 4-stellige Jahreszahl zu parsen.
     const year = parseInt(zeit, 10);
     if (!isNaN(year)) {
       const lower = Math.floor(year / 50) * 50;
       const upper = lower + 49;
       return `${lower}-${upper}`;
     }
-    // Falls keine Jahreszahl ermittelt werden kann, Originalwert zurückgeben.
+    // Wenn keine konkrete Jahreszahl vorhanden ist, Originalwert zurückgeben.
     return zeit;
   }
 
@@ -55,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
       resultsDiv.innerHTML = "<p>Fehler beim Laden der Daten.</p>";
     });
 
-  // Dropdowns dynamisch befüllen (außer Adaption, da hier feste Optionen definiert sind)
+  // Dropdowns dynamisch befüllen (Adaptionstyp ist bereits statisch definiert)
   function populateFilters(data) {
     populateSelect(filterFigurtyp, data.map(entry => entry.figur.rolle));
     populateSelect(filterZeit, data.map(entry => getZeitGroup(entry.theaterstück.zeit)));
@@ -64,7 +63,9 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function populateSelect(selectElement, values) {
-    const uniqueValues = [...new Set(values)].filter(v => v && v.trim() !== "").sort();
+    const uniqueValues = [...new Set(values)]
+      .filter(v => v && v.trim() !== "")
+      .sort();
     uniqueValues.forEach(value => {
       const option = document.createElement('option');
       option.value = value;
@@ -73,8 +74,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Filter- und Suchabfrage: Zuerst werden anhand der Dropdowns gefiltert,
-  // dann wird, falls ein Freitext eingegeben wurde, Fuse.js angewandt.
+  // Filter- und Suchabfrage: Zuerst werden die Dropdown-Filter angewendet,
+  // danach wird – falls ein Freitext eingegeben wurde – Fuse.js zur Suche genutzt.
   function updateResults() {
     let filteredData = globalData.filter(entry => {
       // Filter: Adaptionstyp
@@ -91,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     const query = searchInput.value.trim();
-    if(query !== "") {
+    if (query !== "") {
       const fuse = new Fuse(filteredData, fuseOptions);
       const fuseResults = fuse.search(query);
       filteredData = fuseResults.map(result => result.item);
@@ -109,6 +110,11 @@ document.addEventListener('DOMContentLoaded', function() {
     results.forEach(entry => {
       const div = document.createElement('div');
       div.classList.add('entry');
+      let linkHTML = "";
+      // Falls ein Original-Link vorhanden ist, diesen als klickbare URL anzeigen:
+      if (entry.original_link && entry.original_link.trim() !== "") {
+        linkHTML = `<p><strong>Original:</strong> <a href="${entry.original_link}" target="_blank" rel="noopener noreferrer">${entry.original_link}</a></p>`;
+      }
       div.innerHTML = `
         <h2>${entry.theaterstück.titel}</h2>
         <p><strong>Entstehungszeit:</strong> ${entry.theaterstück.zeit} (Gruppe: ${getZeitGroup(entry.theaterstück.zeit)}) | <strong>Druckort:</strong> ${entry.theaterstück.druckort}</p>
@@ -117,12 +123,13 @@ document.addEventListener('DOMContentLoaded', function() {
         <p><strong>Figur:</strong> ${entry.figur.name} – ${entry.figur.rolle}</p>
         <p><strong>Dialekt:</strong> ${entry.dialekt.adaption} (${entry.dialekt.dialekt_grossraum})</p>
         <p><strong>Abschnitt:</strong> ${entry.abschnitt}</p>
+        ${linkHTML}
       `;
       resultsDiv.appendChild(div);
     });
   }
 
-  // Event-Listener für alle Filter und die Freitextsuche
+  // Event-Listener für die Freitextsuche und alle Dropdown-Filter
   searchInput.addEventListener('input', updateResults);
   filterAdaption.addEventListener('change', updateResults);
   filterFigurtyp.addEventListener('change', updateResults);
@@ -130,32 +137,3 @@ document.addEventListener('DOMContentLoaded', function() {
   filterDialektGrossraum.addEventListener('change', updateResults);
   filterHerkunft.addEventListener('change', updateResults);
 });
-
-function displayResults(results) {
-  resultsDiv.innerHTML = "";
-  if (results.length === 0) {
-    resultsDiv.innerHTML = "<p>Keine Ergebnisse gefunden.</p>";
-    return;
-  }
-  results.forEach(entry => {
-    const div = document.createElement('div');
-    div.classList.add('entry');
-    // Erstelle einen zusätzlichen HTML-Abschnitt für den Original-Link, falls vorhanden.
-    let linkHTML = "";
-    if (entry.original_link && entry.original_link.trim() !== "") {
-      linkHTML = `<p><strong>Original:</strong> <a href="${entry.original_link}" target="_blank" rel="noopener noreferrer">Mehr erfahren</a></p>`;
-    }
-    div.innerHTML = `
-      <h2>${entry.theaterstück.titel}</h2>
-      <p><strong>Entstehungszeit:</strong> ${entry.theaterstück.zeit} (Gruppe: ${getZeitGroup(entry.theaterstück.zeit)}) | <strong>Druckort:</strong> ${entry.theaterstück.druckort}</p>
-      <p><strong>Aufführungshinweise:</strong> ${entry.theaterstück.auffuehrungshinweise}</p>
-      <p><strong>Autor:</strong> ${entry.autor.name} (${entry.autor.lebensdaten}, Herkunft: ${entry.autor.herkunft})</p>
-      <p><strong>Figur:</strong> ${entry.figur.name} – ${entry.figur.rolle}</p>
-      <p><strong>Dialekt:</strong> ${entry.dialekt.adaption} (${entry.dialekt.dialekt_grossraum})</p>
-      <p><strong>Abschnitt:</strong> ${entry.abschnitt}</p>
-      ${linkHTML}
-    `;
-    resultsDiv.appendChild(div);
-  });
-}
-
