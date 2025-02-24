@@ -130,3 +130,32 @@ document.addEventListener('DOMContentLoaded', function() {
   filterDialektGrossraum.addEventListener('change', updateResults);
   filterHerkunft.addEventListener('change', updateResults);
 });
+
+function displayResults(results) {
+  resultsDiv.innerHTML = "";
+  if (results.length === 0) {
+    resultsDiv.innerHTML = "<p>Keine Ergebnisse gefunden.</p>";
+    return;
+  }
+  results.forEach(entry => {
+    const div = document.createElement('div');
+    div.classList.add('entry');
+    // Erstelle einen zusätzlichen HTML-Abschnitt für den Original-Link, falls vorhanden.
+    let linkHTML = "";
+    if (entry.original_link && entry.original_link.trim() !== "") {
+      linkHTML = `<p><strong>Original:</strong> <a href="${entry.original_link}" target="_blank" rel="noopener noreferrer">Mehr erfahren</a></p>`;
+    }
+    div.innerHTML = `
+      <h2>${entry.theaterstück.titel}</h2>
+      <p><strong>Entstehungszeit:</strong> ${entry.theaterstück.zeit} (Gruppe: ${getZeitGroup(entry.theaterstück.zeit)}) | <strong>Druckort:</strong> ${entry.theaterstück.druckort}</p>
+      <p><strong>Aufführungshinweise:</strong> ${entry.theaterstück.auffuehrungshinweise}</p>
+      <p><strong>Autor:</strong> ${entry.autor.name} (${entry.autor.lebensdaten}, Herkunft: ${entry.autor.herkunft})</p>
+      <p><strong>Figur:</strong> ${entry.figur.name} – ${entry.figur.rolle}</p>
+      <p><strong>Dialekt:</strong> ${entry.dialekt.adaption} (${entry.dialekt.dialekt_grossraum})</p>
+      <p><strong>Abschnitt:</strong> ${entry.abschnitt}</p>
+      ${linkHTML}
+    `;
+    resultsDiv.appendChild(div);
+  });
+}
+
