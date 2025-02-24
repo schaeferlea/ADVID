@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const filterDialektGrossraum = document.getElementById('filter-dialekt-grossraum');
   const filterHerkunft = document.getElementById('filter-herkunft');
 
-  // Funktion, die eine 50-Jahres-Gruppe berechnet, falls ein konkretes Jahr vorliegt.
+  // Berechnet eine 50-Jahres-Gruppe, falls ein konkretes Jahr vorliegt
   function getZeitGroup(zeit) {
     const year = parseInt(zeit, 10);
     if (!isNaN(year)) {
@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const upper = lower + 49;
       return `${lower}-${upper}`;
     }
-    // Wenn keine konkrete Jahreszahl vorhanden ist, Originalwert zurückgeben.
     return zeit;
   }
 
@@ -54,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
       resultsDiv.innerHTML = "<p>Fehler beim Laden der Daten.</p>";
     });
 
-  // Dropdowns dynamisch befüllen (Adaptionstyp ist bereits statisch definiert)
+  // Befüllt die Dropdown-Filter dynamisch
   function populateFilters(data) {
     populateSelect(filterFigurtyp, data.map(entry => entry.figur.rolle));
     populateSelect(filterZeit, data.map(entry => getZeitGroup(entry.theaterstück.zeit)));
@@ -74,19 +73,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Filter- und Suchabfrage: Zuerst werden die Dropdown-Filter angewendet,
-  // danach wird – falls ein Freitext eingegeben wurde – Fuse.js zur Suche genutzt.
+  // Aktualisiert die Ergebnisse: Zuerst werden die Dropdown-Filter angewendet, dann die Freitextsuche via Fuse.js
   function updateResults() {
     let filteredData = globalData.filter(entry => {
-      // Filter: Adaptionstyp
       if (filterAdaption.value && entry.dialekt.adaption !== filterAdaption.value) return false;
-      // Filter: Figurtyp (rolle)
       if (filterFigurtyp.value && entry.figur.rolle !== filterFigurtyp.value) return false;
-      // Filter: Entstehungszeit (über getZeitGroup)
       if (filterZeit.value && getZeitGroup(entry.theaterstück.zeit) !== filterZeit.value) return false;
-      // Filter: Adaptierte Varietät
       if (filterDialektGrossraum.value && entry.dialekt.dialekt_grossraum !== filterDialektGrossraum.value) return false;
-      // Filter: Herkunft Autor:in
       if (filterHerkunft.value && entry.autor.herkunft !== filterHerkunft.value) return false;
       return true;
     });
@@ -101,6 +94,42 @@ document.addEventListener('DOMContentLoaded', function() {
     displayResults(filteredData);
   }
 
+  // Erzeugt ein Element für den "abschnitt"-Text mit Expand/Collapse-Funktion, wenn der Text länger als der Schwellenwert ist.
+  function createAbschnittElement(text) {
+    const threshold = 300; // Maximale Zeichenanzahl, bevor gekürzt wird
+    const container = document.createElement('div');
+    container.classList.add('abschnitt-container');
+
+    const textDiv = document.createElement('div');
+    textDiv.classList.add('abschnitt-text');
+
+    if (text.length <= threshold) {
+      textDiv.textContent = text;
+      container.appendChild(textDiv);
+    } else {
+      const shortText = text.substring(0, threshold) + '...';
+      textDiv.textContent = shortText;
+      container.appendChild(textDiv);
+
+      const toggleButton = document.createElement('button');
+      toggleButton.classList.add('toggle-button');
+      toggleButton.textContent = 'Mehr lesen';
+
+      toggleButton.addEventListener('click', function() {
+        if (textDiv.textContent === shortText) {
+          textDiv.textContent = text;
+          toggleButton.textContent = 'Weniger anzeigen';
+        } else {
+          textDiv.textContent = shortText;
+          toggleButton.textContent = 'Mehr lesen';
+        }
+      });
+      container.appendChild(toggleButton);
+    }
+    return container;
+  }
+
+  // Zeigt die Ergebnisse in der Ergebnis-Div an
   function displayResults(results) {
     resultsDiv.innerHTML = "";
     if (results.length === 0) {
@@ -110,26 +139,26 @@ document.addEventListener('DOMContentLoaded', function() {
     results.forEach(entry => {
       const div = document.createElement('div');
       div.classList.add('entry');
-      let linkHTML = "";
-      // Falls ein Original-Link vorhanden ist, diesen als klickbare URL anzeigen:
-      if (entry.original_link && entry.original_link.trim() !== "") {
-        linkHTML = `<p><strong>Original:</strong> <a href="${entry.original_link}" target="_blank" rel="noopener noreferrer">${entry.original_link}</a></p>`;
-      }
+
       div.innerHTML = `
         <h2>${entry.theaterstück.titel}</h2>
-        <p><strong>Entstehungszeit:</strong> ${entry.theaterstück.zeit} (Gruppe: ${getZeitGroup(entry.theaterstück.zeit)}) | <strong>Druckort:</strong> ${entry.theaterstück.druckort}</p>
+        <p><strong>Entstehungszeit:</strong> ${entry.theaterstück.zeit} | <strong>Druckort:</strong> ${entry.theaterstück.druckort}</p>
         <p><strong>Aufführungshinweise:</strong> ${entry.theaterstück.auffuehrungshinweise}</p>
         <p><strong>Autor:</strong> ${entry.autor.name} (${entry.autor.lebensdaten}, Herkunft: ${entry.autor.herkunft})</p>
         <p><strong>Figur:</strong> ${entry.figur.name} – ${entry.figur.rolle}</p>
         <p><strong>Dialekt:</strong> ${entry.dialekt.adaption} (${entry.dialekt.dialekt_grossraum})</p>
-        <p><strong>Abschnitt:</strong> ${entry.abschnitt}</p>
-        ${linkHTML}
+        <p><strong>Original:</strong> <a href="${entry.original_link}" target="_blank" rel="noopener noreferrer">${entry.original_link}</a></p>
       `;
+
+      // Füge den Abschnitt hinzu, der Zeilenumbrüche beibehält und per Klick erweiterbar ist
+      const abschnittElement = createAbschnittElement(entry.abschnitt);
+      div.appendChild(abschnittElement);
+
       resultsDiv.appendChild(div);
     });
   }
 
-  // Event-Listener für die Freitextsuche und alle Dropdown-Filter
+  // Event-Listener für die Sucheingabe und alle Dropdown-Filter
   searchInput.addEventListener('input', updateResults);
   filterAdaption.addEventListener('change', updateResults);
   filterFigurtyp.addEventListener('change', updateResults);
