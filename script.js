@@ -2,7 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
   let globalData = [];
   const fuseOptions = {
     includeScore: true,
-    threshold: 0.4, // Angepasster Schwellenwert, um auch längere "abschnitt"-Texte zu erfassen
+    includeMatches: true, // Damit Trefferinformationen zurückgegeben werden
+    threshold: 0.6,       // Erhöht die Toleranz für kürzere Suchbegriffe
+    minMatchCharLength: 1,
     keys: [
       'theaterstück.titel',
       'theaterstück.druckort',
@@ -95,9 +97,27 @@ document.addEventListener('DOMContentLoaded', function() {
     displayResults(filteredData);
   }
 
+  // Hebt Treffer in einem Text hervor, basierend auf einem Array von Index-Paaren
+  function highlightText(text, indices) {
+    let highlighted = "";
+    let lastIndex = 0;
+    
+    // Treffer-Indizes sortieren
+    indices.sort((a, b) => a[0] - b[0]);
+    
+    indices.forEach(pair => {
+      const [start, end] = pair;
+      highlighted += text.substring(lastIndex, start);
+      highlighted += `<span class="highlight">${text.substring(start, end + 1)}</span>`;
+      lastIndex = end + 1;
+    });
+    highlighted += text.substring(lastIndex);
+    return highlighted;
+  }
+
   // Erzeugt ein Element für den "abschnitt"-Text, das bei zu langen Texten automatisch gekürzt wird.
   // Mit einem Klick kann der volle Text bzw. die gekürzte Version umgeschaltet werden.
-  function createAbschnittElement(text) {
+  function createAbschnittElement(text, matchData) {
     const threshold = 300; // Zeichenanzahl, ab der gekürzt wird
     const container = document.createElement('div');
     container.classList.add('abschnitt-container');
@@ -105,12 +125,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const textDiv = document.createElement('div');
     textDiv.classList.add('abschnitt-text');
 
+    // Falls Treffer vorhanden sind, hebe sie hervor
+    if (matchData && matchData.indices) {
+      text = highlightText(text, matchData.indices);
+    }
+
     if (text.length <= threshold) {
-      textDiv.textContent = text;
+      textDiv.innerHTML = text;
       container.appendChild(textDiv);
     } else {
       const shortText = text.substring(0, threshold) + '...';
-      textDiv.textContent = shortText;
+      textDiv.innerHTML = shortText;
       container.appendChild(textDiv);
 
       const toggleButton = document.createElement('button');
@@ -118,11 +143,11 @@ document.addEventListener('DOMContentLoaded', function() {
       toggleButton.textContent = 'Mehr lesen';
 
       toggleButton.addEventListener('click', function() {
-        if (textDiv.textContent === shortText) {
-          textDiv.textContent = text;
+        if (textDiv.innerHTML === shortText) {
+          textDiv.innerHTML = text;
           toggleButton.textContent = 'Weniger anzeigen';
         } else {
-          textDiv.textContent = shortText;
+          textDiv.innerHTML = shortText;
           toggleButton.textContent = 'Mehr lesen';
         }
       });
@@ -138,7 +163,8 @@ document.addEventListener('DOMContentLoaded', function() {
       resultsDiv.innerHTML = "<p>Keine Ergebnisse gefunden.</p>";
       return;
     }
-    results.forEach(entry => {
+    results.forEach(result => {
+      const entry = result.item;
       const div = document.createElement('div');
       div.classList.add('entry');
 
@@ -152,7 +178,16 @@ document.addEventListener('DOMContentLoaded', function() {
         <p><strong>Original:</strong> <a href="${entry.original_link}" target="_blank" rel="noopener noreferrer">${entry.original_link}</a></p>
       `;
 
-      const abschnittElement = createAbschnittElement(entry.abschnitt);
+      // Finde Treffer im "abschnitt", falls vorhanden
+      let matchData = null;
+      if (result.matches) {
+        const abschnittMatch = result.matches.find(m => m.key === 'abschnitt');
+        if (abschnittMatch) {
+          matchData = abschnittMatch;
+        }
+      }
+      
+      const abschnittElement = createAbschnittElement(entry.abschnitt, matchData);
       div.appendChild(abschnittElement);
 
       resultsDiv.appendChild(div);
