@@ -2,7 +2,7 @@
   {
     "id": "entry001",
     "theaterstück": {
-      "titel": "Der Narr in der Königsstadt",
+      "titel": "Lutherische Böck",
       "zeit": "1777",
       "druckort": "Wittenberg",
       "auffuehrungshinweise": "Erste Aufführung 1570 in Wittenberg"
@@ -28,7 +28,7 @@
   {
     "id": "entry002",
     "theaterstück": {
-      "titel": "Das Geheimnis der alten Villa",
+      "titel": "Ein weiterer Beispieltitel",
       "zeit": "1722",
       "druckort": "Berlin",
       "auffuehrungshinweise": "Stichwort: Komödie in drei Akten"
