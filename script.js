@@ -11,19 +11,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Suchfeld überwachen
     document.getElementById("search-input").addEventListener("input", function () {
-        let searchQuery = this.value.trim().toLowerCase();
+        let searchQuery = this.value.trim();
         performSearch(searchQuery);
     });
 
     function performSearch(query) {
-        if (!query) {
+        if (!query || query.length < 2) {  // Mindestens 2 Zeichen für eine Suche
             displayResults([]);
             return;
         }
 
         let options = {
             includeScore: false,
-            threshold: 0.2,  // Toleranz für Fuzzy-Suche
+            threshold: 0.1,  // Präzisere Suche (niedriger = exakter)
+            distance: 100,  // Maximale Distanz für Fuzzy-Suche
+            minMatchCharLength: 2, // Mindestlänge des Matches
             keys: [
                 "theaterstück.titel",
                 "theaterstück.zeit",
@@ -39,10 +41,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let fuse = new Fuse(data, options);
         let results = fuse.search(query).map(result => result.item);
-        displayResults(results);
+        displayResults(results, query);
     }
 
-    function displayResults(results) {
+    function displayResults(results, query) {
         let resultContainer = document.getElementById("results");
         resultContainer.innerHTML = "";
 
@@ -60,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p><strong>Autor:</strong> ${entry.autor.name} (${entry.autor.lebensdaten})</p>
                 <p><strong>Figur:</strong> ${entry.figur.name} – ${entry.figur.rolle}</p>
                 <p><strong>Dialekt:</strong> ${entry.dialekt.dialekt_grossraum}</p>
-                <p><strong>Textauszug:</strong> ${highlightQuery(entry.abschnitt, document.getElementById("search-input").value)}</p>
+                <p><strong>Textauszug:</strong> ${highlightQuery(entry.abschnitt, query)}</p>
             `;
             resultContainer.appendChild(entryDiv);
         });
