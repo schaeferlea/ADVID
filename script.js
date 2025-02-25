@@ -86,9 +86,41 @@ function displayResults(results, query = "") {
                 <p><strong>Autor:</strong> ${entry.autor.name}</p>
                 <p><strong>Figur:</strong> ${entry.figur.name} - ${entry.figur.rolle}</p>
                 <p><strong>Dialekt:</strong> ${entry.dialekt.dialekt_grossraum} (${entry.dialekt.adaption})</p>
-                <p><strong>Textauszug:</strong> ${highlightText(entry.abschnitt, query)}</p>
+                <p>
+                    <strong>Textauszug:</strong> 
+                    <span class="abschnitt-preview">${createCollapsibleText(entry.abschnitt, query)}</span>
+                </p>
                 <p><a href="${entry.original_link}" target="_blank">Quelle</a></p>
             </div>`).join("");
+
+    // Event-Listener für "Mehr anzeigen" Buttons hinzufügen
+    document.querySelectorAll(".show-more-btn").forEach(button => {
+        button.addEventListener("click", function () {
+            let fullText = this.previousElementSibling;
+            if (fullText.style.display === "none") {
+                fullText.style.display = "inline";
+                this.textContent = "Weniger anzeigen";
+            } else {
+                fullText.style.display = "none";
+                this.textContent = "Mehr anzeigen";
+            }
+        });
+    });
+}
+
+function createCollapsibleText(text, query) {
+    const maxLength = 300;
+    const highlightedText = highlightText(text, query);
+
+    if (highlightedText.length <= maxLength) {
+        return highlightedText;
+    }
+
+    return `
+        ${highlightedText.substring(0, maxLength)}...
+        <span class="full-text" style="display: none;">${highlightedText.substring(maxLength)}</span>
+        <button class="show-more-btn">Mehr anzeigen</button>
+    `;
 }
 
 function highlightText(text, query) {
