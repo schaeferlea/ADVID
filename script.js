@@ -40,7 +40,9 @@ document.addEventListener("DOMContentLoaded", function () {
             let resultItem = document.createElement("div");
             resultItem.classList.add("result-item");
 
-            let highlightedAbschnitt = highlightText(entry.abschnitt, query);
+            let formattedAbschnitt = formatLineBreaks(entry.abschnitt);
+            let highlightedAbschnitt = highlightText(formattedAbschnitt, query);
+            let shortAbschnitt = shortenText(highlightedAbschnitt);
 
             resultItem.innerHTML = `
                 <h3>${entry.theaterstück.titel} (${entry.theaterstück.zeit})</h3>
@@ -49,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p><strong>Figur:</strong> ${entry.figur.name} (${entry.figur.rolle})</p>
                 <p><strong>Adaption:</strong> ${entry.dialekt.adaption} (${entry.dialekt.dialekt_grossraum})</p>
                 <p><strong>Abschnitt:</strong> 
-                    <span class="abschnitt-preview">${shortenText(highlightedAbschnitt)}</span>
+                    <span class="abschnitt-preview">${shortAbschnitt}</span>
                     <button class="toggle-abschnitt">Mehr</button>
                     <span class="abschnitt-full hidden">${highlightedAbschnitt}</span>
                 </p>
@@ -58,19 +60,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
             resultsContainer.appendChild(resultItem);
 
-            resultItem.querySelector(".toggle-abschnitt").addEventListener("click", function () {
-                let preview = resultItem.querySelector(".abschnitt-preview");
-                let full = resultItem.querySelector(".abschnitt-full");
-                let btn = resultItem.querySelector(".toggle-abschnitt");
+            let toggleBtn = resultItem.querySelector(".toggle-abschnitt");
+            let preview = resultItem.querySelector(".abschnitt-preview");
+            let full = resultItem.querySelector(".abschnitt-full");
 
+            toggleBtn.addEventListener("click", function () {
                 if (full.classList.contains("hidden")) {
                     full.classList.remove("hidden");
                     preview.classList.add("hidden");
-                    btn.textContent = "Weniger";
+                    toggleBtn.textContent = "Weniger";
                 } else {
                     full.classList.add("hidden");
                     preview.classList.remove("hidden");
-                    btn.textContent = "Mehr";
+                    toggleBtn.textContent = "Mehr";
                 }
             });
         });
@@ -121,6 +123,10 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!query) return text;
         let regex = new RegExp(query, "gi");
         return text.replace(regex, match => `<span class="highlight">${match}</span>`);
+    }
+
+    function formatLineBreaks(text) {
+        return text.replace(/\n/g, "<br>");
     }
 
     function shortenText(text, length = 200) {
