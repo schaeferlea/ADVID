@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdViD Datenbank</title> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>Datenbank des DFG-Projekts <br> <i>Adaptionen deutscher Varietäten in deutschsprachigen Dramen (16.–19. Jahrhundert)</i></h1>
+      <p><font color="red">Diese Seite ist noch ein Dummy!</font></p>
+    </div>
+
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Freitextsuche in Abschnitten und Metadaten...">
+    </div>
+
+    <!-- Dropdown-Filter -->
+    <div id="filters">
+      <div class="filter-group">
+        <label for="filter-adaption">Adaptionstyp:</label>
+        <select id="filter-adaption"><option value="">Alle</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-figurtyp">Figurtyp:</label>
+        <select id="filter-figurtyp"><option value="">Alle</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-zeit">Entstehungszeit:</label>
+        <select id="filter-zeit"><option value="">Alle</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-dialekt-grossraum">Adaptierte Varietät:</label>
+        <select id="filter-dialekt-grossraum"><option value="">Alle</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-herkunft">Herkunft Autor*in:</label>
+        <select id="filter-herkunft"><option value="">Alle</option></select>
+      </div>
+    </div>
+
+    <!-- Ergebnisbereich -->
+    <div id="results">
+      <p>Bitte Suchbegriff eingeben oder Filter auswählen.</p>
+    </div>
+
+    <!-- CSV-Export Button -->
+    <div class="export-container">
+      <button id="export-csv-btn">CSV Export</button>
+    </div>
+  </div>
+
+  <!-- Logo am unteren linken Rand -->
+  <img src="logo.png" alt="Logo" class="fixed-logo">
+
+  <!-- Fuse.js (für die Suche) -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
