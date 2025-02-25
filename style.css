@@ -67,19 +67,9 @@ footer {
 }
 
 .footer-text {
-    margin: 0;
+ position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
 }
 
-.footer-impressum {
-    margin: 0;
-}
-
-.footer-impressum a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.footer-impressum a:hover {
-    text-decoration: underline;
-}
