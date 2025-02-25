@@ -23,7 +23,7 @@ h1, h2, h3 {
 }
 
 .search-container input {
-  width: 95%;
+  width: 100%;
   padding: 10px;
   margin-bottom: 10px;
 }
