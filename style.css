@@ -56,20 +56,30 @@ h1, h2, h3 {
 footer {
     background-color: #4A5A7D; /* Farbe aus Logo */
     color: white;
-    text-align: center;
-    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: 14px;
 }
 
-footer a {
+.footer-text {
+    margin: 0;
+}
+
+.footer-impressum {
+    margin: 0;
+}
+
+.footer-impressum a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-footer a:hover {
+.footer-impressum a:hover {
     text-decoration: underline;
 }
-
