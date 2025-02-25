@@ -54,8 +54,7 @@ h1, h2, h3 {
 }
 
 footer {
-    background-color: #4A5A7D; /* Farbe aus Logo */
-    color: white;
+    color: #4A5A7D;/* Farbe aus Logo */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +62,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .footer-text {
