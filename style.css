@@ -52,3 +52,24 @@ h1, h2, h3 {
   left: 10px;
   width: 100px;
 }
+
+footer {
+    background-color: #4A5A7D; /* Farbe aus Logo */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
