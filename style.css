@@ -14,10 +14,10 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.header h1 {
-  font-size: 22px;
-  color: #333;
+h1, h2, h3 {
+    color: #4A5A7D;
 }
+
 
 .search-container input {
   width: 100%;
