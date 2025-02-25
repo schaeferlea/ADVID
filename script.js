@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     let data = [];
 
-    // Daten aus data.json laden
+    // JSON-Daten laden
     fetch("data.json")
         .then(response => response.json())
         .then(jsonData => {
@@ -10,30 +10,40 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => console.error("Fehler beim Laden der Daten:", error));
 
     // Suchfeld überwachen
-    document.getElementById("searchInput").addEventListener("input", function () {
+    document.getElementById("search-input").addEventListener("input", function () {
         let searchQuery = this.value.trim().toLowerCase();
         performSearch(searchQuery);
     });
 
     function performSearch(query) {
-        if (query === "") {
-            displayResults([]); // Keine Suche, also leere Ergebnisse
+        if (!query) {
+            displayResults([]);
             return;
         }
 
-        let results = data.filter(entry => {
-            return Object.values(entry).some(value => 
-                typeof value === "string" && value.toLowerCase().includes(query)
-            ) || Object.values(entry).some(value => 
-                typeof value === "object" && JSON.stringify(value).toLowerCase().includes(query)
-            );
-        });
+        let options = {
+            includeScore: false,
+            threshold: 0.2,  // Toleranz für Fuzzy-Suche
+            keys: [
+                "theaterstück.titel",
+                "theaterstück.zeit",
+                "autor.name",
+                "autor.herkunft",
+                "figur.name",
+                "figur.rolle",
+                "dialekt.adaption",
+                "dialekt.dialekt_grossraum",
+                "abschnitt"
+            ]
+        };
 
+        let fuse = new Fuse(data, options);
+        let results = fuse.search(query).map(result => result.item);
         displayResults(results);
     }
 
     function displayResults(results) {
-        let resultContainer = document.getElementById("searchResults");
+        let resultContainer = document.getElementById("results");
         resultContainer.innerHTML = "";
 
         if (results.length === 0) {
@@ -50,9 +60,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p><strong>Autor:</strong> ${entry.autor.name} (${entry.autor.lebensdaten})</p>
                 <p><strong>Figur:</strong> ${entry.figur.name} – ${entry.figur.rolle}</p>
                 <p><strong>Dialekt:</strong> ${entry.dialekt.dialekt_grossraum}</p>
-                <p><strong>Textauszug:</strong> ${entry.abschnitt}</p>
+                <p><strong>Textauszug:</strong> ${highlightQuery(entry.abschnitt, document.getElementById("search-input").value)}</p>
             `;
             resultContainer.appendChild(entryDiv);
         });
+    }
+
+    // Suchbegriff im Text farblich hervorheben
+    function highlightQuery(text, query) {
+        if (!query.trim()) return text;
+        let regex = new RegExp(query, "gi");
+        return text.replace(regex, match => `<mark>${match}</mark>`);
     }
 });
