@@ -64,13 +64,16 @@ document.addEventListener("DOMContentLoaded", function () {
             let preview = resultItem.querySelector(".abschnitt-preview");
             let full = resultItem.querySelector(".abschnitt-full");
 
+            // Startzustand: Nur Kurzversion anzeigen
+            full.style.display = "none";
+
             toggleBtn.addEventListener("click", function () {
-                if (full.classList.contains("hidden")) {
-                    full.classList.remove("hidden");
+                if (full.style.display === "none") {
+                    full.style.display = "inline";
                     preview.style.display = "none";
                     toggleBtn.textContent = "Weniger";
                 } else {
-                    full.classList.add("hidden");
+                    full.style.display = "none";
                     preview.style.display = "inline";
                     toggleBtn.textContent = "Mehr";
                 }
