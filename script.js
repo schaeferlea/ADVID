@@ -67,11 +67,11 @@ document.addEventListener("DOMContentLoaded", function () {
             toggleBtn.addEventListener("click", function () {
                 if (full.classList.contains("hidden")) {
                     full.classList.remove("hidden");
-                    preview.classList.add("hidden");
+                    preview.style.display = "none";
                     toggleBtn.textContent = "Weniger";
                 } else {
                     full.classList.add("hidden");
-                    preview.classList.remove("hidden");
+                    preview.style.display = "inline";
                     toggleBtn.textContent = "Mehr";
                 }
             });
