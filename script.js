@@ -138,64 +138,64 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function exportToCSV() {
-        let csvContent = "data:text/csv;charset=utf-8,";
-        let headers = [
-            "ID",
-            "Titel",
-            "Entstehungszeit",
-            "Druckort",
-            "Aufführungshinweise",
-            "Autor",
-            "Herkunft Autor",
-            "Koordinaten Herkunft Autor",
-            "Orte Autor",
-            "Lebensdaten Autor",
-            "Figur",
-            "Rolle",
-            "Beschreibung",
-            "Adaptionstyp",
-            "Adaptierte Varietät",
-            "Abschnitt",
-            "Original-Link",
-            "Koordinaten Herkunft Figur"
+    let csvContent = "data:text/csv;charset=utf-8,";
+    let headers = [
+        "ID",
+        "Titel",
+        "Entstehungszeit",
+        "Druckort",
+        "Aufführungshinweise",
+        "Autor",
+        "Herkunft Autor",
+        "Koordinaten Herkunft Autor",
+        "Orte Autor",
+        "Lebensdaten Autor",
+        "Figur",
+        "Rolle",
+        "Beschreibung",
+        "Adaptionstyp",
+        "Adaptierte Varietät",
+        "Abschnitt",
+        "Original-Link",
+        "Koordinaten Herkunft Figur"
+    ];
+
+    csvContent += headers.join(",") + "\n";
+
+    dataset.forEach(entry => {
+        let row = [
+            entry.id,
+            entry.theaterstück.titel,
+            entry.theaterstück.zeit,
+            entry.theaterstück.druckort,
+            entry.theaterstück.auffuehrungshinweise || "",
+            entry.autor.name,
+            entry.autor.herkunft,
+            entry.geokoordinaten?.herkunft_autor 
+                ? `"${entry.geokoordinaten.herkunft_autor.lat}, ${entry.geokoordinaten.herkunft_autor.lng}"` 
+                : "",
+            entry.autor.orte ? `"${entry.autor.orte.join("; ")}"` : "",
+            entry.autor.lebensdaten,
+            entry.figur.name,
+            entry.figur.rolle,
+            entry.figur.beschreibung || "",
+            entry.dialekt.adaption,
+            entry.dialekt.dialekt_grossraum,
+            `"${entry.abschnitt.replace(/\n/g, " ")}"`,
+            entry.original_link ? `"${entry.original_link}"` : "", // ✅ Sicherstellen, dass der Link nicht verschwindet
+            entry.geokoordinaten?.herkunft_figur 
+                ? `"${entry.geokoordinaten.herkunft_figur.lat}, ${entry.geokoordinaten.herkunft_figur.lng}"` 
+                : ""
         ];
 
-        csvContent += headers.join(",") + "\n";
+        csvContent += row.join(",") + "\n";
+    });
 
-        dataset.forEach(entry => {
-            let row = [
-                entry.id,
-                entry.theaterstück.titel,
-                entry.theaterstück.zeit,
-                entry.theaterstück.druckort,
-                entry.theaterstück.auffuehrungshinweise || "",
-                entry.autor.name,
-                entry.autor.herkunft,
-                entry.geokoordinaten?.herkunft_autor 
-                    ? `${entry.geokoordinaten.herkunft_autor.lat}, ${entry.geokoordinaten.herkunft_autor.lng}` 
-                    : "",
-                entry.autor.orte ? entry.autor.orte.join("; ") : "",
-                entry.autor.lebensdaten,
-                entry.figur.name,
-                entry.figur.rolle,
-                entry.figur.beschreibung || "",
-                entry.dialekt.adaption,
-                entry.dialekt.dialekt_grossraum,
-                `"${entry.abschnitt.replace(/\n/g, " ")}"`,
-                entry.original_link,
-                entry.geokoordinaten?.herkunft_figur 
-                    ? `${entry.geokoordinaten.herkunft_figur.lat}, ${entry.geokoordinaten.herkunft_figur.lng}` 
-                    : ""
-            ];
-
-            csvContent += row.map(field => `"${field}"`).join(",") + "\n";
-        });
-
-        let encodedUri = encodeURI(csvContent);
-        let link = document.createElement("a");
-        link.setAttribute("href", encodedUri);
-        link.setAttribute("download", "AdViD_Datenbank_Export.csv");
-        document.body.appendChild(link);
-        link.click();
-    }
+    let encodedUri = encodeURI(csvContent);
+    let link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "AdViD_Datenbank_Export.csv");
+    document.body.appendChild(link);
+    link.click();
+}
 });
