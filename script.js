@@ -40,15 +40,15 @@ function populateDropdown(id, values) {
     });
 }
 
-// Event-Listener für Filter
 document.querySelectorAll("#filters select").forEach(select => {
     select.addEventListener("change", performSearch);
 });
 
-// Suchfunktion für Freitextsuche
 document.getElementById("search-input").addEventListener("input", function () {
     performSearch();
 });
+
+document.getElementById("export-csv-btn").addEventListener("click", exportToCSV);
 
 function performSearch() {
     let query = document.getElementById("search-input").value.toLowerCase();
@@ -93,7 +93,6 @@ function displayResults(results, query = "") {
                 <p><a href="${entry.original_link}" target="_blank">Quelle</a></p>
             </div>`).join("");
 
-    // Event-Listener für "Mehr anzeigen" Buttons hinzufügen
     document.querySelectorAll(".show-more-btn").forEach(button => {
         button.addEventListener("click", function () {
             let fullText = this.previousElementSibling;
@@ -127,4 +126,32 @@ function highlightText(text, query) {
     if (!query) return text;
     let regex = new RegExp(query, "gi");
     return text.replace(regex, match => `<span class="highlight">${match}</span>`);
+}
+
+// CSV-Export-Funktion
+function exportToCSV() {
+    let csvContent = "data:text/csv;charset=utf-8,";
+
+    // CSV Header
+    csvContent += "ID;Titel;Entstehungszeit;Autor;Herkunft Autor;Figur;Rolle;Dialekt;Adaptionstyp;Abschnitt;Quelle\n";
+
+    let results = document.querySelectorAll(".result-item");
+    
+    results.forEach(result => {
+        let titel = result.querySelector("h2").textContent.replace(/;/g, ",");
+        let autor = result.querySelector("p:nth-of-type(1)").textContent.split(": ")[1] || "";
+        let figur = result.querySelector("p:nth-of-type(2)").textContent.split(": ")[1] || "";
+        let dialekt = result.querySelector("p:nth-of-type(3)").textContent.split(": ")[1] || "";
+        let abschnitt = result.querySelector(".abschnitt-preview").textContent.replace(/;/g, ",").replace(/\n/g, " ");
+        let quelle = result.querySelector("a") ? result.querySelector("a").href : "";
+
+        csvContent += `"${titel}";"${autor}";"${figur}";"${dialekt}";"${abschnitt}";"${quelle}"\n`;
+    });
+
+    let encodedUri = encodeURI(csvContent);
+    let link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "export.csv");
+    document.body.appendChild(link);
+    link.click();
 }
