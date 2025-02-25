@@ -2,9 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let globalData = [];
   const fuseOptions = {
     includeScore: true,
-    includeMatches: true, // Damit Trefferinformationen zurückgegeben werden
-    threshold: 0.6,       // Erhöht die Toleranz für kürzere Suchbegriffe
-    minMatchCharLength: 1,
+    threshold: 0.4, // Angepasster Schwellenwert, um auch längere "abschnitt"-Texte zu erfassen
     keys: [
       'theaterstück.titel',
       'theaterstück.druckort',
@@ -43,38 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
     return zeit;
   }
 
-// Beispiel: Funktion, um eine Karte mit Markern anzuzeigen
-function initMap(coordinates) {
-  const mapDiv = document.getElementById('map');
-  if (!mapDiv) return;
-  
-  // Setze die Karte auf den ersten verfügbaren Koordinatenwert
-  const initialCoords = coordinates.herkunft_autor || coordinates.herkunft_figur;
-  
-  const map = L.map(mapDiv).setView([initialCoords.lat, initialCoords.lng], 8);
-  
-  // OpenStreetMap-Tiles hinzufügen
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors'
-  }).addTo(map);
-  
-  // Marker für Herkunft Autor hinzufügen
-  if (coordinates.herkunft_autor) {
-    L.marker([coordinates.herkunft_autor.lat, coordinates.herkunft_autor.lng])
-      .addTo(map)
-      .bindPopup("Herkunft Autor");
-  }
-  
-  // Marker für Herkunft Figur hinzufügen
-  if (coordinates.herkunft_figur) {
-    L.marker([coordinates.herkunft_figur.lat, coordinates.herkunft_figur.lng])
-      .addTo(map)
-      .bindPopup("Herkunft Figur");
-  }
-}
-
-
-  
   // Laden der JSON-Daten
   fetch('data.json')
     .then(response => response.json())
@@ -129,27 +95,9 @@ function initMap(coordinates) {
     displayResults(filteredData);
   }
 
-  // Hebt Treffer in einem Text hervor, basierend auf einem Array von Index-Paaren
-  function highlightText(text, indices) {
-    let highlighted = "";
-    let lastIndex = 0;
-    
-    // Treffer-Indizes sortieren
-    indices.sort((a, b) => a[0] - b[0]);
-    
-    indices.forEach(pair => {
-      const [start, end] = pair;
-      highlighted += text.substring(lastIndex, start);
-      highlighted += `<span class="highlight">${text.substring(start, end + 1)}</span>`;
-      lastIndex = end + 1;
-    });
-    highlighted += text.substring(lastIndex);
-    return highlighted;
-  }
-
   // Erzeugt ein Element für den "abschnitt"-Text, das bei zu langen Texten automatisch gekürzt wird.
   // Mit einem Klick kann der volle Text bzw. die gekürzte Version umgeschaltet werden.
-  function createAbschnittElement(text, matchData) {
+  function createAbschnittElement(text) {
     const threshold = 300; // Zeichenanzahl, ab der gekürzt wird
     const container = document.createElement('div');
     container.classList.add('abschnitt-container');
@@ -157,17 +105,12 @@ function initMap(coordinates) {
     const textDiv = document.createElement('div');
     textDiv.classList.add('abschnitt-text');
 
-    // Falls Treffer vorhanden sind, hebe sie hervor
-    if (matchData && matchData.indices) {
-      text = highlightText(text, matchData.indices);
-    }
-
     if (text.length <= threshold) {
-      textDiv.innerHTML = text;
+      textDiv.textContent = text;
       container.appendChild(textDiv);
     } else {
       const shortText = text.substring(0, threshold) + '...';
-      textDiv.innerHTML = shortText;
+      textDiv.textContent = shortText;
       container.appendChild(textDiv);
 
       const toggleButton = document.createElement('button');
@@ -175,11 +118,11 @@ function initMap(coordinates) {
       toggleButton.textContent = 'Mehr lesen';
 
       toggleButton.addEventListener('click', function() {
-        if (textDiv.innerHTML === shortText) {
-          textDiv.innerHTML = text;
+        if (textDiv.textContent === shortText) {
+          textDiv.textContent = text;
           toggleButton.textContent = 'Weniger anzeigen';
         } else {
-          textDiv.innerHTML = shortText;
+          textDiv.textContent = shortText;
           toggleButton.textContent = 'Mehr lesen';
         }
       });
@@ -195,8 +138,7 @@ function initMap(coordinates) {
       resultsDiv.innerHTML = "<p>Keine Ergebnisse gefunden.</p>";
       return;
     }
-    results.forEach(result => {
-      const entry = result.item;
+    results.forEach(entry => {
       const div = document.createElement('div');
       div.classList.add('entry');
 
@@ -210,16 +152,7 @@ function initMap(coordinates) {
         <p><strong>Original:</strong> <a href="${entry.original_link}" target="_blank" rel="noopener noreferrer">${entry.original_link}</a></p>
       `;
 
-      // Finde Treffer im "abschnitt", falls vorhanden
-      let matchData = null;
-      if (result.matches) {
-        const abschnittMatch = result.matches.find(m => m.key === 'abschnitt');
-        if (abschnittMatch) {
-          matchData = abschnittMatch;
-        }
-      }
-      
-      const abschnittElement = createAbschnittElement(entry.abschnitt, matchData);
+      const abschnittElement = createAbschnittElement(entry.abschnitt);
       div.appendChild(abschnittElement);
 
       resultsDiv.appendChild(div);
