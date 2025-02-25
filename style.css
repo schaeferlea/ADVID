@@ -101,8 +101,13 @@ h1, h2 {
   background-color: #3a4668;
 }
 
-.fixed-logo {
-  width: 100px; /* oder eine andere gewünschte Breite */
-  height: auto;
+/* Hervorhebung von Suchtreffern */
+.highlight {
+  background-color: yellow;
 }
 
+/* Export-Container */
+.export-container {
+  text-align: center;
+  margin-top: 20px;
+}
