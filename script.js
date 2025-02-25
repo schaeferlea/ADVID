@@ -43,6 +43,38 @@ document.addEventListener('DOMContentLoaded', function() {
     return zeit;
   }
 
+// Beispiel: Funktion, um eine Karte mit Markern anzuzeigen
+function initMap(coordinates) {
+  const mapDiv = document.getElementById('map');
+  if (!mapDiv) return;
+  
+  // Setze die Karte auf den ersten verfügbaren Koordinatenwert
+  const initialCoords = coordinates.herkunft_autor || coordinates.herkunft_figur;
+  
+  const map = L.map(mapDiv).setView([initialCoords.lat, initialCoords.lng], 8);
+  
+  // OpenStreetMap-Tiles hinzufügen
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+  
+  // Marker für Herkunft Autor hinzufügen
+  if (coordinates.herkunft_autor) {
+    L.marker([coordinates.herkunft_autor.lat, coordinates.herkunft_autor.lng])
+      .addTo(map)
+      .bindPopup("Herkunft Autor");
+  }
+  
+  // Marker für Herkunft Figur hinzufügen
+  if (coordinates.herkunft_figur) {
+    L.marker([coordinates.herkunft_figur.lat, coordinates.herkunft_figur.lng])
+      .addTo(map)
+      .bindPopup("Herkunft Figur");
+  }
+}
+
+
+  
   // Laden der JSON-Daten
   fetch('data.json')
     .then(response => response.json())
