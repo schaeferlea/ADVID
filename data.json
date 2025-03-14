@@ -1,4 +1,447 @@
 [
+     {
+        "id": "Musicomastix01",
+        "theaterstück": {
+          "titel": "Musicomastix. Eine Comoedia von dem MusicFeinde",
+          "zeit": "1606",
+          "druckort": "Stettin",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Elias Herlicius",
+          "herkunft": "Omdt.",
+          "orte": ["Zeitz", "Stralsund"],
+          "lebensdaten": "1566-1615"
+        },
+        "figur": {
+          "name": "Drewes Krönekyl",
+          "rolle": "Bauer",
+          "beschreibung": ""
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {/*von was genau jeweils?*/
+          "herkunft_autor": {
+            "lat": 0.0,
+            "lng": 0.0
+          },
+          "herkunft_figur": {
+            "lat": 0.0,
+            "lng": 0.0
+          }
+        },
+        "abschnitt": "Drewes Krönekyl / Bawr.\nGUdn Dach geue us GOdt althomahl / De wy hier syn up dissem Sahl / Ick segge / Godt gröte yuw althosamen / De gy nu syn hierher gekamen / Wat schal ick doch yuw nyes seggen? Ick wolde van dem Becker köpen weggen / Do habb ick in dem Huse vornamen / Datr wehr ein nye Speelman angekamen / De schal yo habben grothe Speel / Up mannige art / unne gar veel / Don ickt hörd / huppede my dat Hart / My dunckt my wippet noch de start / Kondt ydt sümme Godt ock nicht laten / Unn ginck alßbaldt hen myne straten / Unn nam mit mick in myne Kype / Myne Fidel / Flöyte / unnd Lüllekenpipe / Afft ick noch moth ein stammen mit holden / Wenn wy yo thohope kamen scholden / Ickn kanse ock noch tho brüden faten / De ydt nicht löuet / de mach ydt laten / Ick habse wol ehr gahnde gemaket / Als wehrnse mit einer Schrape gestraket / Gahn kan ick se maken / das löuet man / In usem Dörpe / hier nicht wydt van / Lüde wehrnd / nene Lüse / nene Flöh / Ock nicht Ossen / Schape / edder ander Veh / Lüde wehrend / dat segg ick vuw / Knechte / Megde / Man unde Fruw / Tho helen unne tho haluen stiegen / Dat ick ock moste gar stille schwiegen / So möde hüppeden sick de Tefen / Wen ick plach dichte up thogeuen. Use Schulte ys so ein hüppeß Man / Dat ick ydt nicht uthseggen kan / Ick moth em so lang ein Dantz maken / Dat he upn Erß geit sitten vaken / Idt ys mick so ein tapper Heldt / He bringet my thohope gudt Geldt / Dat mick de Buren möthen upleggen / Ick mach ydt ane rohm wol seggen / Dat ick my einen hurtigen Rahten / Van minem Dranckgeldt hab buwen laten / Ick habbe noch wol fidelt unne flöytet / Ock mannige gode kanne beyr uthgepöytet. Veel Junckern habben my Dranckgeldt geuen / Ick habb by en dat beste leuen / Unne habbr noch wol so veel vanne hat / Als mannich Speelman in einr Stadt / Se kriegen ock nicht alle veel geuen / Van den hofardigen Börgerteesen / Dat synn mick wol so karge luren / Als men nicht findt manck usen Buren / Se synn yo so karg unde now / Könen nichts missen uth der Mow. So hab ick ock vaken inr Stadt gehört / Dat mange Fruw dem Manne wehrt / He darff den Speelman nicht halen laten / Solck ein Wyff dar stöt ick uthm Katen / Scholde my Fruw Sieman regeren / Er schold de stalne süke rören. In usem Dörpe warden solcke nicht fundn / Dar plegn se de Mans tho thoschünden / Dat se den Speelman halen möthen / Unne springen mick dar mit Hendn unne Föthen. Ock habb ick in der Stadt gehört / De Speelman werdt nicht groth vorehrt / Moth wol vaken Dach unne Nacht sitten / Unne kricht nich einen füstken Witten / Neen twar ich laue noch use Buren / De plegen my nicht so tho luren / Se holden mit uß ydel veel Van der Fedel unne anderm Speel / Se habben ock in vse Karck / Gekofft ein schmuck nye Orgelwarck / Dat häfft so veele veele Pipen / Use Köster plechtr up tho gripen / Wenn he dar man de Schlötel antast / So gahn se alle in der haft / Dat my truwn düncket enckn unne wiß / Dat ydt upr Fidl veel schwarer ys / Edder ock up dem Dudey tho pipen / Als up den schlötln tho grabln unne gripn / Süß plecht ydt weldigen wol tho klingn / Wy Buren plegen darin tho singn / Dat ein Varß möthen wy bölleken / Dat ander kan de Köster lölleken / De kan dar so handhauen unne warckn / Dat ydt klingt auer de hele Karckn / Ja wenn wy vakn im Kroge wehrn / So konde wy ydt likesehr hörn / So lude plecht de Fuxe tho gahn / Wenn ydt de Köster tastet an / Alle dat Vollck hafft dartho vorehrt / Dat dar in use Kaspel hört / O se plegnr so veel van tho holden / Afft se ydt ock in manniger Stadt dohn. scholden? Ick löue ydt nich dat segg ick yuw / Se habbend Geldt leeff by myner truw / Dat bin ick vaken worden inn / Wenn ick in de Stadt kamen binn / Wo now dat man ein Witken acht / Ein yder mit grotem flith na tracht. Lath sehen / wat de frömde Speelman / Vor ein Dranckpenninck vordenen kan / Ick habbe my darumb heer begeuen / Dat ick mach darup marcken euen / Afft se van synem Speel veel holden / Edder mick leuer hören scholden / He kan ock man pusten unne stryken / Datsülue kan ick ock im glyken / Ick moth sümme Godt eins mit em wagen / Schold ydt ock gelden einen Pagen / Wenn se my man tho hörende kriegen / Wat geldt he schal wol stille schwiegen / Inr Stadt bin ick ock west manck veelen / De mick vo so leeff hören speelen / Se willn wol nicht gern Dranckgelt geuen / Unne willn den so fryg manck hen leuen / Man ick pleg dat likewol tho maken / Habbe my unnütte maket vaken: Wat lathe gy yuw düncken / gy wyßnesen? De Buer mach yo nicht ein spoeck wesen? So habb ick den vaken mehr bekamen / Als wenn se haddn ern Speelman nahmen. O ick habb myn Spil so wol lehrt / Dat mick use Schulte hoch geehrt. Lath sehn / wol sick kan Krasick maken / De deit dar beste by der saken / Ick habbr sehr grote lust thom Speel / Inr Stadt / löue ick mögnr nicht syn veel / Dedr grötr lust habn tho speln unne singn / Mögn leuer de Thaler hören klingn / Scholde se de grote marte byten / A / usen Burn kan ick nichts wyten. Ick mach so lang in ein Kroeg krupen / Dar wil ick ein pötken Beir uthsupen / Unne wil darna wat umbher gahn / Vellichte find ick noch den Speelman.\n(1. Akt, 1. Szene)",
+        "original_link": "http://digital.staatsbibliothek-berlin.de/suche/?formquery0=Herlicius%2C%20Elias"
+      },
+
+      {
+        "id": "Musicomastix02",
+        "theaterstück": {
+          "titel": "Musicomastix. Eine Comoedia von dem MusicFeinde",
+          "zeit": "1606",
+          "druckort": "Stettin",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Elias Herlicius",
+          "herkunft": "Omdt.",
+          "orte": ["Zeitz", "Stralsund"],
+          "lebensdaten": "1566-1615"
+        },
+        "figur": {
+          "name": "Wöbbeke Plöß",
+          "rolle": "Hirte",
+          "beschreibung": "Schweinehirtin, Mutter von Cheleke"
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {/*fehlen noch*/
+          "herkunft_autor": {
+            "lat": 0.0,
+            "lng": 0.0
+          },
+          "herkunft_figur": {
+            "lat": 0.0,
+            "lng": 0.0
+          }
+        },
+        "abschnitt": "Wöbbeke Plöß.\nJCck schal uthdriuen use Schwyn / Dar was ick erst im Brandewyn / Des Morgens moht ick fro upstan / Myn Bengl de wil nicht mit my gahn / Myn Man de ys my affgestoruen / Wo ick nichts do / bin ick vordoruen / Ick moth my födn mit Schwyne driuen / Wo ick schal anders laffendich bliuen / Myn Man hadd anders nicht gelehrt / De was ock ein Schaps unne Schwyne Heerd / De hafft my süß nichts nagelahtn / Als man dith Horn in usem Kahtn. Dat Horn kan se thohope ropn / Dat Schwyne unne Schape kamen gelopn / Hey welck ein stamn hafft mick dat Horn / De Chur pipt nicht so schmuck vam Torn / So schmuck als ydt den stemmen höldt / Ick geff ydt nicht vor vele Geldt. Myn Bengl kan ock wol blaßn unne pipn / Mit synem Horn / dat ys vull stripn / Hey wo schell dat syn Horn doch klingt / Glyck als wenn use Köster singt / Uppr Flöyten kan he ock schmuck spehln / Syns glyken mach nicht syn manck vehln. Myn Ampt dat ys so gudt als Geldt / Man kant nicht missen uppe der Weldt / De Vehheerden de möthn ock syn / Wol scholde süß uthdriuen de Schwyn? De Schape / Ossen / Käluer unne Köye / Zegen / Bücke mit groter möye? Idt wardt my yo wol etwas suhr / Myn Bengl helpt my nicht wol / de luhr / De Schelm de wil my nichtes horckn / He mach wol liggn im Bedd unne snorckn / Ich moth hengahn unne em upweckn / Eddr ick schla en / he schal sick streckn.\n(1. Akt, 4. Szene)",
+        "original_link": "http://digital.staatsbibliothek-berlin.de/suche/?formquery0=Herlicius%2C%20Elias"
+      },
+
+      {
+        "id": "Musicomastix02", /*Kurztitel+Nummer der Figur*/ /*JH: gleiche Figur, neuer Abschnitt (so richtig?)*/
+        "theaterstück": {
+          "titel": "Musicomastix. Eine Comoedia von dem MusicFeinde",
+          "zeit": "1606",
+          "druckort": "Stettin",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Elias Herlicius",
+          "herkunft": "Omdt.",
+          "orte": ["Zeitz", "Stralsund"],
+          "lebensdaten": "1566-1615"
+        },
+        "figur": {
+          "name": "Wöbbeke Plöß",
+          "rolle": "Hirte",
+          "beschreibung": "Schweinehirtin, Mutter von Cheleke; im Dialog mit Cheleke (ndt.)"
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {/*fehlen noch*/
+          "herkunft_autor": {
+            "lat": 0.0,
+            "lng": 0.0
+          },
+          "herkunft_figur": {
+            "lat": 0.0,
+            "lng": 0.0
+          }
+        },
+        "abschnitt": "Wöbbeke.\nCHeleke Plöß / Chelck / hörst ydt wol / Tiß tidt dat men nu upstahn schal / Wo schlöpst so lang / du fule Hundt? Hier sta mick up / bald upper stundt.\nCheleke.\nJa / ja / Möme / ick wilt wol ramen.\nWöbbeke.\nWo du nicht kümpst / so wil ick kamen.\nCheleke.\nWo habb gy yuw so dullken nu / Ick kame yo Möme by myner truw.\nWöbbeke.\nWolstu fule Skelm nicht upstahn? Ick moth dy mit der Schwep wat schlan.\nCheleke.\nUppr sticken stede kaam ick nu / Wo habbe gy denn so dösich yuw? Gy habben yuw wiß duhn gesapn / Köne gy mick nicht wat laten schlapn.\nWöbbeke.\nDat schalstu Rotte wol encken wetn / Ick habbe hüdn weddr drunckn noch getn / Wy schölen nu uthdriuen de Schwyn / So nam ick ein lüttütick Brandewyn.\nCheleke.\nJa dar wardt ydt doch nicht by bliuen.\nWöbbeke.\nIck wil dick an de Nese driuen / Wo darffst du Schorff my dat vorwirtn?\nCheleke.\nDarüm darff gy yuw fort nicht thoriten. Habb ick yuw doch van dage nichts dahn / Ick the yo myne brönye an / Wat schal yuw ropent denn bedüden? Ick ward yo nich im Hambde brüden.\nWöbbeke.\nDu Bengel haffst denn wyse wort / The dick fluck an unne brüde fort.\nCheleke.\nWill gy nicht töuen / köne gy hengahn / Ick moth erst then de Hasen an.\nWöbbeke.\nIck wil umbblaßn unne ropn de Schwyn / Du most yo balde by my syn. Nim ock de Kipe mit dem Ethn.\nCheleke.\nJa / ja / de wil ick nicht vorgetn: Habbe gy ock in der Flaschen Beer?\nWöbbeke.\nJa ick habbe einen pott eddr veer.\nCheleke.\nGaht hen ick wil yuw bald nafolgen. Ad Spectatores. Myne Möm hafft sick all duhn geswolgn / Idt ys neen Dach se süpt sick vull / Darna hafft se sick rasnd unne dull / De Flasche mach wol halff uthweßn / Dat sach ick wiß an erer Neßn / Se was er als ein Kreuet so roht / De Ogen als Senpschotteln groht / Unne kund kum up den Föthen stahn / Denn moth ydt auer my uthgahn / Wol weth wo lang ickt lyden will / De denckt ock war dedr schwyget still / Wat helpt / wat batet / ick möth darvan / De Düvel mocht süß waddr los gahn.\n(1. Akt, 5. Szene)",
+        "original_link": "http://digital.staatsbibliothek-berlin.de/suche/?formquery0=Herlicius%2C%20Elias"
+      },
+
+      {
+        "id": "Musicomastix03", 
+        "theaterstück": {
+          "titel": "Musicomastix. Eine Comoedia von dem MusicFeinde",
+          "zeit": "1606",
+          "druckort": "Stettin",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Elias Herlicius",
+          "herkunft": "Omdt.",
+          "orte": ["Zeitz", "Stralsund"],
+          "lebensdaten": "1566-1615"
+        },
+        "figur": {
+          "name": "Cheleke Plöß",
+          "rolle": "",
+          "beschreibung": "Sohn von Wöbbeke; im Dialog mit Wöbbeke (ndt.)"
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {/*fehlen noch*/
+          "herkunft_autor": {
+            "lat": 0.0,
+            "lng": 0.0
+          },
+          "herkunft_figur": {
+            "lat": 0.0,
+            "lng": 0.0
+          }
+        },
+        "abschnitt": "Wöbbeke.\nCHeleke Plöß / Chelck / hörst ydt wol / Tiß tidt dat men nu upstahn schal / Wo schlöpst so lang / du fule Hundt? Hier sta mick up / bald upper stundt.\nCheleke.\nJa / ja / Möme / ick wilt wol ramen.\nWöbbeke.\nWo du nicht kümpst / so wil ick kamen.\nCheleke.\nWo habb gy yuw so dullken nu / Ick kame yo Möme by myner truw.\nWöbbeke.\nWolstu fule Skelm nicht upstahn? Ick moth dy mit der Schwep wat schlan.\nCheleke.\nUppr sticken stede kaam ick nu / Wo habbe gy denn so dösich yuw? Gy habben yuw wiß duhn gesapn / Köne gy mick nicht wat laten schlapn.\nWöbbeke.\nDat schalstu Rotte wol encken wetn / Ick habbe hüdn weddr drunckn noch getn / Wy schölen nu uthdriuen de Schwyn / So nam ick ein lüttütick Brandewyn.\nCheleke.\nJa dar wardt ydt doch nicht by bliuen.\nWöbbeke.\nIck wil dick an de Nese driuen / Wo darffst du Schorff my dat vorwirtn?\nCheleke.\nDarüm darff gy yuw fort nicht thoriten. Habb ick yuw doch van dage nichts dahn / Ick the yo myne brönye an / Wat schal yuw ropent denn bedüden? Ick ward yo nich im Hambde brüden.\nWöbbeke.\nDu Bengel haffst denn wyse wort / The dick fluck an unne brüde fort.\nCheleke.\nWill gy nicht töuen / köne gy hengahn / Ick moth erst then de Hasen an.\nWöbbeke.\nIck wil umbblaßn unne ropn de Schwyn / Du most yo balde by my syn. Nim ock de Kipe mit dem Ethn.\nCheleke.\nJa / ja / de wil ick nicht vorgetn: Habbe gy ock in der Flaschen Beer?\nWöbbeke.\nJa ick habbe einen pott eddr veer.\nCheleke.\nGaht hen ick wil yuw bald nafolgen. Ad Spectatores. Myne Möm hafft sick all duhn geswolgn / Idt ys neen Dach se süpt sick vull / Darna hafft se sick rasnd unne dull / De Flasche mach wol halff uthweßn / Dat sach ick wiß an erer Neßn / Se was er als ein Kreuet so roht / De Ogen als Senpschotteln groht / Unne kund kum up den Föthen stahn / Denn moth ydt auer my uthgahn / Wol weth wo lang ickt lyden will / De denckt ock war dedr schwyget still / Wat helpt / wat batet / ick möth darvan / De Düvel mocht süß waddr los gahn.\n(1. Akt, 5. Szene)",
+        "original_link": "http://digital.staatsbibliothek-berlin.de/suche/?formquery0=Herlicius%2C%20Elias"
+      },
+
+      {
+        "id": "Musicomastix02",
+        "theaterstück": {
+          "titel": "Musicomastix. Eine Comoedia von dem MusicFeinde",
+          "zeit": "1606",
+          "druckort": "Stettin",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Elias Herlicius",
+          "herkunft": "Omdt.",
+          "orte": ["Zeitz", "Stralsund"],
+          "lebensdaten": "1566-1615"
+        },
+        "figur": {
+          "name": "Wöbbeke Plöß",
+          "rolle": "Hirtin",
+          "beschreibung": "Schweinehirtin, Mutter von Cheleke; im Dialog mit Cheleke (ndt.)"
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {/*fehlen noch*/
+          "herkunft_autor": {
+            "lat": 0.0,
+            "lng": 0.0
+          },
+          "herkunft_figur": {
+            "lat": 0.0,
+            "lng": 0.0
+          }
+        },
+        "abschnitt": "Wöbbeke. inflat cornu.\nTHohey / thohey: heysow / heysow / Thohey / thohey: heysow / heysow / Sü Cheleck bistu nu nakamen? Haffst ock dyne Schwepe mit genahmen?\nCheleke.\nJa Möme / de Kyp unne ock de Schwepe / Ick hadde se dar bald im grepe.\nWöbbeke.\nMyn leue Cheleke / dat ys recht / Du bist süm Godt ein wacker Knecht / Sü Cheleke / wultu eins drinckn?\nCheleke.\nIck wil erstn ethen van dem Schinckn / Wenn wy nu up dat Feldt uthkamn.\nWöbbeke.\nJa Chelck / so ethn wy wat thosamn. Ick hab hier starck Beyr / dat ys goedt / Daruan will wy habbn ein frischen moedt. Hey Cheleke du must eins uppypn / Du must trümeken upper flöyte grypn / Haffstu nicht by dy steckn de flöyt?\nCheleke.\nGy habbn yuw als eine olde löyt / Ick habbs im Kahten twar vorgetn.\nWöbbeke.\nLoep hen / hael se / giff my dat ethn / Ick wil hier blaßn thom andern mahl / Denn wil ick gahn tho Tytke Vahl / De hafft my gistern spraken an / Syn Farckn schöln mit tho Felde gahn / De schal mick geuen eine Kanne Beer / Kum du yo balleken wadder her.\nCheleke.\nJa Möm ick wil bald kamen waddr /\nWöbbeke.\nIck möth erst noch eins supn int laddr / Unne wil dat Beyr recht rein uthnaschn / Tytke Vahl moth my wol fülln de Flaschn / Wo ick em schal de Farckn mitnehmn / Ick wilt em seggen / wil my nicht schemn / Idt geld hen Wöbbeck / ydt geldt ein halff / Schold ick ock duhn werdn als ein Kalff. Thohoy / thohoy / heysew / heysow / Thohoy / thohoy / heysew / heysow / Nu kan ick beter blaßn als vör / Dat mackt dat Beyr ys nu herdör. Ick moth tho Tytke Vahlen lopn / Wenn Chelke kümpt / mach he mick ropn.\n(1. Akt, 6. Szene)", 
+        "original_link": "http://digital.staatsbibliothek-berlin.de/suche/?formquery0=Herlicius%2C%20Elias"
+      },
+
+      {
+        "id": "Musicomastix03",
+        "theaterstück": {
+          "titel": "Musicomastix. Eine Comoedia von dem MusicFeinde",
+          "zeit": "1606",
+          "druckort": "Stettin",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Elias Herlicius",
+          "herkunft": "Omdt.",
+          "orte": ["Zeitz", "Stralsund"],
+          "lebensdaten": "1566-1615"
+        },
+        "figur": {
+          "name": "Cheleke Plöß",
+          "rolle": "",
+          "beschreibung": "Sohn von Wöbbeke; im Dialog mit Wöbbeke (ndt.)"
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {/*fehlen noch*/
+          "herkunft_autor": {
+            "lat": 0.0,
+            "lng": 0.0
+          },
+          "herkunft_figur": {
+            "lat": 0.0,
+            "lng": 0.0
+          }
+        },
+        "abschnitt": "Wöbbeke. inflat cornu.\nTHohey / thohey: heysow / heysow / Thohey / thohey: heysow / heysow / Sü Cheleck bistu nu nakamen? Haffst ock dyne Schwepe mit genahmen?\nCheleke.\nJa Möme / de Kyp unne ock de Schwepe / Ick hadde se dar bald im grepe.\nWöbbeke.\nMyn leue Cheleke / dat ys recht / Du bist süm Godt ein wacker Knecht / Sü Cheleke / wultu eins drinckn?\nCheleke.\nIck wil erstn ethen van dem Schinckn / Wenn wy nu up dat Feldt uthkamn.\nWöbbeke.\nJa Chelck / so ethn wy wat thosamn. Ick hab hier starck Beyr / dat ys goedt / Daruan will wy habbn ein frischen moedt. Hey Cheleke du must eins uppypn / Du must trümeken upper flöyte grypn / Haffstu nicht by dy steckn de flöyt?\nCheleke.\nGy habbn yuw als eine olde löyt / Ick habbs im Kahten twar vorgetn.\nWöbbeke.\nLoep hen / hael se / giff my dat ethn / Ick wil hier blaßn thom andern mahl / Denn wil ick gahn tho Tytke Vahl / De hafft my gistern spraken an / Syn Farckn schöln mit tho Felde gahn / De schal mick geuen eine Kanne Beer / Kum du yo balleken wadder her.\nCheleke.\nJa Möm ick wil bald kamen waddr /\nWöbbeke.\nIck möth erst noch eins supn int laddr / Unne wil dat Beyr recht rein uthnaschn / Tytke Vahl moth my wol fülln de Flaschn / Wo ick em schal de Farckn mitnehmn / Ick wilt em seggen / wil my nicht schemn / Idt geld hen Wöbbeck / ydt geldt ein halff / Schold ick ock duhn werdn als ein Kalff. Thohoy / thohoy / heysew / heysow / Thohoy / thohoy / heysew / heysow / Nu kan ick beter blaßn als vör / Dat mackt dat Beyr ys nu herdör. Ick moth tho Tytke Vahlen lopn / Wenn Chelke kümpt / mach he mick ropn.\n(1. Akt, 6. Szene)", 
+        "original_link": "http://digital.staatsbibliothek-berlin.de/suche/?formquery0=Herlicius%2C%20Elias"
+      },
+
+      {
+        "id": "Musicomastix03",
+        "theaterstück": {
+          "titel": "Musicomastix. Eine Comoedia von dem MusicFeinde",
+          "zeit": "1606",
+          "druckort": "Stettin",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Elias Herlicius",
+          "herkunft": "Omdt.",
+          "orte": ["Zeitz", "Stralsund"],
+          "lebensdaten": "1566-1615"
+        },
+        "figur": {
+          "name": "Cheleke Plöß",
+          "rolle": "",
+          "beschreibung": "Sohn von Wöbbeke; im Dialog mit Wöbbeke (ndt.)"
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {/*fehlen noch*/
+          "herkunft_autor": {
+            "lat": 0.0,
+            "lng": 0.0
+          },
+          "herkunft_figur": {
+            "lat": 0.0,
+            "lng": 0.0
+          }
+        },
+        "abschnitt": "Cheleke.\nMOme / kamt uth ick bin wadder kahmn /\nWöbbeke.\nHaffst ock de Flöyte mitgenahmn?\nCheleke.\nWo schold ick nich. Wöbbeke. Is ydt ock wahr?\nCheleke.\nSe steckt in myner Fuddeke dar. Habbe gy nu hier im Sack de Farckn?\nWöbbeke.\nJa / hör man Chelke / wo sie quarckn? De Tefen blarren althomahl / Ick moth se hier wat setten dahl / Dat se gewahnen in dem Sack / Süß gifft ydt my veel ungemack. Hier gaht wat liggn in Gades Nahmn.\nCheleke.\nMöm / werdn de Schaap und Schwyn nich kahmn?\nWöbbeke.\nDarachter Tytke Vahlen Schün Dar samlen sick de Schaap unne Schwyn / Ick moth noch einmahl dat Horn blaßn.\nCheleke.\nIdt ys noch / Möme / gy möthn yo raßn / Wo blase gy doch un so vakn? Gy habbn tho veel in de Flascke gerakn / De Kop de wertr yuw dösich van / Tiß noch / Möme / dar yßt noch an.\nWöbbeke.\nWo nu Cheleck / skomme nich blaßn / De Schwyn unne Schape plegn schmuck tho graßn / Pyp du ock eins upr Flöyten her / Wat schalse dick andrs / du Döydeler? Hier sette dick wat mit my dahl / Ick möth van dem Beyr supn ein mahl / Pyp up du Bengl / ick moth sehn euen / Wat my Tytke Vahlhafft ingegenen.\nCheleke.\nJ sckeme / Möme / wo habb gy yuw?\nWöbbeke.\nPyp up / du Schelm / pyp up / bald / nu. Che: Iam fistulat, mater accinit, & repetit bus vel ter. &c. Heysow / beysow dat hör ick gern / Gy Schapkn unne Schwynkn west gy nich fern / Ick wil yuw uppe de Weyde bringn / Dat Ledeken wil ick yuw singn.\nCheleke.\nWumme games Möme gy sind vull / Gy habben yuw so rechte dull / Staht up / wy möthen gahn / tiß tydt / Wy habben hüdn upt Feldt sehr wydt / Staht up / geuet my de Flasch unde Ethn / Gy möthn yuw Schwep ock nich vergetn / Nemt gy de Farckn / laht oß doch gahn / Wumme games / köne gy doch nich stahn / Gy stincken glick als ein fuel Aas / Sümme Godt gy synt ein recht old dwas / Hier möthe wy nich besitten bliuen / Wenn wy de Schap unne Schwyn willn driuen / Dar seh ich de Schwyn unne Schape stan / Nu schöln se ock tho Felde gahn.\nWöbbeke.\nThohey / thohey: heysow / heysow / Thohey / thohey: heysow / beysow.\nCheleke.\nKamt Möme / kamt / wy möthen fort / Wen gy man gahn beth an den Ort / So warde gy beth ynt gandt kamen.\nWöbbeke.\nJa Chelke ja / wy willnt wol ramen.\n(2. Akt, 3. Szene)", 
+        "original_link": "http://digital.staatsbibliothek-berlin.de/suche/?formquery0=Herlicius%2C%20Elias"
+      },
+
+      {
+        "id": "Musicomastix02",
+        "theaterstück": {
+          "titel": "Musicomastix. Eine Comoedia von dem MusicFeinde",
+          "zeit": "1606",
+          "druckort": "Stettin",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Elias Herlicius",
+          "herkunft": "Omdt.",
+          "orte": ["Zeitz", "Stralsund"],
+          "lebensdaten": "1566-1615"
+        },
+        "figur": {
+          "name": "Wöbbeke Plöß",
+          "rolle": "Hirtin",
+          "beschreibung": "Schweinehirtin, Mutter von Cheleke; im Dialog mit Cheleke (ndt.)"
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {/*fehlen noch*/
+          "herkunft_autor": {
+            "lat": 0.0,
+            "lng": 0.0
+          },
+          "herkunft_figur": {
+            "lat": 0.0,
+            "lng": 0.0
+          }
+        },
+        "abschnitt": "Cheleke.\nMOme / kamt uth ick bin wadder kahmn /\nWöbbeke.\nHaffst ock de Flöyte mitgenahmn?\nCheleke.\nWo schold ick nich. Wöbbeke. Is ydt ock wahr?\nCheleke.\nSe steckt in myner Fuddeke dar. Habbe gy nu hier im Sack de Farckn?\nWöbbeke.\nJa / hör man Chelke / wo sie quarckn? De Tefen blarren althomahl / Ick moth se hier wat setten dahl / Dat se gewahnen in dem Sack / Süß gifft ydt my veel ungemack. Hier gaht wat liggn in Gades Nahmn.\nCheleke.\nMöm / werdn de Schaap und Schwyn nich kahmn?\nWöbbeke.\nDarachter Tytke Vahlen Schün Dar samlen sick de Schaap unne Schwyn / Ick moth noch einmahl dat Horn blaßn.\nCheleke.\nIdt ys noch / Möme / gy möthn yo raßn / Wo blase gy doch un so vakn? Gy habbn tho veel in de Flascke gerakn / De Kop de wertr yuw dösich van / Tiß noch / Möme / dar yßt noch an.\nWöbbeke.\nWo nu Cheleck / skomme nich blaßn / De Schwyn unne Schape plegn schmuck tho graßn / Pyp du ock eins upr Flöyten her / Wat schalse dick andrs / du Döydeler? Hier sette dick wat mit my dahl / Ick möth van dem Beyr supn ein mahl / Pyp up du Bengl / ick moth sehn euen / Wat my Tytke Vahlhafft ingegenen.\nCheleke.\nJ sckeme / Möme / wo habb gy yuw?\nWöbbeke.\nPyp up / du Schelm / pyp up / bald / nu. Che: Iam fistulat, mater accinit, & repetit bus vel ter. &c. Heysow / beysow dat hör ick gern / Gy Schapkn unne Schwynkn west gy nich fern / Ick wil yuw uppe de Weyde bringn / Dat Ledeken wil ick yuw singn.\nCheleke.\nWumme games Möme gy sind vull / Gy habben yuw so rechte dull / Staht up / wy möthen gahn / tiß tydt / Wy habben hüdn upt Feldt sehr wydt / Staht up / geuet my de Flasch unde Ethn / Gy möthn yuw Schwep ock nich vergetn / Nemt gy de Farckn / laht oß doch gahn / Wumme games / köne gy doch nich stahn / Gy stincken glick als ein fuel Aas / Sümme Godt gy synt ein recht old dwas / Hier möthe wy nich besitten bliuen / Wenn wy de Schap unne Schwyn willn driuen / Dar seh ich de Schwyn unne Schape stan / Nu schöln se ock tho Felde gahn.\nWöbbeke.\nThohey / thohey: heysow / heysow / Thohey / thohey: heysow / beysow.\nCheleke.\nKamt Möme / kamt / wy möthen fort / Wen gy man gahn beth an den Ort / So warde gy beth ynt gandt kamen.\nWöbbeke.\nJa Chelke ja / wy willnt wol ramen.\n(2. Akt, 3. Szene)",
+        "original_link": "http://digital.staatsbibliothek-berlin.de/suche/?formquery0=Herlicius%2C%20Elias"
+      },
+
+      {
+        "id": "Musicomastix01",
+        "theaterstück": {
+          "titel": "Musicomastix. Eine Comoedia von dem MusicFeinde",
+          "zeit": "1606",
+          "druckort": "Stettin",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Elias Herlicius",
+          "herkunft": "Omdt.",
+          "orte": ["Zeitz", "Stralsund"],
+          "lebensdaten": "1566-1615"
+        },
+        "figur": {
+          "name": "Drewes Krönekyl",
+          "rolle": "Bauer",
+          "beschreibung": ""
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {/*fehlen noch*/
+          "herkunft_autor": {
+            "lat": 0.0,
+            "lng": 0.0
+          },
+          "herkunft_figur": {
+            "lat": 0.0,
+            "lng": 0.0
+          }
+        },
+        "abschnitt": "Drewes Krönekyl\nDAr habb ick west / nu kahm ick waddr / Ick haddr schier dune schwolgn myn laddr / Dar habb ich gode sellschop hatt / Myne Nabers wehrn ock inr Stadt / Alle de Buern / unne alle de Köter / Gadsbyl wo was dar ein geklöter. Dar was ersten Chim Märsekow / Syn Schwager ock Karsten Krakow / Chim Talchnibbe / unne Achim Stöker / Dat syn uses Junckern besten Höcker / Chel Rundthodt / unn Chim Schwintepyl / Und ick sede de Hundt / Drewes Krönekyl / Noch wehrn dar alle klündr / unn Lemkow / Hans Haddernap / unne Chim Salkow / Henneke Dudendop mit dem dicken rumpe / Syn Ohm de was dar ock / Matz Pumpe. Wanne wo wehrn mick dat ein hupn / Dar gingt rechtschapen an ein supn / De Krog was ydel dichte vull / Se söpen sick so rasendt unne dull / Dat ick en möste wart entwyken / Bin ick doch ock nicht eres glyken / Se möthn wol denen / ick auerst nicht / Myn Junckr mach habbn de grote gicht / Ick möst so vaken tho deenste kahmn / Scholde dem Kerl de Nese verlahmn / Ick konde nich lahtn / ick möst ydt verlopen / Nu wahne ick under Hans van Dropen. Dar darff ick nenen Hafedeenst dohn / Ick bin so fry / ja als ein Hoen / Dar habb ick Geldes noch vör geuen / Dat ick mach vör my so hen leuen. Dat sülue vordrüth nu usen Buern / Se gönnd mick nich / de schlimmen luern / Se möthn upstundt mit alln ern Zöhrn / Ehrm Juncker dat Hafekorn herföhrn / Habbn sick ydel möde schlept unne sölt / Ick habbt loffschy Gade nich geföhlt / Dar habb ickt my umb kosten lahtn / Dat ick wahne fry in mynem Kahtn / Afft ick nich habb veel Ackerbuw / So segge ick dat by myner truw / Dat ick / Godt loff / noch habb henkahmn / Mit mynem Volleke althosamn / Myn Spil dat helpt my ock rechtschapn / Dat höldt my myne föding apn / Ick bin noch ein Junck tapper Heldt / So habb ick ock noch gudt oldt Geldt / Wenn ick men hadd eine Junge Fruw / Dat segg ick yuw / by myner truw / Myn olde Alheit / de wil nich staruen / Ick wolde my baldt eine andre waruen / Wenn se man hen wehr / de olde stanck / Se ys doch yümmer Seeck unne Kranck / Wenn se use Heer Godt man möcht nemen / Ick wolde my nich eine brüde gremen / Ick wolde se em gern folgen lahtn / Uth mynem schmucken nyen Kahtn / Wil he se faten by den Haarn / Ick holde se nich / ick laht se fahrn / Wil leuer naschuuen mit hendn unne föhtn / Wat / scholde my dat nich verdretn? Dohn ick den Kahten nye leht buwen / Dacht ick nich mit der olden Fruwen / Dat se by my scholdt lange leuen / Ick habb se Gade all auergeuen / Se starue man hüden leuer als Morgen / Ick ward umb se nich lange sorgen / Uses Schulten Dochter Anneke / Dar ys ein wacker Plönneke / De wil ick my baldt wadderwaruen / Myne Alheit mach yümmer hen staruen / Wil my so wat thofreden geuen / Ick weth / se wardt doch nicht lange leuen / Darup wil ick ein Ledeken spehln / Unne wil mick hier settn up de dehln / Dat habb ick manch mahl dahn / ô vakn Habb ick my so ein Trostspröke sprakn. O Anneke / Plönneke / mochstu hier wesen / Ick wolde dy fahten by der Nesen / Wy woldn us habben so harte leeff / Unne holdn us encken ydel scheeff / Iam fistulat, postea pergit. Idt geit hen Anneke myne Magt / Du bist allein de my behagt. Dat hafft nu myner Anneke guldn / Ick woldt dat se ydt hadd hören schuldn / Se scholde noch wol habben wippet / Mit erem nyen Peltze hüppet. Ick mach nu wadder henne gahn / Afft ick noch fünde den Speelman / Ick möthn likewohl ock hören / Myne Nabers mögn man tho Hus fören / Ick mach nakamen wenn ick kan / Wil noch wat hier herümmer gahn / By allen Lüdn wil ick na fragn / Wat geldt ick schal en wol upjagn / Scholde ick ock lopn in alle Straten / He wardt sick yo eins finden lahten.\n(4. Akt, 1. Szene)",
+        "original_link": "http://digital.staatsbibliothek-berlin.de/suche/?formquery0=Herlicius%2C%20Elias"
+      },
+
+      {
+        "id": "Musicomastix01",
+        "theaterstück": {
+          "titel": "Musicomastix. Eine Comoedia von dem MusicFeinde",
+          "zeit": "1606",
+          "druckort": "Stettin",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Elias Herlicius",
+          "herkunft": "Omdt.",
+          "orte": ["Zeitz", "Stralsund"],
+          "lebensdaten": "1566-1615"
+        },
+        "figur": {
+          "name": "Drewes Krönekyl",
+          "rolle": "Bauer",
+          "beschreibung": ""
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {/*fehlen noch*/
+          "herkunft_autor": {
+            "lat": 0.0,
+            "lng": 0.0
+          },
+          "herkunft_figur": {
+            "lat": 0.0,
+            "lng": 0.0
+          }
+        },
+        "abschnitt": "Drewes.\nWOmmegames dat was starrek bier / Had ich doch upn ärs gefallen schier.\nWilhelm.\nSü Drewes habb gy yuw dune schwolgn?\nDrewes.\nDu Rotte / wat darffstu my nafolgn / West nich ick bin Drews Krönekyl / Ick schla dick an Hals mit dem Byl.\nWilhelm.\nDrewes / habb gy doch yuw Bylkn verlarn.\nDrewes.\nA / du Schorreff / lath mick ungescharn / Wat hastu Sckum uth my tho ethn / Ick habb yo nicht dyne Möme upfretn / Kanstu Schorff mick hier nich gahn latn / Gah du hen brüden dyne Stratn.\nWilhelm.\nNu / nu / Drews / Drews / seht mich an recht / Ich bin Wilhelm Junckr Hansn sein Knecht / Bey dem ihr Heut acht Tage wahrt.\nDrewes.\nWat büst vor ein? Wat büst vor art? Wat haffstu my denn so bespott? Magst wol wesn ein recht Hunnesfott.\nWilhelm.\nDrews / Drews / ihr habt nicht recht ver= nomn / Ihr solt itzt bald zum Juncker komn / Er hat bey sich etlich Spielleut / Die habn ihm vorgepfiffen heut / Er hat ihr Spiel nicht hören wolt / Und sagt / das ihr hinkommen solt.\nDrewes.\nMagst wol ein gode Tefe weßn / Wenn du mick nicht först by der Neßn / Unne wolst mick nich tho brüden fatn / Ick würd ydt Sümme Godt nich latn / Ick würd dy kyln mit mynem Byl / Du schulst denckn an Drews Krönekyl.\nWilhelm.\nVorwahr ich wil euch nicht vexiern / Kompt nur / ich wil euch zu ihm führn.\nDrewes.\nHabb ick doch den heln Dach gegahn / Dat ick man mocht hörn den Speelman / Nu ward wy yo tho hope kamn / Wo ick habb anders recht vernamn?\nWilhelm.\nVorwahr es ist gewiß also / Es sind etliche Spielleut do / Die sind Heute zusammen komn / Wie ich von ihnen hab vernomn / Sie haben manchrley Instrument / Die ich mein Tag nicht hab gekent.\nDrewes.\nDe ißt Sümme Godt / ick hört seggn / Don ick hüden köffte de Weggn / Do sedn sedr in dem Huse van / Dattr hier wehr ein nye Speelman. Hörstu? Hafft he denn ock groht Speel? Haffstu se sehn? Sindter ock veel?\nWilhelm.\nJa sie sind groß und etlich klein / Sie könn nicht all auffm Tische sein / Kompt nur bald mit / last uns hingahn / Ihr solt es selber sehen an.\nDrewes.\nWer wy denn ock tho hope kann scholdn? Ick möth ein Stemmen mit en holdn.\nWilhelm.\nDer Juncker wird gar frölich sein / Wenn er euch nur sieht komn hinein / Es wird euch gwiß nicht geben schadn.\nDrewes.\nMeinstu? Wolstu my wol thoradn?\nWilhelm.\nKompt ihr nur bald herein mit mir / Ihr werdt den Junckern sehen hier.\n(5. Akt, 4. Szene)",
+        "original_link": "http://digital.staatsbibliothek-berlin.de/suche/?formquery0=Herlicius%2C%20Elias"
+      },
+
+      {
+        "id": "Musicomastix01",
+        "theaterstück": {
+          "titel": "Musicomastix. Eine Comoedia von dem MusicFeinde",
+          "zeit": "1606",
+          "druckort": "Stettin",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Elias Herlicius",
+          "herkunft": "Omdt.",
+          "orte": ["Zeitz", "Stralsund"],
+          "lebensdaten": "1566-1615"
+        },
+        "figur": {
+          "name": "Drewes Krönekyl",
+          "rolle": "Bauer",
+          "beschreibung": ""
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {/*fehlen noch*/
+          "herkunft_autor": {
+            "lat": 0.0,
+            "lng": 0.0
+          },
+          "herkunft_figur": {
+            "lat": 0.0,
+            "lng": 0.0
+          }
+        },
+        "abschnitt": "Wilhelm.\nSEht Junckr / da ist jetzt der Spielman / Er wolte nicht mit mir hergahn / Und hat mir gar nicht glauben wolln / Das er jetzt zu euch kommen solln.\nDrewes.\nGodn Dach myn leue Juncker Heer.\nHans.\nWie das du dich lest bittn so sehr?\nDrewes.\nMyn leue Juncker / yuw Wilhelm / Dat ys ein quaden Droch und Schelm. Hafft my bespott / dat löuet man / Ickn wehr baldt nicht hirher gegahn.\nHans.\nHarr / es ist gut / wir wolln uns sprechn / Ich wil dir borgen eine Zechn / Ich weis wie dich der Narre sticht / Du solsts umbsonst gethan habn nicht.\nDrewes.\nSü / sü wilkamen myns gelyckn / Wil wy tho hope eins upstryckn? Wo syn wy hier upstundt thosamen? Als de Düuel thom Kölr plecht kamen?\nPhilomusus.\nMein lieber Drews / der Juncker hier / Der hat ein Botn geschickt nach dir / Wir haben mit dir nichts zu thun.\nHans.\nEy streich auff Drews / ich bitt dich nun / Du pflegst dich jo lustig zu machn / Ich hab offt deiner müssen lachn.\nDrewes.\nJa Junckr ick wil myn beste dohn / Gy plegn my stedes geuen god Lohn.\nHans.\nSich da / nim ein par Thaler hin / Das soltu haben zum gewin.\nDrewes.\nHe / he / leue Juncker / grothen Danck / Ick dancke yuw all myn Leuenlanck.\nHans.\nSieh da / trinck auch ein Kanne Bier / Wenn du wilt wol fahren / so schmier.\nDrewes.\nDat ys ock wahr leue Juncker Heer / Ick habb van usem Schultn die Lehr / Wenn he by my sitt in dem Krog / Secht he / ick schal erst supen noch / So kan ick sedenn tho gahnd mackn / Dar habb ick sümme Godt versöcht vackn / Idt ys wiß wahr / wol schmehrt / de fehrt / Dat habb ick van usem Schultn gehört.\nHans.\nDrews / Drews / du bist ein recht stockfisch / Sauff auß leg die Kann auff den Tisch.\nDrewes.\nIck mach dat Negeken affsteken / Gy werndt doch vör ein heel reken.\nHans.\nNu / ist es auß? Ist es geschehn?\nDrewes.\nHier habb gydt Junckr / gy mögnt besehn.\nHans.\nDu mach eins auff / worauff du wilt / Auff das mein warten werd gestillt.\nDrewes.\nJa Juncker / ydt schal baldt geschehn / Gy schölen Wunder hörn unne sehn.\nHans.\nEy trinckt rümb ihr Gesellen mein / Nu wolln wir erst recht lustig sein / Juch / juch / das ist ein Reuter Lebn / Mein Hertz thut nu in frewden schwebn / Philomusus. Ja Junckr / klingt euch das bessr zu Ohrn?\nHans.\nIch magn so gerne hörn den Thorn / Er kan sich doch so lustig machn / Das ich hab seinr genug zu lachn.\nDrewes.\nJunckr / hier habb ick in myner Kype Eine Schalmey unne lülleken Pype / Addr wo sedt heten einen Buck / Dat segk yuw / ick bin ein quadn Vock / Ick habb ehr welcke makt tho gahn / Dat se nicht lenger konden stahn / Usn Schultn / unne all use Buern / Pleg ickr rechtschapen mit tho luern / Uses Schultn Dochter Anneke / Dat ys mick ein hurtig Plönneke / De hafft vakn / vakn / hierna gehüppet / Dat er de Peltz unne Hembde upwippet / Ick magdr yuw nich mehr seggen van / Gy werdent doch wol beth verstahn.\nHans.\nHe / he / he / he / so wolt ichs han / Drews / das ist mein rechter Spielman /\nDrewes.\nJa Juncker Heer dat segg ick yuw / Gan' kannck se mackn / by myner truw.\nSpeusippus.\nDrewes? Dre: hä. Speusip. Kanst auch auff deinem Spiel / Das Liedt: Die Welt hat Narren viel?\nDrewes.\nMach wol weßn ick geue ock ein Dohrn / Andr habbn ock grothe NarrenOhrn. Hafft ydt wol veel Dohrn inner Welt / Se krygn liekr vaken mench gudt Gelt / Myn Dorheit hafft my nicht schaden dan / Junckr Hans gy wetndr ock wol van / Gy habbn my mengen Daler geuen / Dat weth ick wisse enckn und euen.\nHans.\nJa Drews und ich wir kennen uns wol.\nDrewes.\nIck bin lieker ock nicht so rechte Dull / Ick hete Drewes Krönekyl / Mach gerne habben veel Kortwyl.\nHans.\nLaß sehn Drews eins mit dem Dudey / Odr wie du wilt mit der Schalmey.\nMetrodorus.\nDrews / kanstu auch spieln vom Paltrock?\nDrewes.\nHe / he / use Schult springt als ein Buck / Wenn ick em van dem Paltrock speel / He lettr sick wesen ydel veel / Scholdt ick dat olde Leedt nicht wetn? Dat habb ick lang an Schoen thoretn.\nClinias.\nIch mag denn wol gewißlich sagn / Das Drews in seinen jungen Tagn / Viel fleiß an seine Kunst gewendt / Denn er ist darin gar behendt.\nDrewes.\nJa wisse / leue myns gelyckn / Ick kandr ock noch paßlick upstryckn.\nSpeusippus.\nHat denn dein Vatr auch mehr solch Sön?\nPhilomusus.\nEy lieber last den Narren gehn.\nDrewes.\nDat was myn Modr / de hafft se hat / Usr wehrn dre Söns / löuet gy man dat / Ick was de oldst Krönekyl / Drews / De andr heth Tews / unne denn Bartlmews / Dat segk yuw / dat wehrn wyse Tefn / Ick weth nich wor se syn gebleuen / De ärß mach en wol thogklappet wesn.\nHans cachinno concutitur.\nSpeusippus.\nKontn sie denn auch schreiben und leßn?\nDrewes.\nNen / nen / dar haddn se nich gelehrt / Süß wehrns in usem Dörp hoch geehrt / De eine de was ein Oldtflickr / De ander de was ein Lemklickr / Se kondn denn weldign Arbeit dohn / Mocht wol wetn / wor se wehren nuhn.\nMetrodorus.\nNu / nu / wir müßn besr kundschafft machn / Das Juncker Hans was kriegt zu lachn / Pfeiff du den Paltrock auff der Schalmey / So wolln wir mit drein blasn wir drey.\nDrewes.\nJa / ja / ick wil ein Stemmen holdn / Afft gy denn ock wol pipen scholdn?\nHans.\nEy ja so recht liebn Brüder mein / Jung / hörstu / sing du auch mit drein / Hoppas wer wolte das nicht han? Ey Drews du bist ein hurtig Man / Du wirst ubr Nacht jo bleiben hier? So soltu gehn zu Hauß mit mir / Wir wolln mitnander gehn gassatn.\nDrewes.\nJa Junckr Heer gern. Auer de Stratn?\nHans.\nJa / ja / abr must noch eins hier machn / Was lustigs / das wir hahn zu lachn.\nDrewes ludit, & simul saltat gestibus ridiculis.\n(5. Akt, 5. Szene)",
+        "original_link": "http://digital.staatsbibliothek-berlin.de/suche/?formquery0=Herlicius%2C%20Elias"
+      },
+
+      {
+        "id": "Musicomastix01",
+        "theaterstück": {
+          "titel": "Musicomastix. Eine Comoedia von dem MusicFeinde",
+          "zeit": "1606",
+          "druckort": "Stettin",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Elias Herlicius",
+          "herkunft": "Omdt.",
+          "orte": ["Zeitz", "Stralsund"],
+          "lebensdaten": "1566-1615"
+        },
+        "figur": {
+          "name": "Drewes Krönekyl",
+          "rolle": "Bauer",
+          "beschreibung": ""
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {/*fehlen noch*/
+          "herkunft_autor": {
+            "lat": 0.0,
+            "lng": 0.0
+          },
+          "herkunft_figur": {
+            "lat": 0.0,
+            "lng": 0.0
+          }
+        },
+        "abschnitt": "Hans.\nNU ihr mögt gute weile han / Ich wil jetzt wiedr zu Hause gahn.\nPhilomusus.\nJa Junckr / sprecht ihr seit hier gewesn / Wir habn einandr den Text gelesn / Die Leut werdns wol sehn auff der strassn / Wer sich am bestn hat angelassn / Ihr habt unser Music veracht / Seht das ihr nicht werdt außgelacht.\nHans.\nJa / ja / ja / ja / habt gute Nacht / Ich wil mein Sach wol habn in acht.\nDrewes.\nGy mögn ock habben gode wyl / Wendt yuw wol geit / denckt an Krönekyl.\n[...]\n(5. Akt, 6. Szene)",
+        "original_link": "http://digital.staatsbibliothek-berlin.de/suche/?formquery0=Herlicius%2C%20Elias"
+      },
   {
     "id": "entry001",
     "theaterstück": {
