@@ -22,7 +22,7 @@
           "adaption": "Heteroadaption",
           "dialekt_grossraum": "Ndt."
         },
-        "geokoordinaten": {/*von was genau jeweils?*/
+        "geokoordinaten": {
           "herkunft_autor": {
             "lat": 0.0,
             "lng": 0.0
@@ -96,7 +96,7 @@
           "adaption": "Heteroadaption",
           "dialekt_grossraum": "Ndt."
         },
-        "geokoordinaten": {/*fehlen noch*/
+        "geokoordinaten": {
           "herkunft_autor": {
             "lat": 0.0,
             "lng": 0.0
@@ -207,7 +207,7 @@
           "adaption": "Heteroadaption",
           "dialekt_grossraum": "Ndt."
         },
-        "geokoordinaten": {/*fehlen noch*/
+        "geokoordinaten": {
           "herkunft_autor": {
             "lat": 0.0,
             "lng": 0.0
@@ -281,7 +281,7 @@
           "adaption": "Heteroadaption",
           "dialekt_grossraum": "Ndt."
         },
-        "geokoordinaten": {/*fehlen noch*/
+        "geokoordinaten": {
           "herkunft_autor": {
             "lat": 0.0,
             "lng": 0.0
@@ -429,7 +429,7 @@
           "adaption": "Heteroadaption",
           "dialekt_grossraum": "Ndt."
         },
-        "geokoordinaten": {/*fehlen noch*/
+        "geokoordinaten": {
           "herkunft_autor": {
             "lat": 0.0,
             "lng": 0.0
