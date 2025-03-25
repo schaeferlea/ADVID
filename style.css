@@ -56,6 +56,27 @@ h1, h2, h3 {
   width: 100px;
 }
 
+.figurtext {
+  color: #000;
+  font-style: normal;
+}
+
+.kontext {
+  color: #888;
+  font-style: italic;
+}
+
+.abschnitt-preview {
+  display: block;
+  max-height: 4.5em;
+  overflow: hidden;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+
+
+
 footer {
     color: #4A5A7D;/* Farbe aus Logo */
     display: flex;
