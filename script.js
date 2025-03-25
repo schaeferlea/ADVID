@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("export-csv-btn").addEventListener("click", exportToCSV);
 
     const toggleKontextBtn = document.createElement("button");
-    toggleKontextBtn.textContent = "Kontext ausblenden";
+    toggleKontextBtn.textContent = "Kontext nicht berücksichtigen";
     toggleKontextBtn.style.margin = "10px 0";
     toggleKontextBtn.addEventListener("click", () => {
         kontextAnzeigen = !kontextAnzeigen;
-        toggleKontextBtn.textContent = kontextAnzeigen ? "Kontext ausblenden" : "Kontext einblenden";
+        toggleKontextBtn.textContent = kontextAnzeigen ? "Kontext nicht berücksichtigen" : "Kontext berücksichtigen";
         performSearch();
     });
     document.querySelector(".search-container")?.appendChild(toggleKontextBtn);
