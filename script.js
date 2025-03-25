@@ -147,12 +147,35 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function exportToCSV() {
-        let csv = "ID,Titel,Zeit,Druckort,Aufführung,Autor,Herkunft,Koordinaten Autor,Orte,Lebensdaten,Figur,Rolle,Beschreibung,Adaption,Dialekt,Figurtext,Link,Koordinaten Figur\n";
+        const headers = [
+            "ID",
+            "Titel",
+            "Zeit",
+            "Druckort",
+            "Aufführung",
+            "Autor",
+            "Herkunft",
+            "Koordinaten Autor",
+            "Orte",
+            "Lebensdaten",
+            "Figur",
+            "Rolle",
+            "Beschreibung",
+            "Adaption",
+            "Dialekt",
+            "Figurtext",
+            "Link",
+            "Koordinaten Figur"
+        ];
+    
+        let csvRows = [headers.join(",")];
+    
         dataset.forEach(entry => {
             const nurFigurtext = entry.abschnitt_segmentiert
                 .filter(seg => seg.typ === "figurtext")
-                .map(seg => seg.text.replace(/\n/g, " "))
+                .map(seg => seg.text.replace(/\n/g, " ").replace(/"/g, '""'))
                 .join(" ");
+    
             const row = [
                 entry.id,
                 entry.theaterstück.titel,
@@ -161,7 +184,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 entry.theaterstück.auffuehrungshinweise || "",
                 entry.autor.name,
                 entry.autor.herkunft,
-                entry.geokoordinaten && entry.geokoordinaten.herkunft_autor
+                entry.geokoordinaten?.herkunft_autor
                     ? `"${entry.geokoordinaten.herkunft_autor.lat}, ${entry.geokoordinaten.herkunft_autor.lng}"`
                     : "",
                 entry.autor.orte ? `"${entry.autor.orte.join("; ")}"` : "",
@@ -173,17 +196,25 @@ document.addEventListener("DOMContentLoaded", function () {
                 entry.dialekt.dialekt_grossraum,
                 `"${nurFigurtext}"`,
                 entry.original_link || "",
-                entry.geokoordinaten && entry.geokoordinaten.herkunft_figur
+                entry.geokoordinaten?.herkunft_figur
                     ? `"${entry.geokoordinaten.herkunft_figur.lat}, ${entry.geokoordinaten.herkunft_figur.lng}"`
                     : ""
-            ].join(",");
-            csv += row + "\n";
+            ].map(val => (val !== undefined ? val : ""));
+    
+            csvRows.push(row.join(","));
         });
-
-        const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    
+        // UTF-8 BOM für Excel-Kompatibilität
+        const csvContent = "\uFEFF" + csvRows.join("\n");
+        const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+        const url = URL.createObjectURL(blob);
+    
         const link = document.createElement("a");
-        link.href = URL.createObjectURL(blob);
+        link.href = url;
         link.download = "AdViD_Datenbank_Export.csv";
+        document.body.appendChild(link);
         link.click();
+        document.body.removeChild(link);
     }
+
 });
