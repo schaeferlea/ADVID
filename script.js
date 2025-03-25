@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     let dataset = [];
+    let kontextAnzeigen = true;
 
-    // Daten laden
-    fetch("data.json")
+    fetch("data_segmentiert.json")
         .then(response => response.json())
         .then(data => {
             dataset = data;
@@ -11,17 +11,25 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
     const searchInput = document.getElementById("search-input");
-    searchInput.addEventListener("input", function () {
-        performSearch();
-    });
+    searchInput.addEventListener("input", performSearch);
 
     document.getElementById("export-csv-btn").addEventListener("click", exportToCSV);
 
+    const toggleKontextBtn = document.createElement("button");
+    toggleKontextBtn.textContent = "Kontext ausblenden";
+    toggleKontextBtn.style.margin = "10px 0";
+    toggleKontextBtn.addEventListener("click", () => {
+        kontextAnzeigen = !kontextAnzeigen;
+        toggleKontextBtn.textContent = kontextAnzeigen ? "Kontext ausblenden" : "Kontext einblenden";
+        performSearch();
+    });
+    document.querySelector(".search-container")?.appendChild(toggleKontextBtn);
+
     function performSearch() {
-        let query = searchInput.value.toLowerCase().trim();
-        let filteredData = dataset.filter(entry =>
-            Object.values(entry).some(value =>
-                JSON.stringify(value).toLowerCase().includes(query)
+        const query = searchInput.value.toLowerCase().trim();
+        const filteredData = dataset.filter(entry =>
+            entry.abschnitt_segmentiert?.some(segment =>
+                segment.typ === "figurtext" && segment.text.toLowerCase().includes(query)
             )
         );
         displayResults(filteredData, query);
@@ -37,12 +45,22 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         data.forEach(entry => {
-            let resultItem = document.createElement("div");
+            const resultItem = document.createElement("div");
             resultItem.classList.add("result-item");
 
-            let formattedAbschnitt = formatLineBreaks(entry.abschnitt);
-            let highlightedAbschnitt = highlightText(formattedAbschnitt, query);
-            let shortAbschnitt = shortenText(highlightedAbschnitt);
+            const abschnittHTML = entry.abschnitt_segmentiert
+                .filter(seg => kontextAnzeigen || seg.typ !== "kontext")
+                .map(seg => {
+                    const text = formatLineBreaks(query ? highlightText(seg.text, query) : seg.text);
+                    return `<div class="${seg.typ === "kontext" ? "kontext" : "figurtext"}">${text}</div>`;
+                }).join("\n");
+
+            const previewText = entry.abschnitt_segmentiert
+                .filter(seg => seg.typ === "figurtext")
+                .map(seg => seg.text)
+                .join(" ");
+
+            const previewHTML = formatLineBreaks(shortenText(previewText, 300));
 
             resultItem.innerHTML = `
                 <h3>${entry.theaterstück.titel} (${entry.theaterstück.zeit})</h3>
@@ -50,35 +68,45 @@ document.addEventListener("DOMContentLoaded", function () {
                 <p><strong>Herkunft:</strong> ${entry.autor.herkunft}</p>
                 <p><strong>Figur:</strong> ${entry.figur.name} (${entry.figur.rolle})</p>
                 <p><strong>Adaption:</strong> ${entry.dialekt.adaption} (${entry.dialekt.dialekt_grossraum})</p>
-                <p><strong>Abschnitt:</strong> 
-                    <span class="abschnitt-preview">${shortAbschnitt}</span>
-                    <button class="toggle-abschnitt">Mehr</button>
-                    <span class="abschnitt-full hidden">${highlightedAbschnitt}</span>
-                </p>
+                <p><strong>Abschnitt:</strong></p>
+                <div class="abschnitt-preview figurtext">${previewHTML}</div>
+                <button class="toggle-abschnitt">Mehr</button>
+                <div class="abschnitt-full hidden">${abschnittHTML}</div>
                 <p><a href="${entry.original_link}" target="_blank">Quelle</a></p>
             `;
 
             resultsContainer.appendChild(resultItem);
 
-            let toggleBtn = resultItem.querySelector(".toggle-abschnitt");
-            let preview = resultItem.querySelector(".abschnitt-preview");
-            let full = resultItem.querySelector(".abschnitt-full");
+            const toggleBtn = resultItem.querySelector(".toggle-abschnitt");
+            const previewEl = resultItem.querySelector(".abschnitt-preview");
+            const fullEl = resultItem.querySelector(".abschnitt-full");
 
-            // Startzustand: Nur Kurzversion anzeigen
-            full.style.display = "none";
+            fullEl.style.display = "none";
 
-            toggleBtn.addEventListener("click", function () {
-                if (full.style.display === "none") {
-                    full.style.display = "inline";
-                    preview.style.display = "none";
-                    toggleBtn.textContent = "Weniger";
-                } else {
-                    full.style.display = "none";
-                    preview.style.display = "inline";
-                    toggleBtn.textContent = "Mehr";
-                }
+            toggleBtn.addEventListener("click", () => {
+                const sichtbar = fullEl.style.display === "block";
+                fullEl.style.display = sichtbar ? "none" : "block";
+                previewEl.style.display = sichtbar ? "block" : "block";
+                toggleBtn.textContent = sichtbar ? "Mehr" : "Weniger";
             });
         });
+    }
+
+    function highlightText(text, query) {
+        if (!query) return text;
+        const regex = new RegExp(query, "gi");
+        return text.replace(regex, match => `<span class="highlight">${match}</span>`);
+    }
+
+    function formatLineBreaks(text) {
+        return text.replace(/\n/g, "<br>");
+    }
+
+    function shortenText(text, length = 300) {
+        const temp = document.createElement("div");
+        temp.innerHTML = text;
+        const plain = temp.textContent || temp.innerText || "";
+        return plain.length <= length ? text : plain.substring(0, length) + "...";
     }
 
     function populateDropdowns(data) {
@@ -90,112 +118,72 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function populateDropdown(id, values) {
-        let dropdown = document.getElementById(id);
-        let uniqueValues = [...new Set(values)].sort();
-        uniqueValues.forEach(value => {
-            let option = document.createElement("option");
-            option.value = value;
-            option.textContent = value;
-            dropdown.appendChild(option);
+        const dropdown = document.getElementById(id);
+        const unique = [...new Set(values)].sort();
+        unique.forEach(value => {
+            const opt = document.createElement("option");
+            opt.value = value;
+            opt.textContent = value;
+            dropdown.appendChild(opt);
         });
-
-        dropdown.addEventListener("change", function () {
-            filterResults();
-        });
+        dropdown.addEventListener("change", filterResults);
     }
 
     function filterResults() {
-        let adaptionFilter = document.getElementById("filter-adaption").value;
-        let figurFilter = document.getElementById("filter-figurtyp").value;
-        let zeitFilter = document.getElementById("filter-zeit").value;
-        let dialektFilter = document.getElementById("filter-dialekt-grossraum").value;
-        let herkunftFilter = document.getElementById("filter-herkunft").value;
+        const adaption = document.getElementById("filter-adaption").value;
+        const figur = document.getElementById("filter-figurtyp").value;
+        const zeit = document.getElementById("filter-zeit").value;
+        const dialekt = document.getElementById("filter-dialekt-grossraum").value;
+        const herkunft = document.getElementById("filter-herkunft").value;
 
-        let filteredData = dataset.filter(entry => 
-            (adaptionFilter === "" || entry.dialekt.adaption === adaptionFilter) &&
-            (figurFilter === "" || entry.figur.rolle === figurFilter) &&
-            (zeitFilter === "" || entry.theaterstück.zeit === zeitFilter) &&
-            (dialektFilter === "" || entry.dialekt.dialekt_grossraum === dialektFilter) &&
-            (herkunftFilter === "" || entry.autor.herkunft === herkunftFilter)
+        const filtered = dataset.filter(entry =>
+            (adaption === "" || entry.dialekt.adaption === adaption) &&
+            (figur === "" || entry.figur.rolle === figur) &&
+            (zeit === "" || entry.theaterstück.zeit === zeit) &&
+            (dialekt === "" || entry.dialekt.dialekt_grossraum === dialekt) &&
+            (herkunft === "" || entry.autor.herkunft === herkunft)
         );
-
-        displayResults(filteredData);
-    }
-
-    function highlightText(text, query) {
-        if (!query) return text;
-        let regex = new RegExp(query, "gi");
-        return text.replace(regex, match => `<span class="highlight">${match}</span>`);
-    }
-
-    function formatLineBreaks(text) {
-        return text.replace(/\n/g, "<br>");
-    }
-
-    function shortenText(text, length = 200) {
-        if (text.length <= length) return text;
-        return text.substring(0, length) + "...";
+        displayResults(filtered);
     }
 
     function exportToCSV() {
-    let csvContent = "data:text/csv;charset=utf-8,";
-    let headers = [
-        "ID",
-        "Titel",
-        "Entstehungszeit",
-        "Druckort",
-        "Aufführungshinweise",
-        "Autor",
-        "Herkunft Autor",
-        "Koordinaten Herkunft Autor",
-        "Orte Autor",
-        "Lebensdaten Autor",
-        "Figur",
-        "Rolle",
-        "Beschreibung",
-        "Adaptionstyp",
-        "Adaptierte Varietät",
-        "Abschnitt",
-        "Original-Link",
-        "Koordinaten Herkunft Figur"
-    ];
+        let csv = "ID,Titel,Zeit,Druckort,Aufführung,Autor,Herkunft,Koordinaten Autor,Orte,Lebensdaten,Figur,Rolle,Beschreibung,Adaption,Dialekt,Figurtext,Link,Koordinaten Figur\n";
+        dataset.forEach(entry => {
+            const nurFigurtext = entry.abschnitt_segmentiert
+                .filter(seg => seg.typ === "figurtext")
+                .map(seg => seg.text.replace(/\n/g, " "))
+                .join(" ");
+            const row = [
+                entry.id,
+                entry.theaterstück.titel,
+                entry.theaterstück.zeit,
+                entry.theaterstück.druckort,
+                entry.theaterstück.auffuehrungshinweise || "",
+                entry.autor.name,
+                entry.autor.herkunft,
+                entry.geokoordinaten && entry.geokoordinaten.herkunft_autor
+                    ? `"${entry.geokoordinaten.herkunft_autor.lat}, ${entry.geokoordinaten.herkunft_autor.lng}"`
+                    : "",
+                entry.autor.orte ? `"${entry.autor.orte.join("; ")}"` : "",
+                entry.autor.lebensdaten,
+                entry.figur.name,
+                entry.figur.rolle,
+                entry.figur.beschreibung || "",
+                entry.dialekt.adaption,
+                entry.dialekt.dialekt_grossraum,
+                `"${nurFigurtext}"`,
+                entry.original_link || "",
+                entry.geokoordinaten && entry.geokoordinaten.herkunft_figur
+                    ? `"${entry.geokoordinaten.herkunft_figur.lat}, ${entry.geokoordinaten.herkunft_figur.lng}"`
+                    : ""
+            ].join(",");
+            csv += row + "\n";
+        });
 
-    csvContent += headers.join(",") + "\n";
-
-    dataset.forEach(entry => {
-        let row = [
-            entry.id,
-            entry.theaterstück.titel,
-            entry.theaterstück.zeit,
-            entry.theaterstück.druckort,
-            entry.theaterstück.auffuehrungshinweise || "",
-            entry.autor.name,
-            entry.autor.herkunft,
-            entry.geokoordinaten?.herkunft_autor 
-                ? `"${entry.geokoordinaten.herkunft_autor.lat}, ${entry.geokoordinaten.herkunft_autor.lng}"` 
-                : "",
-            entry.autor.orte ? `"${entry.autor.orte.join("; ")}"` : "",
-            entry.autor.lebensdaten,
-            entry.figur.name,
-            entry.figur.rolle,
-            entry.figur.beschreibung || "",
-            entry.dialekt.adaption,
-            entry.dialekt.dialekt_grossraum,
-            `"${entry.abschnitt.replace(/\n/g, " ")}"`,
-            entry.original_link ? `"${entry.original_link}"` : "", // ✅ Sicherstellen, dass der Link nicht verschwindet
-            entry.geokoordinaten?.herkunft_figur 
-                ? `"${entry.geokoordinaten.herkunft_figur.lat}, ${entry.geokoordinaten.herkunft_figur.lng}"` 
-                : ""
-        ];
-
-        csvContent += row.join(",") + "\n";
-    });
-
-    let encodedUri = encodeURI(csvContent);
-    let link = document.createElement("a");
-    link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "AdViD_Datenbank_Export.csv");
-    document.body.appendChild(link);
-    link.click();
-}
+        const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = "AdViD_Datenbank_Export.csv";
+        link.click();
+    }
 });
