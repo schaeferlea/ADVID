@@ -167,15 +167,15 @@ document.addEventListener("DOMContentLoaded", function () {
             "Link",
             "Koordinaten Figur"
         ];
-    
+
         let csvRows = [headers.join(",")];
-    
+
         dataset.forEach(entry => {
             const nurFigurtext = entry.abschnitt_segmentiert
                 .filter(seg => seg.typ === "figurtext")
                 .map(seg => seg.text.replace(/\n/g, " ").replace(/"/g, '""'))
                 .join(" ");
-    
+
             const row = [
                 entry.id,
                 entry.theaterstück.titel,
@@ -200,15 +200,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     ? `"${entry.geokoordinaten.herkunft_figur.lat}, ${entry.geokoordinaten.herkunft_figur.lng}"`
                     : ""
             ].map(val => (val !== undefined ? val : ""));
-    
+
             csvRows.push(row.join(","));
         });
-    
-        // UTF-8 BOM für Excel-Kompatibilität
+
         const csvContent = "\uFEFF" + csvRows.join("\n");
         const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
         const url = URL.createObjectURL(blob);
-    
+
         const link = document.createElement("a");
         link.href = url;
         link.download = "AdViD_Datenbank_Export.csv";
@@ -216,5 +215,4 @@ document.addEventListener("DOMContentLoaded", function () {
         link.click();
         document.body.removeChild(link);
     }
-
 });
