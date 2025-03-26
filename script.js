@@ -140,17 +140,49 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function exportToCSV() {
     const dataToExport = activeFilteredData.length > 0 ? activeFilteredData : dataset;
-    const headers = Object.keys(dataToExport[0]).filter(k => k !== "abschnitt_segmentiert").concat("figurtext");
+
+    const headers = [
+      "id", "titel", "zeit", "druckort", "auffuehrungshinweise",
+      "autor_name", "autor_herkunft", "autor_orte", "autor_lebensdaten",
+      "figur_name", "figur_rolle", "figur_beschreibung",
+      "adaption", "dialekt_grossraum",
+      "koordinaten_autor", "koordinaten_figur",
+      "figurtext", "original_link"
+    ];
+
     const csv = [headers.join(",")];
 
     dataToExport.forEach(entry => {
-      const row = headers.map(h => {
-        if (h === "figurtext") {
-          return '"' + entry.abschnitt_segmentiert.filter(s => s.typ === "figurtext").map(s => s.text).join(" ").replace(/"/g, '""') + '"';
-        }
-        const val = entry[h];
-        return typeof val === "string" ? '"' + val.replace(/"/g, '""') + '"' : JSON.stringify(val);
-      });
+      const figurtext = entry.abschnitt_segmentiert
+        .filter(s => s.typ === "figurtext")
+        .map(s => s.text.replace(/\n/g, " ").replace(/"/g, '""'))
+        .join(" ");
+
+      const row = [
+        entry.id,
+        entry.theaterstück.titel,
+        entry.theaterstück.zeit,
+        entry.theaterstück.druckort,
+        entry.theaterstück.auffuehrungshinweise || "",
+        entry.autor.name,
+        entry.autor.herkunft,
+        entry.autor.orte || "",
+        entry.autor.lebensdaten,
+        entry.figur.name,
+        entry.figur.rolle,
+        entry.figur.beschreibung || "",
+        entry.dialekt.adaption,
+        entry.dialekt.dialekt_grossraum,
+        entry.geokoordinaten?.herkunft_autor
+          ? `${entry.geokoordinaten.herkunft_autor.lat}, ${entry.geokoordinaten.herkunft_autor.lng}`
+          : "",
+        entry.geokoordinaten?.herkunft_figur
+          ? `${entry.geokoordinaten.herkunft_figur.lat}, ${entry.geokoordinaten.herkunft_figur.lng}`
+          : "",
+        figurtext,
+        entry.original_link || ""
+      ].map(v => `"${String(v).replace(/"/g, '""')}"`);
+
       csv.push(row.join(","));
     });
 
@@ -158,7 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "AdViD_Export.csv";
+    link.download = "AdViD_Datenbank_Export.csv";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
