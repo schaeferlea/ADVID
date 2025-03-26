@@ -137,8 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     el.addEventListener("change", performSearch);
   }
-
-function exportToTSV() {
+  function exportToTSV() {
     const dataToExport = activeFilteredData.length > 0 ? activeFilteredData : dataset;
 
     const headers = [
