@@ -11,11 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(data => {
       dataset = data;
       populateDropdowns(data);
+      activeFilteredData = data;
       displayResults(data);
     });
 
   searchInput.addEventListener("input", performSearch);
-  exportBtn.addEventListener("click", exportToCSV);
+  exportBtn.addEventListener("click", exportToTSV);
 
   const toggleKontextBtn = document.createElement("button");
   toggleKontextBtn.textContent = "Kontext nicht berücksichtigen";
@@ -64,7 +65,6 @@ document.addEventListener("DOMContentLoaded", () => {
       item.className = "result-item";
 
       const figurtexte = entry.abschnitt_segmentiert.filter(s => s.typ === "figurtext");
-      const kontexte = entry.abschnitt_segmentiert.filter(s => s.typ === "kontext");
       const fullTextHTML = entry.abschnitt_segmentiert
         .filter(seg => kontextAnzeigen || seg.typ === "figurtext")
         .map(seg => `<div class="${seg.typ === "kontext" ? "kontext" : "figurtext"}">${highlightText(seg.text, query)}</div>`)
@@ -138,16 +138,16 @@ document.addEventListener("DOMContentLoaded", () => {
     el.addEventListener("change", performSearch);
   }
 
-function exportToCSV() {
+  function exportToTSV() {
     const dataToExport = activeFilteredData.length > 0 ? activeFilteredData : dataset;
 
     const headers = [
-      "id", "titel", "zeit", "druckort", "auffuehrungshinweise",
-      "autor_name", "autor_herkunft", "autor_orte", "autor_lebensdaten",
-      "figur_name", "figur_rolle", "figur_beschreibung",
-      "adaption", "dialekt_grossraum",
-      "koordinaten_autor", "koordinaten_figur",
-      "figurtext", "original_link"
+      "ID", "Titel", "Zeit", "Druckort", "Auffuehrung",
+      "Autor", "Herkunft", "Orte", "Lebensdaten",
+      "Figur", "Rolle", "Beschreibung",
+      "Adaption", "Dialekt",
+      "Koord_Autor", "Koord_Figur",
+      "Figurtext", "Link"
     ];
 
     const tsv = [headers.join("\t")];
@@ -155,7 +155,7 @@ function exportToCSV() {
     dataToExport.forEach(entry => {
       const figurtext = entry.abschnitt_segmentiert
         .filter(s => s.typ === "figurtext")
-        .map(s => s.text.replace(/\n/g, " ").replace(/"/g, '""'))
+        .map(s => s.text.replace(/\n/g, " ").replace(/\t/g, " "))
         .join(" ");
 
       const row = [
@@ -173,15 +173,11 @@ function exportToCSV() {
         entry.figur.beschreibung || "",
         entry.dialekt.adaption,
         entry.dialekt.dialekt_grossraum,
-        entry.geokoordinaten?.herkunft_autor
-          ? `${entry.geokoordinaten.herkunft_autor.lat}, ${entry.geokoordinaten.herkunft_autor.lng}`
-          : "",
-        entry.geokoordinaten?.herkunft_figur
-          ? `${entry.geokoordinaten.herkunft_figur.lat}, ${entry.geokoordinaten.herkunft_figur.lng}`
-          : "",
+        entry.geokoordinaten?.herkunft_autor ? `${entry.geokoordinaten.herkunft_autor.lat}, ${entry.geokoordinaten.herkunft_autor.lng}` : "",
+        entry.geokoordinaten?.herkunft_figur ? `${entry.geokoordinaten.herkunft_figur.lat}, ${entry.geokoordinaten.herkunft_figur.lng}` : "",
         figurtext,
         entry.original_link || ""
-      ].map(v => String(v).replace(/\t/g, " ").replace(/\n/g, " ").trim());
+      ].map(val => val?.toString().replace(/\t/g, " ").replace(/\n/g, " ").trim() ?? "");
 
       tsv.push(row.join("\t"));
     });
