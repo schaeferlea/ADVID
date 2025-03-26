@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 .map(seg => seg.text)
                 .join(" ");
 
-            const previewHTML = formatLineBreaks(shortenText(previewText, 300));
+            const previewHTML = formatLineBreaks(shortenTextByWords(previewText, 12));
 
             resultItem.innerHTML = `
                 <h3>${entry.theaterstück.titel} (${entry.theaterstück.zeit})</h3>
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
             toggleBtn.addEventListener("click", () => {
                 const sichtbar = fullEl.style.display === "block";
                 fullEl.style.display = sichtbar ? "none" : "block";
-                previewEl.style.display = sichtbar ? "block" : "block";
+                previewEl.style.display = sichtbar ? "block" : "none";
                 toggleBtn.textContent = sichtbar ? "Mehr" : "Weniger";
             });
         });
@@ -102,11 +102,9 @@ document.addEventListener("DOMContentLoaded", function () {
         return text.replace(/\n/g, "<br>");
     }
 
-    function shortenText(text, length = 300) {
-        const temp = document.createElement("div");
-        temp.innerHTML = text;
-        const plain = temp.textContent || temp.innerText || "";
-        return plain.length <= length ? text : plain.substring(0, length) + "...";
+    function shortenTextByWords(text, wordLimit) {
+        const words = text.split(/\s+/);
+        return words.length <= wordLimit ? text : words.slice(0, wordLimit).join(" ") + "...";
     }
 
     function populateDropdowns(data) {
@@ -187,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 entry.geokoordinaten?.herkunft_autor
                     ? `"${entry.geokoordinaten.herkunft_autor.lat}, ${entry.geokoordinaten.herkunft_autor.lng}"`
                     : "",
-                entry.autor.orte ? `"${entry.autor.orte.join("; ")}"` : "",
+                entry.autor.orte ? `"${entry.autor.orte}"` : "",
                 entry.autor.lebensdaten,
                 entry.figur.name,
                 entry.figur.rolle,
