@@ -138,21 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
     el.addEventListener("change", performSearch);
   }
 
-  function exportToCSV() {
-    const dataToExport = activeFilteredData.length > 0 ? activeFilteredData : dataset;
-
-    const headers = [
-      "id", "titel", "zeit", "druckort", "auffuehrungshinweise",
-      "autor_name", "autor_herkunft", "autor_orte", "autor_lebensdaten",
-      "figur_name", "figur_rolle", "figur_beschreibung",
-      "adaption", "dialekt_grossraum",
-      "koordinaten_autor", "koordinaten_figur",
-      "figurtext", "original_link"
-    ];
-
-    const csv = [headers.join(",")];
-
-  function exportToCSV() {
+function exportToCSV() {
     const dataToExport = activeFilteredData.length > 0 ? activeFilteredData : dataset;
 
     const headers = [
