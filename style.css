@@ -52,21 +52,21 @@ h1, h2, h3 {
 
 #filters {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   gap: 8px;
   margin-bottom: 20px;
 }
 
 .filter-group {
-  flex: 1 1 120px;
+  width: 120px;
   display: flex;
   flex-direction: column;
   gap: 2px;
-  max-width: 130px;
 }
 
 .filter-group label {
-  font-size: 12px;
+  font-size: 11px;
   color: #4A5A7D;
   white-space: nowrap;
   overflow: hidden;
@@ -74,9 +74,10 @@ h1, h2, h3 {
 }
 
 .filter-group select {
-  font-size: 13px;
+  font-size: 12px;
   padding: 4px 6px;
-  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .result-item {
