@@ -152,6 +152,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const csv = [headers.join(",")];
 
+  function exportToCSV() {
+    const dataToExport = activeFilteredData.length > 0 ? activeFilteredData : dataset;
+
+    const headers = [
+      "id", "titel", "zeit", "druckort", "auffuehrungshinweise",
+      "autor_name", "autor_herkunft", "autor_orte", "autor_lebensdaten",
+      "figur_name", "figur_rolle", "figur_beschreibung",
+      "adaption", "dialekt_grossraum",
+      "koordinaten_autor", "koordinaten_figur",
+      "figurtext", "original_link"
+    ];
+
+    const tsv = [headers.join("\t")];
+
     dataToExport.forEach(entry => {
       const figurtext = entry.abschnitt_segmentiert
         .filter(s => s.typ === "figurtext")
@@ -181,16 +195,16 @@ document.addEventListener("DOMContentLoaded", () => {
           : "",
         figurtext,
         entry.original_link || ""
-      ].map(v => `"${String(v).replace(/"/g, '""')}"`);
+      ].map(v => String(v).replace(/\t/g, " ").replace(/\n/g, " ").trim());
 
-      csv.push(row.join(","));
+      tsv.push(row.join("\t"));
     });
 
-    const blob = new Blob(["\uFEFF" + csv.join("\n")], { type: "text/csv;charset=utf-8;" });
+    const blob = new Blob(["\uFEFF" + tsv.join("\n")], { type: "text/tab-separated-values;charset=utf-8;" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "AdViD_Datenbank_Export.csv";
+    link.download = "AdViD_Datenbank_Export.tsv";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
