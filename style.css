@@ -58,11 +58,11 @@ h1, h2, h3 {
 }
 
 .filter-group {
-  flex: 1 1 140px;
+  flex: 1 1 120px;
   display: flex;
   flex-direction: column;
   gap: 2px;
-  max-width: 150px;
+  max-width: 130px;
 }
 
 .filter-group label {
