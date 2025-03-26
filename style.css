@@ -11,8 +11,7 @@ body {
   margin: 0 auto;
   background: white;
   padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 0 1px #ccc;
 }
 
 h1, h2, h3 {
@@ -37,7 +36,6 @@ h1, h2, h3 {
 .search-container input {
   flex-grow: 1;
   padding: 10px 14px;
-  border-radius: 8px;
   border: 1px solid #ccc;
   font-size: 16px;
   background: #fff;
@@ -46,8 +44,7 @@ h1, h2, h3 {
 .search-container button {
   padding: 10px 14px;
   border: none;
-  border-radius: 8px;
-  background-color: #4a5a7d;
+  background-color: #4A5A7D;
   color: white;
   cursor: pointer;
   font-size: 14px;
@@ -68,26 +65,20 @@ h1, h2, h3 {
 
 .filter-group label {
   font-size: 14px;
-  color: #555;
+  color: #4A5A7D;
+  font-weight: bold;
 }
 
 .filter-group select {
   padding: 6px 8px;
-  border-radius: 6px;
   border: 1px solid #ccc;
 }
 
 .result-item {
-  background: #fdfdfd;
+  background: #ffffff;
   padding: 20px;
-  border-radius: 10px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #4A5A7D;
   margin-bottom: 20px;
-  transition: box-shadow 0.3s ease;
-}
-
-.result-item:hover {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
 }
 
 .result-item .highlight {
@@ -115,7 +106,7 @@ h1, h2, h3 {
 .toggle-abschnitt {
   background: none;
   border: none;
-  color: #2c3e50;
+  color: #4A5A7D;
   font-weight: bold;
   cursor: pointer;
   margin-bottom: 10px;
@@ -129,17 +120,15 @@ h1, h2, h3 {
 
 .export-container button {
   padding: 10px 16px;
-  background-color: #2c3e50;
+  background-color: #4A5A7D;
   color: white;
   border: none;
-  border-radius: 6px;
   font-size: 14px;
   cursor: pointer;
-  transition: background 0.3s ease;
 }
 
 .export-container button:hover {
-  background-color: #1e2e40;
+  background-color: #364766;
 }
 
 .fixed-logo {
