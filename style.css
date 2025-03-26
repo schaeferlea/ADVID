@@ -51,10 +51,18 @@ h1, h2, h3 {
 }
 
 #filters {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 20px;
+}
+
+.filter-group {
+  flex: 1 1 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 150px;
 }
 
 .filter-group label {
@@ -68,6 +76,7 @@ h1, h2, h3 {
 .filter-group select {
   font-size: 13px;
   padding: 4px 6px;
+  max-width: 100%;
 }
 
 .result-item {
