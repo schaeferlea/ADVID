@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
     el.addEventListener("change", performSearch);
   }
 
-  function exportToTSV() {
+function exportToTSV() {
     const dataToExport = activeFilteredData.length > 0 ? activeFilteredData : dataset;
 
     const headers = [
@@ -147,12 +147,16 @@ document.addEventListener("DOMContentLoaded", () => {
       "Figur", "Rolle", "Beschreibung",
       "Adaption", "Dialekt",
       "Koord_Autor", "Koord_Figur",
-      "Figurtext", "Link"
+      "Abschnitt", "Figurtext", "Link"
     ];
 
     const tsv = [headers.join("\t")];
 
     dataToExport.forEach(entry => {
+      const abschnittVolltext = entry.abschnitt_segmentiert
+        .map(s => s.text.replace(/\n/g, " ").replace(/\t/g, " "))
+        .join(" ");
+
       const figurtext = entry.abschnitt_segmentiert
         .filter(s => s.typ === "figurtext")
         .map(s => s.text.replace(/\n/g, " ").replace(/\t/g, " "))
@@ -175,6 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
         entry.dialekt.dialekt_grossraum,
         entry.geokoordinaten?.herkunft_autor ? `${entry.geokoordinaten.herkunft_autor.lat}, ${entry.geokoordinaten.herkunft_autor.lng}` : "",
         entry.geokoordinaten?.herkunft_figur ? `${entry.geokoordinaten.herkunft_figur.lat}, ${entry.geokoordinaten.herkunft_figur.lng}` : "",
+        abschnittVolltext,
         figurtext,
         entry.original_link || ""
       ].map(val => val?.toString().replace(/\t/g, " ").replace(/\n/g, " ").trim() ?? "");
