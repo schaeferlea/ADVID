@@ -2887,11 +2887,11 @@
     "figur": {
       "name": "Gretl",
       "rolle": "Bäuerin",
-      "beschreibung": "'junge Bauern-Dirne', spricht Ostfränkisch"
+      "beschreibung": "'junge Bauern-Dirne', spricht Ostfränkisch Raum Nürnberg"
     },
     "dialekt": {
       "adaption": "NN",
-      "dialekt_grossraum": "Odt."
+      "dialekt_grossraum": "Oobd."
     },
     "geokoordinaten": {
       "herkunft_autor": {
