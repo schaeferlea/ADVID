@@ -1,4 +1,851 @@
 [
+    {
+        "id": "GeschwindeWeiberlist01",
+        "theaterstück": {
+          "titel": "Tragoedia H. I. B. A. L. D. E. H. A. Von geschwinder Weiberlist einer Ehebrecherin",
+          "zeit": "1605",
+          "druckort": "Magdeburg",
+          "auffuehrungshinweise": ""
+        },
+        "autor": {
+          "name": "Johann Sommer",
+          "herkunft": "Omdt.",
+          "orte": "Zwickau",
+          "lebensdaten": "1559–1622"
+        },
+        "figur": {
+          "name": "Johan Bouset",
+          "rolle": "Narr",
+          "beschreibung": "des Kauffmanns Diener"
+        },
+        "dialekt": {
+          "adaption": "Heteroadaption",
+          "dialekt_grossraum": "Ndt."
+        },
+        "geokoordinaten": {
+          "herkunft_autor": {
+            "lat": 50.718889,
+            "lng": 12.492222
+          },
+          "herkunft_figur": { 
+            "lat": null,
+            "lng": null
+          }
+        },
+        "abschnitt": "Johan Bouset Wel min Here seid ghy alhier? Hebb aw gesocht mit grot begier / Trett ghy die Schuens hier entwey / Und hebbt ed niet gesegget mey / Wel alset aw belyffte is / Sout ghy van stund an kamen thot huis Denn het iß effen ethens tydt. Gallichoræa Ich hab kein lust zu essen niet. Johan Bouset Watn mangelt aw denn / seyd ghy kranck? Gallichoræa Ich weiß selbst nicht / ob ich bin kranck / Oder was mir sonst mangeln mag. Johan Bouset Wel myn Here / vorwar ick sag / Ghy hebbet gefastet all tholang / Dat maket aw im Bouck so bang / Und het sal niet gut syn noch gsund / Als men fastet so vele stund. Gallichoræa Ey was magst mich mittn Essen plagn? Dazu ich keine lust thu tragn / Ich hab kein Hunger noch begier / Wenn dir also were wie mir / Der Appetit solt dir vergahn / Solst keine lust zu essen han. Johan Bouset Wat aw mangelt / dat wet ick nit / Ick auerst hebb gut Appetit Tho freten / Ey vorwar myn Her / Kamt doch tho hues / is myn begehr / Dann awe Frow wachtet up aw. Gallichoræa Was sagestu / wart meine Fraw? Seufftzet gar tieff. Johan Bouset Seggt / warumb sicher ghy doch so? Seid ghy denn der Rede niet fro? Hebbt ghy aw Frowen niet mehr lieff? Gallichoræa Das geht mir offt zu Hertzen tieff / Das ich muß zweiffeln / ob sie mich Liebe von hertzen stetiglich. Johan Bouset Wel myn Her / wat dho gy seggn? Sal awe Fraw aw niet leeff hebbn? Schlöpt se doch alle Nacht bey aw / Gallichoræa Wenn sie nur wehr allein mein Fraw / Johan Bouset Wel wat seggt ghy? twieffel ghy dran? Schlapt aw Fraw by ein andern Man? Gallichoræa Mir ist leid dafür / sag ich traun / Johan Bouset Sal dat wol awe Frowe daun: Dat sal ick niet wal glöuen könn Wel Her / hebbt ghyt gestehen denn? Gallichoræa Wenn ich gesehen hette diß / So sage ich dir vor gewiß / Der Teuffel solt ihr ein Hembde nehn / Johan Bouset Sal dat Tüfel wal können nehn? Ick möcht dat Himbd nietn trecken an Dat de Tüfels geneyet han. Gallichoræa Du Narr weist viel was du thust sagn / Ich gleub du wilst mich auch noch plagn / Und meiner darzu spotten nur / Wolt Gott / das ichs gewiß erführ / Ich wolt die mittel nehmn zu hand / Das sie drob würd zu spott und schand / Krigts lohn und urtheil der unehrn Das wolt ich ihr ein Eid trawn schwern. Johan Bouset Ja meine ghy et so myn Her. Datn heb ick niet verstahn thouör / Auerst ick bidd / dhout my doch seggn / Als ein Man bey am Frow thet leggn / Und ghy by ehr findet dat Man Wat sout ghy damit fangen an? Gallichoræa. Das solte er alß dann wol sehn / Entweder er müst mir entgehn / Oder must vor meinen henden sterbn / Kein gnad solt er bey mir erwerbn. Johan Bouset Als ghy mey auerst by aw Fraw / Werd finden up dem Venusthaw / Soude ick ock dann möthen steruen / Is gene gnade tho erweruen. Gallichoræa Nein traun / so du es nur wirst wagn / So wil ich dir es itzt zusagn / Wenn ich dich schon bey ihr im Schoß / Im Bette sind nackend und bloß / Wil ich dir dennoch thun kein leid / Drumb folge nur unserm abscheid / Und leg dich nur ins Bett zu ihr / Schertz mit ihr nach hertzen begier / Wo du dem Anschlag thust nachlebn / Wil ich dir ein verehrung gebn. Johan Bouset. Wel myn Her vor dat vorehring / Dho mey bedancken allerding / Mey dücht vorwar up myne Seel / T vorehring soud niet dougen veel. Gallichoræa Nein trawn auff Glauben thu ich schwern / Ich wil dir was gutes verehrn. Johan Bouset Wel myn Her / wat is dat tho seggn / Sal ick mey tho aw Frowe leggn / Wil ghy sey dann thor Huren makn Mothwillig / dat sind seltzam sakn. Gallichoræa Ich wolt sie nicht gern dazu machn / Denn das wehren unrichtig sachn / Aber ich fürcht / sie hab sich schon / Selber zur Huren machen thun. Johan Bouset Hebbt ghy doch itz tho my dohn seggn / Ickn sal mey ins Bedd by ehr leggn / Und ghy wilt mey doch wat verehrn / Und vast tho halten ein Eyd schwern. Gallichoræa. Das sag ich noch das ichs thun wil / Doch in geheim / und in der still / Nur darumb / das ich mich erkund / Wie die sache in warheit stünd Johan Bouset Nien ich bedancke mey min Her / Dat byschlapn ick en niet beger / Ghy möget ein andern Man kriegn / De by aw schon Jongfrow doit liegn Ickn soud et niet begern vorwar / Dat ick niet thot dat Tüifel fahr Denn ick hebb hören seggn de Papn / Dat de by andern Frowens schlapn / Und brecken mothwillig de Ehe / In Himmel kamen nimmermeh. Gallichoræa. Ich wolt gleichwol gar gern den grund / Erforschen / wie die Sache stünd / Aber gedenck und schweige still / Sag niemands nichts / sey wer es wil / Kom ich wil itzt zu Hause gahn. Johan Bouset Nien Herr / ghy soud niet twieffeln dran Ick en soud vorwar nemandt seggn / Dat ick mey tho aw Frow sal leggn Auerst min Her / kompt thot huis balt Dat ethen sou süst werden kalt / Ghy darfft aw drumb bedrüffen niet / T is betr / dat ghy ein Hanrey syt / Als wann ghy ein Ehbreker wehrt / Und in dat Himmel niet in kerht / Denn ein Ehbreker mach nietkamn / In dat Himmelrick tho den framn. Auerst dat gedültig Hanrey / Mag in dat Himmel kamen frey. Gallichor. seufftzet gar tieff / krawet sich hinter den Ohren / und gehen beyde abe. (1. Akt, 2. Szene) Johan Bouset Ja vorwar / als ick gewolt hedd / Und mey gelegt thot Frow int Bedd / Soud ick ein stadtlick vorehring / Van dat Bulschafften dohn wegbringn Auerst mey ducht / soud ick sou Narr / Gewest syn / dat ick gahn wehr dar Und myn Herr mey so funden hedd / By syn schon Frowkens ob ehr Bedd / Soud hey mey ein vorehring geuen / Mit einem Knöffelspet gar euen / Ick sal auerst van meynem Herrn / Ein solck vorehring niet begern / Süst soude mey dat Frow alßbalt / Leiff bekamen dorch Venus gwalt Als ick mit ehr bekantniß makn / Und soud thoriten ein par Lakn / Dewyl ick so ein schon Man bin / Wal Proportioniret syn / Ick sal nu thot huis gahn thor stund / Und arbeit schaffen mynem Mund / Dat sou beter syn / gwiß ick weth / Als tvorehring metm Knöffelspet. (1. Akt, 3. Szene) Gallichoræa Zeit und weil ist mir worden lang / Im hertzen war mir angst und bang / Eh ich bin kommen aus dem Hauß / Ich mus ein wenig gehen aus / Auffm Marckt spatziren her und hin / Denn wenn ich in dem Hause bin / Seh ich nichts anders denn Hertzleid / Unlust / Sorge / Trübseligkeit. Gehet ein weil stillschweigens auff und nieder. Siehe wer mag doch jennr sein / Der stracks Fusses gehet herein. Und kompt immer neher zu mir / Und was mag sein / sein will und bgier? Pamphilus thut ihm Reuerentz / und erzelget sich gar demütig gegen ihm. Gallichoræa Woher guter Gesell? woher? Pamphilus. Ich bitt gantz freundlich / der Herr Woll mir es nicht für ubel deutn / Das ich ihn ansprech bey den Leutn / Ich bin ein gut Gesel / und hab Auff der Reiß gar gezehret ab / Das ich nicht hab ein Pfenning mehr / Und geh auch gar zurissen her / Ich hab zwar zu Hauß gute Freund / Dieselben aber zu weit seind / Bitte demnach gantz freundlich nun / Der Herr wolle doch an mir thun / Die Wercke der Barmhertzigkeit / Und mir verhelffen zu eim Kleid / Und mir ein Zehrpfenning vorehrn / Das ich fort kom mit Gott und ehrn / Und mich wieder zun Leutn geb / Das ich nach Kunst und Tugend streb / Denn weil ich bin so gar zurissn / Hab ich mich der Leut eussern müssn. Johan Bouset Vorwar als aw Fründ sind niet betr / Als awe kale lausicht Kledr / So möthet sie niet veel werth syn. Gallichoræa Das kompt mir gar seltzam zu sinn / Du bist ein feines junges Blut / Frisch und gesund von freyen muth / Ich seh dich warlich dafür an / Du solst ohn zweiffel gnade han / Im Frawenzimmer bey den Frawn / Die solten dich lieblich anschawn / Hier in der Stadt ist manch Madonn / Die mit dir hette frewd und Wonn / Mit denen kanstu Kundschafft machn So würd geraten deinen sachn / Da wirstu Gelt und Kleider gut / Bekommen neben guten muth. Johan Bouset Vorwar ghy seid ein feiner Man / By de schonen Jungfrowen tho gahn / Ghy sind gar wol gekleidt dartho / Dat de Frowens awr werden fro. Pamphilus Ja guter Freund / ich weiß die zeit / Da ich auch lebt in lust und frewd / Und war bey Jungfrawn lieb und werth. Aber das glück hat sich verkehrt / Wenn sie mich itzund schawen gehn / Würdn sie im weg mich nicht ansehn / Zu dem bin ich in Stadt und Land / Vor nie gewest / und unbekand. Gallichoræa Wenn du wilt folgen meinem Rath So sol sich bald wenden das Blat / Ich wil dir vom anschlage sagn / Der sol dir Gelt und Kleider tragn / Und sol dir auch im Venusspiel / Lust geben nach deins Hertzen will / Pamphilus Ich wil den anschlag hören gern / Wo fern ich kan folgen dem Herrn / Wöll ich allen fleiß wenden an / Es sol an mir kein mangel han. Gallichoræa Sieh dort / eben in jenem Haus / Da der Lewe thut hangen aus / Ist ein außbündig schönes Weib / Vom jungen und geraden Leib / Dieselb kan sich gar freundlich stelln / Und redt gern mit jungen Geselln / Zu derselben verfüge dich / Mach kundschafft mit ihr sicherlich / Ich wil dirs unerlogen sagn / Du wirst bey ihr kein blossen schlagn / Sondern neben der Lust und Frewd / Wirstu bekommen Geld und Kleid / Und damit du möchst desto eher / Solchs verrichten nach meiner lehr / So nim da Gelt zum newen Kleid / Schaff das dirs eilend werd bereit / Und putze dich fein wacker rauß / Und gehe darnach in das Hauß / Halt abred / und verrichts mit fleiß / So wirst erlangen Gelt und Preiß. Pamphilus Großgünstig Herr / vor diesen Rath / Sag ich euch danck beyd frü und spat / Wenns auch nur abgieng ohn gefahr. Gallichoræa Es hat kein gfar / sag ich vorwar / Die Fraw ist aller listen voll / Wird dir dann ferner rathen wol / Wie du dich haltest in den Sachn / Wenn du wirst mit ihr Kundschafft machn / Aber du must bey leib mit nichtn / Keim Menschn unter der Son berichtn Auch der Frawen selbst nicht verrathn / Das dirs von andern sey gerathn / Sondern du must dich also schickn / Als kemstu selbst aus freyen stückn. Pamphilus. Wolan ich wags auff gerad wol / Ich habs wol eh gemacht so toll. Gallichoræa Wenn wiltu aber gehen hin? Pamphilus So bald ich ausgeputzet bin / Und wo ich fertig werden kan / Wil ich heut abends noch hingahn / Und wil ein Pandor nehmen mit / Und spielen nach Studenten sitt / Ist dann dieselb Fraw guter haar / Versitzt sies nicht / weiß ich fürwar / Sondern sie steht zum Fenster raus / Oder tritt in die Thür des Haus / Denn das sind die Lockvogel recht / Damit man lockt Venus geschlecht / Und wann ichs so weit hab gebracht / So ist ein gut anfang gemacht / So wil ich dann hernach den sachn / Wol rathen / und es weiter machn / Gallichoræa Ey lieber thu es also wagn. Und thu mirs morgen wieder sagn / Wie dirs doch da ergangen sey. Pamphilus Es sol geschehen das sag ich frey / Thu mich auch itzt bedancken sehr / Vor diesen Rath und groß verehr. Hört aber lieber Herre mein / Wird auch ihr Man zu Hause sein? Gallichoræa Itzunder ist er nicht zu Haus / Wird auch wol abends bleiben aus. Pamphilus So ist es gut / habt gute weil / Ich wil frisch versuchen mein heil. Gehet abe. (2. Akt, 2. Szene) Gallichoræa Nun habe ich bestellet die Hitz / Meiner Frawen / das sie drin schwitz Was solls gelten die Huren schlappn / Wil ich einmal mit list betrappn / Johan Bouset Vorwar ghy hebbt bestellt gar wol / Dat aw Frow ein Hur werden sal / Offt se schon vorher fram gewesn. Gallichoræa Ein Hur ist sie schon lang gewesn / Wiewol ichs nicht gewust gewiß / Abr nun wil ich erfahren diß / Wann sie noch eins so listig wehr. Johan Bouset T sal niet geschien / vorwar min Her / Ghy werdet aw süluest betriegn / Und eine Thoren Kappe kriegn / Gallichoræa Was sagstu? solt das nicht geschehn? Sol der jung Gsell nicht dahin gehn? Johan Bouset Min Her / dar twiefel ich niet an / Daß dat jung Gsel sal darhen gahn / So twiesel ick ock niet dorchuth / Dat awe Frow et gerne dhout Auerst ghy werdet sehn min Her / Ghy erfahrent doch nimmermehr / Gallichoræa Das müst der Teuffel geben / wenn ich / Nicht kommen solt hinder die schlich / Denn ich weis ja gewiß vorwar / Das er heute wird kommen dar / So wil ich der Frawn machen weiß / Als ob ich geschefft halbn verreiß / Und wil des Abends unversehn / Eh sie sich mein versicht heimgehn / Was solls geltn / ich ertapp sie dann / Johan Bouset Vorwar ghy sout gar beschamt stahn. Gallichoræa Du weist viel / was du sagest nun / Ich wolt eine wett drauff thun / Und solts auch hundert Thaler geltn / Oder auff ehrloß Schelmen scheltn / Es sol mir bißmal feilen nicht / Ich wil ihr kommen auff die schicht. Johan Bouset Ickn sal mit aw ein Wedd anschlagn / Hundert Thaler wil ich dran wagn / Dat Frow sal aw sin veel tho schlu. Gallichoræa Mit dir ich nichts verwetten thun / Woher woltstu doch so viel Gelt / Hundert Thalr kriegen in der Welt? Geh du nur hin / laß sorgen mich / Ich wils wol machen ohne dich / Und sage meiner Fraw itzund / Das sie hieher kom zu der stund / Gedencke auch und schweige still / Sag nichts dauon / das ist mein will. Johan Bouset Ickn soud bestellen. Gehet abe / kompt aber bald wieder / und saget: Hört doch Her. Sal ick seggn / et sy aw beger / Dat aw Frow by aw kamen sol. Gallichoræa Was fragstu viel? du hörsts ja wol. Johan Bouset Hieher up dat Platz? Gallichoræa Ich habs zwar / Dir Teutsch genug gesagt du Narr. Wenn du es sonsten woltst verstahn / Johan Bouset Ja Her / ickn bin ein Englisch Man / Ickn sou dat Düdsch Sprack niet vernehmn. Gallichoræa Du kanst den Teuffel nicht vernehmn / Johan Bouset. Wel ick sal / segg ick ohne twieffl / Niet hebben spreken ghört dat Düffl / Johan gehet hinweg / kompt aber bald wieder / und spricht: Segget mey / sal ick aw Frow seggn / Dat d' Jongman sal aw stadt verheggn Und dat ghy hem sülffst in aw Huis / Gewiesen hebbt Gallichoræa Das dich die druß Besteh / ich gleub du wolst mein spottn / Hab ich dirs doch gar hart verboten / Das du es ihr solst sagen nicht / Geh hin / und das jenig verricht / Was ich dir hab befohln für sachn / Oder ich wil dir Füsse machn / Johan Bouset Dat behofft gy Her niet tho dhon / Twey Föte die en hebb ick schon. Gehet abe. Gallichoræa gehet stillschweigens auff und nieder / darnach spricht er: Es ist ein alt und war Sprichwort / Das hab ich offt und viel gehort / Der Krug zu Wasser geht so lang / Biß er endlich auff stücken sprang / Ich hoff das Sprichwort werd ein mahl / Auch war werden an meim Gemahl / Sih dorte kompt sie her bereit / Ich wil von ihr nehmen abscheid / Und wil ihr vorbringen ein Tand / Als wolt ich reisen uber Land / Und werd ein zeitlang bleiben aus / Von abend nicht kommen zu Haus / Aber wenn sie sicher wird sein / Wil ich unuersehns kommen ein. (2. Akt, 3. Szene) Gallichoræa Liebes Weib habe gute weil / Ich muß verreisen in der eil / Werd heut nicht wider kommen an. Scortum Wo wolt ihr dann hin lieber Man? Es ist ja auff den abend spat / Da es zu reisen nicht ist rath / Ihr köndt ja heut nicht wieder komn / Wenn ihrs morgen hett fürgenomm / Deucht mich wer warlich besser sein / Bey Nacht zu reisen bringt offt pein. Gallichoræa Es ist Monschein / es hat kein noth / Mein Gleitsman ist der liebe Gott / Ich mus mich machen auff die bahn / Mir ist gar hoch gelegen dran / Ade gut weil ich mus nun gahn / Der liebe abend dringt heran / Ich hab hoch zeit / das sihest du / Man wird das Thor bald schliessen zu. Scortum So habt gute Nacht lieber Man / Der lieb Gott sey ewer Gleitsman. Scortum gehet abe Gallichoræa Johan mit mir / ich wil mich So lang vorbergen gantz heimlich In einem Haus / bis es wird nacht / Als denn hab ich bey mir bedacht / Wieder zu haus zu gehen leiß / Eh dann mein Fraw was dauon weiß. Johan Bouset Ick verstad gar wal by Sanct Mergn / Ghy seggt / ghy wilt aw itzt verbergn / In dat Huis / bett dat et wert nacht / Alßdann wilt ghy tho Huiß gahn sacht / Dat is ein gut Rathschlag vorwar / Ickn hebb et niet gemeinet twar Dat ghy soud so verstendig sin. Gallichoræa. Ich hab solchs lang in meinem Sinn / Mit allem fleiß gar wol bedacht / Was gilts? es geht an diese Nacht / Johan Bouset. Wel Her / ickn twiefel niet daran / At sal gar wol de nacht angahn / Dat awe Frow ein Hure werd Gallichoræa Das schadt nicht / ihr seind mehr auff erd Aber es wird diß meiner Frawn / Auch sehr ubel bekommen trawn / Wenn ich komme und sie so sind / Wie wir beyde eins worden sind. Johan Bouset Umb wat tidt wilt ghy dann dargahn / Gallichoræa Das wil ich ja wol in acht han / Ich wil die rechte zeit wol treffn / Sie sol mich hinfort nicht mehr essn / Johan Bouset Hebt ghy dann ein abscheid genomn / Up welcke tidt ghy dar wilt komn? Wann aw Frow und dat Jongeman / Aw by dat nacht sollen inlahn. Gallichoræa. Was bistu doch ein grosser Thor / Das kanstu selbst dencken zuuor / Das ich ihn das nicht werd weiß machn In solchen gantz geheimen sachn / Wenn ich zu Hause kommen woll / Ich wil doch die zeit treffen wol. Johan Bouset Mey dücht / et wert aw feiln vorwar / Und als ghy werd inkamen dar / Sal dat Jongman schon sin daruon / Gallichoræa Der Kerrl gleichwol nicht fliegen kan / Ich hab zwey Augen / bin nicht blind / Wil wol sehen / wo ich ihn find / Du weist viel was du sagst du Narr / Kom laß uns gehn / nicht lenger harr. Johan Bouset Wat seggt ghy? schelt ghy mey ein Hasn? Ey thiet aw süluest by dat Nasn / Ghy sout wol syn so ein grot Narr / Als ick mag syn / weth ick vorwar / Denn als ick solck ein schon Frow hedd / Schiekt ick kein Jongman in ehr Bedd / Dat he in ihren arm soud schlapn / Als ghy / drumb seid ghy ein grot Apn. Weiset ihn mit fingern an / und gehen beyde abe. (2. Akt, 4. Szene) Gallichoræa Johan kom es ist nun recht zeit / Von Mitternacht ist es nicht weit / Ich wil heimgehn / und sehen frey / Ob dann mein Gast vorhanden sey. Johan Bouset Meint ghy dat Gast / dat awer Fraw / Soud Spulen scheiten up er thaw / Se thor Hurn / aw thot Hanrey makn / Dat sind vorwar lecherlick sakn. Gallichoræa Du Narr schweig still / was plapperstu / Ich sage dir / halt das maul zu. Gehet stillschweigend nach dem Hause / und Johan / so hinter im hergehet / wie er an das Haus kömpt / pocht er an / und rufft laut. Gallichoræa Holla / Fraw mache auff / holla. Scortum Wer ruffet denn? wer ist denn da? Gallichoræa Mach auff / hörstu / ich bins dein Man. Scortum Dasselbe ich nicht gleuben kan / Du magst ein Schelm und Bößwicht sein / Dich laß ich warlich heint nicht ein / Mein Man / do er heut reiset aus / Sagt / er kehm heut nicht wiedr zu haus. Gallichoræa Ey lieber mach doch auff / holla Bin dein Man Gallichoræa, Dann eben da ich wolt von hier / Kam mein Nachbar untrm thor zu mir / Bat so fleissig / das ich zur lust / Mit ihm in Weinkellr gehen must / Wie ich dann auff sein bitt gethan / Und hab die Reise unterlahn. Johan Bouset Frow vorwar et is min Here / Glöue ghy mick denn niet mehre? Mackt up / myn Her wil dat Jongman / So hey in syn huis heiten gahn / Tractiren. Gallichoræa Schweig du loser Tropf / Oder zuschlag dir deinen Kopff / Wer hat dir Narren das befohln / Das du das itzt hast sagen solln? Scortum Johan Bouset bistu fürdr Thür? Johan Bouset Ja mine Frow / ick en bin hier / Is dat Jong Gsel by aw ock dar? Gallichoræa Schweig das dich Gott plage / du Narr. Scortum So mag ichs gleubn / es sey mein Herr / Weil ich dich selber sprechen hör / Aber sonst hett ichs gleubet nicht / Harret / ich wil anzünden ein Liecht / Bald kommen / und euch lassen ein / Last euch die zeit nicht lange sein Johan Bouset Ickn sal mehr Louen hebbn als ghy / By awe Frow / dat glöuet my / Nun hört ghy wol / myn leuer Her / Dat aw Frow tracht na Tucht und Ehr / Dann se wilt genen frömbden Man / Inlaten / he moth butten stahn. Weiset ihn mit Fingern an / die Fraw machet die Thür auff / und spricht: Scortum Jesus / lieber Man / seid ihr hier / Das hette nicht getreumet mir / Das ihr es wehrt / das dacht ich nicht / Ich meint / es wehr ein Bösewicht / Der sich auff euch beruffen hett / Darumb ich nicht auffmachen thet / Dann ich weiß wol / das mir durchaus / Wenn ihr nicht selber seid zu haus / Nicht wil gebühren frembde Leut / Ein zu lassen bey nachts zeit / Aber ich bitt / kompt doch herein / Legt euch ein weil ins bett hienein / Schlafft aus die Sorg / und trawret nicht / Es wird in zwo stundn noch nicht licht. Pamphilus springt zum Fenster hinaus / leufft geschwind davon / und spricht: Das dich pot Chrisam schenden muß / Er war mir gar hart auff dem Fuß / Und hett nicht neher dürffen komn / Er hett mich bald sollen bekomn / Für mein Person wust ich kein rath / Aber die Fraw das beste that / Ich wil nun wieder gehn behend / In mein Herberg und Losament / Mich ein wenig legen zur rhu / Das ich wieder ausschlaffen thu / Denn die Fraw bath mich offt und sehr / Das ich solt wieder kommen her / Morgen abends / so solt ich dann / Von ihr eine vorehrung han / Und wann schon ihr Man abermal / Bey Nacht thet einen uberfall / So wolt sie doch mein Bürge sein / Vor allen schaden / noth / und pein / Zur Dancksagung thet sie mir schenckn / Ihrer in Liebe zugedenckn / Das Hembd / den Kragen / und das Gelt / Welches sie mir gab ungezelt / Und sagt ich solt mich dafür kleidn / Und ja nicht balde von ihr scheidn / Drumb wil ich hin zum Schneider gahn / Und mir ein new Kleid machen lahn / Des abends anziehn ihr zu ehrn / Und mich darinnen presentirn. Gehet abe. (2. Akt, 8. Szene) Adrian Gott grüß euch was wolt ihr hie schaffn? Habt ihr uber nacht wol geschlaffn? Galliechoræa So zimlich. Adrian Ihr seht dunckel aus / Wie kampt ihrs nachts so spet zuhauß? Gallichoræa. Wie fragt ihr so? das wundert mich. Adrian Warumb solte nicht fragen ich? Ich bin an euch solches ungewohnt / Das ihr so spet zu Hause komt / Ihr hatt ein solch wesen zu nacht / Vor ewren Haus / das ich traun dacht / Ihr wolt es ubern hauffen schmeissn / Oder es aus dem grunde reissn. Gallichoræa Ich war mit guten Freundn zur Zech / Ließ mich auffhalten ihr Gesprech / Da ich nun heimgieng / und wolt ruhn / Wolt mir die Fraw nit flugs auffthun. Adrian Lieber wo habt ihr denn gezecht / Gallichoræa Im Weinkeller bey Engelbrecht. Adrian Wo denckt ihr denn itzund hinaus? Gallichoræa Ich muß den Rausch wieder gehn aus. Adrian Das thut so wil ich auch heimgahn / Da ich genungsam zu thun han. Immittelst kompt Johan Bouset / Hoyanet / und reibet die Augen / rencket sich / als wenn er noch gar schlefferig were. Adrian Sieh doch / wer ist der / der da steht? Gallichoræa Es ist mein Haußknecht Jan Bouset. Adrian Es scheint / als hett er viel gesoffn / Und diese Nacht nicht ausgeschlaffn / Ich mus ihn doch ruffen zu mir. Gallichoræa Was sol der Narr? was dencket ihr? Wenn ihr ihn gleich was werdet fragn / Thut er euch verkehrt antwort sagn. Adrian Es schadet nicht / Johan Bouset. Gallichoræa Das dich der Teuffel wegführen thet. Johan Bouset sicht sich umb / und spricht: Ickn sieh nenen Düifel hier stahn / Ick kan allein upn fötens gahn. Gallichoræa Da hört ihr wol lieber Nachbar / Was mein Diener sey für ein Narr / Drumb dürfft ihr / wenn er gleich thet schwern / An seine Red euch nichtes kehrn. Adrian Johan wie bist so unlustig: Johan Bouset Frag ghy noch? wie so unlustig: Ists wunder ick sou ouer Nacht / Neen schlap hebbn in myn Ogen bracht Adrian Was hastu dann gehabt zu schaffn? Das du nicht hast können ausschlaffn. Johan Bouset Ick en hebbe niet veel gemakt. Ick hebb myns Heren wegn gewackt / De kam in d nacht tho huis so spad / Dat he dat Gast segnet dat Bad / So in syn Huis was. Gallichoræa O Nachbar Kehrt euch nicht dran / was sagt der Narr. Johan Bouset Wel / wat segt ghy? bin ick ein Narr? Wat ick segge / isset niet war? Adrian Warumb hat ihr denn vor dem Hauß Ein solch getümmel und ein straus? Johan Bouset Et was int Huis ein ander Man By d Frow / drumb wolt se niet upstan / Und wolt ehren Man niet inlatn / Leth uns so lang stahn up dat stratn. Adrian Hahaha / Nun lieber Nachtbar / Ade guten tag / Gott euch brwahr / Ich wil nun gehen meiner strassn / Das werd ihr auch thun gleicher massn. Galichoræa Ihr werd hoff ich / lieber Nachbar / Nicht gleuben / was da sagt der Narr. Adrian. Das hat sein weg / Solchs mich nichts ficht / Es sey also / oder sey nicht. Gehet abe: Gallichoræa Das dich heilosen Dieb und Schelm / Potz leidn und Kranckheit thu queln / Hah ich dir dann verbotten nicht / Du Ertzverzweiffelt Bösewicht / Das du nicht soltest waschen aus / Was sich zutrag in meinem Haus. Johan Bouset Ghy hebbet mey vorboden dit / Ickn sout aw Frowens seggen niet / Auerst ghy hebben niet gesecht / Von awen Nabr / verstahr mey recht. Gallichoræa Ich hab den Teuffl auff deinen Kopff / Dier nicht gesagt / du ehrloser Troff / Du Schelm soltst mich durch deine Zungn / Wol in ein bös gerüchte bringn. Johan Bouset Dar sout ghy aw sülfst bringn in / Als ghy so ein grot Sodde syn / Und bidden in aw Huiß solck Gast / Dat he by aw Frow hebb syn rast / Und dhout hem noch bevehlen dit / Dat he schlap in er Armlein witt. Galliechoræa Mach mich der Possen nicht zu viel / Oder ich dich abschmieren wil. Johan schweiget stille / und rümpffet das Maul / und verkehrt die Augen. Gallichoræa gehet auch ein weil stillschweigens auff und nieder / endlich spricht er: Das dem Kerrel die Pest und Drüß / Sein Hertz im Leibe ja abstieß / Das er kein abschied hat gehaltn / Der Teuffel möge seiner waltn Er hat mir gwiß zusag gethan / Er wolt gestern abend hingahn / Hat auch darauff das Gelt bekomn / Dafür er Kleider ausgenomn / Ich hette wol gehoffet zwar / Er wehr gewißlich kommen dar / Wie er mir dann solches verheiß / Aber ich hab mit allem fleiß / Gesuchet alle winckel aus / Kan ihn doch nicht finden im haus Johan stehet / und weiset immittelst mit Fingern auff ihn und lachet. Wenn ich ihn doch könt treffen an / So wolt ich balde zu ihm gahn / Und doch von ihm selber verstehn / Wie unser beider sachen stehn. Johan stehet immer und weiset auff ihn mit Fingern / und lachet in busem. Gallichoræa gehet dieweil auff und nieder / immittelst kompt Pamphilus gangen / und hat das Hembd und Krausen / so ihm die Fraw geben / und das Kleid / so er gekauffet / an. Gallichoræa Sieh ist das nicht der jung Gesel / Deswegen ich mich itzo quel? Er ists vorwar / muß zu ihm gahn / Und ihn der sach halbn sprechen an. Johan spottet immer sein. (3. Akt, 2. Szene) Pamphilus thut im grosse Reuerentz / und erzeiget sich gar Demütig / und spricht: Spatzieret ihr hier / O mein Herr / Ich thu mich itzt bedancken sehr / Wegen beförderung und rath / Den mir der Herr mittheilet hat. Gallichoræa Nun seid ihr warlich hübsch und fein / Und trett ein wenig anders rein / Als gestern und in vorign tagn / Aber ich bitt / wolt mirs doch sagn / Wie stehn die sachen? wahrt ihr dar / Wie gestern unser abschied war. Pamphilus O Gott / solt ich nicht gewesen sein / Freylich kam ich zu ihr hinein / Denn was ich habe umb und an / Dasselb ich da verdienet han / Das Hembde thet mir die Fraw schenckn / Ihrer dabey lang zugedenckn / Sie gab mir auch Gelt mit hauffn / Dafür ich das Kleid hab thun kauffn. Johan lachet Gallichoræa Lieber erzehlet mirs doch fein / Wie kamet ihr ins Haus hienein? Pamphilus Als es war abend / gieng ich aus / Nam mein Pandor spielt für dem haus Das die Fraw hört / kam sie von stund / Mit mir zu sprechen sie begund / Und kam also zu ihr ins Haus / Spielt mit ihr dick dack / ein und aus / Und also bin ich dißmal zwar / Nochmals entkommen der gefahr. Gallichoræa Das muß ein verschmitztes Weib sein / Da köndt ich mich nicht schicken drein / Was habt ihr für abscheid genomn? Wolt ihr auch abends wieder komn. Pamphilus Ja ich hab ihr verheissen diß / Das ich wil kommen gar gewiß. Gallichoræa Das möget ihr dann wagen zwar / Aber seht euch für vor gefahr / Pamphilus Ich wil mich wol mit fleiß vorsehn / Das ich der gfahr möge entgehn / Habt gute weil / mein lieber Herr / Vor all Wolthat danck ich euch sehr. Gehet abe. Gallichoræa krawet sich hinter den Ohren / und schüttelt den Kopff. Nein / nun bin ich in zweiffels strickn / Kan mich in den Handel nicht schickn / Ich grabe andern ein Grüblein / Und falle endlich selber drein / Vermeinet ander zu betriegn / Muß selber im betrug netzliegn / Ach was sol ich nun fangen an / Kans gleichwol nicht ersitzen lan / Ich wil sie noch einmal probirn / Und auff ein ander weiß tentirn / Hab ich mit List nichts kund erfahrn / So muß ich stelln ein ander Garn / Ich wils versuchen mit gewalt / Hoff / es sol sich nun endern balt Es wird ihr gleichwol nicht das Glück / Allzeit scheinen mit breiten blick / Johan lauff hin / sag meinem Weib / Das sie flugs kom / nicht lang außbleib. Johan Bouset Ich salt bestelln / gaht ghy niet wit. Im weggehn sagt er: Schetzken gaht fort / et is nun tidt / Hertzken sieh ghy dat wol / ha ha / Ich moth lachen / ha ha / ha ha / Gallichoræa gehet stillschweigens auff und nieder krawet die Haar / und schüttelt den Kopff / immittelst kompt seine Fraw. Gallichoræa Liebs Weib / ich muß dir zeigen an / Das ich Bottschafft bekommen han. Und / welchs ich nicht gegleubet hett / Must schlaffen auff ihrs Mannes Bett / Aber es wehr zu letzte schier / Gar unglücklich ergangen mir. Gallichoræa Lieber mir solchs erzehlen thu / Wie gienge doch das immer zu? Johan lachet Pamphilus lachet und spricht: Das wil ich euch fein kürtzlich sagn / Was sich hat wunders zugetragn / Als ich vermeint / ich würd allein / Mit der Fraw des Nachts sicher sein / Da kam plötzlich der Frawen Man / Und pocht eilends an der Thür an. Johan lachet. Das hette sich nun die Fraw zwar / Vermutet nicht / war sicher gar / Denn er mit ihr abscheid genomn / Er wolt die Nacht nicht wieder komn / Als er abr klopfft und rieff im grim / Erkandt die Fraw ihn bey der stim. Johan lachet. Sie stellt sich aber / als wenn sie / Sein stimme hett erkennet nie / Flucht und schalt ihn ein Bösewicht / Ein Schelmen / er wehr ihr Man nicht / Das thet sie alles zu dem end / Damit sie mich verbergen könd / Darnach da sie mich verbarg fein / Gieng sie hin und ließ den Man ein / Empfieng ihn freundlich und mit sittn / Thet ihn / das er zu Bett gieng / bittn / Der gute Man der meinet zwar / Er hett das Spiel gewonnen gar / Kucket hin und wieder an alle ort / Fand aber niemand / ward bethört / Johan lachet. Gallichoræa Verzeihet mirs auff dieses mahl / Das ich euch in die rede fall / Wohin thet sie euch denn versteckn? An welchen ort / auff welche eckn? Und wie seid ihr der gfahr entgahn? Das euch nicht finden kund ihr Mann. Johan lachet. Pamphilus lachet / und spricht: Das wil ich euch sagen ohn sorgn / Sie hatte mich heimlich verborgn / Auffm Fensterladen / do der Kram / Und die Kauffwahren stehen beysam / Und wie er nun ein weil im Haus / Und Stellen suchet aus und aus / Da sprach ihn sein Fraw freundlich an / Ey wolt ihr nicht zu Bette gahn? Der liechte tag wil bald anbrechn / Thet ihn immer freundlich zusprechn / Nahm ihn bey der hand / thet ihn schleppn / Und führet ihn hin auff die Treppn / Sprach laut: Schetzgen geht fort / ist zeit. Johan Bouset lachet. Mit diesen Worttn / auff mich sie deut / Denn sie hats also abgeredt / Wenn sie nun also sprechen thet / Solt ich zum Laden springen aus / Und gehen wider ins Wirtshaus / Sie wolte dann nach list die sachn / Wol unuermercket weiter machn. Johan lachet. Und also bin ich itzt entrunn / Und auff dißmal die Beut gewunn / Gallichoræa Du magst traun wol von glücke sagn / Weil sichs so glücklich zugetragn / Wilt auffn abend wieder hingahn? Pamphilus Die Zusag hab ich ihr gethan / Drumb bin ich traun gentzlich bedacht / Zu ihr zukommen diese Nacht / Sie hat mir auch versprochen ebn / Ein stadlich verehrung zu gebn / Auch darneben zusag gethan / Ob gleich zu haus kehme ihr Man / Solt ich sie lassen rathn allein / Ich solte wol verborgen sein. Gallichoræa Hat sies aber nicht thun entdeckn / Wohin sie dich doch wolle steckn? Pamphilus Das hat sie mir noch nicht vertrawt / Sie wird dauon nicht ruffen laut / Ich gleub aber / sie werd die sachn / Wie gestern geschehn / wieder machn / Doch wirds geben die zeit und ort. Gallichoræa Wolan so wander immer fort / Und wage dein heil auff das best / Und halt deine zusagung fest / Und thu mir morgen wieder sagn / Was sich den abend werd zutragn. Pamphilus Es sol geschehn ich wil euch dann / Was sich verlauffen zeigen an. Gehet abe. (3. Akt, 3. Szene) Gallichoræa Ey das dich die Frantzosen schendn / Wer hat mich denn thun so verblendn? Bin ich denn zu unglück geborn? Ich hett wol ein Eyd drauff geschworn / Der Kerrel wehre gestern nicht / Im Hauß gewest wie er bericht. Johan lachet. Behüte trewer Gott wie ist / Die Welt so arg / vol trug und list / Wer hett sich doch dafür gehüt / Doch List nicht allzeit gelten thut / Was gilts? ich wils ihr treiben ein / Werd ihr einmal zu gschwinde sein / Ists ihr schon gelungen dißmal / So feilt ihrs wol ein ander mal / Ich wil nun wiedr zu hause gahn / Und mich durchaus nichts mercken lan Wil mich stellen / als müst ich fort / Verreisen heut an frembde ort / Wenn sie nun meint bey abend zeit / Das sie sicher beym Bulen leit / Und sey im Hause gar allein / So wil ich / wils Gott / bey ihr sein / Das schwer ich / als ein ehrlich Man / Sie sol mir dißmal nicht entgahn / Gehet abe. Johan Bouset Ha ha ha ha ha ha ha ha Ha ha ha ha ha ha ha ha O weh ickn hebb gelacht / dat mey / De Kopp und ock de Buick doth wey Ha ha ha ha des lach ick sehr / Jesus welck ein Sott is myn Her / He secht / ick sy ein Narr / vorwar Hei mach wol syn ein dubbelt Narr / Ha ha / ich lach my bald tho dodt / Jesus is dat niet Dohrheit grot? Dat hei ghat beuehln ein Jongman / In sin Huis tho dat Frow tho gahn. Und by ehr tho schlapen im Bett / Ha ha ha / dat en ick niet thet? Und hey meint sin Frow tho bedregn / Met list doith se hem fin begegn / Dat hey sick süluen nur bedrücht / Im Dreck beth ouer d ohren ligt / De grote Sott meint anders niet / Sin Frow sy ehrlick / fram van sitt / Als se hem niet wolt laten in / Son grote Sott sout ick niet sin / Ick sou alsbalt wal gedacht han / Dat syt darumb hette gethan / Dat se daß Jongman köndt versteckn / Und vexeiren den olden Geckn / Ha ha ha sind dat niet wunder sachn / Jesus / wo moth ick doch des lachn / Ha ha ha / wenn ick gedencke dit / Dat se sed / Schetzgen gath / tis tydt / Ha ha ha / min Her meinet wal / Dat he hem auends finden sal / By siner Frow / dat sou niet sin / Dann als bey weder kamet in / Sou se echter seggen de Wort / Min Schetzeken tis tid / gaht fort / Ha ha ha ha nun fahret wal / Tho huis ick van stund an gahn sal / Ha ha ha ha / wo fin lut dit / Schetzken gaht fort / et is nun tidt / Ha ha ha ha / potz veltens wundn / Min Her met sin Frow kompt van stundn By life ghy niet seggen mot / Dat ick hem belacht und bespott / Und gesecht hebb an dessen ort / Schetzken et is nun tid / gaht fort / Hey soud mey anders smeiten wol / Dann he is bereit up mey toll / Kreucht an der seiten hin damit ihn sein Herr so bald nicht sehen sol / und spricht gar sachte. Schetzken gaht fort / et is nun tidt / De Sott verstund den betrog niet. (3. Akt, 4. Szene) Gallichoræa Mein liebs Weib / weil ich gestern hab Mich von der Reiß lassn halten ab / So mus ich nun itzunder fort / Je lenger hie / je speter dort / Damit ich gleichwol meine Sach / Nicht selbst etwa verseumen mag / Mir ist zum höchsten dran gelegn / Wolan so wil ich dich gesegn / Sieh du dieweil wol zu im Haus / Biß ich die Geschefft gerichtet aus / Johan kom mit / ist mein beger / Johan Bouset Wat beliefft aw? segget min Her. Gallichoræa Du solt mit mir itzund ausgahn. Johan Bouset Wilt ghy Her auermal uthgahn / Vorwar so soud ein ander sin / In aw Huis auends kamen in. Scortum Ach lieber Man / Gott euch bewahr / Das euch kein schaden wiederfahr / Und Johan sieh du auch wol zu / Fleissig auffn Herren warten thu. Johan Bouset Ick sal wol tho sien / leue Frow. Diß nachfolgende mas er heimlich reden. Sieht ghy des auends ock wol tho / Wacht ock ulitig opt Jong Gesel / Dat auends by aw kamen wil / Und als wi thor nacht wedder komn / Und ghy uns hebben wol vernomn / So möth ghy echter spreken dit / Schetzken gaht fort / et is nun tid. Gallichoræa und Johan gehen abe. Scortum Ich weiß nicht / wie ich doch dran bin / Mit meim Man / ich zieh mir zu sin / Das ers nur auff versuchung thut / Aber ich hab ein guten muth / Und achte solches alles nicht / Wenn er mir gleich kehm auff die schicht Es sol ihm doch das nicht gelingn / Der Haß aus de Pusch wird wegspringn Ich wil nun wieder zu hause gahn / Ich hoff / es sol balt kommen an / Der Jung Gesell / so uber nacht / Mit mir im Bette helt die wacht. Gehet abe. (3. Akt, 5. Szene) Gallichoræa Johan kom / wolln zu hause gahn / Du must dich gar nichts mercken lahn / So bald ich ins Haus werd eingehn / Wil ich stracks nachm Kramladen sehn / Und wenn ich ihn schon finden thu / Wil ich ihm kein leid fügen zu / Denn ich hab ihm Glauben verheissn / Den wil ich auch trewlich beweissn / Aber die Fraw sols Glack bezahln. Johan Bouset Meint ghy Her / dat hey ock dithmaln / Sal wedder sitten up den Ladn / Und bringen sick süluest in schadn? Gallichoræa Das hoff ich / dann wo wolt sie ihn / Im Hause sonst verbergen hin? Kom nur mit mir eilend zu haus / Die sach wird sich wol weisen aus / Gehet nach dem Hause / klopffet an. (4. Akt, 1. Szene) Scortum Wer klopffet dann für meiner Thür? Gallichoræa Mach auff / mach auff / ich bin dafür / Scortum Sol ich auffmachn? wer bistu dann? Gallichoræa Bin Gallichoræa dein Man / Mach flugs auff / und steck an ein Liecht / Scortum Ey du bist warlich mein Man nicht / Mein Man der ist gereiset aus / Gallichoræa. Vorwar ich bins / kom wieder zu haus / Dann ich gestern verschlossen bin / Hab demnach müssen bleiben in / Und kam der Bürgermeister ebn / Und bat mich abends zum Wollebn Lieber kom rab / mach auff die Thür. Johan Bouset Frow maket up / myn Her is hier / Die Fraw kompt für die Thür / und kucket heraus / als sie nun siehet / das es ihr Mann ist / spricht sie: Scortum Jesus / seid ihrs mein lieber Man? Habt ihr so lang geklopffet an? Das hab ich vorwar nicht gewust / Dacht / es wehre sonst ein grober Wust / Ich bitt / halt mir es doch zu gut. Und mit mir inß Hauß gehen thut. Gehen miteinander hinein. Johan Bouset Schetzken gaht fort / et is nun tidt / Is jemands dar / de gha nur wiet. Als der Man eine weile im Hause gewesen ist / kompt er wieder heraus gegangen / und machet den Laden auswendig auff / und suchet / ob er vielleicht jemands finden köndte. Gallichoræa Ich kan hier warlich niemands findn / Kan denn der Kerrl plötzlich verschwindn Immittelst kömpt die Fraw und spricht. Scortum Jesus / liebr Man / was thut ihr machn? Das seind mir warlich seltzam sachn / Wie thut ihr so alls suchen aus? Meint ir / ich hab ein Buln im haus? Gallichoræa Das magstu wol gleuben forthin / Das ich der meinung gentzlich bin / Scortum Ja lieber Man / trawt ihr nicht mehr? Wenn ich sonsten nicht ehrlich wehr / So wold ichs euch wolmachn so kraus / Wenn ihr schon bey mir werht im haus Das ihr es doch nicht mercken solt. Gallichoræa Dasselb ich gerne sehen wolt / Wie woltestu denn thun den Sachn? Scortum Seht Herr / das wolt ich also machn / Helt ihm mit dem Mantel die Augen zu / und spricht: Mein Hertzigen seht ihr das wol? Pamphilus springt immittelst zur thür hinaus / und leufft dauon. Drumb lieber Man seid nicht so toll / Das ir euch wolt ziehen in den Sinn / Als ob ich auch leichter Haar bin / Kompt immer her / legt euch zur ruh / Schlafft biß ich euch auffwecken thu / Ihr habet die vergangne nacht / Auch mehrtheils schlaffloß zugebracht. Der Man gehet mit ihr hinein / und krawet sich hinter den Ohren. (4. Akt, 2. Szene) Gallichoræa Johan hastu nicht gestern gsehn / Den jungn Geseln im Hause stehn? Johan Bouset Ick en sal hem niet hebbn gesihn / Efft he was butten edder drin / Fragt awe Fraw / wat frag ghy mick / De soud beter weten als ick / Gallichoræa Das gleub ich selber wol Johan / Daran ist gar kein zweiffel an / Aber wenn ich sie schon thu fragn / So wird sies mir doch traun nicht sagn. Schweiget ein wenig stille / gehet auff und nieder / darnach spricht er. Es muß gleichwol der Teuffel sein / Der donner und plitz schlage drein / Sol ich denn nicht einmahl ertappn / Die Hure mit dem jungen Lappn. Itzund bin ich viel erger dran / Als vorhin / ich elender Man / Denn vorhin ich im zweiffel stund / Ob sie from wehr / aber itzund / Weiß ich gewiß / sie ist ein Hur / Kan doch nicht kommen auff die spür / Und weil ich sie auff frischer that / Nicht find / so weiß ich keinen rath / Ich darffs wedr ihr nochn Freunden sagn / Darzu keim einign Menschen klagn / Dann wann ich sie beschüldigen solt / An dem beweiß mirs mangeln wolt / Und meine Fraw wirds leugnen fest / Der Jung Gesell gleichfals auffs best / Und demselben hab ich vorher / Glauben zugsagt bey Trew und Ehr / Zu dem / wenn es solt kommen aus / Das ich ihn gewiesen hett ins haus / So wird mein lachen jederman / Werd spott zum grossen schaden han. Johan Bouset Vorwar min Her / als ghy verspott / Sout werden als ein grote Sott Dat sal aw niet schaden / dewiel Ghy sülffst verschoten hebbt de Pfiel / Denn dat aw Frow ein Hure is / Dat hebbt ghy sülffst gemarckt gewis / Dann gby hebbet dat Jonge Man / In aw Huis süluest heiten gahn. Gallichoræa Das sie zur Huren ist gemacht / Das habe ich nicht verursacht / Das ist sie wol gewesen ehr / Eh dieser Gsell ist kommen her / Ich hab ihn auch nicht hingewiesn / Darumb / wie du gern woltest schliessn / Sondern ich meint durch diesen Rath / Mein Fraw z ergreiffen auff der that / Und ihrn Meineid und Bulerey / Endlich an tag zubringen frey / Welcher Teuffel solt han gedacht / Das sies so listig hett gemacht / Und ihn ins Fenster solln versteckn / Johan Bouset Frawenlist kan niemand entdeckn / Ja min Here / dar weth ghy wol / Dat Frowns Person sind liste vol / Vorwar et was gar lecherlick / Ick lachet noch vaken und dick / Als dat Jongman aw sede dat / Dat awe Frow gesegget hat / Schetzken gaht fort / et is nun tidt / Gallichoræa Mir wars aber lecherlich nit / Nun hab ich gestern in dem Haus / Alle winckel gesuchet aus / Und wenn ein Maus hett solln darstahn Ich wolte sie gefunden han / Aber ich hab nichts finden kund / Dadurch mein Hertz ist gar verwundt / Derwegen ich gern wissen thet / Wohin sie ihn verborgen hett / Oder ob er nicht da gewesn / Oder wie sonsten stündt das wesn / Ich mus doch aus verlangen sehn / Ob er irgend möcht stehn oder gehn / Das ich von ihm kriege bericht / Ich kan sonst warlich ruhen nicht. Johan Bouset Siht dar / siht dar min leue Her / Dar kompt dat jonge Man schon her Und hefft ein ander nye Kleid an / Dat sou bey van aw Frowen han. (5. Akt, 2. Szene) Pamphilus. O lieber Herr / thut mich anschawn / Diß Kleid verdient ich von der Frawn / Zu der ihr mich habet gewiesn / Ich thu ihr warlich wol geniessn / Aber es hielte leiden hart / Meiner wehr halt ubel gewart / Denn der Man kam wieder zu hauß / Da wehrs balt ubel gangen aus. Gallichoræa Wie kams denn? was braucht ihr für grieff? Das er euch nicht im Haus ergrieff. Pamphilus Es gieng warlich wercklich zu / Welchs ich euch itzt erzehlen thu / Der Man als er zu Haus kam wiedr / Gieng er im Hause auff und niedr / Und suchte alle winckel aus / Ob er vor was gemercket im haus / Das kan ich warlich wissen nit / Aber er gieng im ersten Schrit / Nach dem Laden / und dacht ohn witzn / Der Buler würd da wieder sitzn / Denn er suchte / abr niemands fand / In dem kompt seine Fraw zu hand / Die mich untr ihren Rock thet steckn / So an der Wand hieng in der eckn / Und fragt / was er doch suchen thet / Ob er zu ihr mißtrawen hett / Als er nun zu reden anfieng / Er trawe ihr nicht allerding / Sprach sie zu ihm / O lieber Herr / Wenn ich wold leben in unehr / So wolte ichs verbergen wol / Das ihrs noch kein Mensch mercken sol / Als nun der arme Joseph wolt / Das sie ihm solches weisen solt / Da decket sie dem armen Tropff / Mit ihrem Mantel zu den Kopff / Und sprach: Hertzgen seht ihr das wol? Das verstundt nicht der Narre tol / Denn es war die Losung / darnach / Ich solt anstellen meine Sach / Wenn sie so sprech / solt ich zur Thür / Untr ihrm Rock wischen herfür / Von meinem Brudr / da muß ich hin / Werd heut nicht wieder kommen in / Sieh wol zu / weil ich bleibe aus. Scortum Wie balt kompt ihr denn widr zu haus? Damit ich nottürfftige Speiß / Bereit / wenn ihr kompt von der Reiß. Gallichoræa Eigentlich ich nicht wissen kan / Wenn ich möcht wider kommen an / Ich muß fort / habe gute nacht / Das Thor möcht werden zugemacht. Scortum Johan wart fleissig auff meim Herrn / Johan Bouset Et sal geschien / ick dou id gern. Gehet abe. Scortum Welch ein Gesel ist doch mein Man / Wie greifft ers doch so listig an / Wie gern wolt er mich fangen doch / Ja wenn der Fuchs hett nur ein Loch / Er meint / ich sey so alber nun / Sol sein Intent nicht mercken thun / Warumb er wieder zeucht von hinn / O nein so alber ich nicht bin / Ey wie werde ich mich verfehrn / Wenn ihr werdet wieder umbkehrn / Kompt nur / es hat euch schon zweymal / Gefeilt / feilt auch wol s dritte mal. Gehet abe. (5. Akt, 3. Szene) Gallichoræa Johan kom fort / ist mein beger / Gib mir die eine Fackel her / Die ander aber behalt du / Johan Bouset Wat sal dat syn min Her? wo nun? Wat wilt ghy mit der Fackel makn / Dat sind mey wunderlicke sakn. Gallichorea Ich wil Huren und Buben nun / Im Haus zusam verbrennen thun. Johan Bouset Wat wilt ghy makn? seit ghy doll? Seid ghy denn der Thorheit gantz voll? Ghy sout dat gantz Stadt stecken an / Gallichoræa Frag nichts darnach / mir leit nichts dran Kom du nur eilends mit mir her / Thu alls was ich von dir beger. Als sie vor das Hauß kommen / klopffet er mit gewalt an / und rufft gar laut. Gallichoræa Holla mach auff / wann wird es dann? Holla wiltu noch nicht auffstahn? Du hast mich lang gnung bey der Nasn / Herumb geführet / solsts nun wol lassn / Ich wil dich nun wieder bezaln / Oder der Teuffel müst dich holn / Laß sehn / hastu den Bulen auch / Versteckt noch eins nach altem brauch? Was gilts? ich wil ihn finden doch / Wenn er auch steck im Mauseloch / Darumb gedenck / gieb mir ihn raus / Oder ich wil ansteckn das haus. Die Fraw kompt gar geschwinde heraus gelauffen. Scortum Behüte Gott / mein lieber Man / Was wolt ihr doch nun fangen an? Das seind mir wunder seltzam sachn / Wolt ihr uns gar zu Bettlern machn? Und diese Stad bringen in noth / Ach wend es ab du trewer Gott. Gallichoræa Das bitten hilfft hie nichts dazu / Sag mir / wo der Bul stecken thu / Dann ich wil es wissen kurtzrund. Scortum Mein Herr ich sag mit wahren mund / Ich hab kein Buln im Hause mein / Wolt ihr aber ja so toll sein / Und das Haus im zorn stecken an / So wil ich doch gebeten han / Ihr wolt doch erst aus unserm Haus / Das Leinenzeug helffn tragen aus / Damit wir ja noch etwas han / Das wir hernacher ziehen an / Werdet ihr dann im Hauß / im Stall / Kammer / Keller / und uberall / Ein Bulen findn / so mögt ihr dann / Das Hauß nicht allein zünden an / Sondern auch mir / das sag ich frey / Ohn gnad den Halß schlagen entzwey. Gallichoræa Wolan so sag mir / wo ist das? Scortum Hier stehts im Hause in dem Faß / Und ist darzu noch ungewaschn / Wehr schad / das s brennen solt zu aschn. Gallichoræa Den Willen wil ich dir noch thun / Aber ein Eyd schwer ich dir nun / Find ich darnach jemands im Haus / So wirds uber dich gehen aus / Ich schwer nachmals beym Sackerleidn / Find ich ein / der nicht ist bescheidn / Wil ich euch beyd grewlicher massn / Tractiren / nicht erbitten lassn. Scortum Das bin ich wol zu frieden Herr / Begehr dann auch kein gnade mehr. Sie gehen ein / und der Man hilff: der Frawen das Zeug hinnaus tragen / als das geschehen / spricht er. Gallichoræa Nun wil ich wieder hienein gehn / Und mich im Hauß fleissig umbsehn / Gehet hinein / immittelst springet Pamphilus aus dem Faß heraus / in welchem er mit dem zeuge bedecket gewesen / und leufft davon. Adrian kompt immittelst darzu gelauffen im Schlaffpeltz / und leufft gar geschwinde nach dem Hause / rufft und spricht: Wie nun Nachtbar? wie nun? wie nun? Was habt ihr abermals zu thun? Wolt ihr nun ewer eigen Hauß Anstecken? was wil werden draus? Wolt ihr im grund verbrenn die Stadt? Last ab / last ab / das ist mein Rath Gehet abe. (6. Akt, 1. Szene) Johan Bouset ancket / und stellet sich an / als wann er gar verschrecket were. Och och ick hebb mey so verfehrt / Min Hert im Liff sick ummekehrt / Hey wil sin Huis ansteckn min Her / Und als sin Nabr niet kamen wehr / Soud heit vorwar hebben gethan / Hey is itzt gar ein thornig Man / Gehet bey das Faß / darinnen das zeug gelegen / und besiehets / fühlet daran / und befindt / das es leicht / und so viel nicht drin sey als vorhin. Well wat is dith? hefft hier jemand / Gestalen wat van dat Linwand? Wo ligt daß linen Tüeg also? Weth niet / wat ick sal seggn dartho / Wo kompt dat / dat Fat is so licht? Vorwar mey niet wal dabey dücht / Itzund kan ickt allein upbörn / Wo geit dat tho? waßt doch thouörn / So schwar / dat man sülff drüdde kum / Kand tragn / wo ist t so lichte nun? Schweiget eine weil stille / und leget das Zeug zu rechte / darnach spricht er: Ick sal nun wedder tho Huis gahn / Und sehn / wat min Her fanget an / Lathet aw dewil niet verlangn / Ick sal bald wedder kamen gangen. Gehet abe. Adrian Gott lob und danck / ich habe nun / Den Lermen gütlich stillen thun / Zu rechter zeit ich warlich kam / Eh das Spiel die uberhand nahm / Wehr ich nicht in der zeit gekomn / So hetts ein böses end genomn / Bey Gott / ich kenn den tollen Geckn / Er hett das Hauß dürffen ansteckn / Dardurch verbrenn die gantze Stadt / Gott lob / ders abgewendet hat. Schweiget eine weile stille. Mich sol doch wol gelüsten nun / Was er doch wunders hab zu thun / Das er nun diese Abend drey / Sich stellt / als ober rasend sey / Ich kans von ihm erfahren nicht / Er bringt allzeit für ein Gedicht / Ich lasse mich bedüncken trawn / S sey nicht richtig mit seiner Frawn / Ich muß sehn / ob ich morgen möcht / Antreffen Johan seinen Knecht / Ob ichs ihm köndte fragen ab / Itzund ich kein zeit dazu hab / (6. Akt, 2. Szene) Gallichoræa ist Melancholisch / krawet die Haar / und schüttelt den Kopff. Was wil ich doch nun fangen an? Ich habs ja gtroffen ich armer Man / Nun hab ich ubel erger gmacht? Das hett ich nimmermehr gedacht. Habens die Leut nicht gwust vorhin / Das ich ein armer Hanrey bin / So werden sies erfahren nun / Ach / ach / was sol ich immer thun? Schweiget ein weile stille. Pfuy dich. Schweiget noch ein wenig. Nun möcht ich gerne wissn / Wie sie mich abermal beschissn Wie sies dißmal mag habn gemacht / Hat ich doch drauff so fleissig acht / Sucht ich doch allenthalbn umbher / Hetts funden / wens ein Meußlein wehr Schweiget abermal. Johan gedenck von dieser sachn / Thu du mir nicht viel redens machn / Johan Bouset Icken sout niet seggen myn Her / Auerst vorwar ick förchte sehr / De Lüde soudent all bereit / Gemercket hebben / dat is mey leid / Als ghy dat Huis wilt stecken an / Datsülft niet heimlick bliefen kan. Gallichoræa schweiget stille / krawet die Haar / und schüttelt den Kopff / Immtttelst kommet seine Fraw gegangen. Gallichoræa Wer kömpt daher? Hörstu Jan Knecht. Johan Bouset Dat is aw Fraw / sihr ghy niet recht? Gallichoræa Was mag die lose Hure wolln / Das sie der Teuffel möchte holn / Oder das sie verschling die Erd / Sie ist keins ehrlichen Mannes werd / Johan geh du ein weil nach haus / Ich hab hier was zu richten aus. (6. Akt, 4. Szene) Gallichoræa gehet gar trawrig und seufftzet / Immittelst kompt Pamphilus gegangen. Pamphilus Gott grüsse euch mein guter Herr / Für all Gutthat danck ich euch sehr / Es ist nun mit mir hohe zeit / Das ich einmahl nehm mein abscheidt. Gallichoræa Wiltu dann nun also dauon? Pamphilus Ich hab nun weg den Buler lohn / Dißmal bleib ich nicht lenger hier / Gallichoræa Gefelts dann dir nicht mehr allhier? Pamphilus Auff dißmal nicht. Gallichoræa Warumme dann? Bistu gestern wieder hingahn? Pamphilus Ich bin freylich gewesen dar / Da war vorhanden groß gefahr / Ich mein der Man hett mir zu nacht / Bey einem Haar die Leuchte bracht. Gallichoræa Lieber wie gienge denn das zu? Bitt freundlich / michs berichten thu. Pamphilus Ach lieber Herr / wie solts zu gahn / Der toll Nar wolts Haus stecken an / Johan lachet uberlaut Und sagt zur Fraw / sie solt heraus / Den Bulen gebn / der wehr im Haus / Die Fraw / wie sie solchs hören thet / Nam sie bald alt leinen Gereth Warffs in ein Faß / verbarg mich drein / Das ich vor ihm kund sicher sein. Johan lachet. Lieff darnach gschwind heraus zum Man / Und sprach ihn gantz freundlichen an / Wenn er ja wolt ansteckn das Haus / Das er ihr erst hülff tragen aus / Das leinen Gereth in dem Faß / Der alte Geck der thete das / Und trug mich also selber raus / Und lieff flugs eilends wiedr ins Haus Als er nun wieder gieng hienein / Und suchte / wo der Bul möcht sein / Da sprang ich aus dem Faß geschwind / Wart nicht / biß er mich drinnen find. Johan lachet uberlaut. Gallichoræa Wiltu dann nicht mehr gehen hin? Pamphilus O nein / ich nun gewitzigt bin / An diesen ort kom ich nicht mehr / Ich danck euch aller Trew und Ehr / Ich bin nun dreymal da gewesn / Und hab der Frawn den Psaltr gelesn / Man muß allein für eine Thür / Nicht all zu offt kommen herfür / Habt gute weil / Gott euch nun spar / Frisch und gesund noch mannichs Jar Gehet abe. Gallichoræa O ich unglückseliger Man / Ach / ach / was sol ich fangen an / O das ich nie geboren wehr / Oder die Erd mich decket schwer / So dürfften doch die Leute nicht / Meiner spotten / wie nun geschicht / Johan Bouset Wat wilt ghy so in truwren leuen / Ghy möthet aw tho freden gewen / Ghy köndt et doch nun endern niet / Darumb min Her lat fahren dit / Sout ick mey derhalff so bedröfen / De Lüde möchten mey mar öfn / Vorwar et is gar lacherlick / Dat ghy dreymal so gar schendlick / Seit van aw Frow betrogen wordn / Und kamen in de Hanrey Ordn / Dat erste mal sang se ein Lied / Schetzken gaht fort / et is nun tyd / Dat ander mal mit listen voll / Sed se / Hertzken steht ghy dat wol? Dat is vorwar gar excellent / Auerst dat lest / dat ghy behendt / Hem sülueest hülpen tragen uth / Dat is dat best / t Final is gut. Johan lachet. Gallichoræa Es gehet mir itzt warlich auch / Wie jenner sagt / nach altem brauch / Wer schaden hat / und leidet noth / Der darff nicht sorgen vor den Spott. Johan Bouset Vorwar ghy moth aw niet bedröfen / Denn awe Nam (dhout mey dat glöuen) Bringt et mit sick / dat ghy forthin / Alltid ein Hanrey möthet sin. Gallichoræa Wie solte das mein Nam mitbringn? Du redst vorwar nerrisch von dingn / Das kan ich trawn verstehen nicht. Johan Bouset Ick sal aw dhon klaren bericht / Ghy hetet Gallichoræa Gallichoræa Es ist war / ja / Aber das weiß ick selbst vorhin / Meinstu / das ichß vergessen bin? Johan Bouset Wel / so möth ghy nun recht verstahn / Gallus dat het up Dütsch ein Han / Choræa ein Tantz / oder Rey / Als men tho hop sett disse twey / So heitet Hanrey / hört ghy wal? Und sieht Monseur Hanrey / ick sal Tho awen Namens bestercking / Vorehren die Hanfedder gering / Dat ghy se uth Hanreyen muth / Settet hen fort up awen Hut. Gibt ihm Hanfedern / er aber wil sie nicht nemen. Gallichoræa Ich gleub / du wilst mich noch darzu / Vor einen Narren halten nu. Seufftzet. Nun muß ich es befehlen Gott / Der wird wol rechen diesen spott / Dann mit Sanfftmuth und mit gedult / Muß man zu decken die unschult. Schweiget ein wenig stille. Siehe wer kompt doch dort heran? Johan Bouset Et is aw Naber Adrian. (6. Akt, 6. Szene) Adrian. Wie steht Nachtbar ewer sach: Ihr sehet wünderlich ins Glach / Das kompt dauon / wenn man die Nacht / Nicht thut ausschlaffen / sondern wacht Seufft sich beim Wein und Biere voll / Wütet und schwermt / als wehr man toll. Gallichoræa Ihr habt ja gut sagen darzu. Adrian Die warheit ich doch reden thu / Johan Bouset Tis war / Naber / et is gewiß / Dat min Here ein Hanrey is. Adrian Was sagstu das dein Herre sey? Ist er ein from Man und Hanrey? Johan Bouset Ein excellent Hanrey vorwar / Als in der Stadt noch geuer war / Bedes van Namen und van That / Twiefelt niet dran / glöuet mey dat / Gallichoræa het hey frey / Dat is up gut Dütsck ein Hanrey / Und van dat Nam is hey ock ein / Dat weth nun de gansse Gemein / Denn sine Frow hefft nun drey Nacht / By einem Jongman thogebracht / Adrian Herr Nachtbar seid ihr ein Hanrey / Johan Bouset Vorwar / et is ein grot Hanrey. Gallichoræa wird scheldig / unnd leufft hinweg / und sie ruffen alle beyde / Hanrey / Hanrey / und kreyen wie ein Han. Adrian Was sagstu liebr bekenn es frey / Ist denn dein Herre ein Hanrey? Johan Bouset Hey is ein Hanrey / Hör ghy nicht? Adrian Woher weistu dessen bericht? Johan Bouset Ick salt aw seggen gantz vertruet Hey hat sin Frow vorhen niet gtruet Und umb de warheit tho erfahrn Hat hey ein Gselln van jungen Jahrn In sin Huis sulft geschicket dar By sin Frow tho schlapen vorwar / Und dat is nun dusse drey nacht / Hinder einander wal vollbracht / Und hey vermeint dat jonge Man / By sine Frow tho trepen an / Und is dreymal von ehr schandlick / Betrogen worden / glöuet mick. Adrian Wie hat sie denn dasselb gemacht? Johan Bouset Ick salt aw seggen / geft drup acht / Dat erstmal had he dat jongman / Verborgn im Fenster laden stahn / Und als min Her socht / und nichts fand / Nam hem dat Frow fin by dat hand / Und förth hem bald tho bedd by siet / Und sprack: Schetzken gaht fort / tis tidt Und bey vermeint / se spreck hem an / Und se meinte dat Jonge Man / Mit dem hadd se affschied genamn / Als ehr Here tho Huis wehr kann / Und se spreck solck Wort tho dat Man / Dat he dann soude lopen gahn / Als dann des auends ock geschach / Des Bossens ick noch vaken lach. Thom andern mal als he by nacht / Tho huis kame / do schlickt hey sacht / Vor dat Fenster / und thet hen guckn / Wolt den Bulen upn Laden söckn / Und meint hey soud dar wedder sittn / De Frow kam sachte hergeschrittn / Und fraget hem / efft bey ihr niet / Truede / hey sprack / ick true dy niet / Do sede se / als se schon hett / Int huis ein Bulen in ihr Bett / Wolt se hem doch verbergen geschwind / Dat hey ihn soude nirgent findn / Und als hey solcks tho siehn begert / Do was sie dartho unverfehrt / Warp hem ein Mantel umb sin Kop / Und sede tho dem armen Tropff / Min Hertzigken sieht ghy dat wol? Ha ha ha ick lach mey halff toll / Als dat Jong Gsel nun hört de Wort? Welck sick im Winckel an eim ort / Int Frowen Rock hadde verborgn / Leep hey daruan ohn alle sorgn. Thom dritten mal kommet min Her / Tho Huis / und is vertörnet sehr / Und wil sick an ihn beiden wrekn / Und dat Huis overn Kop ansteckn / Wolt sine Frow bliuen bym Leuen / So soud se den Buln heruth geuen / Dat Frow hadd den Bolen int Fatt Int Tüg verborgn / und den Man batt / Als hey dat Huis verbarnen wolt / Dat he dat Fat uthdragen solt / De Sott sick licht bereden leth / Dat Bul uth sin Huis tragen thet / Als nun min Her int Huis gieng weddr / Und socht dat Bulen op und neddr / Do steg dar Bul uthm Fatt dewiel / Und leep dauan in voller Jel / Adrian Woher weistu denn das so fein? Das allzeit sol so gangen sein? Johan Bouset Dat hat süluest dat Jonge Man Mim Hern morgends bericht gethan Adrian Behüte Gott / ich sag vorwar Dein Herr muß ja gar sein ein Narr Wolt er den Bock zum Gärtner stelln? Zur Frawen schickn ein jungn Geselln? Hab ich doch nie an keinem ort Nerrischer ding warlich gehort Ich hab mich allzeit lahn bedünckn Es müst der hund an ein Bein hinckn Und es müst gwißlich etwas bratn Er wolt sich aber nicht verrathn Er hats niemals wolln offenbarn Wenn ichs nicht itzt von dir erfahrn. Aber sag mir / was wil er dann Mit seinem Weib nun fangen an? Johan Bouset Niet mit all / dann hey segget dat Wiel hey sie niet up opnbar that. Gefunden hadd wilt heit Gott klagn / Und dat spott mit gedult ertragn / Adrian. Ey ja das ist der rechte weg / Das er sich nicht da wieder leg / Nun ich muß wiederumb zu Haus / Ich hab nötig zu richten aus / Habt gyte weil in Gottes nam / Villeicht komn wir bald wider zusamn. Adrian gehet abe. Johan Bouset Ick sal nun gahn / und siehen tho / Wat min Gallichoræa dho / Up Dützsck Herr Hanrey / min Monseur / Auerst dort kompt hey effen her. (6. Akt, 7. Szene) Gallichoræa stellet sich / als wenn er toll ware / leufft / hüpfft und springt. Johan Bouset Wel wat is dat? is min Her toll? Odr hefft he sick gesapen voll. Gallichoræa kriegt Johan bey den Kopff / und tantzet mit ihm / nimpt die Hanfedern an / tauschet mit Kleidern / und stellet sich mit worten und geberden gar wünderlich und nerrisch / und spricht / Gallichoræa ist auff Deutsch ein Hanrey / und lacht selber drüber. Item die Wort: Schetzgen gehet fort es ist zeit. Hertzigen sehet ihr das wol: und als sie diese Wort gesagt / lachen sie zusamen. Endlich begeret er auch Spielleute / die muß in Johan holen / tantzen Marerina zusamen / und treiben allerley Bossen mit Geberden unnd Worten / wie solches die reit leiden wil. Immittelst wie sie so ein Fest zusamen haben / kömpt Adrian gegangen. (6. Akt, 8. Szene) Adrian Was mögen sie hie zu thun han? Gallichoræa leufft ihn an / nimpt ihn in die Arm / und tanzet mit ihm. Adrian zu Johan Bouset Johan wie sol ich das verstahn? Johan Bouset Ghy moth aw an hem keren niet / Hey is doll / als ghy süluen sieht / Vorwar mey is vor hem sehr leid / Dat hey sick süluen schaden deit. Adrian Was mag man denn für list erfindn? Wie wenn man in hett können bindn? Johan Bouset Welck Duifel wilt hem binden dhon / Hey is so starck / glick als Simson / Auerst ick weth ein betern Rath / Vor dat Rathhuis ein Kasten stath / Dar man pleget tho setten in / De Lüde / de dar dolle syn / De wil ich hertrecken / und fin / Vors erste süluen krupen in / Und als hey mey folget de stratn / Soud ick thomackn / und hem drinn latn. Adrian Das ist gut / gehe nur flugs hin / Sieh das du hieher bringest ihn / Er steht auff Rollen / das man kan Ihn fortschiebn / wo man ihn wil han / Ich wil dieweile bey ihm bleibn / Und wil mit spieln die zeit vertreibn. Adrian tantzet und springet / das thut ihm Gallichoræa alles nach. Johan kompt endlich mit dem Kasten / und saget zu Gallichoræa. Sieht ick sal aw ein schön Kortwiel / Wiesen / folget mey na in yel. Johan kreucht dreymal durch den Kasten hindurch / und Gallichoræa hinter ihm her / und als er zum dritten mahl hindurch wil / machen sie den Kasten zu / das er drinnen bleibet sitzen / Er schreiet aber / und brüllet heßlich / und wil den Kasten zu brechen. Adrian Johan kom / wil die helffen fein / Und ihn in sein Hauß trecken ein. Trecken ihn hinweg / und er rufft greßlick / Immittelst kompt seine Fraw / wie er dieselbe siehet / schreiet er: Gallichoræa Du böse hur / hur / hur / hur / hur / Du Ertzhur / hur / hur / hur / hur / hur. Führen ihn ins Haus / Johan aber bleibet heraussen / unnd spricht mit Scorto. (6. Akt, 9. Szene) Scortum Johan was ist doch hier zu thun / Was ist für ein gerüchte nun? Johan Bouset Aw Man sitt in dat Dorenkist / De ropt he is gar doll thor frist / Wy hebben hem darin gebracht / Niet bößlick / sondern wal bedacht / Dat hey hem niet soud schaden dhon / Und wy hedden dann spot unnd Hohn. Scortum Ist mein Man toll? Was sagstu mir? Johan Bouset Vorwar hey is toll worden hier. Scortum Woran ist er denn worden toll? Johan Bouset Dat soude ick aw seggen wol / Ghy sout hem toll gemaket hebbn / Dewiel ghy föhrt ein Hurenlebn. Johan gehet abe. (6. Akt, 10. Szene)",
+        "original_link": "http://dx.doi.org/10.25673/opendata2-22877",
+        "abschnitt_segmentiert": [
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWel min Here seid ghy alhier? Hebb aw gesocht mit grot begier / Trett ghy die Schuens hier entwey / Und hebbt ed niet gesegget mey / Wel alset aw belyffte is / Sout ghy van stund an kamen thot huis Denn het iß effen ethens tydt."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nIch hab kein lust zu essen niet."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWatn mangelt aw denn / seyd ghy kranck?"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nIch weiß selbst nicht / ob ich bin kranck / Oder was mir sonst mangeln mag."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWel myn Here / vorwar ick sag / Ghy hebbet gefastet all tholang / Dat maket aw im Bouck so bang / Und het sal niet gut syn noch gsund / Als men fastet so vele stund."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nEy was magst mich mittn Essen plagn? Dazu ich keine lust thu tragn / Ich hab kein Hunger noch begier / Wenn dir also were wie mir / Der Appetit solt dir vergahn / Solst keine lust zu essen han."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWat aw mangelt / dat wet ick nit / Ick auerst hebb gut Appetit Tho freten / Ey vorwar myn Her / Kamt doch tho hues / is myn begehr / Dann awe Frow wachtet up aw."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nWas sagestu / wart meine Fraw? Seufftzet gar tieff."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nSeggt / warumb sicher ghy doch so? Seid ghy denn der Rede niet fro? Hebbt ghy aw Frowen niet mehr lieff?"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDas geht mir offt zu Hertzen tieff / Das ich muß zweiffeln / ob sie mich Liebe von hertzen stetiglich."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWel myn Her / wat dho gy seggn? Sal awe Fraw aw niet leeff hebbn? Schlöpt se doch alle Nacht bey aw /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nWenn sie nur wehr allein mein Fraw /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWel wat seggt ghy? twieffel ghy dran? Schlapt aw Fraw by ein andern Man?"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nMir ist leid dafür / sag ich traun /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nSal dat wol awe Frowe daun: Dat sal ick niet wal glöuen könn Wel Her / hebbt ghyt gestehen denn?"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nWenn ich gesehen hette diß / So sage ich dir vor gewiß / Der Teuffel solt ihr ein Hembde nehn /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nSal dat Tüfel wal können nehn? Ick möcht dat Himbd nietn trecken an Dat de Tüfels geneyet han."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDu Narr weist viel was du thust sagn / Ich gleub du wilst mich auch noch plagn / Und meiner darzu spotten nur / Wolt Gott / das ichs gewiß erführ / Ich wolt die mittel nehmn zu hand / Das sie drob würd zu spott und schand / Krigts lohn und urtheil der unehrn Das wolt ich ihr ein Eid trawn schwern."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nJa meine ghy et so myn Her. Datn heb ick niet verstahn thouör / Auerst ick bidd / dhout my doch seggn / Als ein Man bey am Frow thet leggn / Und ghy by ehr findet dat Man Wat sout ghy damit fangen an?"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa.\nDas solte er alß dann wol sehn / Entweder er müst mir entgehn / Oder must vor meinen henden sterbn / Kein gnad solt er bey mir erwerbn."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nAls ghy mey auerst by aw Fraw / Werd finden up dem Venusthaw / Soude ick ock dann möthen steruen / Is gene gnade tho erweruen."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nNein traun / so du es nur wirst wagn / So wil ich dir es itzt zusagn / Wenn ich dich schon bey ihr im Schoß / Im Bette sind nackend und bloß / Wil ich dir dennoch thun kein leid / Drumb folge nur unserm abscheid / Und leg dich nur ins Bett zu ihr / Schertz mit ihr nach hertzen begier / Wo du dem Anschlag thust nachlebn / Wil ich dir ein verehrung gebn."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset.\nWel myn Her vor dat vorehring / Dho mey bedancken allerding / Mey dücht vorwar up myne Seel / T vorehring soud niet dougen veel."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nNein trawn auff Glauben thu ich schwern / Ich wil dir was gutes verehrn."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWel myn Her / wat is dat tho seggn / Sal ick mey tho aw Frowe leggn / Wil ghy sey dann thor Huren makn Mothwillig / dat sind seltzam sakn."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nIch wolt sie nicht gern dazu machn / Denn das wehren unrichtig sachn / Aber ich fürcht / sie hab sich schon / Selber zur Huren machen thun."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nHebbt ghy doch itz tho my dohn seggn / Ickn sal mey ins Bedd by ehr leggn / Und ghy wilt mey doch wat verehrn / Und vast tho halten ein Eyd schwern."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa.\nDas sag ich noch das ichs thun wil / Doch in geheim / und in der still / Nur darumb / das ich mich erkund / Wie die sache in warheit stünd"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nNien ich bedancke mey min Her / Dat byschlapn ick en niet beger / Ghy möget ein andern Man kriegn / De by aw schon Jongfrow doit liegn Ickn soud et niet begern vorwar / Dat ick niet thot dat Tüifel fahr Denn ick hebb hören seggn de Papn / Dat de by andern Frowens schlapn / Und brecken mothwillig de Ehe / In Himmel kamen nimmermeh."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa.\nIch wolt gleichwol gar gern den grund / Erforschen / wie die Sache stünd / Aber gedenck und schweige still / Sag niemands nichts / sey wer es wil / Kom ich wil itzt zu Hause gahn."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nNien Herr / ghy soud niet twieffeln dran Ick en soud vorwar nemandt seggn / Dat ick mey tho aw Frow sal leggn Auerst min Her / kompt thot huis balt Dat ethen sou süst werden kalt / Ghy darfft aw drumb bedrüffen niet / T is betr / dat ghy ein Hanrey syt / Als wann ghy ein Ehbreker wehrt / Und in dat Himmel niet in kerht / Denn ein Ehbreker mach nietkamn / In dat Himmelrick tho den framn. Auerst dat gedültig Hanrey / Mag in dat Himmel kamen frey."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichor. seufftzet gar tieff / krawet sich hinter den Ohren / und gehen beyde abe."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(1. Akt, 2. Szene)\n"
+          },
+
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nJa vorwar / als ick gewolt hedd / Und mey gelegt thot Frow int Bedd / Soud ick ein stadtlick vorehring / Van dat Bulschafften dohn wegbringn Auerst mey ducht / soud ick sou Narr / Gewest syn / dat ick gahn wehr dar Und myn Herr mey so funden hedd / By syn schon Frowkens ob ehr Bedd / Soud hey mey ein vorehring geuen / Mit einem Knöffelspet gar euen / Ick sal auerst van meynem Herrn / Ein solck vorehring niet begern / Süst soude mey dat Frow alßbalt / Leiff bekamen dorch Venus gwalt Als ick mit ehr bekantniß makn / Und soud thoriten ein par Lakn / Dewyl ick so ein schon Man bin / Wal Proportioniret syn / Ick sal nu thot huis gahn thor stund / Und arbeit schaffen mynem Mund / Dat sou beter syn / gwiß ick weth / Als tvorehring metm Knöffelspet.\n(1. Akt, 3. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nZeit und weil ist mir worden lang / Im hertzen war mir angst und bang / Eh ich bin kommen aus dem Hauß / Ich mus ein wenig gehen aus / Auffm Marckt spatziren her und hin / Denn wenn ich in dem Hause bin / Seh ich nichts anders denn Hertzleid / Unlust / Sorge / Trübseligkeit. Gehet ein weil stillschweigens auff und nieder. Siehe wer mag doch jennr sein / Der stracks Fusses gehet herein. Und kompt immer neher zu mir / Und was mag sein / sein will und bgier?\nPamphilus thut ihm Reuerentz / und erzelget sich gar demütig gegen ihm.\nGallichoræa\nWoher guter Gesell? woher?\nPamphilus.\nIch bitt gantz freundlich / der Herr Woll mir es nicht für ubel deutn / Das ich ihn ansprech bey den Leutn / Ich bin ein gut Gesel / und hab Auff der Reiß gar gezehret ab / Das ich nicht hab ein Pfenning mehr / Und geh auch gar zurissen her / Ich hab zwar zu Hauß gute Freund / Dieselben aber zu weit seind / Bitte demnach gantz freundlich nun / Der Herr wolle doch an mir thun / Die Wercke der Barmhertzigkeit / Und mir verhelffen zu eim Kleid / Und mir ein Zehrpfenning vorehrn / Das ich fort kom mit Gott und ehrn / Und mich wieder zun Leutn geb / Das ich nach Kunst und Tugend streb / Denn weil ich bin so gar zurissn / Hab ich mich der Leut eussern müssn."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nVorwar als aw Fründ sind niet betr / Als awe kale lausicht Kledr / So möthet sie niet veel werth syn."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDas kompt mir gar seltzam zu sinn / Du bist ein feines junges Blut / Frisch und gesund von freyen muth / Ich seh dich warlich dafür an / Du solst ohn zweiffel gnade han / Im Frawenzimmer bey den Frawn / Die solten dich lieblich anschawn / Hier in der Stadt ist manch Madonn / Die mit dir hette frewd und Wonn / Mit denen kanstu Kundschafft machn So würd geraten deinen sachn / Da wirstu Gelt und Kleider gut / Bekommen neben guten muth."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nVorwar ghy seid ein feiner Man / By de schonen Jungfrowen tho gahn / Ghy sind gar wol gekleidt dartho / Dat de Frowens awr werden fro."
+          },
+          {
+            "typ": "kontext",
+            "text": "Pamphilus\nJa guter Freund / ich weiß die zeit / Da ich auch lebt in lust und frewd / Und war bey Jungfrawn lieb und werth. Aber das glück hat sich verkehrt / Wenn sie mich itzund schawen gehn / Würdn sie im weg mich nicht ansehn / Zu dem bin ich in Stadt und Land / Vor nie gewest / und unbekand.\nGallichoræa\nWenn du wilt folgen meinem Rath So sol sich bald wenden das Blat / Ich wil dir vom anschlage sagn / Der sol dir Gelt und Kleider tragn / Und sol dir auch im Venusspiel / Lust geben nach deins Hertzen will /\nPamphilus\nIch wil den anschlag hören gern / Wo fern ich kan folgen dem Herrn / Wöll ich allen fleiß wenden an / Es sol an mir kein mangel han.\nGallichoræa\nSieh dort / eben in jenem Haus / Da der Lewe thut hangen aus / Ist ein außbündig schönes Weib / Vom jungen und geraden Leib / Dieselb kan sich gar freundlich stelln / Und redt gern mit jungen Geselln / Zu derselben verfüge dich / Mach kundschafft mit ihr sicherlich / Ich wil dirs unerlogen sagn / Du wirst bey ihr kein blossen schlagn / Sondern neben der Lust und Frewd / Wirstu bekommen Geld und Kleid / Und damit du möchst desto eher / Solchs verrichten nach meiner lehr / So nim da Gelt zum newen Kleid / Schaff das dirs eilend werd bereit / Und putze dich fein wacker rauß / Und gehe darnach in das Hauß / Halt abred / und verrichts mit fleiß / So wirst erlangen Gelt und Preiß.\nPamphilus\nGroßgünstig Herr / vor diesen Rath / Sag ich euch danck beyd frü und spat / Wenns auch nur abgieng ohn gefahr.\nGallichoræa\nEs hat kein gfar / sag ich vorwar / Die Fraw ist aller listen voll / Wird dir dann ferner rathen wol / Wie du dich haltest in den Sachn / Wenn du wirst mit ihr Kundschafft machn / Aber du must bey leib mit nichtn / Keim Menschn unter der Son berichtn Auch der Frawen selbst nicht verrathn / Das dirs von andern sey gerathn / Sondern du must dich also schickn / Als kemstu selbst aus freyen stückn.\nPamphilus.\nWolan ich wags auff gerad wol / Ich habs wol eh gemacht so toll.\nGallichoræa\nWenn wiltu aber gehen hin?\nPamphilus\nSo bald ich ausgeputzet bin / Und wo ich fertig werden kan / Wil ich heut abends noch hingahn / Und wil ein Pandor nehmen mit / Und spielen nach Studenten sitt / Ist dann dieselb Fraw guter haar / Versitzt sies nicht / weiß ich fürwar / Sondern sie steht zum Fenster raus / Oder tritt in die Thür des Haus / Denn das sind die Lockvogel recht / Damit man lockt Venus geschlecht / Und wann ichs so weit hab gebracht / So ist ein gut anfang gemacht / So wil ich dann hernach den sachn / Wol rathen / und es weiter machn /\nGallichoræa\nEy lieber thu es also wagn. Und thu mirs morgen wieder sagn / Wie dirs doch da ergangen sey.\nPamphilus\nEs sol geschehen das sag ich frey / Thu mich auch itzt bedancken sehr / Vor diesen Rath und groß verehr. Hört aber lieber Herre mein / Wird auch ihr Man zu Hause sein?\nGallichoræa\nItzunder ist er nicht zu Haus / Wird auch wol abends bleiben aus.\nPamphilus\nSo ist es gut / habt gute weil / Ich wil frisch versuchen mein heil. Gehet abe."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(2. Akt, 2. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nNun habe ich bestellet die Hitz / Meiner Frawen / das sie drin schwitz Was solls gelten die Huren schlappn / Wil ich einmal mit list betrappn /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nVorwar ghy hebbt bestellt gar wol / Dat aw Frow ein Hur werden sal / Offt se schon vorher fram gewesn."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nEin Hur ist sie schon lang gewesn / Wiewol ichs nicht gewust gewiß / Abr nun wil ich erfahren diß / Wann sie noch eins so listig wehr."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nT sal niet geschien / vorwar min Her / Ghy werdet aw süluest betriegn / Und eine Thoren Kappe kriegn /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nWas sagstu? solt das nicht geschehn? Sol der jung Gsell nicht dahin gehn?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nMin Her / dar twiefel ich niet an / Daß dat jung Gsel sal darhen gahn / So twiesel ick ock niet dorchuth / Dat awe Frow et gerne dhout Auerst ghy werdet sehn min Her / Ghy erfahrent doch nimmermehr /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDas müst der Teuffel geben / wenn ich / Nicht kommen solt hinder die schlich / Denn ich weis ja gewiß vorwar / Das er heute wird kommen dar / So wil ich der Frawn machen weiß / Als ob ich geschefft halbn verreiß / Und wil des Abends unversehn / Eh sie sich mein versicht heimgehn / Was solls geltn / ich ertapp sie dann /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nVorwar ghy sout gar beschamt stahn."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDu weist viel / was du sagest nun / Ich wolt eine wett drauff thun / Und solts auch hundert Thaler geltn / Oder auff ehrloß Schelmen scheltn / Es sol mir bißmal feilen nicht / Ich wil ihr kommen auff die schicht."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIckn sal mit aw ein Wedd anschlagn / Hundert Thaler wil ich dran wagn / Dat Frow sal aw sin veel tho schlu."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nMit dir ich nichts verwetten thun / Woher woltstu doch so viel Gelt / Hundert Thalr kriegen in der Welt? Geh du nur hin / laß sorgen mich / Ich wils wol machen ohne dich / Und sage meiner Fraw itzund / Das sie hieher kom zu der stund / Gedencke auch und schweige still / Sag nichts dauon / das ist mein will."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIckn soud bestellen.\nGehet abe / kompt aber bald wieder / und saget:\nHört doch Her. Sal ick seggn / et sy aw beger / Dat aw Frow by aw kamen sol."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nWas fragstu viel? du hörsts ja wol."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nHieher up dat Platz?"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nIch habs zwar / Dir Teutsch genug gesagt du Narr. Wenn du es sonsten woltst verstahn /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nJa Her / ickn bin ein Englisch Man / Ickn sou dat Düdsch Sprack niet vernehmn."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDu kanst den Teuffel nicht vernehmn /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset.\nWel ick sal / segg ick ohne twieffl / Niet hebben spreken ghört dat Düffl /\nJohan gehet hinweg / kompt aber bald wieder / und spricht:\nSegget mey / sal ick aw Frow seggn / Dat d' Jongman sal aw stadt verheggn Und dat ghy hem sülffst in aw Huis / Gewiesen hebbt"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDas dich die druß Besteh / ich gleub du wolst mein spottn / Hab ich dirs doch gar hart verboten / Das du es ihr solst sagen nicht / Geh hin / und das jenig verricht / Was ich dir hab befohln für sachn / Oder ich wil dir Füsse machn /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nDat behofft gy Her niet tho dhon / Twey Föte die en hebb ick schon.\nGehet abe."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa gehet stillschweigens auff und nieder / darnach spricht er:\nEs ist ein alt und war Sprichwort / Das hab ich offt und viel gehort / Der Krug zu Wasser geht so lang / Biß er endlich auff stücken sprang / Ich hoff das Sprichwort werd ein mahl / Auch war werden an meim Gemahl / Sih dorte kompt sie her bereit / Ich wil von ihr nehmen abscheid / Und wil ihr vorbringen ein Tand / Als wolt ich reisen uber Land / Und werd ein zeitlang bleiben aus / Von abend nicht kommen zu Haus / Aber wenn sie sicher wird sein / Wil ich unuersehns kommen ein."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(2. Akt, 3. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nLiebes Weib habe gute weil / Ich muß verreisen in der eil / Werd heut nicht wider kommen an.\nScortum\nWo wolt ihr dann hin lieber Man? Es ist ja auff den abend spat / Da es zu reisen nicht ist rath / Ihr köndt ja heut nicht wieder komn / Wenn ihrs morgen hett fürgenomm / Deucht mich wer warlich besser sein / Bey Nacht zu reisen bringt offt pein.\nGallichoræa\nEs ist Monschein / es hat kein noth / Mein Gleitsman ist der liebe Gott / Ich mus mich machen auff die bahn / Mir ist gar hoch gelegen dran / Ade gut weil ich mus nun gahn / Der liebe abend dringt heran / Ich hab hoch zeit / das sihest du / Man wird das Thor bald schliessen zu.\nScortum\nSo habt gute Nacht lieber Man / Der lieb Gott sey ewer Gleitsman.\nScortum gehet abe\nGallichoræa\nJohan mit mir / ich wil mich So lang vorbergen gantz heimlich In einem Haus / bis es wird nacht / Als denn hab ich bey mir bedacht / Wieder zu haus zu gehen leiß / Eh dann mein Fraw was dauon weiß."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIck verstad gar wal by Sanct Mergn / Ghy seggt / ghy wilt aw itzt verbergn / In dat Huis / bett dat et wert nacht / Alßdann wilt ghy tho Huiß gahn sacht / Dat is ein gut Rathschlag vorwar / Ickn hebb et niet gemeinet twar Dat ghy soud so verstendig sin."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa.\nIch hab solchs lang in meinem Sinn / Mit allem fleiß gar wol bedacht / Was gilts? es geht an diese Nacht /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset.\nWel Her / ickn twiefel niet daran / At sal gar wol de nacht angahn / Dat awe Frow ein Hure werd"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDas schadt nicht / ihr seind mehr auff erd Aber es wird diß meiner Frawn / Auch sehr ubel bekommen trawn / Wenn ich komme und sie so sind / Wie wir beyde eins worden sind."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nUmb wat tidt wilt ghy dann dargahn /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDas wil ich ja wol in acht han / Ich wil die rechte zeit wol treffn / Sie sol mich hinfort nicht mehr essn /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nHebt ghy dann ein abscheid genomn / Up welcke tidt ghy dar wilt komn? Wann aw Frow und dat Jongeman / Aw by dat nacht sollen inlahn."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa.\nWas bistu doch ein grosser Thor / Das kanstu selbst dencken zuuor / Das ich ihn das nicht werd weiß machn In solchen gantz geheimen sachn / Wenn ich zu Hause kommen woll / Ich wil doch die zeit treffen wol."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nMey dücht / et wert aw feiln vorwar / Und als ghy werd inkamen dar / Sal dat Jongman schon sin daruon /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDer Kerrl gleichwol nicht fliegen kan / Ich hab zwey Augen / bin nicht blind / Wil wol sehen / wo ich ihn find / Du weist viel was du sagst du Narr / Kom laß uns gehn / nicht lenger harr."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWat seggt ghy? schelt ghy mey ein Hasn? Ey thiet aw süluest by dat Nasn / Ghy sout wol syn so ein grot Narr / Als ick mag syn / weth ick vorwar / Denn als ick solck ein schon Frow hedd / Schiekt ick kein Jongman in ehr Bedd / Dat he in ihren arm soud schlapn / Als ghy / drumb seid ghy ein grot Apn.\nWeiset ihn mit fingern an / und gehen beyde abe.\n(2. Akt, 4. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nJohan kom es ist nun recht zeit / Von Mitternacht ist es nicht weit / Ich wil heimgehn / und sehen frey / Ob dann mein Gast vorhanden sey."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nMeint ghy dat Gast / dat awer Fraw / Soud Spulen scheiten up er thaw / Se thor Hurn / aw thot Hanrey makn / Dat sind vorwar lecherlick sakn."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDu Narr schweig still / was plapperstu / Ich sage dir / halt das maul zu. Gehet stillschweigend nach dem Hause / und Johan / so hinter im hergehet / wie er an das Haus kömpt / pocht er an / und rufft laut.\nGallichoræa\nHolla / Fraw mache auff / holla.\nScortum\nWer ruffet denn? wer ist denn da?\nGallichoræa\nMach auff / hörstu / ich bins dein Man.\nScortum\nDasselbe ich nicht gleuben kan / Du magst ein Schelm und Bößwicht sein / Dich laß ich warlich heint nicht ein / Mein Man / do er heut reiset aus / Sagt / er kehm heut nicht wiedr zu haus.\nGallichoræa\nEy lieber mach doch auff / holla Bin dein Man Gallichoræa, Dann eben da ich wolt von hier / Kam mein Nachbar untrm thor zu mir / Bat so fleissig / das ich zur lust / Mit ihm in Weinkellr gehen must / Wie ich dann auff sein bitt gethan / Und hab die Reise unterlahn."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nFrow vorwar et is min Here / Glöue ghy mick denn niet mehre? Mackt up / myn Her wil dat Jongman / So hey in syn huis heiten gahn / Tractiren."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nSchweig du loser Tropf / Oder zuschlag dir deinen Kopff / Wer hat dir Narren das befohln / Das du das itzt hast sagen solln?\nScortum\nJohan Bouset bistu fürdr Thür?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nJa mine Frow / ick en bin hier / Is dat Jong Gsel by aw ock dar?"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nSchweig das dich Gott plage / du Narr.\nScortum\nSo mag ichs gleubn / es sey mein Herr / Weil ich dich selber sprechen hör / Aber sonst hett ichs gleubet nicht / Harret / ich wil anzünden ein Liecht / Bald kommen / und euch lassen ein / Last euch die zeit nicht lange sein"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIckn sal mehr Louen hebbn als ghy / By awe Frow / dat glöuet my / Nun hört ghy wol / myn leuer Her / Dat aw Frow tracht na Tucht und Ehr / Dann se wilt genen frömbden Man / Inlaten / he moth butten stahn.\nWeiset ihn mit Fingern an / "
+          },
+          {
+            "typ": "kontext",
+            "text": "die Fraw machet die Thür auff / und spricht:\nScortum\nJesus / lieber Man / seid ihr hier / Das hette nicht getreumet mir / Das ihr es wehrt / das dacht ich nicht / Ich meint / es wehr ein Bösewicht / Der sich auff euch beruffen hett / Darumb ich nicht auffmachen thet / Dann ich weiß wol / das mir durchaus / Wenn ihr nicht selber seid zu haus / Nicht wil gebühren frembde Leut / Ein zu lassen bey nachts zeit / Aber ich bitt / kompt doch herein / Legt euch ein weil ins bett hienein / Schlafft aus die Sorg / und trawret nicht / Es wird in zwo stundn noch nicht licht. Pamphilus springt zum Fenster hinaus / leufft geschwind davon / und spricht: Das dich pot Chrisam schenden muß / Er war mir gar hart auff dem Fuß / Und hett nicht neher dürffen komn / Er hett mich bald sollen bekomn / Für mein Person wust ich kein rath / Aber die Fraw das beste that / Ich wil nun wieder gehn behend / In mein Herberg und Losament / Mich ein wenig legen zur rhu / Das ich wieder ausschlaffen thu / Denn die Fraw bath mich offt und sehr / Das ich solt wieder kommen her / Morgen abends / so solt ich dann / Von ihr eine vorehrung han / Und wann schon ihr Man abermal / Bey Nacht thet einen uberfall / So wolt sie doch mein Bürge sein / Vor allen schaden / noth / und pein / Zur Dancksagung thet sie mir schenckn / Ihrer in Liebe zugedenckn / Das Hembd / den Kragen / und das Gelt / Welches sie mir gab ungezelt / Und sagt ich solt mich dafür kleidn / Und ja nicht balde von ihr scheidn / Drumb wil ich hin zum Schneider gahn / Und mir ein new Kleid machen lahn / Des abends anziehn ihr zu ehrn / Und mich darinnen presentirn.\nGehet abe."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(2. Akt, 8. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Adrian\nGott grüß euch was wolt ihr hie schaffn? Habt ihr uber nacht wol geschlaffn?\nGalliechoræa\nSo zimlich.\nAdrian\nIhr seht dunckel aus / Wie kampt ihrs nachts so spet zuhauß?\nGallichoræa.\nWie fragt ihr so? das wundert mich.\nAdrian\nWarumb solte nicht fragen ich? Ich bin an euch solches ungewohnt / Das ihr so spet zu Hause komt / Ihr hatt ein solch wesen zu nacht / Vor ewren Haus / das ich traun dacht / Ihr wolt es ubern hauffen schmeissn / Oder es aus dem grunde reissn.\nGallichoræa\nIch war mit guten Freundn zur Zech / Ließ mich auffhalten ihr Gesprech / Da ich nun heimgieng / und wolt ruhn / Wolt mir die Fraw nit flugs auffthun.\nAdrian\nLieber wo habt ihr denn gezecht /\nGallichoræa\nIm Weinkeller bey Engelbrecht.\nAdrian\nWo denckt ihr denn itzund hinaus?\nGallichoræa\nIch muß den Rausch wieder gehn aus.\nAdrian\nDas thut so wil ich auch heimgahn / Da ich genungsam zu thun han.\nImmittelst kompt Johan Bouset / Hoyanet / und reibet die Augen / rencket sich / als wenn er noch gar schlefferig were.\nAdrian\nSieh doch / wer ist der / der da steht?\nGallichoræa\nEs ist mein Haußknecht Jan Bouset.\nAdrian\nEs scheint / als hett er viel gesoffn / Und diese Nacht nicht ausgeschlaffn / Ich mus ihn doch ruffen zu mir.\nGallichoræa\nWas sol der Narr? was dencket ihr? Wenn ihr ihn gleich was werdet fragn / Thut er euch verkehrt antwort sagn.\nAdrian\nEs schadet nicht / Johan Bouset.\nGallichoræa\nDas dich der Teuffel wegführen thet."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset sicht sich umb / und spricht:\nIckn sieh nenen Düifel hier stahn / Ick kan allein upn fötens gahn."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDa hört ihr wol lieber Nachbar / Was mein Diener sey für ein Narr / Drumb dürfft ihr / wenn er gleich thet schwern / An seine Red euch nichtes kehrn.\nAdrian\nJohan wie bist so unlustig:"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nFrag ghy noch? wie so unlustig: Ists wunder ick sou ouer Nacht / Neen schlap hebbn in myn Ogen bracht"
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian\nWas hastu dann gehabt zu schaffn? Das du nicht hast können ausschlaffn."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIck en hebbe niet veel gemakt. Ick hebb myns Heren wegn gewackt / De kam in d nacht tho huis so spad / Dat he dat Gast segnet dat Bad / So in syn Huis was."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nO Nachbar Kehrt euch nicht dran / was sagt der Narr."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWel / wat segt ghy? bin ick ein Narr? Wat ick segge / isset niet war?"
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian\nWarumb hat ihr denn vor dem Hauß Ein solch getümmel und ein straus?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nEt was int Huis ein ander Man By d Frow / drumb wolt se niet upstan / Und wolt ehren Man niet inlatn / Leth uns so lang stahn up dat stratn."
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian\nHahaha / Nun lieber Nachtbar / Ade guten tag / Gott euch brwahr / Ich wil nun gehen meiner strassn / Das werd ihr auch thun gleicher massn.\nGalichoræa\nIhr werd hoff ich / lieber Nachbar / Nicht gleuben / was da sagt der Narr.\nAdrian.\nDas hat sein weg / Solchs mich nichts ficht / Es sey also / oder sey nicht. Gehet abe:\nGallichoræa\nDas dich heilosen Dieb und Schelm / Potz leidn und Kranckheit thu queln / Hah ich dir dann verbotten nicht / Du Ertzverzweiffelt Bösewicht / Das du nicht soltest waschen aus / Was sich zutrag in meinem Haus."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nGhy hebbet mey vorboden dit / Ickn sout aw Frowens seggen niet / Auerst ghy hebben niet gesecht / Von awen Nabr / verstahr mey recht."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nIch hab den Teuffl auff deinen Kopff / Dier nicht gesagt / du ehrloser Troff / Du Schelm soltst mich durch deine Zungn / Wol in ein bös gerüchte bringn."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nDar sout ghy aw sülfst bringn in / Als ghy so ein grot Sodde syn / Und bidden in aw Huiß solck Gast / Dat he by aw Frow hebb syn rast / Und dhout hem noch bevehlen dit / Dat he schlap in er Armlein witt."
+          },
+          {
+            "typ": "kontext",
+            "text": "Galliechoræa\nMach mich der Possen nicht zu viel / Oder ich dich abschmieren wil.\nJohan schweiget stille / und rümpffet das Maul / und verkehrt die Augen.\nGallichoræa gehet auch ein weil stillschweigens auff und nieder / endlich spricht er:\nDas dem Kerrel die Pest und Drüß / Sein Hertz im Leibe ja abstieß / Das er kein abschied hat gehaltn / Der Teuffel möge seiner waltn Er hat mir gwiß zusag gethan / Er wolt gestern abend hingahn / Hat auch darauff das Gelt bekomn / Dafür er Kleider ausgenomn / Ich hette wol gehoffet zwar / Er wehr gewißlich kommen dar / Wie er mir dann solches verheiß / Aber ich hab mit allem fleiß / Gesuchet alle winckel aus / Kan ihn doch nicht finden im haus\nJohan stehet / und weiset immittelst mit Fingern auff ihn und lachet.\nWenn ich ihn doch könt treffen an / So wolt ich balde zu ihm gahn / Und doch von ihm selber verstehn / Wie unser beider sachen stehn.\nJohan stehet immer und weiset auff ihn mit Fingern / und lachet in busem.\nGallichoræa gehet dieweil auff und nieder / immittelst kompt Pamphilus gangen / und hat das Hembd und Krausen / so ihm die Fraw geben / und das Kleid / so er gekauffet / an.\nGallichoræa\nSieh ist das nicht der jung Gesel / Deswegen ich mich itzo quel? Er ists vorwar / muß zu ihm gahn / Und ihn der sach halbn sprechen an. Johan spottet immer sein."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(3. Akt, 2. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Pamphilus thut im grosse Reuerentz / und erzeiget sich gar Demütig / und spricht:\nSpatzieret ihr hier / O mein Herr / Ich thu mich itzt bedancken sehr / Wegen beförderung und rath / Den mir der Herr mittheilet hat.\nGallichoræa\nNun seid ihr warlich hübsch und fein / Und trett ein wenig anders rein / Als gestern und in vorign tagn / Aber ich bitt / wolt mirs doch sagn / Wie stehn die sachen? wahrt ihr dar / Wie gestern unser abschied war.\nPamphilus\nO Gott / solt ich nicht gewesen sein / Freylich kam ich zu ihr hinein / Denn was ich habe umb und an / Dasselb ich da verdienet han / Das Hembde thet mir die Fraw schenckn / Ihrer dabey lang zugedenckn / Sie gab mir auch Gelt mit hauffn / Dafür ich das Kleid hab thun kauffn.\nJohan lachet\n\nGallichoræa\nLieber erzehlet mirs doch fein / Wie kamet ihr ins Haus hienein?\nPamphilus\nAls es war abend / gieng ich aus / Nam mein Pandor spielt für dem haus Das die Fraw hört / kam sie von stund / Mit mir zu sprechen sie begund / Und kam also zu ihr ins Haus / Spielt mit ihr dick dack / ein und aus / Und also bin ich dißmal zwar / Nochmals entkommen der gefahr.\nGallichoræa\nDas muß ein verschmitztes Weib sein / Da köndt ich mich nicht schicken drein / Was habt ihr für abscheid genomn? Wolt ihr auch abends wieder komn.\nPamphilus\nJa ich hab ihr verheissen diß / Das ich wil kommen gar gewiß.\nGallichoræa\nDas möget ihr dann wagen zwar / Aber seht euch für vor gefahr /\nPamphilus\nIch wil mich wol mit fleiß vorsehn / Das ich der gfahr möge entgehn / Habt gute weil / mein lieber Herr / Vor all Wolthat danck ich euch sehr.\nGehet abe.\nGallichoræa krawet sich hinter den Ohren / und schüttelt den Kopff.\nNein / nun bin ich in zweiffels strickn / Kan mich in den Handel nicht schickn / Ich grabe andern ein Grüblein / Und falle endlich selber drein / Vermeinet ander zu betriegn / Muß selber im betrug netzliegn / Ach was sol ich nun fangen an / Kans gleichwol nicht ersitzen lan / Ich wil sie noch einmal probirn / Und auff ein ander weiß tentirn / Hab ich mit List nichts kund erfahrn / So muß ich stelln ein ander Garn / Ich wils versuchen mit gewalt / Hoff / es sol sich nun endern balt Es wird ihr gleichwol nicht das Glück / Allzeit scheinen mit breiten blick / Johan lauff hin / sag meinem Weib / Das sie flugs kom / nicht lang außbleib."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIch salt bestelln / gaht ghy niet wit.\nIm weggehn sagt er:\nSchetzken gaht fort / et is nun tidt / Hertzken sieh ghy dat wol / ha ha / Ich moth lachen / ha ha / ha ha /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa gehet stillschweigens auff und nieder krawet die Haar / und schüttelt den Kopff / immittelst kompt seine Fraw.\nGallichoræa\nLiebs Weib / ich muß dir zeigen an / Das ich Bottschafft bekommen han. Und / welchs ich nicht gegleubet hett / Must schlaffen auff ihrs Mannes Bett / Aber es wehr zu letzte schier / Gar unglücklich ergangen mir.\nGallichoræa\nLieber mir solchs erzehlen thu / Wie gienge doch das immer zu?\nJohan lachet\nPamphilus lachet und spricht:\nDas wil ich euch fein kürtzlich sagn / Was sich hat wunders zugetragn / Als ich vermeint / ich würd allein / Mit der Fraw des Nachts sicher sein / Da kam plötzlich der Frawen Man / Und pocht eilends an der Thür an.\nJohan lachet.\nDas hette sich nun die Fraw zwar / Vermutet nicht / war sicher gar / Denn er mit ihr abscheid genomn / Er wolt die Nacht nicht wieder komn / Als er abr klopfft und rieff im grim / Erkandt die Fraw ihn bey der stim.\nJohan lachet.\nSie stellt sich aber / als wenn sie / Sein stimme hett erkennet nie / Flucht und schalt ihn ein Bösewicht / Ein Schelmen / er wehr ihr Man nicht / Das thet sie alles zu dem end / Damit sie mich verbergen könd / Darnach da sie mich verbarg fein / Gieng sie hin und ließ den Man ein / Empfieng ihn freundlich und mit sittn / Thet ihn / das er zu Bett gieng / bittn / Der gute Man der meinet zwar / Er hett das Spiel gewonnen gar / Kucket hin und wieder an alle ort / Fand aber niemand / ward bethört /\nJohan lachet.\nGallichoræa\nVerzeihet mirs auff dieses mahl / Das ich euch in die rede fall / Wohin thet sie euch denn versteckn? An welchen ort / auff welche eckn? Und wie seid ihr der gfahr entgahn? Das euch nicht finden kund ihr Mann.\nJohan lachet.\nPamphilus lachet / und spricht:\nDas wil ich euch sagen ohn sorgn / Sie hatte mich heimlich verborgn / Auffm Fensterladen / do der Kram / Und die Kauffwahren stehen beysam / Und wie er nun ein weil im Haus / Und Stellen suchet aus und aus / Da sprach ihn sein Fraw freundlich an / Ey wolt ihr nicht zu Bette gahn? Der liechte tag wil bald anbrechn / Thet ihn immer freundlich zusprechn / Nahm ihn bey der hand / thet ihn schleppn / Und führet ihn hin auff die Treppn / Sprach laut: Schetzgen geht fort / ist zeit.\nJohan Bouset lachet.\nMit diesen Worttn / auff mich sie deut / Denn sie hats also abgeredt / Wenn sie nun also sprechen thet / Solt ich zum Laden springen aus / Und gehen wider ins Wirtshaus / Sie wolte dann nach list die sachn / Wol unuermercket weiter machn.\nJohan lachet.\nUnd also bin ich itzt entrunn / Und auff dißmal die Beut gewunn /\nGallichoræa\nDu magst traun wol von glücke sagn / Weil sichs so glücklich zugetragn / Wilt auffn abend wieder hingahn?\nPamphilus\nDie Zusag hab ich ihr gethan / Drumb bin ich traun gentzlich bedacht / Zu ihr zukommen diese Nacht / Sie hat mir auch versprochen ebn / Ein stadlich verehrung zu gebn / Auch darneben zusag gethan / Ob gleich zu haus kehme ihr Man / Solt ich sie lassen rathn allein / Ich solte wol verborgen sein.\nGallichoræa\nHat sies aber nicht thun entdeckn / Wohin sie dich doch wolle steckn?\nPamphilus\nDas hat sie mir noch nicht vertrawt / Sie wird dauon nicht ruffen laut / Ich gleub aber / sie werd die sachn / Wie gestern geschehn / wieder machn / Doch wirds geben die zeit und ort.\nGallichoræa\nWolan so wander immer fort / Und wage dein heil auff das best / Und halt deine zusagung fest / Und thu mir morgen wieder sagn / Was sich den abend werd zutragn.\nPamphilus\nEs sol geschehn ich wil euch dann / Was sich verlauffen zeigen an.\nGehet abe."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(3. Akt, 3. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nEy das dich die Frantzosen schendn / Wer hat mich denn thun so verblendn? Bin ich denn zu unglück geborn? Ich hett wol ein Eyd drauff geschworn / Der Kerrel wehre gestern nicht / Im Hauß gewest wie er bericht.\nJohan lachet.\nBehüte trewer Gott wie ist / Die Welt so arg / vol trug und list / Wer hett sich doch dafür gehüt / Doch List nicht allzeit gelten thut / Was gilts? ich wils ihr treiben ein / Werd ihr einmal zu gschwinde sein / Ists ihr schon gelungen dißmal / So feilt ihrs wol ein ander mal / Ich wil nun wiedr zu hause gahn / Und mich durchaus nichts mercken lan Wil mich stellen / als müst ich fort / Verreisen heut an frembde ort / Wenn sie nun meint bey abend zeit / Das sie sicher beym Bulen leit / Und sey im Hause gar allein / So wil ich / wils Gott / bey ihr sein / Das schwer ich / als ein ehrlich Man / Sie sol mir dißmal nicht entgahn /\nGehet abe."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nHa ha ha ha ha ha ha ha Ha ha ha ha ha ha ha ha O weh ickn hebb gelacht / dat mey / De Kopp und ock de Buick doth wey Ha ha ha ha des lach ick sehr / Jesus welck ein Sott is myn Her / He secht / ick sy ein Narr / vorwar Hei mach wol syn ein dubbelt Narr / Ha ha / ich lach my bald tho dodt / Jesus is dat niet Dohrheit grot? Dat hei ghat beuehln ein Jongman / In sin Huis tho dat Frow tho gahn. Und by ehr tho schlapen im Bett / Ha ha ha / dat en ick niet thet? Und hey meint sin Frow tho bedregn / Met list doith se hem fin begegn / Dat hey sick süluen nur bedrücht / Im Dreck beth ouer d ohren ligt / De grote Sott meint anders niet / Sin Frow sy ehrlick / fram van sitt / Als se hem niet wolt laten in / Son grote Sott sout ick niet sin / Ick sou alsbalt wal gedacht han / Dat syt darumb hette gethan / Dat se daß Jongman köndt versteckn / Und vexeiren den olden Geckn / Ha ha ha sind dat niet wunder sachn / Jesus / wo moth ick doch des lachn / Ha ha ha / wenn ick gedencke dit / Dat se sed / Schetzgen gath / tis tydt / Ha ha ha / min Her meinet wal / Dat he hem auends finden sal / By siner Frow / dat sou niet sin / Dann als bey weder kamet in / Sou se echter seggen de Wort / Min Schetzeken tis tid / gaht fort / Ha ha ha ha nun fahret wal / Tho huis ick van stund an gahn sal / Ha ha ha ha / wo fin lut dit / Schetzken gaht fort / et is nun tidt / Ha ha ha ha / potz veltens wundn / Min Her met sin Frow kompt van stundn By life ghy niet seggen mot / Dat ick hem belacht und bespott / Und gesecht hebb an dessen ort / Schetzken et is nun tid / gaht fort / Hey soud mey anders smeiten wol / Dann he is bereit up mey toll /\nKreucht an der seiten hin damit ihn sein Herr so bald nicht sehen sol / und spricht gar sachte.\nSchetzken gaht fort / et is nun tidt / De Sott verstund den betrog niet.\n(3. Akt, 4. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nMein liebs Weib / weil ich gestern hab Mich von der Reiß lassn halten ab / So mus ich nun itzunder fort / Je lenger hie / je speter dort / Damit ich gleichwol meine Sach / Nicht selbst etwa verseumen mag / Mir ist zum höchsten dran gelegn / Wolan so wil ich dich gesegn / Sieh du dieweil wol zu im Haus / Biß ich die Geschefft gerichtet aus / Johan kom mit / ist mein beger /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWat beliefft aw? segget min Her."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDu solt mit mir itzund ausgahn."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWilt ghy Her auermal uthgahn / Vorwar so soud ein ander sin / In aw Huis auends kamen in."
+          },
+          {
+            "typ": "kontext",
+            "text": "Scortum\nAch lieber Man / Gott euch bewahr / Das euch kein schaden wiederfahr / Und Johan sieh du auch wol zu / Fleissig auffn Herren warten thu."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIck sal wol tho sien / leue Frow. Diß nachfolgende mas er heimlich reden. Sieht ghy des auends ock wol tho / Wacht ock ulitig opt Jong Gesel / Dat auends by aw kamen wil / Und als wi thor nacht wedder komn / Und ghy uns hebben wol vernomn / So möth ghy echter spreken dit / Schetzken gaht fort / et is nun tid.\nGallichoræa und Johan gehen abe."
+          },
+          {
+            "typ": "kontext",
+            "text": "Scortum\nIch weiß nicht / wie ich doch dran bin / Mit meim Man / ich zieh mir zu sin / Das ers nur auff versuchung thut / Aber ich hab ein guten muth / Und achte solches alles nicht / Wenn er mir gleich kehm auff die schicht Es sol ihm doch das nicht gelingn / Der Haß aus de Pusch wird wegspringn Ich wil nun wieder zu hause gahn / Ich hoff / es sol balt kommen an / Der Jung Gesell / so uber nacht / Mit mir im Bette helt die wacht. Gehet abe."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(3. Akt, 5. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nJohan kom / wolln zu hause gahn / Du must dich gar nichts mercken lahn / So bald ich ins Haus werd eingehn / Wil ich stracks nachm Kramladen sehn / Und wenn ich ihn schon finden thu / Wil ich ihm kein leid fügen zu / Denn ich hab ihm Glauben verheissn / Den wil ich auch trewlich beweissn / Aber die Fraw sols Glack bezahln."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nMeint ghy Her / dat hey ock dithmaln / Sal wedder sitten up den Ladn / Und bringen sick süluest in schadn?"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDas hoff ich / dann wo wolt sie ihn / Im Hause sonst verbergen hin? Kom nur mit mir eilend zu haus / Die sach wird sich wol weisen aus /\nGehet nach dem Hause / klopffet an."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(4. Akt, 1. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Scortum\nWer klopffet dann für meiner Thür?\nGallichoræa\nMach auff / mach auff / ich bin dafür /\nScortum\nSol ich auffmachn? wer bistu dann?\nGallichoræa\nBin Gallichoræa dein Man / Mach flugs auff / und steck an ein Liecht /\nScortum\nEy du bist warlich mein Man nicht / Mein Man der ist gereiset aus /\nGallichoræa.\nVorwar ich bins / kom wieder zu haus / Dann ich gestern verschlossen bin / Hab demnach müssen bleiben in / Und kam der Bürgermeister ebn / Und bat mich abends zum Wollebn Lieber kom rab / mach auff die Thür."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nFrow maket up / myn Her is hier /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Die Fraw kompt für die Thür / und kucket heraus / als sie nun siehet / das es ihr Mann ist / spricht sie:\nScortum\nJesus / seid ihrs mein lieber Man? Habt ihr so lang geklopffet an? Das hab ich vorwar nicht gewust / Dacht / es wehre sonst ein grober Wust / Ich bitt / halt mir es doch zu gut. Und mit mir inß Hauß gehen thut.\nGehen miteinander hinein."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nSchetzken gaht fort / et is nun tidt / Is jemands dar / de gha nur wiet."
+          },
+          {
+            "typ": "kontext",
+            "text": "Als der Man eine weile im Hause gewesen ist / kompt er wieder heraus gegangen / und machet den Laden auswendig auff / und suchet / ob er vielleicht jemands finden köndte.\nGallichoræa\nIch kan hier warlich niemands findn / Kan denn der Kerrl plötzlich verschwindn Immittelst kömpt die Fraw und spricht.\nScortum\nJesus / liebr Man / was thut ihr machn? Das seind mir warlich seltzam sachn / Wie thut ihr so alls suchen aus? Meint ir / ich hab ein Buln im haus?\nGallichoræa\nDas magstu wol gleuben forthin / Das ich der meinung gentzlich bin /\nScortum\nJa lieber Man / trawt ihr nicht mehr? Wenn ich sonsten nicht ehrlich wehr / So wold ichs euch wolmachn so kraus / Wenn ihr schon bey mir werht im haus Das ihr es doch nicht mercken solt.\nGallichoræa\nDasselb ich gerne sehen wolt / Wie woltestu denn thun den Sachn?\nScortum\nSeht Herr / das wolt ich also machn / Helt ihm mit dem Mantel die Augen zu / und spricht: Mein Hertzigen seht ihr das wol? Pamphilus springt immittelst zur thür hinaus / und leufft dauon. Drumb lieber Man seid nicht so toll / Das ir euch wolt ziehen in den Sinn / Als ob ich auch leichter Haar bin / Kompt immer her / legt euch zur ruh / Schlafft biß ich euch auffwecken thu / Ihr habet die vergangne nacht / Auch mehrtheils schlaffloß zugebracht. \nDer Man gehet mit ihr hinein / und krawet sich hinter den Ohren."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(4. Akt, 2. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nJohan hastu nicht gestern gsehn / Den jungn Geseln im Hause stehn?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIck en sal hem niet hebbn gesihn / Efft he was butten edder drin / Fragt awe Fraw / wat frag ghy mick / De soud beter weten als ick /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDas gleub ich selber wol Johan / Daran ist gar kein zweiffel an / Aber wenn ich sie schon thu fragn / So wird sies mir doch traun nicht sagn. Schweiget ein wenig stille / gehet auff und nieder / darnach spricht er. Es muß gleichwol der Teuffel sein / Der donner und plitz schlage drein / Sol ich denn nicht einmahl ertappn / Die Hure mit dem jungen Lappn. Itzund bin ich viel erger dran / Als vorhin / ich elender Man / Denn vorhin ich im zweiffel stund / Ob sie from wehr / aber itzund / Weiß ich gewiß / sie ist ein Hur / Kan doch nicht kommen auff die spür / Und weil ich sie auff frischer that / Nicht find / so weiß ich keinen rath / Ich darffs wedr ihr nochn Freunden sagn / Darzu keim einign Menschen klagn / Dann wann ich sie beschüldigen solt / An dem beweiß mirs mangeln wolt / Und meine Fraw wirds leugnen fest / Der Jung Gesell gleichfals auffs best / Und demselben hab ich vorher / Glauben zugsagt bey Trew und Ehr / Zu dem / wenn es solt kommen aus / Das ich ihn gewiesen hett ins haus / So wird mein lachen jederman / Werd spott zum grossen schaden han."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nVorwar min Her / als ghy verspott / Sout werden als ein grote Sott Dat sal aw niet schaden / dewiel Ghy sülffst verschoten hebbt de Pfiel / Denn dat aw Frow ein Hure is / Dat hebbt ghy sülffst gemarckt gewis / Dann gby hebbet dat Jonge Man / In aw Huis süluest heiten gahn."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nDas sie zur Huren ist gemacht / Das habe ich nicht verursacht / Das ist sie wol gewesen ehr / Eh dieser Gsell ist kommen her / Ich hab ihn auch nicht hingewiesn / Darumb / wie du gern woltest schliessn / Sondern ich meint durch diesen Rath / Mein Fraw z ergreiffen auff der that / Und ihrn Meineid und Bulerey / Endlich an tag zubringen frey / Welcher Teuffel solt han gedacht / Das sies so listig hett gemacht / Und ihn ins Fenster solln versteckn /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nFrawenlist kan niemand entdeckn / Ja min Here / dar weth ghy wol / Dat Frowns Person sind liste vol / Vorwar et was gar lecherlick / Ick lachet noch vaken und dick / Als dat Jongman aw sede dat / Dat awe Frow gesegget hat / Schetzken gaht fort / et is nun tidt /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nMir wars aber lecherlich nit / Nun hab ich gestern in dem Haus / Alle winckel gesuchet aus / Und wenn ein Maus hett solln darstahn Ich wolte sie gefunden han / Aber ich hab nichts finden kund / Dadurch mein Hertz ist gar verwundt / Derwegen ich gern wissen thet / Wohin sie ihn verborgen hett / Oder ob er nicht da gewesn / Oder wie sonsten stündt das wesn / Ich mus doch aus verlangen sehn / Ob er irgend möcht stehn oder gehn / Das ich von ihm kriege bericht / Ich kan sonst warlich ruhen nicht."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nSiht dar / siht dar min leue Her / Dar kompt dat jonge Man schon her Und hefft ein ander nye Kleid an / Dat sou bey van aw Frowen han.\n(5. Akt, 2. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Pamphilus.\nO lieber Herr / thut mich anschawn / Diß Kleid verdient ich von der Frawn / Zu der ihr mich habet gewiesn / Ich thu ihr warlich wol geniessn / Aber es hielte leiden hart / Meiner wehr halt ubel gewart / Denn der Man kam wieder zu hauß / Da wehrs balt ubel gangen aus.\nGallichoræa\nWie kams denn? was braucht ihr für grieff? Das er euch nicht im Haus ergrieff.\nPamphilus\nEs gieng warlich wercklich zu / Welchs ich euch itzt erzehlen thu / Der Man als er zu Haus kam wiedr / Gieng er im Hause auff und niedr / Und suchte alle winckel aus / Ob er vor was gemercket im haus / Das kan ich warlich wissen nit / Aber er gieng im ersten Schrit / Nach dem Laden / und dacht ohn witzn / Der Buler würd da wieder sitzn / Denn er suchte / abr niemands fand / In dem kompt seine Fraw zu hand / Die mich untr ihren Rock thet steckn / So an der Wand hieng in der eckn / Und fragt / was er doch suchen thet / Ob er zu ihr mißtrawen hett / Als er nun zu reden anfieng / Er trawe ihr nicht allerding / Sprach sie zu ihm / O lieber Herr / Wenn ich wold leben in unehr / So wolte ichs verbergen wol / Das ihrs noch kein Mensch mercken sol / Als nun der arme Joseph wolt / Das sie ihm solches weisen solt / Da decket sie dem armen Tropff / Mit ihrem Mantel zu den Kopff / Und sprach: Hertzgen seht ihr das wol? Das verstundt nicht der Narre tol / Denn es war die Losung / darnach / Ich solt anstellen meine Sach / Wenn sie so sprech / solt ich zur Thür / Untr ihrm Rock wischen herfür / Von meinem Brudr / da muß ich hin / Werd heut nicht wieder kommen in / Sieh wol zu / weil ich bleibe aus.\nScortum\nWie balt kompt ihr denn widr zu haus? Damit ich nottürfftige Speiß / Bereit / wenn ihr kompt von der Reiß.\nGallichoræa\nEigentlich ich nicht wissen kan / Wenn ich möcht wider kommen an / Ich muß fort / habe gute nacht / Das Thor möcht werden zugemacht.\nScortum\nJohan wart fleissig auff meim Herrn /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nEt sal geschien / ick dou id gern.\nGehet abe."
+          },
+          {
+            "typ": "kontext",
+            "text": "Scortum\nWelch ein Gesel ist doch mein Man / Wie greifft ers doch so listig an / Wie gern wolt er mich fangen doch / Ja wenn der Fuchs hett nur ein Loch / Er meint / ich sey so alber nun / Sol sein Intent nicht mercken thun / Warumb er wieder zeucht von hinn / O nein so alber ich nicht bin / Ey wie werde ich mich verfehrn / Wenn ihr werdet wieder umbkehrn / Kompt nur / es hat euch schon zweymal / Gefeilt / feilt auch wol s dritte mal.\nGehet abe."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(5. Akt, 3. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nJohan kom fort / ist mein beger / Gib mir die eine Fackel her / Die ander aber behalt du /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWat sal dat syn min Her? wo nun? Wat wilt ghy mit der Fackel makn / Dat sind mey wunderlicke sakn."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichorea\nIch wil Huren und Buben nun / Im Haus zusam verbrennen thun."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWat wilt ghy makn? seit ghy doll? Seid ghy denn der Thorheit gantz voll? Ghy sout dat gantz Stadt stecken an /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nFrag nichts darnach / mir leit nichts dran Kom du nur eilends mit mir her / Thu alls was ich von dir beger.\nAls sie vor das Hauß kommen / klopffet er mit gewalt an / und rufft gar laut.\nGallichoræa\nHolla mach auff / wann wird es dann? Holla wiltu noch nicht auffstahn? Du hast mich lang gnung bey der Nasn / Herumb geführet / solsts nun wol lassn / Ich wil dich nun wieder bezaln / Oder der Teuffel müst dich holn / Laß sehn / hastu den Bulen auch / Versteckt noch eins nach altem brauch? Was gilts? ich wil ihn finden doch / Wenn er auch steck im Mauseloch / Darumb gedenck / gieb mir ihn raus / Oder ich wil ansteckn das haus.\nDie Fraw kompt gar geschwinde heraus gelauffen.\nScortum\nBehüte Gott / mein lieber Man / Was wolt ihr doch nun fangen an? Das seind mir wunder seltzam sachn / Wolt ihr uns gar zu Bettlern machn? Und diese Stad bringen in noth / Ach wend es ab du trewer Gott.\nGallichoræa\nDas bitten hilfft hie nichts dazu / Sag mir / wo der Bul stecken thu / Dann ich wil es wissen kurtzrund.\nScortum\nMein Herr ich sag mit wahren mund / Ich hab kein Buln im Hause mein / Wolt ihr aber ja so toll sein / Und das Haus im zorn stecken an / So wil ich doch gebeten han / Ihr wolt doch erst aus unserm Haus / Das Leinenzeug helffn tragen aus / Damit wir ja noch etwas han / Das wir hernacher ziehen an / Werdet ihr dann im Hauß / im Stall / Kammer / Keller / und uberall / Ein Bulen findn / so mögt ihr dann / Das Hauß nicht allein zünden an / Sondern auch mir / das sag ich frey / Ohn gnad den Halß schlagen entzwey.\nGallichoræa\nWolan so sag mir / wo ist das?\nScortum\nHier stehts im Hause in dem Faß / Und ist darzu noch ungewaschn / Wehr schad / das s brennen solt zu aschn.\nGallichoræa\nDen Willen wil ich dir noch thun / Aber ein Eyd schwer ich dir nun / Find ich darnach jemands im Haus / So wirds uber dich gehen aus / Ich schwer nachmals beym Sackerleidn / Find ich ein / der nicht ist bescheidn / Wil ich euch beyd grewlicher massn / Tractiren / nicht erbitten lassn.\nScortum\nDas bin ich wol zu frieden Herr / Begehr dann auch kein gnade mehr.\nSie gehen ein / und der Man hilff: der Frawen das Zeug hinnaus tragen / als das geschehen / spricht er.\nGallichoræa\nNun wil ich wieder hienein gehn / Und mich im Hauß fleissig umbsehn /\nGehet hinein / immittelst springet Pamphilus aus dem Faß heraus / in welchem er mit dem zeuge bedecket gewesen / und leufft davon.\nAdrian kompt immittelst darzu gelauffen im Schlaffpeltz / und leufft gar geschwinde nach dem Hause / rufft und spricht:\nWie nun Nachtbar? wie nun? wie nun? Was habt ihr abermals zu thun? Wolt ihr nun ewer eigen Hauß Anstecken? was wil werden draus? Wolt ihr im grund verbrenn die Stadt? Last ab / last ab / das ist mein Rath\nGehet abe."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(6. Akt, 1. Szene)\n"
+          },
+
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset ancket / und stellet sich an / als wann er gar verschrecket were.\nOch och ick hebb mey so verfehrt / Min Hert im Liff sick ummekehrt / Hey wil sin Huis ansteckn min Her / Und als sin Nabr niet kamen wehr / Soud heit vorwar hebben gethan / Hey is itzt gar ein thornig Man /\nGehet bey das Faß / darinnen das zeug gelegen / und besiehets / fühlet daran / und befindt / das es leicht / und so viel nicht drin sey als vorhin.\nWell wat is dith? hefft hier jemand / Gestalen wat van dat Linwand? Wo ligt daß linen Tüeg also? Weth niet / wat ick sal seggn dartho / Wo kompt dat / dat Fat is so licht? Vorwar mey niet wal dabey dücht / Itzund kan ickt allein upbörn / Wo geit dat tho? waßt doch thouörn / So schwar / dat man sülff drüdde kum / Kand tragn / wo ist t so lichte nun?\nSchweiget eine weil stille / und leget das Zeug zu rechte / darnach spricht er:\nIck sal nun wedder tho Huis gahn / Und sehn / wat min Her fanget an / Lathet aw dewil niet verlangn / Ick sal bald wedder kamen gangen.\nGehet abe."
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian\nGott lob und danck / ich habe nun / Den Lermen gütlich stillen thun / Zu rechter zeit ich warlich kam / Eh das Spiel die uberhand nahm / Wehr ich nicht in der zeit gekomn / So hetts ein böses end genomn / Bey Gott / ich kenn den tollen Geckn / Er hett das Hauß dürffen ansteckn / Dardurch verbrenn die gantze Stadt / Gott lob / ders abgewendet hat.\nSchweiget eine weile stille.\nMich sol doch wol gelüsten nun / Was er doch wunders hab zu thun / Das er nun diese Abend drey / Sich stellt / als ober rasend sey / Ich kans von ihm erfahren nicht / Er bringt allzeit für ein Gedicht / Ich lasse mich bedüncken trawn / S sey nicht richtig mit seiner Frawn / Ich muß sehn / ob ich morgen möcht / Antreffen Johan seinen Knecht / Ob ichs ihm köndte fragen ab / Itzund ich kein zeit dazu hab /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "(6. Akt, 2. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa ist Melancholisch / krawet die Haar / und schüttelt den Kopff.\nWas wil ich doch nun fangen an? Ich habs ja gtroffen ich armer Man / Nun hab ich ubel erger gmacht? Das hett ich nimmermehr gedacht. Habens die Leut nicht gwust vorhin / Das ich ein armer Hanrey bin / So werden sies erfahren nun / Ach / ach / was sol ich immer thun?\nSchweiget ein weile stille.\nPfuy dich.\nSchweiget noch ein wenig.\nNun möcht ich gerne wissn / Wie sie mich abermal beschissn Wie sies dißmal mag habn gemacht / Hat ich doch drauff so fleissig acht / Sucht ich doch allenthalbn umbher / Hetts funden / wens ein Meußlein wehr\nSchweiget abermal.\nJohan gedenck von dieser sachn / Thu du mir nicht viel redens machn /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIcken sout niet seggen myn Her / Auerst vorwar ick förchte sehr / De Lüde soudent all bereit / Gemercket hebben / dat is mey leid / Als ghy dat Huis wilt stecken an / Datsülft niet heimlick bliefen kan."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa schweiget stille / krawet die Haar / und schüttelt den Kopff / Immtttelst kommet seine Fraw gegangen.\nGallichoræa\nWer kömpt daher? Hörstu Jan Knecht."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nDat is aw Fraw / sihr ghy niet recht?"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nWas mag die lose Hure wolln / Das sie der Teuffel möchte holn / Oder das sie verschling die Erd / Sie ist keins ehrlichen Mannes werd / Johan geh du ein weil nach haus / Ich hab hier was zu richten aus."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(6. Akt, 4. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa gehet gar trawrig und seufftzet / Immittelst kompt Pamphilus gegangen.\nPamphilus\nGott grüsse euch mein guter Herr / Für all Gutthat danck ich euch sehr / Es ist nun mit mir hohe zeit / Das ich einmahl nehm mein abscheidt.\nGallichoræa\nWiltu dann nun also dauon?\nPamphilus\nIch hab nun weg den Buler lohn / Dißmal bleib ich nicht lenger hier /\nGallichoræa\nGefelts dann dir nicht mehr allhier?\nPamphilus\nAuff dißmal nicht.\nGallichoræa\nWarumme dann? Bistu gestern wieder hingahn?\nPamphilus\nIch bin freylich gewesen dar / Da war vorhanden groß gefahr / Ich mein der Man hett mir zu nacht / Bey einem Haar die Leuchte bracht.\nGallichoræa\nLieber wie gienge denn das zu? Bitt freundlich / michs berichten thu.\nPamphilus\nAch lieber Herr / wie solts zu gahn / Der toll Nar wolts Haus stecken an /\nJohan lachet uberlaut\nUnd sagt zur Fraw / sie solt heraus / Den Bulen gebn / der wehr im Haus / Die Fraw / wie sie solchs hören thet / Nam sie bald alt leinen Gereth Warffs in ein Faß / verbarg mich drein / Das ich vor ihm kund sicher sein.\nJohan lachet.\nLieff darnach gschwind heraus zum Man / Und sprach ihn gantz freundlichen an / Wenn er ja wolt ansteckn das Haus / Das er ihr erst hülff tragen aus / Das leinen Gereth in dem Faß / Der alte Geck der thete das / Und trug mich also selber raus / Und lieff flugs eilends wiedr ins Haus Als er nun wieder gieng hienein / Und suchte / wo der Bul möcht sein / Da sprang ich aus dem Faß geschwind / Wart nicht / biß er mich drinnen find.\nJohan lachet uberlaut.\nGallichoræa\nWiltu dann nicht mehr gehen hin?\nPamphilus\nO nein / ich nun gewitzigt bin / An diesen ort kom ich nicht mehr / Ich danck euch aller Trew und Ehr / Ich bin nun dreymal da gewesn / Und hab der Frawn den Psaltr gelesn / Man muß allein für eine Thür / Nicht all zu offt kommen herfür / Habt gute weil / Gott euch nun spar / Frisch und gesund noch mannichs Jar\nGehet abe.\nGallichoræa\nO ich unglückseliger Man / Ach / ach / was sol ich fangen an / O das ich nie geboren wehr / Oder die Erd mich decket schwer / So dürfften doch die Leute nicht / Meiner spotten / wie nun geschicht /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWat wilt ghy so in truwren leuen / Ghy möthet aw tho freden gewen / Ghy köndt et doch nun endern niet / Darumb min Her lat fahren dit / Sout ick mey derhalff so bedröfen / De Lüde möchten mey mar öfn / Vorwar et is gar lacherlick / Dat ghy dreymal so gar schendlick / Seit van aw Frow betrogen wordn / Und kamen in de Hanrey Ordn / Dat erste mal sang se ein Lied / Schetzken gaht fort / et is nun tyd / Dat ander mal mit listen voll / Sed se / Hertzken steht ghy dat wol? Dat is vorwar gar excellent / Auerst dat lest / dat ghy behendt / Hem sülueest hülpen tragen uth / Dat is dat best / t Final is gut.\nJohan lachet."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nEs gehet mir itzt warlich auch / Wie jenner sagt / nach altem brauch / Wer schaden hat / und leidet noth / Der darff nicht sorgen vor den Spott."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nVorwar ghy moth aw niet bedröfen / Denn awe Nam (dhout mey dat glöuen) Bringt et mit sick / dat ghy forthin / Alltid ein Hanrey möthet sin."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nWie solte das mein Nam mitbringn? Du redst vorwar nerrisch von dingn / Das kan ich trawn verstehen nicht."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIck sal aw dhon klaren bericht / Ghy hetet Gallichoræa"
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nEs ist war / ja / Aber das weiß ick selbst vorhin / Meinstu / das ichß vergessen bin?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWel / so möth ghy nun recht verstahn / Gallus dat het up Dütsch ein Han / Choræa ein Tantz / oder Rey / Als men tho hop sett disse twey / So heitet Hanrey / hört ghy wal? Und sieht Monseur Hanrey / ick sal Tho awen Namens bestercking / Vorehren die Hanfedder gering / Dat ghy se uth Hanreyen muth / Settet hen fort up awen Hut.\nGibt ihm Hanfedern / er aber wil sie nicht nemen."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa\nIch gleub / du wilst mich noch darzu / Vor einen Narren halten nu.\nSeufftzet.\nNun muß ich es befehlen Gott / Der wird wol rechen diesen spott / Dann mit Sanfftmuth und mit gedult / Muß man zu decken die unschult. Schweiget ein wenig stille. Siehe wer kompt doch dort heran?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nEt is aw Naber Adrian.\n(6. Akt, 6. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Adrian.\nWie steht Nachtbar ewer sach: Ihr sehet wünderlich ins Glach / Das kompt dauon / wenn man die Nacht / Nicht thut ausschlaffen / sondern wacht Seufft sich beim Wein und Biere voll / Wütet und schwermt / als wehr man toll.\nGallichoræa\nIhr habt ja gut sagen darzu.\nAdrian\nDie warheit ich doch reden thu /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nTis war / Naber / et is gewiß / Dat min Here ein Hanrey is."
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian\nWas sagstu das dein Herre sey? Ist er ein from Man und Hanrey?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nEin excellent Hanrey vorwar / Als in der Stadt noch geuer war / Bedes van Namen und van That / Twiefelt niet dran / glöuet mey dat / Gallichoræa het hey frey / Dat is up gut Dütsck ein Hanrey / Und van dat Nam is hey ock ein / Dat weth nun de gansse Gemein / Denn sine Frow hefft nun drey Nacht / By einem Jongman thogebracht /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian\nHerr Nachtbar seid ihr ein Hanrey /"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nVorwar / et is ein grot Hanrey."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa wird scheldig / unnd leufft hinweg / und sie ruffen alle beyde / Hanrey / Hanrey / und kreyen wie ein Han.\nAdrian\nWas sagstu liebr bekenn es frey / Ist denn dein Herre ein Hanrey?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nHey is ein Hanrey / Hör ghy nicht?"
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian\nWoher weistu dessen bericht?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIck salt aw seggen gantz vertruet Hey hat sin Frow vorhen niet gtruet Und umb de warheit tho erfahrn Hat hey ein Gselln van jungen Jahrn In sin Huis sulft geschicket dar By sin Frow tho schlapen vorwar / Und dat is nun dusse drey nacht / Hinder einander wal vollbracht / Und hey vermeint dat jonge Man / By sine Frow tho trepen an / Und is dreymal von ehr schandlick / Betrogen worden / glöuet mick."
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian\nWie hat sie denn dasselb gemacht?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIck salt aw seggen / geft drup acht / Dat erstmal had he dat jongman / Verborgn im Fenster laden stahn / Und als min Her socht / und nichts fand / Nam hem dat Frow fin by dat hand / Und förth hem bald tho bedd by siet / Und sprack: Schetzken gaht fort / tis tidt Und bey vermeint / se spreck hem an / Und se meinte dat Jonge Man / Mit dem hadd se affschied genamn / Als ehr Here tho Huis wehr kann / Und se spreck solck Wort tho dat Man / Dat he dann soude lopen gahn / Als dann des auends ock geschach / Des Bossens ick noch vaken lach. Thom andern mal als he by nacht / Tho huis kame / do schlickt hey sacht / Vor dat Fenster / und thet hen guckn / Wolt den Bulen upn Laden söckn / Und meint hey soud dar wedder sittn / De Frow kam sachte hergeschrittn / Und fraget hem / efft bey ihr niet / Truede / hey sprack / ick true dy niet / Do sede se / als se schon hett / Int huis ein Bulen in ihr Bett / Wolt se hem doch verbergen geschwind / Dat hey ihn soude nirgent findn / Und als hey solcks tho siehn begert / Do was sie dartho unverfehrt / Warp hem ein Mantel umb sin Kop / Und sede tho dem armen Tropff / Min Hertzigken sieht ghy dat wol? Ha ha ha ick lach mey halff toll / Als dat Jong Gsel nun hört de Wort? Welck sick im Winckel an eim ort / Int Frowen Rock hadde verborgn / Leep hey daruan ohn alle sorgn. Thom dritten mal kommet min Her / Tho Huis / und is vertörnet sehr / Und wil sick an ihn beiden wrekn / Und dat Huis overn Kop ansteckn / Wolt sine Frow bliuen bym Leuen / So soud se den Buln heruth geuen / Dat Frow hadd den Bolen int Fatt Int Tüg verborgn / und den Man batt / Als hey dat Huis verbarnen wolt / Dat he dat Fat uthdragen solt / De Sott sick licht bereden leth / Dat Bul uth sin Huis tragen thet / Als nun min Her int Huis gieng weddr / Und socht dat Bulen op und neddr / Do steg dar Bul uthm Fatt dewiel / Und leep dauan in voller Jel /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian\nWoher weistu denn das so fein? Das allzeit sol so gangen sein?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nDat hat süluest dat Jonge Man Mim Hern morgends bericht gethan"
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian\nBehüte Gott / ich sag vorwar Dein Herr muß ja gar sein ein Narr Wolt er den Bock zum Gärtner stelln? Zur Frawen schickn ein jungn Geselln? Hab ich doch nie an keinem ort Nerrischer ding warlich gehort Ich hab mich allzeit lahn bedünckn Es müst der hund an ein Bein hinckn Und es müst gwißlich etwas bratn Er wolt sich aber nicht verrathn Er hats niemals wolln offenbarn Wenn ichs nicht itzt von dir erfahrn. Aber sag mir / was wil er dann Mit seinem Weib nun fangen an?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nNiet mit all / dann hey segget dat Wiel hey sie niet up opnbar that. Gefunden hadd wilt heit Gott klagn / Und dat spott mit gedult ertragn /"
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian.\nEy ja das ist der rechte weg / Das er sich nicht da wieder leg / Nun ich muß wiederumb zu Haus / Ich hab nötig zu richten aus / Habt gyte weil in Gottes nam / Villeicht komn wir bald wider zusamn.\nAdrian gehet abe."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nIck sal nun gahn / und siehen tho / Wat min Gallichoræa dho / Up Dützsck Herr Hanrey / min Monseur / Auerst dort kompt hey effen her.\n(6. Akt, 7. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa stellet sich / als wenn er toll ware / leufft / hüpfft und springt."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWel wat is dat? is min Her toll? Odr hefft he sick gesapen voll."
+          },
+          {
+            "typ": "kontext",
+            "text": "Gallichoræa kriegt Johan bey den Kopff / und tantzet mit ihm / nimpt die Hanfedern an / tauschet mit Kleidern / und stellet sich mit worten und geberden gar wünderlich und nerrisch / und spricht / Gallichoræa ist auff Deutsch ein Hanrey / und lacht selber drüber. Item die Wort: Schetzgen gehet fort es ist zeit. Hertzigen sehet ihr das wol: und als sie diese Wort gesagt / lachen sie zusamen. Endlich begeret er auch Spielleute / die muß in Johan holen / tantzen Marerina zusamen / und treiben allerley Bossen mit Geberden unnd Worten / wie solches die reit leiden wil. Immittelst wie sie so ein Fest zusamen haben / kömpt Adrian gegangen."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(6. Akt, 8. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Adrian\nWas mögen sie hie zu thun han?\nGallichoræa leufft ihn an / nimpt ihn in die Arm / und tanzet mit ihm.\nAdrian zu Johan Bouset\nJohan wie sol ich das verstahn?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nGhy moth aw an hem keren niet / Hey is doll / als ghy süluen sieht / Vorwar mey is vor hem sehr leid / Dat hey sick süluen schaden deit."
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian\nWas mag man denn für list erfindn? Wie wenn man in hett können bindn?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nWelck Duifel wilt hem binden dhon / Hey is so starck / glick als Simson / Auerst ick weth ein betern Rath / Vor dat Rathhuis ein Kasten stath / Dar man pleget tho setten in / De Lüde / de dar dolle syn / De wil ich hertrecken / und fin / Vors erste süluen krupen in / Und als hey mey folget de stratn / Soud ick thomackn / und hem drinn latn."
+          },
+          {
+            "typ": "kontext",
+            "text": "Adrian\nDas ist gut / gehe nur flugs hin / Sieh das du hieher bringest ihn / Er steht auff Rollen / das man kan Ihn fortschiebn / wo man ihn wil han / Ich wil dieweile bey ihm bleibn / Und wil mit spieln die zeit vertreibn.\nAdrian tantzet und springet / das thut ihm Gallichoræa alles nach."
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan kompt endlich mit dem Kasten / und saget zu Gallichoræa.\nSieht ick sal aw ein schön Kortwiel / Wiesen / folget mey na in yel."
+          },
+          {
+            "typ": "kontext",
+            "text": "Johan kreucht dreymal durch den Kasten hindurch / und Gallichoræa hinter ihm her / und als er zum dritten mahl hindurch wil / machen sie den Kasten zu / das er drinnen bleibet sitzen / Er schreiet aber / und brüllet heßlich / und wil den Kasten zu brechen.\nAdrian\nJohan kom / wil die helffen fein / Und ihn in sein Hauß trecken ein.\nTrecken ihn hinweg / und er rufft greßlick / Immittelst kompt seine Fraw / wie er dieselbe siehet / schreiet er:\nGallichoræa\nDu böse hur / hur / hur / hur / hur / Du Ertzhur / hur / hur / hur / hur / hur.\nFühren ihn ins Haus / Johan aber bleibet heraussen / unnd spricht mit Scorto."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(6. Akt, 9. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "Scortum\nJohan was ist doch hier zu thun / Was ist für ein gerüchte nun?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nAw Man sitt in dat Dorenkist / De ropt he is gar doll thor frist / Wy hebben hem darin gebracht / Niet bößlick / sondern wal bedacht / Dat hey hem niet soud schaden dhon / Und wy hedden dann spot unnd Hohn."
+          },{
+            "typ": "kontext",
+            "text": "Scortum\nIst mein Man toll? Was sagstu mir?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nVorwar hey is toll worden hier."
+          },
+          {
+            "typ": "kontext",
+            "text": "Scortum\nWoran ist er denn worden toll?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "Johan Bouset\nDat soude ick aw seggen wol / Ghy sout hem toll gemaket hebbn / Dewiel ghy föhrt ein Hurenlebn.\nJohan gehet abe.\n(6. Akt, 10. Szene)"
+          }
+        ]
+      },
+
   {
     "id": "BerlinerWeihnachtsspiel01",
     "theaterstück": {
