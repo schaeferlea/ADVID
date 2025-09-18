@@ -1,4 +1,1229 @@
 [
+     {
+        "id": "KriegFrieden01",
+        "theaterstück": {
+          "titel": "Krieg oder Frieden? Dramatische Bagatelle in einem Akt",
+          "zeit": "1859",
+          "druckort": "Berlin",
+          "auffuehrungshinweise": "Das Stück spielt zu Berlin, in der Wohnung des Majors von Voß. Zeit: Gegenwart."
+        },
+        "autor": {
+          "name": "Gustav von Moser",
+          "herkunft": "Omdt.",
+          "orte": ["Spandau", "Görlitz"],
+          "lebensdaten": "1825–1903"
+        },
+        "figur": {
+          "name": "Johann",
+          "rolle": "Bedienter",
+          "beschreibung": "Bedienter des Major v. Voß, Ganzer Berliner, redet mit dem Barbier, der Milchfrau und Kulike (ber.)"
+        },
+        "dialekt": {
+          "adaption": "Autoadaption",
+          "dialekt_grossraum": "Omdt."
+        },
+        "geokoordinaten": {
+          "herkunft_autor": {
+            "lat": 52.536111,
+            "lng": 13.203333
+          },
+          "herkunft_figur": { 
+            "lat": 52.518611,
+            "lng": 13.408333
+          }
+        },
+        "abschnitt": "JOHANN sitzt am Tisch rechts, hat die Vossische Zeitung in der Hand. Wo es nu man stehen mag, des nu Krieg werden soll! Ich schnöckere un schnöckere de ganze Tante durch, und finde Nischt, als daß se überall uf Erhaltung des Friedens hoffen, von Kriegserklärung keene Spur! – Selbst in Frankreich, wo doch sonst immer der Deibel los is – Allens stille. – Natürlich is es ejentlich, denn se haben sich doch nu erst um den Türken ordentlich abrabatzt. Liest. Rußland – abgebranntes Theater – is nich – Allens stille. MAJOR von innen. Johann – die Zeitung noch nicht da? JOHANN ohne aufzusehen. Ne – Herr Major. Liest weiter. Italien: Kunstschätze – Frühling wie noch nie – is nich. England Baumwolle, Belmoral, Chloroform, is nich. Deutschland: Reiz Schleitz – Pferdeausfuhrverbot, is nich – ne – schon lange nich – bange machen gilt nich. Hehehe! – Berlin, erster Maikäfer – hat seine Visitenkarte bei Rellstaben abgegeben – siehste wie de bist – nich bloß de Hausknechte, och die Maikäfer werden jetzt gebildet. Liest. Courszettel – versteh ich nich. Börse: flau – is nich – haben wir Allens schon gehabt und doch kenen Krieg. Legt die Zeitung zusammen. Ich sage man blos – bange machen gilt nich. (1. Szene) JENNY. Mein Vater nicht hier? JOHANN aufspringend. Ne Fräulein, er is noch in seinem Zimmer. JENNY. Ach so! Will fort nach rechts. JOHANN rufend. Gnädiges Fräulein! Gnädiges. JENNY umkehrend. Nun? JOHANN einen Brief hervorziehend. Ich habe hier 'nen Brief für Ihren Herrn Vater. JENNY. So gieb ihn doch ab – was soll ich dabei? Will fort. JOHANN. Fräulein Jenny – Se müssen mir aber nich böse werden – hehehe! – Na – warum soll ich mir denn zieren – Der Herr Assessor Stein waren hier, gnädiges Fräulein. JENNY bei Seite. Arthur? JOHANN. Gab mir dies Zweithalerstück und den Brief – ne diesen Brief und dies Zweithalerstück, damit ich en nur an den Herrn Major abgebe, wenn er bei recht guter Laune ist. JENNY die Hand auf's Herz, bei Seite. Er hat um mich angehalten. JOHANN. Na, Fräulein, Unsereens is och nich aus Dummersdorf, und da dacht' ich – hehehe – Sie würden am Ende den richtigen Moment noch besser abschnappen können zu diesem telegräflichen Dokument. Meinen Sie nich? JENNY. Gieb her. Das ist verständig von Dir. Nimmt den Brief. Aber weißt Du denn, was darin steht? JOHANN schlau. Wissen Se, gnädiges Fräulein, heut zu Tage is Allens politisch, und um politisch zu sein, sage ich: wenn des Ledigsein der Friede is – und die Ehe der Krieg Schnell und beiläufig. wie se immer sagen – ich bin freilich nich verheirathet – ich weeß des nich – so globe ich – deß – deß – Se müssen aber nich böse werden, Fräulein Jenny. JENNY. Nun? JOHANN. Deß – hehehe – deß der Herr Assessor mit Ihnen in Krieg ziehen will. Verbeugt sich schnell. Ab durch die Mitte. (2. Szene) JOHANN. Es wird wirklich großartig, wo man hinhört – nischt als Krieg. Kommt eben 'ne Bettelfrau – kriegt ihren Sechser, wies hier bei uns Mode ist. Sagt se: »Haben Se nicht en abgelegtes Hemde von de Herrschaft? Ich wolle gern en bisken Charpie zupfen!« Die Großmächte sangen erst an mit's Conferenzeln – und die Bettelfrau is schon beis Charpie zupfen. Da hört wirklich Allens auf! Es klopft. Herein! (5. Szene) BARBIER. Morgen! – Der Olle zu Hause? JOHANN giebt ihm die Hand. Jun Morgen! An der Thür des Majors. Herr Major, der Barbier. MAJOR von innen. Soll morgen wiederkommen! BARBIER. Morgen? Ich hätte eine wichtige Angelegenheit – Du, des is mir sehr unangenehm! JOHANN. Unangenehm? Warum? BARBIER. I – des dicke Rennthier hier nebenbei fragt mir alle Morgen beim Einseifen, wie viele Kanonen wir in Preußen haben. Ich habe mit de Militairbärte nich mehr ville zu thun, des is jetzt Allens Army Razor's von Austrichen, und da dacht' ich, Deine olle Kanone würde mir des sagen können. Kannst'en nich mal fragen? JOHANN. Ne – er schreibt alleweile. Kanonen – Kanonen – Na, weeßt De, jeder forsche Student hat zwee, des weeß ich wohl, aber die andern kenne ich nich. Aber was will denn der Dicke mit de Kanonen? BARBIER. Na, man so – er will abrechnen, von wegen Krieg und Frieden. – Sage mal, was denken se denn hier? Wie denkt denn der Olle, wie denkst Du denn? JOHANN. Unsinn – deß Ihr Alle verrückt seid mit Euren Krieg Sage mir nu mal, wie kommt Ihr denn eigentlich daruf, – warum soll es denn nu mit Gewalt Krieg geben? BARBIER. Warum? Naive Frage! – Ich habe eijentlich keenen Augenblick Zeit, aber des muß ich Dir doch noch auseinandersetzen. Ich barbiere nämlich den neapolitanischen Gesandten seinen Kutscher, un da bin ich so immer mit in des Gedrängte von Europa. JOHANN. Na man los. BARBIER. Siehste – eijentlich is Allens gut: Außland wird nich – Oesterreich kann nich – Preußen mag nich – England will nich – un Frankreich will eijentlich doch nich – aber Eener will nu doch den Kieg. JOHANN. Eener? – Een eenziger – na – wer denn? BARBIER stößt ihn an. Thu man doch nich so! JOHANN. Ich weeß et wahrhaftig nich! BARBIER. Hehehe – Du weeßt es ja. JOHANN. Ne sag ich Dir – Fragend. Na? BARBIER. Siehste – Na – Du weeßt es schon. JOHANN. Na – BARBIER. Na – hehehe – Na – na sag's doch. JOHANN. Na – ach so! – Will sagen Napoleon. Nap – BARBIER hält ihn den Mund zu. Hehehe – siehste – das Du's weeßt – daß Du meinen Collegen kennst? JOHANN. Was – Dein – BARBIER. Natürlich – siehste, ich bin man so'n kleener Pfuscher bei meine paar Kunden – aber mein College – Na – des is der Großmeester von des janze, barbierende Europa – Na, Morgen Johann! Ab durch die Mitte. (6. Szene) JOHANN. Ja – wenn die Sachen so stehn – denn wird's wohl heißen: Marsch erstes Ufgebot – Nu ich habe die Ehre, erstes Ufgebot zu sein. – Na, wir wollen die Sache schon kriegen – da is mich nu jar nich bange – jar nich. MILCHFRAU durch die Mitte. Aber is denn och jar Niemand nich hier? Des is ja ne Zucht – keen Mensch in der Küche – als wenn schon Allens geflohen wäre vor de Franzosen – ach da sind Sie ja, Herr Johann. JOHANN. Ju'n Morgen, Herr Milchmann. MILCHFRAU. De drei Quart hab ich in die Küche gestellt. Aber hören Se – es is gut – deß ich Sie finde – ich habe schon ne janze Weile draußen uf'n Flur uf Ihnen gewart. JOHANN. Uf mir, schöne Michfälscherin? MILCHFRAU. Ich hatte mir vorgenommen, Ihnen was zu fragen – Sie sind ja een verständiger Mann – un werden mich gewiß een guten Rath jeben können! JOHANN. Ah – sehr schmeichelbar – mit dem größten Vergnügen. MILCHFRAU. Sehn Se – die Sache is die – ich fahre nu schon 5 Jahre als Wittwe de Milch aus Groß- Ziethen nach Berlin. JOHANN trocken. Hm – über'm Gesundbrunnen! MILCHFRAU. Hab' mer och janz ehrlich en hübsches Sümmchen verdient. Un nu kenne ich Eenen – der och een paar Iroschens hat – nen soliden Mann – der Freude un Leid des Milchgeschäfts mit mir theilen will. JOHANN trocken. Hm – so mitplantschern. MILCHFRAU. Was ich nu aber fragen wollte – Se reden so alleweile jetzt so fürchterlich ville von Krieg – JOHANN. Na deshalb wird Ihnen de Milch nich zusammenloofen – wenn's noch een Donnerwetter wäre! MILCHFRAU. Ne – des nich – Aber müssen denn nu – wenn's wirklich los jeht – alle Männer mit im Krieg? JOHANN nachdenkend. Hm – ingesegnet is er doch Ihr Charmanter? MILCHFRAU. Na des versteht sich. Was denken Se denn von mich? JOHANN. Denn muß er ooch mit! MILCHFRAU. Er is aber nu schon mehr wie ingesegnet – ville mehr! JOHANN. Ach Herrjeh – een oller Bursche un so ne schöne Alpnerin? MILCHFRAU. Na – een gesetzter Mann, wie ich en brauche! JOHANN. Helft ihm Allens nischt – muß ooch mit.Beiläufig. Sagen Se – wie ville haben Se sich denn gespart? Wenn ich Ihnen en juten Rath jeben soll – warten Se de Krisis ab. MILCHFRAU. De Krisis – was is denn des? JOHANN. Na – wie soll ich Ihnen des erklären – Krisis is zum Beispiel: Wenn so ne Menge Dokters an een Kranken rumgedoktert haben, een endlich ufgegeben – un de Natur hilft sich denn selber – des ist de Krisis. MILCHFRAU. Aha – aber was glauben Sie denn nu eijentlich – wird denn Krieg oder Frieden werden? JOHANN. Ja – sehn Se – da kommts nu wieder uf de Krisis an Beiläufig. Wieviel haben Se sich denn gespart? MILCHFRAU. Na, so meine 600 Thälerchen hab' ich wohl. JOHANN bei Seite. 600 Thaler? Un bei den vorjährigem Wassermangel – na wenn mir nu erst nasse Jahre haben. Laut. Hören Sie – ich glaube, es wird een doller Krieg – lassen Se den Ollen schießenWill sie umarmen. ich nehme so Theil an Ihnen – ich kann's Ihnen jar nich sagen – Se könnten wahrhaftig noch mal Wittwe werden – eh Se gehairathet hätten Will ihr einen Kuß geben. Ich will Ihnen helfen – Nenne mich Du. MILCHFRAU. Na hören Se – von wegen die Krisis können Se mer leid thun, Herr Johann. Will gehn. JOHANN. Oho – aber Krieg wird doch, sag ich' Ihnen, schöner Milchmann – un Ihr Oller muß ooch mit – wir müssen Alle mit – ich sage Ihnen, es wird ein Kapitalkriegelchen, – des Blut wird fließen, daß Se die Erdaxe mit einschmieren können. MILCHFRAU abgehend durch die Mitte. Johann, Sie sind een grausames Ungeheuer! (7. Szene) JOHANN. Hahaha – na das wird den Ollen och nich lieb sind, daß ich der den Floh in's Ohr gesetzt habe. MAJOR ihm einen Brief übergebend. Diesen Brief zum Assessor – aber schnell. JOHANN Brief nehmend. Mehr als schnell – telegräflich, Herr Major. Ab durch die Mitte. (8. Szene) JENNY. Er kömmt – ich muß ihn sprechen, ehe er zum Papa geht. ASSESSOR. Liebe Jenny! Handkuß. JOHANN. Ach so – nun – ich sehe nichts – strenge Neutralität. Dreht sich um und sieht die Bilder an. JENNY. Es geht Alles gut, Arthur – nur das wollte ich Ihnen sagen – reden Sie nicht zu viel vom Krieg mit dem Papa, besonders sein Sie nicht selbst zu kriegerisch. Wenn er denkt, daß Sie mit fort müssen, als mein Bräutigam – besinnt er sich noch länger, »Ja« zu sagen. Hören Sie, sein Sie friedlich. ASSESSOR. Ihnen zu Liebe Alles! Jetzt zu Ihrem Vater. Zu Johann. Wollen Sie mich dem Herrn Major melden? JOHANN sich wieder umsehend. Ach so gleich – Ab nach rechts. JENNY. Also vorsichtig! An der Thür ihm eine Kußhand zuwerfend, links ab. ASSESSOR. Eigentlich bin ich mit Leib und Seele Soldat – Es wird mir schwer werden, den Friedensengel zu spielen – doch es muß sein. (12. Szene) MAJOR. Ah, da sind Sie ja schon. Giebt ihm die Hand. Zu Johann. Ist gut, Johann. JOHANN. Is gut, Herr Major. Ab durch die Mitte. ASSESSOR. Sie haben befohlen, und meine Eile, Ihrem Befehl nachzukommen, wird Ihnen erklärlich sein, Herr Major. MAJOR zum Sitzen einladend. Setzen? Beide setzen sich, wie in der Scene mit Paddemann. Sie wünschen also meine Tochter zu heirathen? ASSESSOR will aufstehen. Die innigste aufrichtigste Liebe, Herr Major – MAJOR. Pst – bitte – sitzen bleiben. Assessor setzt sich. Liebe wird vorausgesetzt – habe noch einige andere Punkte mit Ihnen zu reden – weniger schwärmerisch – Müssen die Poesie jetzt bei Seite lassen – praktisch sein – ehrlich, offen. ASSESSOR. Ich bin zu jeder Auskunft bereit. MAJOR. Kenne Ihren Vater – ist wohlhabend. Sie haben eine feste Stellung – ich bin auch nicht unvermögend. Geldpunkt würde also kein Hinderniß sein. Ich setze voraus, daß Ihr Vater Ihnen seine Einwilligung nicht versagt. ASSESSOR aufstehend. Meinem Vater würde diese Verbindung zur größten Ehre – MAJOR. Pst – bitte – sitzen bleiben. Assessor setzt sich. Setze das auch voraus, doch müssen die Zeiten berücksichtigen, in denen wir leben. Der Friede hängt an einem Haar – sieht sehr kriegerisch aus. ASSESSOR weich. O – ich bin überzeugt, daß wir Friede behalten, Herr Major. MAJOR. Sind Landwehroffizier. ASSESSOR aufstehend. Zu Befehl, Herr Major – habe die Ehre. MAJOR. Pst – bitte – sitzen bleiben. Assessor setzt sich. Müssen sich selbst sagen, daß eigentlich jetzt keine Zeit zum Heirathen ist. ASSESSOR weich. Ich hoffe doch, daß es der Diplomatie gelingen wird, den Frieden zu erhalten – MAJOR. Wenn er aber nun nicht erhalten wird – nehmen Sie an, nicht erhalten. ASSESSOR aufstehend. O – dann werde auch ich – MAJOR einfallend. Pst – bitte – sitzen bleiben. ASSESSOR sich fallen lassend und matt, bei Seite. Ach ja so – Laut. dann werde auch ich mitziehen müssen. MAJOR. Und dann sitze ich hier mit einer trauernden Braut – kann Ihren Briefträger gleich hier in's Quartier nehmen. Wir haben Beispiele vom 7jährigen, vom 30jährigen Kriege. ASSESSOR verlegen. Herr Major – MAJOR. Nun, was denn? ASSESSOR sehr kleinlaut. Ich habe Verbindungen – Protektionen im Ministerium – es würde mir vielleicht gelingen, im Fall eines Krieges eine Stellung zu erhalten, bei der ich nicht persönlich erponirt würde. MAJOR bei Seite. Kein Soldatenblut. ASSESSOR. Vielleicht sogar hier bleiben könnte – im Büreau der Intendatur zum Beispiel. Verlegen mit dem Hut spielend. MAJOR. So – so – und Sie würden im Fall eines Krieges gesonnen sein, solchen Posten lieber anzunehmen, als gegen den Feind zu marschiren? ASSESSOR kläglich. Das würde ich, Herr Major! MAJOR sehr artig. Sie scheinen außerordentlich für Ruhe und Frieden zu sein, mein Herr Assessor. ASSESSOR. Das bin ich in der That. Steht auf. MAJOR aufstehend. Ich danke Ihnen für Ihre Auskunft. Doch Sie werden mir erlauben, daß ich noch einige Stunden mit meiner Erklärung zögere – ich habe mit meiner Tochter noch zu reden – jedenfalls erhalten Sie bis morgen Nachricht von mir. ASSESSOR. Sie sind zu gütig, Herr Major. MAJOR. Bitte recht sehr – ich verspreche nichts – ich sage nur: Nachricht. Adieu, mein Herr Assessor. Im Abgehen. Ist kein Kerl auf dem Fleck – der kriegt meine Jenny nicht. Ab nach rechts. (14. Szene) ASSESSOR. Ach Gott sei Dank – leicht war das nicht, den Hasenfuß zu spielen. Mir ist meiner Seele zu Muthe, wie Einem, der desertirt ist. Ich schäme mich eigentlich! JOHANN. Nun, Herr Lieutenant – haben Sie gut im Feuer gestanden? Es ging wohl scharf her? ASSESSOR. Sagen Sie dem Fräulein Jenny – es ginge Alles gut, der Herr Major wäre sehr freundlich gewesen. Ab durch die Mitte. (14. Szene) JOHANN. Au – Sich den Kopf kratzend. freundlich? – Hihihi! Das nennt der gut gehen, der kennt den Alten noch nicht. Der is wie en Diplomat, wenn er die Zähne zeigt, denn hat er in sein Portenmonnaie den Frieden – und wenn er en freundliches Gesichte macht, Faust ballend und in die Tasche steckend. hat er 'n Krieg in de Tasche. (15. Szene) KULIKE sehr pomadig. Johann – des war nich hübsch von Dir. JOHANN. Ach, ju'n Morgen Kulike! KULIKE. Des war jar nich hübsch von Dir. JOHANN. Was hab' ich denn gemacht? KULIKE. Des war wirklich durchaus nich hübsch von Dir. JOHANN. Na aber, was willst De denn? KULIKE. Des hätt' ich nich gedacht von Dir! JOHANN. Herr Jott, wat hast De denn? So rede doch man. KULIKE. Siehste, fünf Jahre hab ich nu de Milchfrau ihre Kannen runter vom Wagen gehoben, wenn se unten hielt – un den Schirm hab ich dir ihr gepumpt, wenn's regnete, un rugeholfen hab ich ihr och immer wieder – JOHANN. Ach Du meine Seele, des is der zukünftige Milchmann. KULIKE. Und wenn ihr's Wasser ausgegangen war, hab' ich ihr och immer gepumpt – und nu mit eenmal – JOHANN. Also Kulike, Du bist der Olle, der mitplantschen will? KULIKE. Plantschen oder nich – des is hier enjal. Aber sehr eklig is et. Des war nich hübsch von Dir, deß Du ihr de Raupen in Kopp gesetzt hast. Jetzt sagt se, ich müßte mit, un will die Krisis abwarten, ehe wir uns heirathen. JOHANN. Ne, Kulike, wenn ich des gewußt hätte! Aber wie kann ich och denken, daß Du 'ne Sponsade mit en Milchmann hast? KULIKE. Und des Dollste is – ich bin doch man Landstürmer; eh Holland nich ganz in Noth is, brauch' ich ja gar nich mit. JOHANN. Na, Du armer Kerl – des thut mich leid. KULIKE. Des war jedenfalls nich hübsch von Dir. Jetzt bildt se sich nu steif un fest ein, wir müssen Alle mit, un wie ich ihr des auseindarsetzte, daß ich doch nur eigentlich der Fall der Noth bin, sagt se: Landwehr und Landsturm, des is man Allens ene Schmiere. JOHANN. Na, laß Dir keene graue Haare wachsen, Kulike. Wenn se morgen kommt, wer' ich ihr mit Gewalt an de Thränen drüfen schlagen, un ihr den Kopp uf den Frieden verkeilen, deß sie sich gleich ufbieten läßt. KULIKE. Sage mal, globst De denn, des nu eijentlich wirklich Krieg wird? JOHANN. Na – siehste – na ja – aber ejentlich och wieder nich. – KULIKE. Ich hab' es bis jetzt nich jloben wollen, aber nebenbei wohnt doch der Lieutenant – Du, denke Dir, des spricht doch nu eijentlich vor'n Krieg, der fängt jetzt an seine Schulden zu bezahlen. JOHANN. Donnerwetter ja, da muß es schlimm sind. Aber wenn es losginge, Kulike – ich muß natürlich mit – Landwehr 1. Ufgebots, des is nu ene ganz andere Sache, als Eure Krepelei – ich sage, wenn's nu wirklich losginge, denn ginge ich och gerne mit. KULIKE. Du? JOHANN. Ja, siehste, des liegt nu mal in uns Männern – in unser Geschlecht. So'ne ordentliche, flotte Keilerei, des is doch wunderschön – wat? KULIKE. O ja, aber wenn man vorher wüßte, wer nu keilt und wer de Wichse kriegt. JOHANN. Na siehste, des wird nu rüber und nüber gehen, denk' ich mir, wir vertragen schon en Puffst – Aber janz zuletzt wichsen wir se doch, des is gewiß. MAJOR von innen. Johann! JOHANN. Der Olle ruft! KULIKE. Ja, wenn man des nu vorher so Allens gewiß wissen duhn dähte! Ab durch die Mitte. (16. Szene) MAJOR. Jenny! – Gut, daß ich Dich finde! JENNY ihm entgegenhüpfend. Nun, Papa – nicht wahr, ja? MAJOR zu Johann. Es ist gut, Johann. JOHANN. Is gut, Herr Major. Ab. MAJOR. Leider muß ich »nein« sagen, mein Kind. JENNY bestürzt. Nein? Papa! Das ist recht grausam!Weint. MAJOR. Na – flenne nicht gleich! – Unsinn! – Ich habe die Ueberzeugung gewonnen, daß der Assessor kein Mann für Dich ist – weil er über haupt kein Mann ist, und wenn meine Tochter heirathet, soll sie einen wirklichen Mann kriegen. JENNY. Du kennst ihn ja nicht, Papa! Weint. MAJOR. Thu mir den Gefallen und heule nicht! Habe keine Bange – sitzen bleiben wirst Du doch nicht. JENNY. Aber mein Arthur, mein Arthur! Weint. MAJOR bei Seite. Den Guß muß ich vorüber lassen.Ab nach rechts. JENNY. O ich bin recht unglücklich! (17. Szene) ASSESSOR. Jenny, Sie weinen? JENNY. O Arthur, so haben Sie meine Bitte befolgt? Das hätt' ich nicht geglaubt. Sie haben für den Krieg geschwärmt? ASSESSOR. Nein, Jenny. Hören Sie – JENNY. O ganz gewiß, und haben meine Hand verscherzt – Ihrer Eitelkeit halber, Weinend. um 'nen Orden zu bekommen. ASSESSOR. O nein, im Gegentheil, Jenny. Ich habe aus Liebe zu Ihnen eine Rolle gespielt, die meinem Herzen fremd war, die mich vor mir selbst gedemüthigt hat, und die ich nicht im Stande bin, durchzuführen. – Ich komme, um meine Worte zu widerrufen. JENNY. Wie? Ich verstehe Sie nicht! Johann kommt durch die Mitte, öffnet die Thür des Majors und winkt ihn heraus, so daß Beide Zeuge der nachfolgenden Scene sind. ASSESSOR. Ja, ich habe Ihnen zu Liebe Ihrem Herrn Vater gesagt, ich würde für den Fall des Krieges dem Mitgehen ausweichen. Ich habe es gesagt – aber, bei Gott! ich denke anders. JENNY. Was? – Sie wollen mich heirathen und doch in den Krieg ziehen? ASSESSOR mit Feuer. Ja, Jenny, fern sei von mir der Wunsch nach Krieg, – aber schickt Gott den Krieg, ruft unser König, und ist unser Vaterland in Gefahr, dann werde auch ich der erste sein, der alles persönliche Glück opfert, um meine Pflicht zu thun. JENNY. Mein Himmel – er opfert mich. ASSESSOR. Ja, Jenny, so wahr ich Sie liebe, so wahr sind das meine Gedanken, und ich bin gekommen, Ihrem Herrn Vater das zu sagen Jenny's Hand ergreifend. Zürnen Sie nicht – ich kann nicht anders.Will rechts ab. MAJOR vortretend. Wär' auch schlecht anders. Bravo! Das kam aus der Seele und war recht brav gesprochen. JENNY. Himmel, der Vater – ASSESSOR. Herr Major – MAJOR. Pst, keine Worte, Sie sind ein ganzer Mann, Assessor Schüttelt ihm die Hand. Das war ein Wort zu seiner Zeit. JOHANN ihm gleichzeitig die andere Hand schüttelnd. Werden sehr flott mitkeilen – Bravo, Herr Lieutenant. MAJOR. Da ich nun genau weiß, wie Sie so über den Krieg denken, will ich nu mal auf Frieden spekuliren und sagen – da habt Ihr Euch. JENNY. Ach Herzenspapa! MAJOR. Pst! Na? ASSESSOR. Wie soll ich Ihnen danken, Herr Major! JOHANN bei Seite. Eigentlich mir – mir! MAJOR. Schwiegerpapa heiß' ich jetzt. – Na? Na? Jenny und Assessor sehen sich beide verlegen an. MAJOR. Na, willst Du ihr nicht en Kuß geben, Junge? Jenny und Assessor umarmen sich. JOHANN. Na, nu is der Friede fertig – nu fehlt weiter nischt als die Adlerfeder von Dunnemals! (18. Szene) PADDEMANN hereinstürzend. Herr Major – Herr Major – es giebt Congreß, es bleibt Friede. MAJOR. So so! Haben sie die 20000 Thaler Schon aufgenommen, Herr Paddermann? PADDERMANN. Nein, Herr Major, guter Herr Major, nein. – Es bleibt zwar Friede – aber pumpen thut Einem das Geldvolk doch nicht. Aber – die Staatsschuldscheine sind wieder gestiegen, glauben Sie mir, Herr Oberstlieutenant – es bleibt Friede – ruiniren Sie 'nen soliden Bürger nicht. Mein dicker Portier heirathet sich die Milchfrau aus Groß-Ziethen – das kann ja nur im tiefsten Frieden geschehen. Lassen Sie mir doch die Lumperei von 20000 Thaler, ich steigere Sie och nicht in diesem Jahre, wahrhaftig nich Bei Seite. erst nächstens. MAJOR. Na Paddemännchen, ich habe heute schon mehr auf Frieden spekuliren müssen, und da will ich es mit Ihnen der Consequenz halber auch thun. Wenn Krieg wird, dann gehen wir jungen LeuteDen Assessor bei der Hand nehmend. mit Gott für König und Vaterland mit – und thun unsere Schuldigkeit; aber ehe es soweit kommt, wünschen wir, lieber Herr Paddemann – PADDEMANN mit Haltung. Wie jeder solide und ruhige Bürger Ruhe und Frieden. JOHANN zum Publikum. Aber Sie können immer ein Bischen Skandal machen. Der Vorhang fällt. (19. Szene)",
+        "original_link": "https://textgridrep.org/browse/sj6r.0",
+        "abschnitt_segmentiert": [
+          {
+            "typ": "figurtext",
+            "text": "JOHANN sitzt am Tisch rechts, hat die Vossische Zeitung in der Hand. Wo es nu man stehen mag, des nu Krieg werden soll! Ich schnöckere un schnöckere de ganze Tante durch, und finde Nischt, als daß se überall uf Erhaltung des Friedens hoffen, von Kriegserklärung keene Spur! – Selbst in Frankreich, wo doch sonst immer der Deibel los is – Allens stille. – Natürlich is es ejentlich, denn se haben sich doch nu erst um den Türken ordentlich abrabatzt. Liest. Rußland – abgebranntes Theater – is nich – Allens stille."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR von innen. Johann – die Zeitung noch nicht da?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN ohne aufzusehen. Ne – Herr Major. Liest weiter. Italien: Kunstschätze – Frühling wie noch nie – is nich. England Baumwolle, Belmoral, Chloroform, is nich. Deutschland: Reiz Schleitz – Pferdeausfuhrverbot, is nich – ne – schon lange nich – bange machen gilt nich. Hehehe! – Berlin, erster Maikäfer – hat seine Visitenkarte bei Rellstaben abgegeben – siehste wie de bist – nich bloß de Hausknechte, och die Maikäfer werden jetzt gebildet. Liest. Courszettel – versteh ich nich. Börse: flau – is nich – haben wir Allens schon gehabt und doch kenen Krieg. Legt die Zeitung zusammen. Ich sage man blos – bange machen gilt nich.\n(1. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "JENNY. Mein Vater nicht hier?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN aufspringend. Ne Fräulein, er is noch in seinem Zimmer."
+          },
+          {
+            "typ": "kontext",
+            "text": "JENNY. Ach so! Will fort nach rechts."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN rufend. Gnädiges Fräulein! Gnädiges."
+          },
+          {
+            "typ": "kontext",
+            "text": "JENNY umkehrend. Nun?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN einen Brief hervorziehend. Ich habe hier 'nen Brief für Ihren Herrn Vater."
+          },
+          {
+            "typ": "kontext",
+            "text": "JENNY. So gieb ihn doch ab – was soll ich dabei? Will fort."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Fräulein Jenny – Se müssen mir aber nich böse werden – hehehe! – Na – warum soll ich mir denn zieren – Der Herr Assessor Stein waren hier, gnädiges Fräulein."
+          },
+          {
+            "typ": "kontext",
+            "text": "JENNY bei Seite. Arthur?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Gab mir dies Zweithalerstück und den Brief – ne diesen Brief und dies Zweithalerstück, damit ich en nur an den Herrn Major abgebe, wenn er bei recht guter Laune ist."
+          },
+          {
+            "typ": "kontext",
+            "text": "JENNY die Hand auf's Herz, bei Seite. Er hat um mich angehalten."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Na, Fräulein, Unsereens is och nich aus Dummersdorf, und da dacht' ich – hehehe – Sie würden am Ende den richtigen Moment noch besser abschnappen können zu diesem telegräflichen Dokument. Meinen Sie nich?"
+          },
+          {
+            "typ": "kontext",
+            "text": "JENNY. Gieb her. Das ist verständig von Dir. Nimmt den Brief. Aber weißt Du denn, was darin steht?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN schlau. Wissen Se, gnädiges Fräulein, heut zu Tage is Allens politisch, und um politisch zu sein, sage ich: wenn des Ledigsein der Friede is – und die Ehe der Krieg Schnell und beiläufig. wie se immer sagen – ich bin freilich nich verheirathet – ich weeß des nich – so globe ich – deß – deß – Se müssen aber nich böse werden, Fräulein Jenny."
+          },
+          {
+            "typ": "kontext",
+            "text": "JENNY. Nun?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Deß – hehehe – deß der Herr Assessor mit Ihnen in Krieg ziehen will. Verbeugt sich schnell. Ab durch die Mitte.\n(2. Szene)\n"
+          },
+          
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Es wird wirklich großartig, wo man hinhört – nischt als Krieg. Kommt eben 'ne Bettelfrau – kriegt ihren Sechser, wies hier bei uns Mode ist. Sagt se: »Haben Se nicht en abgelegtes Hemde von de Herrschaft? Ich wolle gern en bisken Charpie zupfen!« Die Großmächte sangen erst an mit's Conferenzeln – und die Bettelfrau is schon beis Charpie zupfen. Da hört wirklich Allens auf! Es klopft. Herein!\n(5. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "BARBIER. Morgen! – Der Olle zu Hause?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN giebt ihm die Hand. Jun Morgen! An der Thür des Majors. Herr Major, der Barbier."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR von innen. Soll morgen wiederkommen!\nBARBIER. Morgen? Ich hätte eine wichtige Angelegenheit – Du, des is mir sehr unangenehm!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Unangenehm? Warum?"
+          },
+          {
+            "typ": "kontext",
+            "text": "BARBIER. I – des dicke Rennthier hier nebenbei fragt mir alle Morgen beim Einseifen, wie viele Kanonen wir in Preußen haben. Ich habe mit de Militairbärte nich mehr ville zu thun, des is jetzt Allens Army Razor's von Austrichen, und da dacht' ich, Deine olle Kanone würde mir des sagen können. Kannst'en nich mal fragen?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ne – er schreibt alleweile. Kanonen – Kanonen – Na, weeßt De, jeder forsche Student hat zwee, des weeß ich wohl, aber die andern kenne ich nich. Aber was will denn der Dicke mit de Kanonen?"
+          },
+          {
+            "typ": "kontext",
+            "text": "BARBIER. Na, man so – er will abrechnen, von wegen Krieg und Frieden. – Sage mal, was denken se denn hier? Wie denkt denn der Olle, wie denkst Du denn?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Unsinn – deß Ihr Alle verrückt seid mit Euren Krieg Sage mir nu mal, wie kommt Ihr denn eigentlich daruf, – warum soll es denn nu mit Gewalt Krieg geben?"
+          },
+          {
+            "typ": "kontext",
+            "text": "BARBIER. Warum? Naive Frage! – Ich habe eijentlich keenen Augenblick Zeit, aber des muß ich Dir doch noch auseinandersetzen. Ich barbiere nämlich den neapolitanischen Gesandten seinen Kutscher, un da bin ich so immer mit in des Gedrängte von Europa."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Na man los."
+          },
+          {
+            "typ": "kontext",
+            "text": "BARBIER. Siehste – eijentlich is Allens gut: Außland wird nich – Oesterreich kann nich – Preußen mag nich – England will nich – un Frankreich will eijentlich doch nich – aber Eener will nu doch den Kieg."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Eener? – Een eenziger – na – wer denn?"
+          },
+          {
+            "typ": "kontext",
+            "text": "BARBIER stößt ihn an. Thu man doch nich so!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ich weeß et wahrhaftig nich!"
+          },
+          {
+            "typ": "kontext",
+            "text": "BARBIER. Hehehe – Du weeßt es ja."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ne sag ich Dir – Fragend. Na?"
+          },
+          {
+            "typ": "kontext",
+            "text": "BARBIER. Siehste – Na – Du weeßt es schon."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Na –"
+          },
+          {
+            "typ": "kontext",
+            "text": "BARBIER. Na – hehehe – Na – na sag's doch."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Na – ach so! – Will sagen Napoleon. Nap –"
+          },
+          {
+            "typ": "kontext",
+            "text": "BARBIER hält ihn den Mund zu. Hehehe – siehste – das Du's weeßt – daß Du meinen Collegen kennst?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Was – Dein –"
+          },
+          {
+            "typ": "kontext",
+            "text": "BARBIER. Natürlich – siehste, ich bin man so'n kleener Pfuscher bei meine paar Kunden – aber mein College – Na – des is der Großmeester von des janze, barbierende Europa – Na, Morgen Johann! Ab durch die Mitte."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(6. Szene)\n"
+          },
+          
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ja – wenn die Sachen so stehn – denn wird's wohl heißen: Marsch erstes Ufgebot – Nu ich habe die Ehre, erstes Ufgebot zu sein. – Na, wir wollen die Sache schon kriegen – da is mich nu jar nich bange – jar nich."
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU durch die Mitte. Aber is denn och jar Niemand nich hier? Des is ja ne Zucht – keen Mensch in der Küche – als wenn schon Allens geflohen wäre vor de Franzosen – ach da sind Sie ja, Herr Johann."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ju'n Morgen, Herr Milchmann."
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. De drei Quart hab ich in die Küche gestellt. Aber hören Se – es is gut – deß ich Sie finde – ich habe schon ne janze Weile draußen uf'n Flur uf Ihnen gewart."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Uf mir, schöne Michfälscherin?"
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. Ich hatte mir vorgenommen, Ihnen was zu fragen – Sie sind ja een verständiger Mann – un werden mich gewiß een guten Rath jeben können!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ah – sehr schmeichelbar – mit dem größten Vergnügen."
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. Sehn Se – die Sache is die – ich fahre nu schon 5 Jahre als Wittwe de Milch aus Groß- Ziethen nach Berlin."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN trocken. Hm – über'm Gesundbrunnen!"
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. Hab' mer och janz ehrlich en hübsches Sümmchen verdient. Un nu kenne ich Eenen – der och een paar Iroschens hat – nen soliden Mann – der Freude un Leid des Milchgeschäfts mit mir theilen will."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN trocken. Hm – so mitplantschern."
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. Was ich nu aber fragen wollte – Se reden so alleweile jetzt so fürchterlich ville von Krieg –"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Na deshalb wird Ihnen de Milch nich zusammenloofen – wenn's noch een Donnerwetter wäre!"
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. Ne – des nich – Aber müssen denn nu – wenn's wirklich los jeht – alle Männer mit im Krieg?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN nachdenkend. Hm – ingesegnet is er doch Ihr Charmanter?"
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. Na des versteht sich. Was denken Se denn von mich?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Denn muß er ooch mit!"
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. Er is aber nu schon mehr wie ingesegnet – ville mehr!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ach Herrjeh – een oller Bursche un so ne schöne Alpnerin?"
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. Na – een gesetzter Mann, wie ich en brauche!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Helft ihm Allens nischt – muß ooch mit.Beiläufig. Sagen Se – wie ville haben Se sich denn gespart? Wenn ich Ihnen en juten Rath jeben soll – warten Se de Krisis ab."
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. De Krisis – was is denn des?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Na – wie soll ich Ihnen des erklären – Krisis is zum Beispiel: Wenn so ne Menge Dokters an een Kranken rumgedoktert haben, een endlich ufgegeben – un de Natur hilft sich denn selber – des ist de Krisis."
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. Aha – aber was glauben Sie denn nu eijentlich – wird denn Krieg oder Frieden werden?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ja – sehn Se – da kommts nu wieder uf de Krisis an Beiläufig. Wieviel haben Se sich denn gespart?"
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. Na, so meine 600 Thälerchen hab' ich wohl."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN bei Seite. 600 Thaler? Un bei den vorjährigem Wassermangel – na wenn mir nu erst nasse Jahre haben. Laut. Hören Sie – ich glaube, es wird een doller Krieg – lassen Se den Ollen schießenWill sie umarmen. ich nehme so Theil an Ihnen – ich kann's Ihnen jar nich sagen – Se könnten wahrhaftig noch mal Wittwe werden – eh Se gehairathet hätten Will ihr einen Kuß geben. Ich will Ihnen helfen – Nenne mich Du."
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU. Na hören Se – von wegen die Krisis können Se mer leid thun, Herr Johann. Will gehn."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Oho – aber Krieg wird doch, sag ich' Ihnen, schöner Milchmann – un Ihr Oller muß ooch mit – wir müssen Alle mit – ich sage Ihnen, es wird ein Kapitalkriegelchen, – des Blut wird fließen, daß Se die Erdaxe mit einschmieren können."
+          },
+          {
+            "typ": "kontext",
+            "text": "MILCHFRAU abgehend durch die Mitte. Johann, Sie sind een grausames Ungeheuer!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "(7. Szene)\n"
+          },
+          
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Hahaha – na das wird den Ollen och nich lieb sind, daß ich der den Floh in's Ohr gesetzt habe."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR ihm einen Brief übergebend. Diesen Brief zum Assessor – aber schnell."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN Brief nehmend. Mehr als schnell – telegräflich, Herr Major. Ab durch die Mitte.\n(8. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "JENNY. Er kömmt – ich muß ihn sprechen, ehe er zum Papa geht.\nASSESSOR. Liebe Jenny! Handkuß."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ach so – nun – ich sehe nichts – strenge Neutralität. Dreht sich um und sieht die Bilder an."
+          },
+          {
+            "typ": "kontext",
+            "text": "JENNY. Es geht Alles gut, Arthur – nur das wollte ich Ihnen sagen – reden Sie nicht zu viel vom Krieg mit dem Papa, besonders sein Sie nicht selbst zu kriegerisch. Wenn er denkt, daß Sie mit fort müssen, als mein Bräutigam – besinnt er sich noch länger, »Ja« zu sagen. Hören Sie, sein Sie friedlich.\nASSESSOR. Ihnen zu Liebe Alles! Jetzt zu Ihrem Vater. Zu Johann. Wollen Sie mich dem Herrn Major melden?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN sich wieder umsehend. Ach so gleich – Ab nach rechts."
+          },
+          {
+            "typ": "kontext",
+            "text": "JENNY. Also vorsichtig! An der Thür ihm eine Kußhand zuwerfend, links ab.\nASSESSOR. Eigentlich bin ich mit Leib und Seele Soldat – Es wird mir schwer werden, den Friedensengel zu spielen – doch es muß sein."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(12. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Ah, da sind Sie ja schon. Giebt ihm die Hand. Zu Johann. Ist gut, Johann."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Is gut, Herr Major. Ab durch die Mitte."
+          },
+          {
+            "typ": "kontext",
+            "text": "ASSESSOR. Sie haben befohlen, und meine Eile, Ihrem Befehl nachzukommen, wird Ihnen erklärlich sein, Herr Major.\nMAJOR zum Sitzen einladend. Setzen? Beide setzen sich, wie in der Scene mit Paddemann. Sie wünschen also meine Tochter zu heirathen?\nASSESSOR will aufstehen. Die innigste aufrichtigste Liebe, Herr Major –\nMAJOR. Pst – bitte – sitzen bleiben. Assessor setzt sich. Liebe wird vorausgesetzt – habe noch einige andere Punkte mit Ihnen zu reden – weniger schwärmerisch – Müssen die Poesie jetzt bei Seite lassen – praktisch sein – ehrlich, offen.\nASSESSOR. Ich bin zu jeder Auskunft bereit.\nMAJOR. Kenne Ihren Vater – ist wohlhabend. Sie haben eine feste Stellung – ich bin auch nicht unvermögend. Geldpunkt würde also kein Hinderniß sein. Ich setze voraus, daß Ihr Vater Ihnen seine Einwilligung nicht versagt.\nASSESSOR aufstehend. Meinem Vater würde diese Verbindung zur größten Ehre –\nMAJOR. Pst – bitte – sitzen bleiben. Assessor setzt sich. Setze das auch voraus, doch müssen die Zeiten berücksichtigen, in denen wir leben. Der Friede hängt an einem Haar – sieht sehr kriegerisch aus.\nASSESSOR weich. O – ich bin überzeugt, daß wir Friede behalten, Herr Major.\nMAJOR. Sind Landwehroffizier.\nASSESSOR aufstehend. Zu Befehl, Herr Major – habe die Ehre.\nMAJOR. Pst – bitte – sitzen bleiben. Assessor setzt sich. Müssen sich selbst sagen, daß eigentlich jetzt keine Zeit zum Heirathen ist.\nASSESSOR weich. Ich hoffe doch, daß es der Diplomatie gelingen wird, den Frieden zu erhalten –\nMAJOR. Wenn er aber nun nicht erhalten wird – nehmen Sie an, nicht erhalten.\nASSESSOR aufstehend. O – dann werde auch ich –\nMAJOR einfallend. Pst – bitte – sitzen bleiben.\nASSESSOR sich fallen lassend und matt, bei Seite. Ach ja so – Laut. dann werde auch ich mitziehen müssen.\nMAJOR. Und dann sitze ich hier mit einer trauernden Braut – kann Ihren Briefträger gleich hier in's Quartier nehmen. Wir haben Beispiele vom 7jährigen, vom 30jährigen Kriege.\nASSESSOR verlegen. Herr Major –\nMAJOR. Nun, was denn?\nASSESSOR sehr kleinlaut. Ich habe Verbindungen – Protektionen im Ministerium – es würde mir vielleicht gelingen, im Fall eines Krieges eine Stellung zu erhalten, bei der ich nicht persönlich erponirt würde.\nMAJOR bei Seite. Kein Soldatenblut.\nASSESSOR. Vielleicht sogar hier bleiben könnte – im Büreau der Intendatur zum Beispiel. Verlegen mit dem Hut spielend.\nMAJOR. So – so – und Sie würden im Fall eines Krieges gesonnen sein, solchen Posten lieber anzunehmen, als gegen den Feind zu marschiren?\nASSESSOR kläglich. Das würde ich, Herr Major!\nMAJOR sehr artig. Sie scheinen außerordentlich für Ruhe und Frieden zu sein, mein Herr Assessor.\nASSESSOR. Das bin ich in der That. Steht auf.\nMAJOR aufstehend. Ich danke Ihnen für Ihre Auskunft. Doch Sie werden mir erlauben, daß ich noch einige Stunden mit meiner Erklärung zögere – ich habe mit meiner Tochter noch zu reden – jedenfalls erhalten Sie bis morgen Nachricht von mir.\nASSESSOR. Sie sind zu gütig, Herr Major.\nMAJOR. Bitte recht sehr – ich verspreche nichts – ich sage nur: Nachricht. Adieu, mein Herr Assessor. Im Abgehen. Ist kein Kerl auf dem Fleck – der kriegt meine Jenny nicht. Ab nach rechts."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(14. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "ASSESSOR. Ach Gott sei Dank – leicht war das nicht, den Hasenfuß zu spielen. Mir ist meiner Seele zu Muthe, wie Einem, der desertirt ist. Ich schäme mich eigentlich!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Nun, Herr Lieutenant – haben Sie gut im Feuer gestanden? Es ging wohl scharf her?"
+          },
+          {
+            "typ": "kontext",
+            "text": "ASSESSOR. Sagen Sie dem Fräulein Jenny – es ginge Alles gut, der Herr Major wäre sehr freundlich gewesen. Ab durch die Mitte."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(14. Szene)\n"
+          },
+
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Au – Sich den Kopf kratzend. freundlich? – Hihihi! Das nennt der gut gehen, der kennt den Alten noch nicht. Der is wie en Diplomat, wenn er die Zähne zeigt, denn hat er in sein Portenmonnaie den Frieden – und wenn er en freundliches Gesichte macht, Faust ballend und in die Tasche steckend. hat er 'n Krieg in de Tasche.\n(15. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "KULIKE sehr pomadig. Johann – des war nich hübsch von Dir."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ach, ju'n Morgen Kulike!"
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. Des war jar nich hübsch von Dir."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Was hab' ich denn gemacht?"
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. Des war wirklich durchaus nich hübsch von Dir."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Na aber, was willst De denn?"
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. Des hätt' ich nich gedacht von Dir!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Herr Jott, wat hast De denn? So rede doch man."
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. Siehste, fünf Jahre hab ich nu de Milchfrau ihre Kannen runter vom Wagen gehoben, wenn se unten hielt – un den Schirm hab ich dir ihr gepumpt, wenn's regnete, un rugeholfen hab ich ihr och immer wieder –"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ach Du meine Seele, des is der zukünftige Milchmann."
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. Und wenn ihr's Wasser ausgegangen war, hab' ich ihr och immer gepumpt – und nu mit eenmal –"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Also Kulike, Du bist der Olle, der mitplantschen will?"
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. Plantschen oder nich – des is hier enjal. Aber sehr eklig is et. Des war nich hübsch von Dir, deß Du ihr de Raupen in Kopp gesetzt hast. Jetzt sagt se, ich müßte mit, un will die Krisis abwarten, ehe wir uns heirathen."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ne, Kulike, wenn ich des gewußt hätte! Aber wie kann ich och denken, daß Du 'ne Sponsade mit en Milchmann hast?"
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. Und des Dollste is – ich bin doch man Landstürmer; eh Holland nich ganz in Noth is, brauch' ich ja gar nich mit."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Na, Du armer Kerl – des thut mich leid."
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. Des war jedenfalls nich hübsch von Dir. Jetzt bildt se sich nu steif un fest ein, wir müssen Alle mit, un wie ich ihr des auseindarsetzte, daß ich doch nur eigentlich der Fall der Noth bin, sagt se: Landwehr und Landsturm, des is man Allens ene Schmiere."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Na, laß Dir keene graue Haare wachsen, Kulike. Wenn se morgen kommt, wer' ich ihr mit Gewalt an de Thränen drüfen schlagen, un ihr den Kopp uf den Frieden verkeilen, deß sie sich gleich ufbieten läßt."
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. Sage mal, globst De denn, des nu eijentlich wirklich Krieg wird?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Na – siehste – na ja – aber ejentlich och wieder nich. –"
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. Ich hab' es bis jetzt nich jloben wollen, aber nebenbei wohnt doch der Lieutenant – Du, denke Dir, des spricht doch nu eijentlich vor'n Krieg, der fängt jetzt an seine Schulden zu bezahlen."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Donnerwetter ja, da muß es schlimm sind. Aber wenn es losginge, Kulike – ich muß natürlich mit – Landwehr 1. Ufgebots, des is nu ene ganz andere Sache, als Eure Krepelei – ich sage, wenn's nu wirklich losginge, denn ginge ich och gerne mit."
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. Du?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Ja, siehste, des liegt nu mal in uns Männern – in unser Geschlecht. So'ne ordentliche, flotte Keilerei, des is doch wunderschön – wat?"
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. O ja, aber wenn man vorher wüßte, wer nu keilt und wer de Wichse kriegt."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Na siehste, des wird nu rüber und nüber gehen, denk' ich mir, wir vertragen schon en Puffst – Aber janz zuletzt wichsen wir se doch, des is gewiß."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR von innen. Johann!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Der Olle ruft!"
+          },
+          {
+            "typ": "kontext",
+            "text": "KULIKE. Ja, wenn man des nu vorher so Allens gewiß wissen duhn dähte! Ab durch die Mitte."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(16. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Jenny! – Gut, daß ich Dich finde!\nJENNY ihm entgegenhüpfend. Nun, Papa – nicht wahr, ja?\nMAJOR zu Johann. Es ist gut, Johann."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Is gut, Herr Major. Ab."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Leider muß ich »nein« sagen, mein Kind.\nJENNY bestürzt. Nein? Papa! Das ist recht grausam!Weint.\nMAJOR. Na – flenne nicht gleich! – Unsinn! – Ich habe die Ueberzeugung gewonnen, daß der Assessor kein Mann für Dich ist – weil er über haupt kein Mann ist, und wenn meine Tochter heirathet, soll sie einen wirklichen Mann kriegen.\nJENNY. Du kennst ihn ja nicht, Papa! Weint.\nMAJOR. Thu mir den Gefallen und heule nicht! Habe keine Bange – sitzen bleiben wirst Du doch nicht.\nJENNY. Aber mein Arthur, mein Arthur! Weint.\nMAJOR bei Seite. Den Guß muß ich vorüber lassen.Ab nach rechts.\nJENNY. O ich bin recht unglücklich!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "(17. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "ASSESSOR. Jenny, Sie weinen?\nJENNY. O Arthur, so haben Sie meine Bitte befolgt? Das hätt' ich nicht geglaubt. Sie haben für den Krieg geschwärmt?\nASSESSOR. Nein, Jenny. Hören Sie –\nJENNY. O ganz gewiß, und haben meine Hand verscherzt – Ihrer Eitelkeit halber, Weinend. um 'nen Orden zu bekommen.\nASSESSOR. O nein, im Gegentheil, Jenny. Ich habe aus Liebe zu Ihnen eine Rolle gespielt, die meinem Herzen fremd war, die mich vor mir selbst gedemüthigt hat, und die ich nicht im Stande bin, durchzuführen. – Ich komme, um meine Worte zu widerrufen.\nJENNY. Wie? Ich verstehe Sie nicht! Johann kommt durch die Mitte, öffnet die Thür des Majors und winkt ihn heraus, so daß Beide Zeuge der nachfolgenden Scene sind.\nASSESSOR. Ja, ich habe Ihnen zu Liebe Ihrem Herrn Vater gesagt, ich würde für den Fall des Krieges dem Mitgehen ausweichen. Ich habe es gesagt – aber, bei Gott! ich denke anders.\nJENNY. Was? – Sie wollen mich heirathen und doch in den Krieg ziehen?\nASSESSOR mit Feuer. Ja, Jenny, fern sei von mir der Wunsch nach Krieg, – aber schickt Gott den Krieg, ruft unser König, und ist unser Vaterland in Gefahr, dann werde auch ich der erste sein, der alles persönliche Glück opfert, um meine Pflicht zu thun.\nJENNY. Mein Himmel – er opfert mich.\nASSESSOR. Ja, Jenny, so wahr ich Sie liebe, so wahr sind das meine Gedanken, und ich bin gekommen, Ihrem Herrn Vater das zu sagen Jenny's Hand ergreifend. Zürnen Sie nicht – ich kann nicht anders.Will rechts ab.\nMAJOR vortretend. Wär' auch schlecht anders. Bravo! Das kam aus der Seele und war recht brav gesprochen.\nJENNY. Himmel, der Vater –\nASSESSOR. Herr Major –\nMAJOR. Pst, keine Worte, Sie sind ein ganzer Mann, Assessor Schüttelt ihm die Hand. Das war ein Wort zu seiner Zeit."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN ihm gleichzeitig die andere Hand schüttelnd. Werden sehr flott mitkeilen – Bravo, Herr Lieutenant."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Da ich nun genau weiß, wie Sie so über den Krieg denken, will ich nu mal auf Frieden spekuliren und sagen – da habt Ihr Euch.\nJENNY. Ach Herzenspapa!\nMAJOR. Pst! Na?\nASSESSOR. Wie soll ich Ihnen danken, Herr Major!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN bei Seite. Eigentlich mir – mir!"
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Schwiegerpapa heiß' ich jetzt. – Na? Na? Jenny und Assessor sehen sich beide verlegen an.\nMAJOR. Na, willst Du ihr nicht en Kuß geben, Junge? Jenny und Assessor umarmen sich."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN. Na, nu is der Friede fertig – nu fehlt weiter nischt als die Adlerfeder von Dunnemals!\n(18. Szene)\n"
+          },
+
+          {
+            "typ": "kontext",
+            "text": "PADDEMANN hereinstürzend. Herr Major – Herr Major – es giebt Congreß, es bleibt Friede.\nMAJOR. So so! Haben sie die 20000 Thaler Schon aufgenommen, Herr Paddermann?\nPADDERMANN. Nein, Herr Major, guter Herr Major, nein. – Es bleibt zwar Friede – aber pumpen thut Einem das Geldvolk doch nicht. Aber – die Staatsschuldscheine sind wieder gestiegen, glauben Sie mir, Herr Oberstlieutenant – es bleibt Friede – ruiniren Sie 'nen soliden Bürger nicht. Mein dicker Portier heirathet sich die Milchfrau aus Groß-Ziethen – das kann ja nur im tiefsten Frieden geschehen. Lassen Sie mir doch die Lumperei von 20000 Thaler, ich steigere Sie och nicht in diesem Jahre, wahrhaftig nich Bei Seite. erst nächstens.\nMAJOR. Na Paddemännchen, ich habe heute schon mehr auf Frieden spekuliren müssen, und da will ich es mit Ihnen der Consequenz halber auch thun. Wenn Krieg wird, dann gehen wir jungen LeuteDen Assessor bei der Hand nehmend. mit Gott für König und Vaterland mit – und thun unsere Schuldigkeit; aber ehe es soweit kommt, wünschen wir, lieber Herr Paddemann –\nPADDEMANN mit Haltung. Wie jeder solide und ruhige Bürger Ruhe und Frieden."
+          },
+          {
+            "typ": "figurtext",
+            "text": "JOHANN zum Publikum. Aber Sie können immer ein Bischen Skandal machen. Der Vorhang fällt.\n(19. Szene)"
+          }
+        ]
+      },
+
+      {
+        "id": "KriegFrieden02",
+        "theaterstück": {
+          "titel": "Krieg oder Frieden? Dramatische Bagatelle in einem Akt",
+          "zeit": "1859",
+          "druckort": "Berlin",
+          "auffuehrungshinweise": "Das Stück spielt zu Berlin, in der Wohnung des Majors von Voß. Zeit: Gegenwart."
+        },
+        "autor": {
+          "name": "Gustav von Moser",
+          "herkunft": "Omdt.",
+          "orte": ["Spandau", "Görlitz"],
+          "lebensdaten": "1825–1903"
+        },
+        "figur": {
+          "name": "Barbier",
+          "rolle": "Barbier",
+          "beschreibung": "Berliner Barbier, redet mit Johann (ber.)"
+        },
+        "dialekt": {
+          "adaption": "Autoadaption",
+          "dialekt_grossraum": "Omdt."
+        },
+        "geokoordinaten": {
+          "herkunft_autor": {
+            "lat": 52.536111,
+            "lng": 13.203333
+          },
+          "herkunft_figur": { 
+            "lat": 52.518611,
+            "lng": 13.408333
+          }
+        },
+        "abschnitt": "BARBIER. Morgen! – Der Olle zu Hause? JOHANN giebt ihm die Hand. Jun Morgen! An der Thür des Majors. Herr Major, der Barbier. MAJOR von innen. Soll morgen wiederkommen! BARBIER. Morgen? Ich hätte eine wichtige Angelegenheit – Du, des is mir sehr unangenehm! JOHANN. Unangenehm? Warum? BARBIER. I – des dicke Rennthier hier nebenbei fragt mir alle Morgen beim Einseifen, wie viele Kanonen wir in Preußen haben. Ich habe mit de Militairbärte nich mehr ville zu thun, des is jetzt Allens Army Razor's von Austrichen, und da dacht' ich, Deine olle Kanone würde mir des sagen können. Kannst'en nich mal fragen? JOHANN. Ne – er schreibt alleweile. Kanonen – Kanonen – Na, weeßt De, jeder forsche Student hat zwee, des weeß ich wohl, aber die andern kenne ich nich. Aber was will denn der Dicke mit de Kanonen? BARBIER. Na, man so – er will abrechnen, von wegen Krieg und Frieden. – Sage mal, was denken se denn hier? Wie denkt denn der Olle, wie denkst Du denn? JOHANN. Unsinn – deß Ihr Alle verrückt seid mit Euren Krieg Sage mir nu mal, wie kommt Ihr denn eigentlich daruf, – warum soll es denn nu mit Gewalt Krieg geben? BARBIER. Warum? Naive Frage! – Ich habe eijentlich keenen Augenblick Zeit, aber des muß ich Dir doch noch auseinandersetzen. Ich barbiere nämlich den neapolitanischen Gesandten seinen Kutscher, un da bin ich so immer mit in des Gedrängte von Europa. JOHANN. Na man los. BARBIER. Siehste – eijentlich is Allens gut: Außland wird nich – Oesterreich kann nich – Preußen mag nich – England will nich – un Frankreich will eijentlich doch nich – aber Eener will nu doch den Kieg. JOHANN. Eener? – Een eenziger – na – wer denn? BARBIER stößt ihn an. Thu man doch nich so! JOHANN. Ich weeß et wahrhaftig nich! BARBIER. Hehehe – Du weeßt es ja. JOHANN. Ne sag ich Dir – Fragend. Na? BARBIER. Siehste – Na – Du weeßt es schon. JOHANN. Na – BARBIER. Na – hehehe – Na – na sag's doch. JOHANN. Na – ach so! – Will sagen Napoleon. Nap – BARBIER hält ihn den Mund zu. Hehehe – siehste – das Du's weeßt – daß Du meinen Collegen kennst? JOHANN. Was – Dein – BARBIER. Natürlich – siehste, ich bin man so'n kleener Pfuscher bei meine paar Kunden – aber mein College – Na – des is der Großmeester von des janze, barbierende Europa – Na, Morgen Johann! Ab durch die Mitte. (6. Szene)",
+        "original_link": "https://textgridrep.org/browse/sj6r.0",
+        "abschnitt_segmentiert": [
+          {
+            "typ": "figurtext",
+            "text": "BARBIER. Morgen! – Der Olle zu Hause?"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN giebt ihm die Hand. Jun Morgen! An der Thür des Majors. Herr Major, der Barbier.\nMAJOR von innen. Soll morgen wiederkommen!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "BARBIER. Morgen? Ich hätte eine wichtige Angelegenheit – Du, des is mir sehr unangenehm!"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Unangenehm? Warum?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "BARBIER. I – des dicke Rennthier hier nebenbei fragt mir alle Morgen beim Einseifen, wie viele Kanonen wir in Preußen haben. Ich habe mit de Militairbärte nich mehr ville zu thun, des is jetzt Allens Army Razor's von Austrichen, und da dacht' ich, Deine olle Kanone würde mir des sagen können. Kannst'en nich mal fragen?"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Ne – er schreibt alleweile. Kanonen – Kanonen – Na, weeßt De, jeder forsche Student hat zwee, des weeß ich wohl, aber die andern kenne ich nich. Aber was will denn der Dicke mit de Kanonen?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "BARBIER. Na, man so – er will abrechnen, von wegen Krieg und Frieden. – Sage mal, was denken se denn hier? Wie denkt denn der Olle, wie denkst Du denn?"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Unsinn – deß Ihr Alle verrückt seid mit Euren Krieg Sage mir nu mal, wie kommt Ihr denn eigentlich daruf, – warum soll es denn nu mit Gewalt Krieg geben?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "BARBIER. Warum? Naive Frage! – Ich habe eijentlich keenen Augenblick Zeit, aber des muß ich Dir doch noch auseinandersetzen. Ich barbiere nämlich den neapolitanischen Gesandten seinen Kutscher, un da bin ich so immer mit in des Gedrängte von Europa."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Na man los."
+          },
+          {
+            "typ": "figurtext",
+            "text": "BARBIER. Siehste – eijentlich is Allens gut: Außland wird nich – Oesterreich kann nich – Preußen mag nich – England will nich – un Frankreich will eijentlich doch nich – aber Eener will nu doch den Kieg."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Eener? – Een eenziger – na – wer denn?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "BARBIER stößt ihn an. Thu man doch nich so!"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Ich weeß et wahrhaftig nich!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "BARBIER. Hehehe – Du weeßt es ja."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Ne sag ich Dir – Fragend. Na?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "BARBIER. Siehste – Na – Du weeßt es schon."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Na –"
+          },
+          {
+            "typ": "figurtext",
+            "text": "BARBIER. Na – hehehe – Na – na sag's doch."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Na – ach so! – Will sagen Napoleon. Nap –"
+          },
+          {
+            "typ": "figurtext",
+            "text": "BARBIER hält ihn den Mund zu. Hehehe – siehste – das Du's weeßt – daß Du meinen Collegen kennst?"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Was – Dein –"
+          },
+          {
+            "typ": "figurtext",
+            "text": "BARBIER. Natürlich – siehste, ich bin man so'n kleener Pfuscher bei meine paar Kunden – aber mein College – Na – des is der Großmeester von des janze, barbierende Europa – Na, Morgen Johann! Ab durch die Mitte.\n(6. Szene)"
+          }
+        ]
+      },
+
+      {
+        "id": "KriegFrieden03",
+        "theaterstück": {
+          "titel": "Krieg oder Frieden? Dramatische Bagatelle in einem Akt",
+          "zeit": "1859",
+          "druckort": "Berlin",
+          "auffuehrungshinweise": "Das Stück spielt zu Berlin, in der Wohnung des Majors von Voß. Zeit: Gegenwart."
+        },
+        "autor": {
+          "name": "Gustav von Moser",
+          "herkunft": "Omdt.",
+          "orte": ["Spandau", "Görlitz"],
+          "lebensdaten": "1825–1903"
+        },
+        "figur": {
+          "name": "Milchfrau",
+          "rolle": "Milchfrau",
+          "beschreibung": "Berliner Milchfrau (aus Groß-Ziethen), redet mit Johann (ber.)"
+        },
+        "dialekt": {
+          "adaption": "Autoadaption",
+          "dialekt_grossraum": "Omdt."
+        },
+        "geokoordinaten": {
+          "herkunft_autor": {
+            "lat": 52.536111,
+            "lng": 13.203333
+          },
+          "herkunft_figur": { 
+            "lat": 52.4023,
+            "lng": 13.4414
+          }
+        },
+        "abschnitt": "JOHANN. Ja – wenn die Sachen so stehn – denn wird's wohl heißen: Marsch erstes Ufgebot – Nu ich habe die Ehre, erstes Ufgebot zu sein. – Na, wir wollen die Sache schon kriegen – da is mich nu jar nich bange – jar nich. MILCHFRAU durch die Mitte. Aber is denn och jar Niemand nich hier? Des is ja ne Zucht – keen Mensch in der Küche – als wenn schon Allens geflohen wäre vor de Franzosen – ach da sind Sie ja, Herr Johann. JOHANN. Ju'n Morgen, Herr Milchmann. MILCHFRAU. De drei Quart hab ich in die Küche gestellt. Aber hören Se – es is gut – deß ich Sie finde – ich habe schon ne janze Weile draußen uf'n Flur uf Ihnen gewart. JOHANN. Uf mir, schöne Michfälscherin? MILCHFRAU. Ich hatte mir vorgenommen, Ihnen was zu fragen – Sie sind ja een verständiger Mann – un werden mich gewiß een guten Rath jeben können! JOHANN. Ah – sehr schmeichelbar – mit dem größten Vergnügen. MILCHFRAU. Sehn Se – die Sache is die – ich fahre nu schon 5 Jahre als Wittwe de Milch aus Groß- Ziethen nach Berlin. JOHANN trocken. Hm – über'm Gesundbrunnen! MILCHFRAU. Hab' mer och janz ehrlich en hübsches Sümmchen verdient. Un nu kenne ich Eenen – der och een paar Iroschens hat – nen soliden Mann – der Freude un Leid des Milchgeschäfts mit mir theilen will. JOHANN trocken. Hm – so mitplantschern. MILCHFRAU. Was ich nu aber fragen wollte – Se reden so alleweile jetzt so fürchterlich ville von Krieg – JOHANN. Na deshalb wird Ihnen de Milch nich zusammenloofen – wenn's noch een Donnerwetter wäre! MILCHFRAU. Ne – des nich – Aber müssen denn nu – wenn's wirklich los jeht – alle Männer mit im Krieg? JOHANN nachdenkend. Hm – ingesegnet is er doch Ihr Charmanter? MILCHFRAU. Na des versteht sich. Was denken Se denn von mich? JOHANN. Denn muß er ooch mit! MILCHFRAU. Er is aber nu schon mehr wie ingesegnet – ville mehr! JOHANN. Ach Herrjeh – een oller Bursche un so ne schöne Alpnerin? MILCHFRAU. Na – een gesetzter Mann, wie ich en brauche! JOHANN. Helft ihm Allens nischt – muß ooch mit.Beiläufig. Sagen Se – wie ville haben Se sich denn gespart? Wenn ich Ihnen en juten Rath jeben soll – warten Se de Krisis ab. MILCHFRAU. De Krisis – was is denn des? JOHANN. Na – wie soll ich Ihnen des erklären – Krisis is zum Beispiel: Wenn so ne Menge Dokters an een Kranken rumgedoktert haben, een endlich ufgegeben – un de Natur hilft sich denn selber – des ist de Krisis. MILCHFRAU. Aha – aber was glauben Sie denn nu eijentlich – wird denn Krieg oder Frieden werden? JOHANN. Ja – sehn Se – da kommts nu wieder uf de Krisis an Beiläufig. Wieviel haben Se sich denn gespart? MILCHFRAU. Na, so meine 600 Thälerchen hab' ich wohl. JOHANN bei Seite. 600 Thaler? Un bei den vorjährigem Wassermangel – na wenn mir nu erst nasse Jahre haben. Laut. Hören Sie – ich glaube, es wird een doller Krieg – lassen Se den Ollen schießenWill sie umarmen. ich nehme so Theil an Ihnen – ich kann's Ihnen jar nich sagen – Se könnten wahrhaftig noch mal Wittwe werden – eh Se gehairathet hätten Will ihr einen Kuß geben. Ich will Ihnen helfen – Nenne mich Du. MILCHFRAU. Na hören Se – von wegen die Krisis können Se mer leid thun, Herr Johann. Will gehn. JOHANN. Oho – aber Krieg wird doch, sag ich' Ihnen, schöner Milchmann – un Ihr Oller muß ooch mit – wir müssen Alle mit – ich sage Ihnen, es wird ein Kapitalkriegelchen, – des Blut wird fließen, daß Se die Erdaxe mit einschmieren können. MILCHFRAU abgehend durch die Mitte. Johann, Sie sind een grausames Ungeheuer! (7. Szene)",
+        "original_link": "https://textgridrep.org/browse/sj6r.0",
+        "abschnitt_segmentiert": [
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Ja – wenn die Sachen so stehn – denn wird's wohl heißen: Marsch erstes Ufgebot – Nu ich habe die Ehre, erstes Ufgebot zu sein. – Na, wir wollen die Sache schon kriegen – da is mich nu jar nich bange – jar nich."
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU durch die Mitte. Aber is denn och jar Niemand nich hier? Des is ja ne Zucht – keen Mensch in der Küche – als wenn schon Allens geflohen wäre vor de Franzosen – ach da sind Sie ja, Herr Johann."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Ju'n Morgen, Herr Milchmann."
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. De drei Quart hab ich in die Küche gestellt. Aber hören Se – es is gut – deß ich Sie finde – ich habe schon ne janze Weile draußen uf'n Flur uf Ihnen gewart."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Uf mir, schöne Michfälscherin?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. Ich hatte mir vorgenommen, Ihnen was zu fragen – Sie sind ja een verständiger Mann – un werden mich gewiß een guten Rath jeben können!"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Ah – sehr schmeichelbar – mit dem größten Vergnügen."
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. Sehn Se – die Sache is die – ich fahre nu schon 5 Jahre als Wittwe de Milch aus Groß- Ziethen nach Berlin."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN trocken. Hm – über'm Gesundbrunnen!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. Hab' mer och janz ehrlich en hübsches Sümmchen verdient. Un nu kenne ich Eenen – der och een paar Iroschens hat – nen soliden Mann – der Freude un Leid des Milchgeschäfts mit mir theilen will."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN trocken. Hm – so mitplantschern."
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. Was ich nu aber fragen wollte – Se reden so alleweile jetzt so fürchterlich ville von Krieg –"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Na deshalb wird Ihnen de Milch nich zusammenloofen – wenn's noch een Donnerwetter wäre!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. Ne – des nich – Aber müssen denn nu – wenn's wirklich los jeht – alle Männer mit im Krieg?"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN nachdenkend. Hm – ingesegnet is er doch Ihr Charmanter?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. Na des versteht sich. Was denken Se denn von mich?"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Denn muß er ooch mit!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. Er is aber nu schon mehr wie ingesegnet – ville mehr!"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Ach Herrjeh – een oller Bursche un so ne schöne Alpnerin?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. Na – een gesetzter Mann, wie ich en brauche!"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Helft ihm Allens nischt – muß ooch mit.Beiläufig. Sagen Se – wie ville haben Se sich denn gespart? Wenn ich Ihnen en juten Rath jeben soll – warten Se de Krisis ab."
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. De Krisis – was is denn des?"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Na – wie soll ich Ihnen des erklären – Krisis is zum Beispiel: Wenn so ne Menge Dokters an een Kranken rumgedoktert haben, een endlich ufgegeben – un de Natur hilft sich denn selber – des ist de Krisis."
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. Aha – aber was glauben Sie denn nu eijentlich – wird denn Krieg oder Frieden werden?"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Ja – sehn Se – da kommts nu wieder uf de Krisis an Beiläufig. Wieviel haben Se sich denn gespart?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. Na, so meine 600 Thälerchen hab' ich wohl."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN bei Seite. 600 Thaler? Un bei den vorjährigem Wassermangel – na wenn mir nu erst nasse Jahre haben. Laut. Hören Sie – ich glaube, es wird een doller Krieg – lassen Se den Ollen schießenWill sie umarmen. ich nehme so Theil an Ihnen – ich kann's Ihnen jar nich sagen – Se könnten wahrhaftig noch mal Wittwe werden – eh Se gehairathet hätten Will ihr einen Kuß geben. Ich will Ihnen helfen – Nenne mich Du."
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU. Na hören Se – von wegen die Krisis können Se mer leid thun, Herr Johann. Will gehn."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Oho – aber Krieg wird doch, sag ich' Ihnen, schöner Milchmann – un Ihr Oller muß ooch mit – wir müssen Alle mit – ich sage Ihnen, es wird ein Kapitalkriegelchen, – des Blut wird fließen, daß Se die Erdaxe mit einschmieren können."
+          },
+          {
+            "typ": "figurtext",
+            "text": "MILCHFRAU abgehend durch die Mitte. Johann, Sie sind een grausames Ungeheuer!\n(7. Szene)"
+          }
+        ]
+      },
+
+      {
+        "id": "KriegFrieden04",
+        "theaterstück": {
+          "titel": "Krieg oder Frieden? Dramatische Bagatelle in einem Akt",
+          "zeit": "1859",
+          "druckort": "Berlin",
+          "auffuehrungshinweise": "Das Stück spielt zu Berlin, in der Wohnung des Majors von Voß. Zeit: Gegenwart."
+        },
+        "autor": {
+          "name": "Gustav von Moser",
+          "herkunft": "Omdt.",
+          "orte": ["Spandau", "Görlitz"],
+          "lebensdaten": "1825–1903"
+        },
+        "figur": {
+          "name": "Paddemann",
+          "rolle": "bürgerlicher Mann",
+          "beschreibung": "Berliner Bürger der Mittelklasse, wenige berlinische Merkmale"
+        },
+        "dialekt": {
+          "adaption": "Autoadaption",
+          "dialekt_grossraum": "Omdt."
+        },
+        "geokoordinaten": {
+          "herkunft_autor": {
+            "lat": 52.536111,
+            "lng": 13.203333
+          },
+          "herkunft_figur": { 
+            "lat": 52.518611,
+            "lng": 13.408333
+          }
+        },
+        "abschnitt": "PADDEMANN. Guten Morgen, Herr Major, habe die Ehre, Ihnen guten Morgen zu wünschen – Störe doch nicht? MAJOR. Macht sich. PADDEMANN. Wollte nicht verfehlen, dem Herrn Major die vierteljährlichen Zinsen von Ihrer Hypothek zu bringen. MAJOR. Ach so, – bitte, legen Sie dahin! PADDEMANN. Zugleich aber auch als Wirth des Hauses meine Aufwartung machen, den Herrn Major fragen, ob Sie vielleicht irgend etwas in Ihrer Wohnung befehlen, vielleicht Ofen umsetzen – Oder zieht ein Fenster – oder – MAJOR. Danke, Herr Paddemann, Alles in Ordnung. Etwas Platz nehmen? Cigarre rauchen? – Bitte, bedienen Sie sich dort. PADDEMANN. Zu gnädig, Herr Major – wenn Sie einen Augenblick erlauben. Major setzt sich an den Tisch rechts, wie vorhin, Paddemann links, steckt sich eine Cigarre an. MAJOR. Nichts Neues? PADDEMANN. Immer noch nicht, so viel ich weiß. Se heddern sich diesmal höllisch lange herum. MAJOR mit den Fingern auf den Tisch trommelnd. Womit meinen Sie, Herr Paddemann? PADDEMANN. Ich meine, eh' es nu wirklich losgeht, Herr Major. MAJOR. Ach so, mit dem Kriege. Wie denken Sie denn als solider Bürger? PADDEMANN reibt sich die Hände. Na, hören Se, Herr Major, es wird ene wahre Lust sein, wenn's nur erst losgegangen ist – und die Zeitungen kommen erst. Wenn man so Morgens bei de Cigarre liest von Schlachten, Belagerungen und Bombardements! MAJOR ganz erstaunt. Alle Donnerwetter – Sie wüschen den Krieg? PADDEMANN. Ja, warum denn nich? – Sehn Sie, Herr Major, unser Eener braucht nicht mehrmit und kann die Sache also abwarten. Jetzt, wenn man des Abends zu seine Weiße geht, sitzen se Alle da – Keener weeß en Wort zu sprechen. Nachher wird de Sache ganz anders – wenn se sich man erst en Bisken faßten. MAJOR erstaunt. Also – Sie wünschen im vollen Ernste Krieg, Herr Paddemann. PADDEMANN. Ja, Herr Major! Ich habe och keene Bange für uns – ich bin auch kein Hasenfuß – MAJOR. Kann sein, Herr Paddemann. Aber das muß ich sagen, Sie sind der erste gute Bürger, von dem ich höre, daß er den Krieg wünscht. Der Krieg ist etwas Schreckliches. Wir alten Soldaten wissen noch davon zu erzählen. Von jetzt an immer artiger und freundlicher werdend. Bis jetzt hab' ich auch immer geglaubt, daß sich ein ruhiger und solider Bürger unmöglich nach Krieg sehnen kann. PADDEMANN immer sehr freundlich. O – bitte recht sehr, Herr Major – warum denn nicht? MAJOR. Weil ich bis jetzt gefunden habe, daß sich eigentlich nur ruinirte Leute den Krieg wünschen, mindestens halb ruinirte – so als kleinen Schleier über den ganzen Ruin. PADDEMANN. Bitte recht sehr, Herr Major – nein – o nein. MAJOR bei Seite. Warte nur, Du alter Weißbierheld! Dich will ich kuriren! Laut. Uebrigens, mein lieber Herr Paddemann, haben Sie mich da selbst auf die Gefahren des Krieges aufmerksam gemacht – ich weiß nicht, ob mein Alter daran Schuld ist – aber ich sinde, daß Kapitalien auf Häuser in der jetzigen Zeit nicht ganz sicher untergebracht sind. PADDEMANN lang. O, so war es nicht gemeint. MAJOR. Na, es ist jedenfalls bedenklich und so nehme ich den Moment wahr und würde Sie bitten, mir die Hypothek von 20000 Thaler am nächsten Termin auszuzahlen – ich werde die Kündigung gleich nachher schriftlich und legal besorgen lassen. PADDEMANN zerschmettert, will aufstehen, fällt wieder zurück. Herr Major, Sie werden doch nicht? Läßt die Cigarre fallen. MAJOR. Mein lieber Paddemann, man kann die Folgen eines Krieges nicht vorher absehen. PADDEMANN. Na, glauben Siedenn wirklich an Krieg? Die Verhältnisse sind ja noch gar nicht so schlimm. MAJOR. Wenn auch – Sie haben mich besorgt gemacht. Es könnte doch auch in der Nähe eine Schlacht sein – man könnte hier belagert werden und bombardirt und dann könnte Ihr Haus und meine Hypothek zusammengeschossen werden. – Also besser ist besser, mein liebes Paddemännchen. PADDEMANN aufstehend. Aber mein guter Herr Major – ich bin überzeugt, wir behalten Frieden, ich glaube an den Frieden, ich wünsche ja den Frieden. Ich bin ja Stadtverordneter, ich will nur den Frieden. MAJOR. Bitte recht sehr – das hat ja jetzt mit unseren Geschäften nichts mehr zu thun – Steht auf. ich werde Ihnen den Kündigungs-Brief bald besorgen. Guten Morgen, Paddemännchen. Ab nach rechts. (10. Szene) PADDEMANN allein, läuft ihm nach bis zur Thür. Aber Herr Major, ich bitte Sie – guter Herr Oberst- Lieutenant Sie werden doch nicht einen guten soliden Bürger in's Unglück stürzen? – Er hört nicht.Wieder nach vorne. Ich glaube – das ist die größte Dummheit, die ich in meinem Leben gemacht habe. Wenn ich nur eine Ahnung gehabt hätte – ich wäre ja gegen den alten Brummbär das reine Olivenblatt gewesen – die Taube mit dem Olivenblatt – der reine Elihu Burrit. Wer wird mir denn jetzt die 20000 Thaler pumpen? Ja, wenn Friede bliebe – aber so – Nach kurzer Pause. Es muß auch wirklich Friede bleiben. Ab durch die Mitte. (11. Szene) PADDEMANN hereinstürzend. Herr Major – Herr Major – es giebt Congreß, es bleibt Friede. MAJOR. So so! Haben sie die 20000 Thaler Schon aufgenommen, Herr Paddermann? PADDERMANN. Nein, Herr Major, guter Herr Major, nein. – Es bleibt zwar Friede – aber pumpen thut Einem das Geldvolk doch nicht. Aber – die Staatsschuldscheine sind wieder gestiegen, glauben Sie mir, Herr Oberstlieutenant – es bleibt Friede – ruiniren Sie 'nen soliden Bürger nicht. Mein dicker Portier heirathet sich die Milchfrau aus Groß-Ziethen – das kann ja nur im tiefsten Frieden geschehen. Lassen Sie mir doch die Lumperei von 20000 Thaler, ich steigere Sie och nicht in diesem Jahre, wahrhaftig nich Bei Seite. erst nächstens. MAJOR. Na Paddemännchen, ich habe heute schon mehr auf Frieden spekuliren müssen, und da will ich es mit Ihnen der Consequenz halber auch thun. Wenn Krieg wird, dann gehen wir jungen Leute Den Assessor bei der Hand nehmend. mit Gott für König und Vaterland mit – und thun unsere Schuldigkeit; aber ehe es soweit kommt, wünschen wir, lieber Herr Paddemann – PADDEMANN mit Haltung. Wie jeder solide und ruhige Bürger Ruhe und Frieden. JOHANN zum Publikum. Aber Sie können immer ein Bischen Skandal machen. Der Vorhang fällt. (19. Szene)",
+        "original_link": "https://textgridrep.org/browse/sj6r.0",
+        "abschnitt_segmentiert": [
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN. Guten Morgen, Herr Major, habe die Ehre, Ihnen guten Morgen zu wünschen – Störe doch nicht?"
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Macht sich."
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN. Wollte nicht verfehlen, dem Herrn Major die vierteljährlichen Zinsen von Ihrer Hypothek zu bringen."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Ach so, – bitte, legen Sie dahin!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN. Zugleich aber auch als Wirth des Hauses meine Aufwartung machen, den Herrn Major fragen, ob Sie vielleicht irgend etwas in Ihrer Wohnung befehlen, vielleicht Ofen umsetzen – Oder zieht ein Fenster – oder –"
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Danke, Herr Paddemann, Alles in Ordnung. Etwas Platz nehmen? Cigarre rauchen? – Bitte, bedienen Sie sich dort."
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN. Zu gnädig, Herr Major – wenn Sie einen Augenblick erlauben."
+          },
+          {
+            "typ": "kontext",
+            "text": "Major setzt sich an den Tisch rechts, wie vorhin, Paddemann links, steckt sich eine Cigarre an. MAJOR. Nichts Neues?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN. Immer noch nicht, so viel ich weiß. Se heddern sich diesmal höllisch lange herum."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR mit den Fingern auf den Tisch trommelnd. Womit meinen Sie, Herr Paddemann?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN. Ich meine, eh' es nu wirklich losgeht, Herr Major."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Ach so, mit dem Kriege. Wie denken Sie denn als solider Bürger?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN reibt sich die Hände. Na, hören Se, Herr Major, es wird ene wahre Lust sein, wenn's nur erst losgegangen ist – und die Zeitungen kommen erst. Wenn man so Morgens bei de Cigarre liest von Schlachten, Belagerungen und Bombardements!"
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR ganz erstaunt. Alle Donnerwetter – Sie wüschen den Krieg?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN. Ja, warum denn nich? – Sehn Sie, Herr Major, unser Eener braucht nicht mehrmit und kann die Sache also abwarten. Jetzt, wenn man des Abends zu seine Weiße geht, sitzen se Alle da – Keener weeß en Wort zu sprechen. Nachher wird de Sache ganz anders – wenn se sich man erst en Bisken faßten."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR erstaunt. Also – Sie wünschen im vollen Ernste Krieg, Herr Paddemann."
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN. Ja, Herr Major! Ich habe och keene Bange für uns – ich bin auch kein Hasenfuß –"
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Kann sein, Herr Paddemann. Aber das muß ich sagen, Sie sind der erste gute Bürger, von dem ich höre, daß er den Krieg wünscht. Der Krieg ist etwas Schreckliches. Wir alten Soldaten wissen noch davon zu erzählen. Von jetzt an immer artiger und freundlicher werdend. Bis jetzt hab' ich auch immer geglaubt, daß sich ein ruhiger und solider Bürger unmöglich nach Krieg sehnen kann."
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN immer sehr freundlich. O – bitte recht sehr, Herr Major – warum denn nicht?"
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Weil ich bis jetzt gefunden habe, daß sich eigentlich nur ruinirte Leute den Krieg wünschen, mindestens halb ruinirte – so als kleinen Schleier über den ganzen Ruin."
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN. Bitte recht sehr, Herr Major – nein – o nein."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR bei Seite. Warte nur, Du alter Weißbierheld! Dich will ich kuriren! Laut. Uebrigens, mein lieber Herr Paddemann, haben Sie mich da selbst auf die Gefahren des Krieges aufmerksam gemacht – ich weiß nicht, ob mein Alter daran Schuld ist – aber ich sinde, daß Kapitalien auf Häuser in der jetzigen Zeit nicht ganz sicher untergebracht sind."
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN lang. O, so war es nicht gemeint."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Na, es ist jedenfalls bedenklich und so nehme ich den Moment wahr und würde Sie bitten, mir die Hypothek von 20000 Thaler am nächsten Termin auszuzahlen – ich werde die Kündigung gleich nachher schriftlich und legal besorgen lassen."
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN zerschmettert, will aufstehen, fällt wieder zurück. Herr Major, Sie werden doch nicht? Läßt die Cigarre fallen."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Mein lieber Paddemann, man kann die Folgen eines Krieges nicht vorher absehen."
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN. Na, glauben Siedenn wirklich an Krieg? Die Verhältnisse sind ja noch gar nicht so schlimm."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Wenn auch – Sie haben mich besorgt gemacht. Es könnte doch auch in der Nähe eine Schlacht sein – man könnte hier belagert werden und bombardirt und dann könnte Ihr Haus und meine Hypothek zusammengeschossen werden. – Also besser ist besser, mein liebes Paddemännchen."
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN aufstehend. Aber mein guter Herr Major – ich bin überzeugt, wir behalten Frieden, ich glaube an den Frieden, ich wünsche ja den Frieden. Ich bin ja Stadtverordneter, ich will nur den Frieden."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Bitte recht sehr – das hat ja jetzt mit unseren Geschäften nichts mehr zu thun – Steht auf. ich werde Ihnen den Kündigungs-Brief bald besorgen. Guten Morgen, Paddemännchen. Ab nach rechts."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(10. Szene)\n"
+          },
+
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN allein, läuft ihm nach bis zur Thür. Aber Herr Major, ich bitte Sie – guter Herr Oberst- Lieutenant Sie werden doch nicht einen guten soliden Bürger in's Unglück stürzen? – Er hört nicht.Wieder nach vorne. Ich glaube – das ist die größte Dummheit, die ich in meinem Leben gemacht habe. Wenn ich nur eine Ahnung gehabt hätte – ich wäre ja gegen den alten Brummbär das reine Olivenblatt gewesen – die Taube mit dem Olivenblatt – der reine Elihu Burrit. Wer wird mir denn jetzt die 20000 Thaler pumpen? Ja, wenn Friede bliebe – aber so – Nach kurzer Pause. Es muß auch wirklich Friede bleiben. Ab durch die Mitte.\n(11. Szene)\n"
+          },
+
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN hereinstürzend. Herr Major – Herr Major – es giebt Congreß, es bleibt Friede."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. So so! Haben sie die 20000 Thaler Schon aufgenommen, Herr Paddermann?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDERMANN. Nein, Herr Major, guter Herr Major, nein. – Es bleibt zwar Friede – aber pumpen thut Einem das Geldvolk doch nicht. Aber – die Staatsschuldscheine sind wieder gestiegen, glauben Sie mir, Herr Oberstlieutenant – es bleibt Friede – ruiniren Sie 'nen soliden Bürger nicht. Mein dicker Portier heirathet sich die Milchfrau aus Groß-Ziethen – das kann ja nur im tiefsten Frieden geschehen. Lassen Sie mir doch die Lumperei von 20000 Thaler, ich steigere Sie och nicht in diesem Jahre, wahrhaftig nich Bei Seite. erst nächstens."
+          },
+          {
+            "typ": "kontext",
+            "text": "MAJOR. Na Paddemännchen, ich habe heute schon mehr auf Frieden spekuliren müssen, und da will ich es mit Ihnen der Consequenz halber auch thun. Wenn Krieg wird, dann gehen wir jungen Leute Den Assessor bei der Hand nehmend. mit Gott für König und Vaterland mit – und thun unsere Schuldigkeit; aber ehe es soweit kommt, wünschen wir, lieber Herr Paddemann –"
+          },
+          {
+            "typ": "figurtext",
+            "text": "PADDEMANN mit Haltung. Wie jeder solide und ruhige Bürger Ruhe und Frieden."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN zum Publikum. Aber Sie können immer ein Bischen Skandal machen. Der Vorhang fällt."
+          },
+          {
+            "typ": "figurtext",
+            "text": "(19. Szene)"
+          }
+        ]
+      },
+
+      {
+        "id": "KriegFrieden05",
+        "theaterstück": {
+          "titel": "Krieg oder Frieden? Dramatische Bagatelle in einem Akt",
+          "zeit": "1859",
+          "druckort": "Berlin",
+          "auffuehrungshinweise": "Das Stück spielt zu Berlin, in der Wohnung des Majors von Voß. Zeit: Gegenwart."
+        },
+        "autor": {
+          "name": "Gustav von Moser",
+          "herkunft": "Omdt.",
+          "orte": ["Spandau", "Görlitz"],
+          "lebensdaten": "1825–1903"
+        },
+        "figur": {
+          "name": "Anton Kulike",
+          "rolle": "Portier",
+          "beschreibung": "berlinischer Portier, redet mit Johann (ber.)"
+        },
+        "dialekt": {
+          "adaption": "Autoadaption",
+          "dialekt_grossraum": "Omdt."
+        },
+        "geokoordinaten": {
+          "herkunft_autor": {
+            "lat": 52.536111,
+            "lng": 13.203333
+          },
+          "herkunft_figur": { 
+            "lat": 52.518611,
+            "lng": 13.408333
+          }
+        },
+        "abschnitt": "KULIKE sehr pomadig. Johann – des war nich hübsch von Dir. JOHANN. Ach, ju'n Morgen Kulike! KULIKE. Des war jar nich hübsch von Dir. JOHANN. Was hab' ich denn gemacht? KULIKE. Des war wirklich durchaus nich hübsch von Dir. JOHANN. Na aber, was willst De denn? KULIKE. Des hätt' ich nich gedacht von Dir! JOHANN. Herr Jott, wat hast De denn? So rede doch man. KULIKE. Siehste, fünf Jahre hab ich nu de Milchfrau ihre Kannen runter vom Wagen gehoben, wenn se unten hielt – un den Schirm hab ich dir ihr gepumpt, wenn's regnete, un rugeholfen hab ich ihr och immer wieder – JOHANN. Ach Du meine Seele, des is der zukünftige Milchmann. KULIKE. Und wenn ihr's Wasser ausgegangen war, hab' ich ihr och immer gepumpt – und nu mit eenmal – JOHANN. Also Kulike, Du bist der Olle, der mitplantschen will? KULIKE. Plantschen oder nich – des is hier enjal. Aber sehr eklig is et. Des war nich hübsch von Dir, deß Du ihr de Raupen in Kopp gesetzt hast. Jetzt sagt se, ich müßte mit, un will die Krisis abwarten, ehe wir uns heirathen. JOHANN. Ne, Kulike, wenn ich des gewußt hätte! Aber wie kann ich och denken, daß Du 'ne Sponsade mit en Milchmann hast? KULIKE. Und des Dollste is – ich bin doch man Landstürmer; eh Holland nich ganz in Noth is, brauch' ich ja gar nich mit. JOHANN. Na, Du armer Kerl – des thut mich leid. KULIKE. Des war jedenfalls nich hübsch von Dir. Jetzt bildt se sich nu steif un fest ein, wir müssen Alle mit, un wie ich ihr des auseindarsetzte, daß ich doch nur eigentlich der Fall der Noth bin, sagt se: Landwehr und Landsturm, des is man Allens ene Schmiere. JOHANN. Na, laß Dir keene graue Haare wachsen, Kulike. Wenn se morgen kommt, wer' ich ihr mit Gewalt an de Thränen drüfen schlagen, un ihr den Kopp uf den Frieden verkeilen, deß sie sich gleich ufbieten läßt. KULIKE. Sage mal, globst De denn, des nu eijentlich wirklich Krieg wird? JOHANN. Na – siehste – na ja – aber ejentlich och wieder nich. – KULIKE. Ich hab' es bis jetzt nich jloben wollen, aber nebenbei wohnt doch der Lieutenant – Du, denke Dir, des spricht doch nu eijentlich vor'n Krieg, der fängt jetzt an seine Schulden zu bezahlen. JOHANN. Donnerwetter ja, da muß es schlimm sind. Aber wenn es losginge, Kulike – ich muß natürlich mit – Landwehr 1. Ufgebots, des is nu ene ganz andere Sache, als Eure Krepelei – ich sage, wenn's nu wirklich losginge, denn ginge ich och gerne mit. KULIKE. Du? JOHANN. Ja, siehste, des liegt nu mal in uns Männern – in unser Geschlecht. So'ne ordentliche, flotte Keilerei, des is doch wunderschön – wat? KULIKE. O ja, aber wenn man vorher wüßte, wer nu keilt und wer de Wichse kriegt. JOHANN. Na siehste, des wird nu rüber und nüber gehen, denk' ich mir, wir vertragen schon en Puffst – Aber janz zuletzt wichsen wir se doch, des is gewiß. MAJOR von innen. Johann! JOHANN. Der Olle ruft! KULIKE. Ja, wenn man des nu vorher so Allens gewiß wissen duhn dähte! Ab durch die Mitte. (16. Szene)",
+        "original_link": "https://textgridrep.org/browse/sj6r.0",
+        "abschnitt_segmentiert": [
+          {
+            "typ": "figurtext",
+            "text": "KULIKE sehr pomadig. Johann – des war nich hübsch von Dir."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Ach, ju'n Morgen Kulike!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. Des war jar nich hübsch von Dir."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Was hab' ich denn gemacht?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. Des war wirklich durchaus nich hübsch von Dir."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Na aber, was willst De denn?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. Des hätt' ich nich gedacht von Dir!"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Herr Jott, wat hast De denn? So rede doch man."
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. Siehste, fünf Jahre hab ich nu de Milchfrau ihre Kannen runter vom Wagen gehoben, wenn se unten hielt – un den Schirm hab ich dir ihr gepumpt, wenn's regnete, un rugeholfen hab ich ihr och immer wieder –"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Ach Du meine Seele, des is der zukünftige Milchmann."
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. Und wenn ihr's Wasser ausgegangen war, hab' ich ihr och immer gepumpt – und nu mit eenmal –"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Also Kulike, Du bist der Olle, der mitplantschen will?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. Plantschen oder nich – des is hier enjal. Aber sehr eklig is et. Des war nich hübsch von Dir, deß Du ihr de Raupen in Kopp gesetzt hast. Jetzt sagt se, ich müßte mit, un will die Krisis abwarten, ehe wir uns heirathen."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Ne, Kulike, wenn ich des gewußt hätte! Aber wie kann ich och denken, daß Du 'ne Sponsade mit en Milchmann hast?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. Und des Dollste is – ich bin doch man Landstürmer; eh Holland nich ganz in Noth is, brauch' ich ja gar nich mit."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Na, Du armer Kerl – des thut mich leid."
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. Des war jedenfalls nich hübsch von Dir. Jetzt bildt se sich nu steif un fest ein, wir müssen Alle mit, un wie ich ihr des auseindarsetzte, daß ich doch nur eigentlich der Fall der Noth bin, sagt se: Landwehr und Landsturm, des is man Allens ene Schmiere."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Na, laß Dir keene graue Haare wachsen, Kulike. Wenn se morgen kommt, wer' ich ihr mit Gewalt an de Thränen drüfen schlagen, un ihr den Kopp uf den Frieden verkeilen, deß sie sich gleich ufbieten läßt."
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. Sage mal, globst De denn, des nu eijentlich wirklich Krieg wird?"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Na – siehste – na ja – aber ejentlich och wieder nich. –"
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. Ich hab' es bis jetzt nich jloben wollen, aber nebenbei wohnt doch der Lieutenant – Du, denke Dir, des spricht doch nu eijentlich vor'n Krieg, der fängt jetzt an seine Schulden zu bezahlen."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Donnerwetter ja, da muß es schlimm sind. Aber wenn es losginge, Kulike – ich muß natürlich mit – Landwehr 1. Ufgebots, des is nu ene ganz andere Sache, als Eure Krepelei – ich sage, wenn's nu wirklich losginge, denn ginge ich och gerne mit."
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. Du?"
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Ja, siehste, des liegt nu mal in uns Männern – in unser Geschlecht. So'ne ordentliche, flotte Keilerei, des is doch wunderschön – wat?"
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. O ja, aber wenn man vorher wüßte, wer nu keilt und wer de Wichse kriegt."
+          },
+          {
+            "typ": "kontext",
+            "text": "JOHANN. Na siehste, des wird nu rüber und nüber gehen, denk' ich mir, wir vertragen schon en Puffst – Aber janz zuletzt wichsen wir se doch, des is gewiß.\nMAJOR von innen. Johann!\nJOHANN. Der Olle ruft!"
+          },
+          {
+            "typ": "figurtext",
+            "text": "KULIKE. Ja, wenn man des nu vorher so Allens gewiß wissen duhn dähte! Ab durch die Mitte.\n(16. Szene)"
+          }
+        ]
+      },
     {
         "id": "Pietisterey01",
         "theaterstück": {
