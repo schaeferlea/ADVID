@@ -57,48 +57,50 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function displayResults(data, query = "") {
-    const resultsContainer = document.getElementById("results");
-    resultsContainer.innerHTML = data.length === 0 ? "<p>Keine Ergebnisse gefunden.</p>" : "";
+  const resultsContainer = document.getElementById("results");
+  resultsContainer.innerHTML = data.length === 0 ? "<p>Keine Ergebnisse gefunden.</p>" : "";
 
-    data.forEach(entry => {
-      const item = document.createElement("div");
-      item.className = "result-item";
+  data.forEach(entry => {
+    const item = document.createElement("div");
+    item.className = "result-item";
+    // NEU: ID setzen, damit Ankerlinks funktionieren
+    item.id = entry.id;
 
-      const figurtexte = entry.abschnitt_segmentiert.filter(s => s.typ === "figurtext");
-      const fullTextHTML = entry.abschnitt_segmentiert
-        .filter(seg => kontextAnzeigen || seg.typ === "figurtext")
-        .map(seg => `<div class="${seg.typ === "kontext" ? "kontext" : "figurtext"}">${highlightText(seg.text, query)}</div>`)
-        .join("");
+    const figurtexte = entry.abschnitt_segmentiert.filter(s => s.typ === "figurtext");
+    const fullTextHTML = entry.abschnitt_segmentiert
+      .filter(seg => kontextAnzeigen || seg.typ === "figurtext")
+      .map(seg => `<div class="${seg.typ === "kontext" ? "kontext" : "figurtext"}">${highlightText(seg.text, query)}</div>`)
+      .join("");
 
-      const preview = shortenToWords(figurtexte.map(s => s.text).join(" "), 12);
+    const preview = shortenToWords(figurtexte.map(s => s.text).join(" "), 12);
 
-      item.innerHTML = `
-        <h3>${entry.theaterstück.titel} (${entry.theaterstück.zeit})</h3>
-        <p><strong>Autor:</strong> ${entry.autor.name} (${entry.autor.lebensdaten})</p>
-        <p><strong>Herkunft:</strong> ${entry.autor.herkunft}</p>
-        <p><strong>Figur:</strong> ${entry.figur.name} (${entry.figur.rolle})</p>
-        <p><strong>Adaption:</strong> ${entry.dialekt.adaption} (${entry.dialekt.dialekt_grossraum})</p>
-        <div class="abschnitt-preview figurtext">${preview}</div>
-        <button class="toggle-abschnitt">Mehr</button>
-        <div class="abschnitt-full hidden">${fullTextHTML}</div>
-        <p><a href="${entry.original_link}" target="_blank">Quelle</a></p>
-      `;
+    item.innerHTML = `
+      <h3>${entry.theaterstück.titel} (${entry.theaterstück.zeit})</h3>
+      <p><strong>Autor:</strong> ${entry.autor.name} (${entry.autor.lebensdaten})</p>
+      <p><strong>Herkunft:</strong> ${entry.autor.herkunft}</p>
+      <p><strong>Figur:</strong> ${entry.figur.name} (${entry.figur.rolle})</p>
+      <p><strong>Adaption:</strong> ${entry.dialekt.adaption} (${entry.dialekt.dialekt_grossraum})</p>
+      <div class="abschnitt-preview figurtext">${preview}</div>
+      <button class="toggle-abschnitt">Mehr</button>
+      <div class="abschnitt-full hidden">${fullTextHTML}</div>
+      <p><a href="${entry.original_link}" target="_blank">Quelle</a></p>
+    `;
 
-      resultsContainer.appendChild(item);
+    resultsContainer.appendChild(item);
 
-      const btn = item.querySelector(".toggle-abschnitt");
-      const full = item.querySelector(".abschnitt-full");
-      const previewBox = item.querySelector(".abschnitt-preview");
+    const btn = item.querySelector(".toggle-abschnitt");
+    const full = item.querySelector(".abschnitt-full");
+    const previewBox = item.querySelector(".abschnitt-preview");
 
-      full.style.display = "none";
-      btn.addEventListener("click", () => {
-        const visible = full.style.display === "block";
-        full.style.display = visible ? "none" : "block";
-        previewBox.style.display = visible ? "block" : "none";
-        btn.textContent = visible ? "Mehr" : "Weniger";
-      });
+    full.style.display = "none";
+    btn.addEventListener("click", () => {
+      const visible = full.style.display === "block";
+      full.style.display = visible ? "none" : "block";
+      previewBox.style.display = visible ? "block" : "none";
+      btn.textContent = visible ? "Mehr" : "Weniger";
     });
-  }
+  });
+}
 
   function highlightText(text, query) {
     if (!query) return text;
