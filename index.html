@@ -11,15 +11,21 @@
     <!-- Header -->
     <div class="header">
       <h1>Datenbank des DFG-Projekts <i>Adaptionen deutscher Varietäten in deutschsprachigen Dramen (16.–19. Jahrhundert)</i></h1>
-       <p>Informationen zum Projekt und zur Datenbank finden Sie <a href="Projekt.html">hier</a></p>
+       <p>Informationen zum Projekt und zur Datenbank finden Sie <a href="Projekt.html">hier</a>.<br>Zur <a href="karte.html">Kartenansicht</a></p>
       <p><font color="red">Die Datenbank befindet sich noch im Aufbau!</font></p>
     </div>
 
 
     <!-- Suche -->
+
 <div class="search-container">
-  <input type="text" id="search-input" placeholder="Freitextsuche in Abschnitten und Metadaten...">
+  <input type="text" id="search-global" placeholder="Globale Suche (Titel, Autor:in, Ort, Figur, Metadaten …)">
+  <input type="text" id="search-input" placeholder="Suche im Abschnittstext (Dialektpassagen …)">
+  <label style="margin-left:0.5rem; font-size:0.9em;">
+    <input type="checkbox" id="use-regex"> RegEx
+  </label>
 </div>
+
     <!-- Dropdown-Filter -->
     <div id="filters">
       <div class="filter-group">
