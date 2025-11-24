@@ -3,8 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
   let kontextAnzeigen = true;
   let activeFilteredData = [];
 
-  const searchInput = document.getElementById("search-input");
-  const exportBtn = document.getElementById("export-csv-btn");
+  const textSearchInput   = document.getElementById("search-input");
+  const globalSearchInput = document.getElementById("search-global");
+  const regexCheckbox     = document.getElementById("use-regex");
+  const exportBtn         = document.getElementById("export-csv-btn");
 
   fetch("data_segmentiert.json")
     .then(res => res.json())
@@ -15,101 +17,208 @@ document.addEventListener("DOMContentLoaded", () => {
       displayResults(data);
     });
 
-  searchInput.addEventListener("input", performSearch);
+  if (textSearchInput) {
+    textSearchInput.addEventListener("input", performSearch);
+  }
+  if (globalSearchInput) {
+    globalSearchInput.addEventListener("input", performSearch);
+  }
+  if (regexCheckbox) {
+    regexCheckbox.addEventListener("change", performSearch);
+  }
+
   exportBtn.addEventListener("click", exportToTSV);
 
+  // Button zum (Nicht-)Berücksichtigen des Kontextes im Text
   const toggleKontextBtn = document.createElement("button");
   toggleKontextBtn.textContent = "Kontext nicht berücksichtigen";
   toggleKontextBtn.addEventListener("click", () => {
     kontextAnzeigen = !kontextAnzeigen;
-    toggleKontextBtn.textContent = kontextAnzeigen ? "Kontext nicht berücksichtigen" : "Kontext berücksichtigen";
+    toggleKontextBtn.textContent = kontextAnzeigen
+      ? "Kontext nicht berücksichtigen"
+      : "Kontext berücksichtigen";
     performSearch();
   });
   document.querySelector(".search-container")?.appendChild(toggleKontextBtn);
 
   function performSearch() {
-    const query = searchInput.value.toLowerCase();
+    const rawTextQuery   = (textSearchInput?.value || "").trim();
+    const rawGlobalQuery = (globalSearchInput?.value || "").trim();
+    const textQuery      = rawTextQuery.toLowerCase();
+    const globalQuery    = rawGlobalQuery.toLowerCase();
+    const useRegexRaw    = regexCheckbox?.checked || false;
+
     const adaption = document.getElementById("filter-adaption").value;
-    const figur = document.getElementById("filter-figurtyp").value;
-    const zeit = document.getElementById("filter-zeit").value;
-    const dialekt = document.getElementById("filter-dialekt-grossraum").value;
+    const figur    = document.getElementById("filter-figurtyp").value;
+    const zeit     = document.getElementById("filter-zeit").value;
+    const dialekt  = document.getElementById("filter-dialekt-grossraum").value;
     const herkunft = document.getElementById("filter-herkunft").value;
 
-    const filtered = dataset.filter(entry => {
-      const matchQuery = query === "" || entry.abschnitt_segmentiert.some(seg => {
-        if (seg.typ !== "figurtext") return false;
-        return seg.text.toLowerCase().includes(query);
-      });
+    // RegEx für Abschnittssuche vorbereiten
+    let useRegex = useRegexRaw && rawTextQuery !== "";
+    let regexForSearch = null;
 
-      const jahr = parseInt(entry.theaterstück.zeit);
+    if (useRegex) {
+      try {
+        // Für die Trefferprüfung reicht /i, ohne g
+        regexForSearch = new RegExp(rawTextQuery, "i");
+      } catch (e) {
+        // Ungültiger RegEx -> wie normale Textsuche behandeln
+        useRegex = false;
+      }
+    }
+
+    const filtered = dataset.filter(entry => {
+      // 1. Spezielle Suche im Abschnittstext (nur figurtext)
+      const matchesTextQuery =
+        textQuery === "" ||
+        entry.abschnitt_segmentiert.some(seg => {
+          if (seg.typ !== "figurtext") return false;
+          const text = seg.text;
+
+          if (useRegex && regexForSearch) {
+            return regexForSearch.test(text);
+          } else {
+            return text.toLowerCase().includes(textQuery);
+          }
+        });
+
+      // 2. Globale Suche in Metadaten (immer einfache Textsuche)
+      const metaParts = [
+        entry.id,
+        entry.theaterstück.titel,
+        entry.theaterstück.zeit,
+        entry.theaterstück.druckort,
+        entry.theaterstück.auffuehrungshinweise,
+        entry.autor.name,
+        entry.autor.herkunft,
+        Array.isArray(entry.autor.orte)
+          ? entry.autor.orte.join(" ")
+          : entry.autor.orte,
+        entry.autor.lebensdaten,
+        entry.figur.name,
+        entry.figur.rolle,
+        entry.figur.beschreibung,
+        entry.dialekt.adaption,
+        entry.dialekt.dialekt_grossraum
+      ];
+
+      const metaText = metaParts
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+
+      const matchesGlobalQuery =
+        globalQuery === "" || metaText.includes(globalQuery);
+
+      if (!matchesTextQuery || !matchesGlobalQuery) {
+        return false;
+      }
+
+      const jahr     = parseInt(entry.theaterstück.zeit);
       const zeitraum = get50JahresZeitraum(jahr);
 
-      return matchQuery &&
+      return (
         (adaption === "" || entry.dialekt.adaption === adaption) &&
-        (figur === "" || entry.figur.rolle === figur) &&
-        (zeit === "" || zeitraum === zeit) &&
+        (figur   === "" || entry.figur.rolle === figur) &&
+        (zeit    === "" || zeitraum === zeit) &&
         (dialekt === "" || entry.dialekt.dialekt_grossraum === dialekt) &&
-        (herkunft === "" || entry.autor.herkunft === herkunft);
+        (herkunft=== "" || entry.autor.herkunft === herkunft)
+      );
     });
 
     activeFilteredData = filtered;
-    displayResults(filtered, query);
+    const highlightQuery = rawTextQuery || "";
+    displayResults(filtered, highlightQuery, useRegex);
   }
 
-  function displayResults(data, query = "") {
-  const resultsContainer = document.getElementById("results");
-  resultsContainer.innerHTML = data.length === 0 ? "<p>Keine Ergebnisse gefunden.</p>" : "";
+  function displayResults(data, query = "", useRegex = false) {
+    const resultsContainer = document.getElementById("results");
+    resultsContainer.innerHTML =
+      data.length === 0 ? "<p>Keine Ergebnisse gefunden.</p>" : "";
 
-  data.forEach(entry => {
-    const item = document.createElement("div");
-    item.className = "result-item";
-    // NEU: ID setzen, damit Ankerlinks funktionieren
-    item.id = entry.id;
+    data.forEach(entry => {
+      const item = document.createElement("div");
+      item.className = "result-item";
+      // ID für Ankerlinks (Karte)
+      item.id = entry.id;
 
-    const figurtexte = entry.abschnitt_segmentiert.filter(s => s.typ === "figurtext");
-    const fullTextHTML = entry.abschnitt_segmentiert
-      .filter(seg => kontextAnzeigen || seg.typ === "figurtext")
-      .map(seg => `<div class="${seg.typ === "kontext" ? "kontext" : "figurtext"}">${highlightText(seg.text, query)}</div>`)
-      .join("");
+      const figurtexte = entry.abschnitt_segmentiert.filter(
+        s => s.typ === "figurtext"
+      );
 
-    const preview = shortenToWords(figurtexte.map(s => s.text).join(" "), 12);
+      const fullTextHTML = entry.abschnitt_segmentiert
+        .filter(seg => kontextAnzeigen || seg.typ === "figurtext")
+        .map(seg =>
+          `<div class="${seg.typ === "kontext" ? "kontext" : "figurtext"}">
+             ${highlightText(seg.text, query, useRegex)}
+           </div>`
+        )
+        .join("");
 
-    item.innerHTML = `
-      <h3>${entry.theaterstück.titel} (${entry.theaterstück.zeit})</h3>
-      <p><strong>Autor:</strong> ${entry.autor.name} (${entry.autor.lebensdaten})</p>
-      <p><strong>Herkunft:</strong> ${entry.autor.herkunft}</p>
-      <p><strong>Figur:</strong> ${entry.figur.name} (${entry.figur.rolle})</p>
-      <p><strong>Adaption:</strong> ${entry.dialekt.adaption} (${entry.dialekt.dialekt_grossraum})</p>
-      <div class="abschnitt-preview figurtext">${preview}</div>
-      <button class="toggle-abschnitt">Mehr</button>
-      <div class="abschnitt-full hidden">${fullTextHTML}</div>
-      <p><a href="${entry.original_link}" target="_blank">Quelle</a></p>
-    `;
+      const preview = shortenToWords(
+        figurtexte.map(s => s.text).join(" "),
+        12
+      );
 
-    resultsContainer.appendChild(item);
+      item.innerHTML = `
+        <h3>${entry.theaterstück.titel} (${entry.theaterstück.zeit})</h3>
+        <p><strong>Autor:</strong> ${entry.autor.name} (${entry.autor.lebensdaten})</p>
+        <p><strong>Herkunft:</strong> ${entry.autor.herkunft}</p>
+        <p><strong>Figur:</strong> ${entry.figur.name} (${entry.figur.rolle})</p>
+        <p><strong>Adaption:</strong> ${entry.dialekt.adaption} (${entry.dialekt.dialekt_grossraum})</p>
+        <div class="abschnitt-preview figurtext">${preview}</div>
+        <button class="toggle-abschnitt">Mehr</button>
+        <div class="abschnitt-full hidden">${fullTextHTML}</div>
+        <p><a href="${entry.original_link}" target="_blank">Quelle</a></p>
+      `;
 
-    const btn = item.querySelector(".toggle-abschnitt");
-    const full = item.querySelector(".abschnitt-full");
-    const previewBox = item.querySelector(".abschnitt-preview");
+      resultsContainer.appendChild(item);
 
-    full.style.display = "none";
-    btn.addEventListener("click", () => {
-      const visible = full.style.display === "block";
-      full.style.display = visible ? "none" : "block";
-      previewBox.style.display = visible ? "block" : "none";
-      btn.textContent = visible ? "Mehr" : "Weniger";
+      const btn        = item.querySelector(".toggle-abschnitt");
+      const full       = item.querySelector(".abschnitt-full");
+      const previewBox = item.querySelector(".abschnitt-preview");
+
+      full.style.display = "none";
+      btn.addEventListener("click", () => {
+        const visible = full.style.display === "block";
+        full.style.display    = visible ? "none"  : "block";
+        previewBox.style.display = visible ? "block" : "none";
+        btn.textContent       = visible ? "Mehr"  : "Weniger";
+      });
     });
-  });
-}
+  }
 
-  function highlightText(text, query) {
+  function highlightText(text, query, useRegex = false) {
     if (!query) return text;
-    return text.replace(new RegExp(query, "gi"), m => `<span class="highlight">${m}</span>`);
+
+    if (useRegex) {
+      try {
+        const re = new RegExp(query, "gi");
+        return text.replace(
+          re,
+          match => `<span class="highlight">${match}</span>`
+        );
+      } catch (e) {
+        // Fallback auf normale Textsuche
+      }
+    }
+
+    // Normaler Modus: Query als Literal (Sonderzeichen escapen)
+    const safe = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const re   = new RegExp(safe, "gi");
+    return text.replace(
+      re,
+      match => `<span class="highlight">${match}</span>`
+    );
   }
 
   function shortenToWords(text, count) {
     const words = text.trim().split(/\s+/);
-    return words.slice(0, count).join(" ") + (words.length > count ? "..." : "");
+    return (
+      words.slice(0, count).join(" ") +
+      (words.length > count ? "..." : "")
+    );
   }
 
   function get50JahresZeitraum(jahr) {
@@ -121,15 +230,21 @@ document.addEventListener("DOMContentLoaded", () => {
   function populateDropdowns(data) {
     populate("filter-adaption", data.map(d => d.dialekt.adaption));
     populate("filter-figurtyp", data.map(d => d.figur.rolle));
-    populate("filter-dialekt-grossraum", data.map(d => d.dialekt.dialekt_grossraum));
+    populate(
+      "filter-dialekt-grossraum",
+      data.map(d => d.dialekt.dialekt_grossraum)
+    );
     populate("filter-herkunft", data.map(d => d.autor.herkunft));
 
-    const zeiten = [...new Set(data.map(d => get50JahresZeitraum(parseInt(d.theaterstück.zeit))))].filter(Boolean);
+    const zeiten = [...new Set(
+      data.map(d => get50JahresZeitraum(parseInt(d.theaterstück.zeit)))
+    )].filter(Boolean);
     populate("filter-zeit", zeiten);
   }
 
   function populate(id, values) {
     const el = document.getElementById(id);
+    if (!el) return;
     const unique = [...new Set(values)].sort();
     unique.forEach(val => {
       const opt = document.createElement("option");
@@ -139,28 +254,53 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     el.addEventListener("change", performSearch);
   }
+
   function exportToTSV() {
-    const dataToExport = activeFilteredData.length > 0 ? activeFilteredData : dataset;
+    const dataToExport =
+      activeFilteredData && activeFilteredData.length > 0
+        ? activeFilteredData
+        : dataset;
 
     const headers = [
-      "ID", "Titel", "Zeit", "Druckort", "Auffuehrung",
-      "Autor", "Herkunft", "Orte", "Lebensdaten",
-      "Figur", "Rolle", "Beschreibung",
-      "Adaption", "Dialekt",
-      "Koord_Autor", "Koord_Figur",
-      "Abschnitt", "Figurtext", "Link"
+      "ID",
+      "Titel",
+      "Zeit",
+      "Druckort",
+      "Auffuehrung",
+      "Autor",
+      "Herkunft",
+      "Orte",
+      "Lebensdaten",
+      "Figur",
+      "Rolle",
+      "Beschreibung",
+      "Adaption",
+      "Dialekt",
+      "Koord_Autor",
+      "Koord_Figur",
+      "Abschnitt",
+      "Figurtext",
+      "Link"
     ];
 
     const tsv = [headers.join("\t")];
 
     dataToExport.forEach(entry => {
       const abschnittVolltext = entry.abschnitt_segmentiert
-        .map(s => s.text.replace(/\n/g, " ").replace(/\t/g, " "))
+        .map(s =>
+          s.text
+            .replace(/\n/g, " ")
+            .replace(/\t/g, " ")
+        )
         .join(" ");
 
       const figurtext = entry.abschnitt_segmentiert
         .filter(s => s.typ === "figurtext")
-        .map(s => s.text.replace(/\n/g, " ").replace(/\t/g, " "))
+        .map(s =>
+          s.text
+            .replace(/\n/g, " ")
+            .replace(/\t/g, " ")
+        )
         .join(" ");
 
       const row = [
@@ -178,18 +318,30 @@ document.addEventListener("DOMContentLoaded", () => {
         entry.figur.beschreibung || "",
         entry.dialekt.adaption,
         entry.dialekt.dialekt_grossraum,
-        entry.geokoordinaten?.herkunft_autor ? `${entry.geokoordinaten.herkunft_autor.lat}, ${entry.geokoordinaten.herkunft_autor.lng}` : "",
-        entry.geokoordinaten?.herkunft_figur ? `${entry.geokoordinaten.herkunft_figur.lat}, ${entry.geokoordinaten.herkunft_figur.lng}` : "",
+        entry.geokoordinaten?.herkunft_autor
+          ? `${entry.geokoordinaten.herkunft_autor.lat}, ${entry.geokoordinaten.herkunft_autor.lng}`
+          : "",
+        entry.geokoordinaten?.herkunft_figur
+          ? `${entry.geokoordinaten.herkunft_figur.lat}, ${entry.geokoordinaten.herkunft_figur.lng}`
+          : "",
         abschnittVolltext,
         figurtext,
         entry.original_link || ""
-      ].map(val => val?.toString().replace(/\t/g, " ").replace(/\n/g, " ").trim() ?? "");
+      ].map(val =>
+        (val ?? "")
+          .toString()
+          .replace(/\t/g, " ")
+          .replace(/\n/g, " ")
+          .trim()
+      );
 
       tsv.push(row.join("\t"));
     });
 
-    const blob = new Blob(["\uFEFF" + tsv.join("\n")], { type: "text/tab-separated-values;charset=utf-8;" });
-    const url = URL.createObjectURL(blob);
+    const blob = new Blob(["\uFEFF" + tsv.join("\n")], {
+      type: "text/tab-separated-values;charset=utf-8;"
+    });
+    const url  = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
     link.download = "AdViD_Datenbank_Export.tsv";
