@@ -2,117 +2,85 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AdViD – Kartenansicht</title>
   <link rel="stylesheet" href="style.css">
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""
-  />
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
   <style>
-    /* Falls du es lieber in style.css packst, kannst du das auch dorthin verschieben */
-    #map {
-      height: 550px;
-      margin-top: 20px;
-    }
+    #map { width: 100%; height: 95vh; }
+    .popup-title { font-weight: bold; font-size: 14px; margin-bottom: 4px; }
+    .popup-entry { margin-bottom: 6px; }
   </style>
 </head>
+
 <body>
-  <div class="container">
-    <h1>AdViD – Karte der Herkunft der Autor:innen</h1>
-    <p>
-      Mit der Auswahl eines Markers öffnet sich eine Liste der Stücke von diesem Ort.
-      Ein Klick auf einen Titel springt direkt zum zugehörigen Eintrag in der
-      <a href="index.html">Datenbank</a>. \br
-      Die Karte zeigt nur Einträge von Verfasser:innen, zu denen ein konkreter Herkunftsort ermittelbar ist.
-    </p>
+  <h2>Herkunft der Autor:innen – Kartenansicht</h2>
 
-    <div id="map"></div>
-
-
-    <p><a href="index.html">← zurück zur Datenbank</a></p>
-  </div>
-
-  <!-- Logo unten links wie auf den anderen Seiten -->
-  <img src="logo.png" alt="Logo" class="fixed-logo">
-
-  <footer>
-    <p class="footer-text">
-      © 2025 AdViD-Projekt;
-      <a href="https://lea-schaefer.de" target="_blank">Lea Schäfer</a>
-    </p>
-  </footer>
-
-  <script
-    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""
-  ></script>
+  <div id="map"></div>
 
   <script>
-    // Hilfsfunktion: Autor-Ortsnamen hübsch ausgeben
-    function formatAutorOrt(autor) {
-      const orte = autor.orte;
-      if (!orte) return "";
-      if (Array.isArray(orte)) {
-        return orte.join(", ");
-      }
-      return orte.toString();
-    }
+    let map = L.map('map').setView([51.1, 10.0], 6);
 
+    // Basemap
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap'
+    }).addTo(map);
+
+    // Daten laden
     fetch("data_segmentiert.json")
       .then(res => res.json())
       .then(data => {
-        // Einträge nach Autor-Koordinaten gruppieren
-        const groups = {};
+
+        // Orte zusammenfassen
+        const markerGroups = {};
+
         data.forEach(entry => {
-          const coords = entry.geokoordinaten && entry.geokoordinaten.herkunft_autor;
-          if (!coords || coords.lat == null || coords.lng == null) return;
+          const coords = entry.geokoordinaten?.herkunft_autor;
+
+          if (!coords || !coords.lat || !coords.lng) return;
 
           const key = coords.lat + "," + coords.lng;
-          if (!groups[key]) {
-            groups[key] = {
-              coords,
+
+          if (!markerGroups[key]) {
+            markerGroups[key] = {
+              coords: coords,
               entries: []
             };
           }
-          groups[key].entries.push(entry);
+
+          markerGroups[key].entries.push(entry);
         });
 
-        // Karte initialisieren (Mittelpunkt grob Deutschland)
-        const map = L.map("map").setView([51, 10], 5);
-        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-          attribution: "&copy; OpenStreetMap-Mitwirkende"
-        }).addTo(map);
+        // Marker zeichnen
+        Object.values(markerGroups).forEach(group => {
+          const { lat, lng } = group.coords;
 
-        // Marker setzen
-        Object.values(groups).forEach(group => {
-          const { coords, entries } = group;
-          const marker = L.marker([coords.lat, coords.lng]).addTo(map);
+          let popupHtml = `<div class="popup-title">Herkunft Autor:in</div>`;
 
-          const erster = entries[0];
-          const ortText = formatAutorOrt(erster.autor) || erster.autor.herkunft || "Ort unbekannt";
+          group.entries.forEach(e => {
+            popupHtml += `
+              <div class="popup-entry">
+                <a href="index.html#${e.id}">
+                  ${e.theaterstück?.titel || "(ohne Titel)"} (${e.theaterstück?.zeit || "?"})
+                </a><br>
+                <small>${e.autor?.name || "?"}</small>
+              </div>
+            `;
+          });
 
-          const popupHtml =
-            `<strong>${ortText}</strong><br>` +
-            `<em>Herkunft der Autor:innen</em><br>` +
-            "<ul>" +
-            entries
-              .map(e =>
-                `<li><a href="index.html#${e.id}">${e.theaterstück.titel} (${e.theaterstück.zeit})</a></li>`
-              )
-              .join("") +
-            "</ul>";
-
-          marker.bindPopup(popupHtml);
+          L.marker([lat, lng]).addTo(map).bindPopup(popupHtml);
         });
-      })
-      .catch(err => {
-        console.error("Fehler beim Laden der Daten:", err);
-        alert("Die Kartendaten konnten nicht geladen werden.");
+
       });
   </script>
+
+  <p style="margin:15px;">
+    <a href="index.html">← zurück zur Datenbank</a>
+  </p>
+
 </body>
 </html>
