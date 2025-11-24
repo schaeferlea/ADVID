@@ -52,10 +52,20 @@
       margin-bottom: 4px;
     }
     .popup-entry {
-      margin-bottom: 6px;
+      margin-bottom: 8px;
+      font-size: 13px;
+      line-height: 1.3;
+    }
+    .popup-entry a {
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .popup-entry a:hover {
+      text-decoration: underline;
     }
     .popup-entry small {
       color: #555;
+      display: block;
     }
     .map-footer-link {
       margin: 10px 15px;
@@ -127,16 +137,34 @@
           let popupHtml = `<div class="popup-title">Herkunft Autor:in</div>`;
 
           group.entries.forEach(e => {
-            const titel = e.theaterstück?.titel || "(ohne Titel)";
-            const zeit  = e.theaterstück?.zeit || "?";
-            const autor = e.autor?.name || "?";
+            const titel           = e.theaterstück?.titel || "(ohne Titel)";
+            const zeit            = e.theaterstück?.zeit || "?";
+            const autor           = e.autor?.name || "?";
+            const figurName       = e.figur?.name || "?";
+            const figurRolle      = e.figur?.rolle || "";
+            const adaption        = e.dialekt?.adaption || "?";
+            const dialektGrossraum= e.dialekt?.dialekt_grossraum || "";
+
+            // Figur-String: z.B. "Hospes (Wirt)"
+            let figurString = figurName;
+            if (figurRolle) {
+              figurString += " (" + figurRolle + ")";
+            }
+
+            // Adaption-String: z.B. "Autoadaption (Ndt.)"
+            let adaptionString = adaption;
+            if (dialektGrossraum) {
+              adaptionString += " (" + dialektGrossraum + ")";
+            }
 
             popupHtml += `
               <div class="popup-entry">
                 <a href="index.html#${e.id}">
                   ${titel} (${zeit})
-                </a><br>
-                <small>${autor}</small>
+                </a>
+                <small>Autor: ${autor}</small>
+                <small>Figur: ${figurString}</small>
+                <small>Varietät: ${adaptionString}</small>
               </div>
             `;
           });
