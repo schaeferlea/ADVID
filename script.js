@@ -8,18 +8,44 @@ document.addEventListener("DOMContentLoaded", () => {
   const regexCheckbox     = document.getElementById("use-regex");
   const exportBtn         = document.getElementById("export-csv-btn");
 
-  // Daten laden
+  // ---------------- Hilfsfunktion: Hash-ID aus URL ----------------
+
+  function getHashId() {
+    if (!window.location.hash) return null;
+    const id = window.location.hash.substring(1).trim();
+    return id || null;
+  }
+
+  // ---------------- Daten laden ----------------
+
   fetch("data_segmentiert.json")
     .then(res => res.json())
     .then(data => {
       dataset = data;
       populateDropdowns(data);
-      activeFilteredData = data;
-      displayResults(data);
-      scrollToHashIfPresent(); // Sprung zu Eintrag, falls von Karte mit #id gekommen
+
+      const hashId = getHashId();
+      if (hashId) {
+        const only = data.filter(entry => entry.id === hashId);
+        if (only.length > 0) {
+          activeFilteredData = only;
+          displayResults(only);
+          // Hash entfernen, damit spätere Suchen/Filter normal funktionieren
+          if (window.history && window.history.replaceState) {
+            window.history.replaceState(null, "", window.location.pathname);
+          }
+        } else {
+          activeFilteredData = data;
+          displayResults(data);
+        }
+      } else {
+        activeFilteredData = data;
+        displayResults(data);
+      }
     });
 
-  // Event-Listener für Suchfelder
+  // ---------------- Event-Listener für Suchfelder ----------------
+
   if (textSearchInput) {
     textSearchInput.addEventListener("input", performSearch);
   }
@@ -30,7 +56,6 @@ document.addEventListener("DOMContentLoaded", () => {
     regexCheckbox.addEventListener("change", performSearch);
   }
 
-  // Export-Button
   if (exportBtn) {
     exportBtn.addEventListener("click", exportToTSV);
   }
@@ -85,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // 1. Spezielle Suche im Abschnittstext (nur figurtext)
       const matchesTextQuery =
         textQuery === "" ||
-        entry.abschnitt_segmentiert.some(seg => {
+        (entry.abschnitt_segmentiert || []).some(seg => {
           if (seg.typ !== "figurtext") return false;
           const text = seg.text || "";
 
@@ -143,7 +168,6 @@ document.addEventListener("DOMContentLoaded", () => {
     activeFilteredData = filtered;
     const highlightQuery = rawTextQuery || "";
     displayResults(filtered, highlightQuery, useRegex);
-    scrollToHashIfPresent(); // falls mit #id gefiltert wurde
   }
 
   // ---------------- Anzeige der Ergebnisse ----------------
@@ -158,14 +182,14 @@ document.addEventListener("DOMContentLoaded", () => {
     data.forEach(entry => {
       const item = document.createElement("div");
       item.className = "result-item";
+
       // ID für Ankerlinks (Karte)
       if (entry.id) {
         item.id = entry.id;
       }
 
-      const figurtexte = entry.abschnitt_segmentiert
-        ? entry.abschnitt_segmentiert.filter(s => s.typ === "figurtext")
-        : [];
+      const figurtexte = (entry.abschnitt_segmentiert || [])
+        .filter(s => s.typ === "figurtext");
 
       const fullTextHTML = (entry.abschnitt_segmentiert || [])
         .filter(seg => kontextAnzeigen || seg.typ === "figurtext")
@@ -203,9 +227,9 @@ document.addEventListener("DOMContentLoaded", () => {
         full.style.display = "none";
         btn.addEventListener("click", () => {
           const visible = full.style.display === "block";
-          full.style.display      = visible ? "none"  : "block";
+          full.style.display       = visible ? "none"  : "block";
           previewBox.style.display = visible ? "block" : "none";
-          btn.textContent         = visible ? "Mehr"  : "Weniger";
+          btn.textContent          = visible ? "Mehr"  : "Weniger";
         });
       }
     });
@@ -238,8 +262,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function shortenToWords(text, count) {
-    const words = text.trim().split(/\s+/);
-    if (!text.trim()) return "";
+    const trimmed = text.trim();
+    if (!trimmed) return "";
+    const words = trimmed.split(/\s+/);
     return (
       words.slice(0, count).join(" ") +
       (words.length > count ? " ..." : "")
@@ -255,11 +280,10 @@ document.addEventListener("DOMContentLoaded", () => {
   function populateDropdowns(data) {
     if (!data || data.length === 0) return;
 
-    populate("filter-adaption",        data.map(d => d.dialekt?.adaption));
-    populate("filter-figurtyp",        data.map(d => d.figur?.rolle));
-    populate("filter-dialekt-grossraum",
-             data.map(d => d.dialekt?.dialekt_grossraum));
-    populate("filter-herkunft",        data.map(d => d.autor?.herkunft));
+    populate("filter-adaption",         data.map(d => d.dialekt?.adaption));
+    populate("filter-figurtyp",         data.map(d => d.figur?.rolle));
+    populate("filter-dialekt-grossraum",data.map(d => d.dialekt?.dialekt_grossraum));
+    populate("filter-herkunft",         data.map(d => d.autor?.herkunft));
 
     const zeiten = [...new Set(
       data.map(d => get50JahresZeitraum(parseInt(d.theaterstück?.zeit)))
@@ -377,18 +401,5 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-  }
-
-  // Scrollt bei vorhandener URL mit #id zum passenden Eintrag
-  function scrollToHashIfPresent() {
-    if (!window.location.hash) return;
-    const targetId = window.location.hash.substring(1);
-    if (!targetId) return;
-
-    const el = document.getElementById(targetId);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
-      el.classList.add("highlight-entry"); // optional: in CSS gestalten
-    }
   }
 });
