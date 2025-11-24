@@ -5,14 +5,61 @@
   <title>AdViD – Kartenansicht</title>
   <link rel="stylesheet" href="style.css">
 
-  <!-- Leaflet -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- Leaflet-Grundstyle -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <!-- MarkerCluster-Styles -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+  />
+
+  <!-- Leaflet JS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <!-- MarkerCluster JS -->
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
   <style>
-    #map { width: 100%; height: 95vh; }
-    .popup-title { font-weight: bold; font-size: 14px; margin-bottom: 4px; }
-    .popup-entry { margin-bottom: 6px; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    h2 {
+      margin: 10px 15px;
+    }
+    #map {
+      width: 100%;
+      height: calc(100vh - 70px);
+    }
+    .popup-title {
+      font-weight: bold;
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    .popup-entry {
+      margin-bottom: 6px;
+    }
+    .popup-entry small {
+      color: #555;
+    }
+    .map-footer-link {
+      margin: 10px 15px;
+    }
   </style>
 </head>
 
@@ -21,27 +68,43 @@
 
   <div id="map"></div>
 
-  <script>
-    let map = L.map('map').setView([51.1, 10.0], 6);
+  <p class="map-footer-link">
+    <a href="index.html">← zurück zur Datenbank</a>
+  </p>
 
-    // Basemap
+  <script>
+    // Karte initialisieren
+    const map = L.map('map', {
+      center: [51.1, 10.0], // ungefähr Deutschlandmitte
+      zoom: 6
+    });
+
+    // Grundkarte
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
-      attribution: '&copy; OpenStreetMap'
+      attribution: '&copy; OpenStreetMap-Mitwirkende'
     }).addTo(map);
+
+    // MarkerCluster-Gruppe
+    const authorCluster = L.markerClusterGroup({
+      showCoverageOnHover: false,
+      spiderfyOnEveryZoom: false,
+      spiderfyOnMaxZoom: true,
+      maxClusterRadius: 50
+    });
 
     // Daten laden
     fetch("data_segmentiert.json")
       .then(res => res.json())
       .then(data => {
-
-        // Orte zusammenfassen
+        // Orte zusammenfassen, damit mehrere Einträge mit denselben Koordinaten
+        // in einem Popup landen
         const markerGroups = {};
 
         data.forEach(entry => {
           const coords = entry.geokoordinaten?.herkunft_autor;
 
-          if (!coords || !coords.lat || !coords.lng) return;
+          if (!coords || coords.lat == null || coords.lng == null) return;
 
           const key = coords.lat + "," + coords.lng;
 
@@ -55,32 +118,45 @@
           markerGroups[key].entries.push(entry);
         });
 
-        // Marker zeichnen
+        const allLatLngs = [];
+
+        // Marker für jede Koordinatengruppe erzeugen
         Object.values(markerGroups).forEach(group => {
           const { lat, lng } = group.coords;
 
           let popupHtml = `<div class="popup-title">Herkunft Autor:in</div>`;
 
           group.entries.forEach(e => {
+            const titel = e.theaterstück?.titel || "(ohne Titel)";
+            const zeit  = e.theaterstück?.zeit || "?";
+            const autor = e.autor?.name || "?";
+
             popupHtml += `
               <div class="popup-entry">
                 <a href="index.html#${e.id}">
-                  ${e.theaterstück?.titel || "(ohne Titel)"} (${e.theaterstück?.zeit || "?"})
+                  ${titel} (${zeit})
                 </a><br>
-                <small>${e.autor?.name || "?"}</small>
+                <small>${autor}</small>
               </div>
             `;
           });
 
-          L.marker([lat, lng]).addTo(map).bindPopup(popupHtml);
+          const marker = L.marker([lat, lng]).bindPopup(popupHtml);
+          authorCluster.addLayer(marker);
+          allLatLngs.push([lat, lng]);
         });
 
+        map.addLayer(authorCluster);
+
+        // Karte auf Marker ausrichten, falls welche vorhanden sind
+        if (allLatLngs.length > 0) {
+          const bounds = L.latLngBounds(allLatLngs);
+          map.fitBounds(bounds.pad(0.1));
+        }
+      })
+      .catch(err => {
+        console.error("Fehler beim Laden der Daten für die Karte:", err);
       });
   </script>
-
-  <p style="margin:15px;">
-    <a href="index.html">← zurück zur Datenbank</a>
-  </p>
-
 </body>
 </html>
